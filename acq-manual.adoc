@@ -1,0 +1,37 @@
+Sitka's Evergreen Acquisitions Training Manual
+=================================
+:doctype: book
+:toc:
+:toclevels: 3
+:numbered:
+
+*Evergreen 3*
+
+Copyright (symbol) 2018 BC Libraries Cooperative
+
+Last Updated January 29, 2018
+
+Introduction
+============
+include::intro/intro-acq.adoc[Introduction]
+include::intro/intro-whatsnew.adoc[New in Evergreen 3]
+include::intro/intro-workflow.adoc[Recommended Workflows]
+
+Acquisitions
+============
+
+
+
+Acquisitions Administration
+===========================
+
+
+Sitka's Acquisitions Defaults
+=============================
+include::sitka-defaults/default-currency.adoc[Currency Types]
+include::sitka-defaults/default-exchangerate.adoc[Exchange Rates]
+include::sitka-defaults/default-cancelreason.adoc[Cancel Reasons]
+include::sitka-defaults/default-invoiceitemtype.adoc[Invoice Item Types]
+include::sitka-defaults/default-paymentmethod.adoc[Payment Methods]
+include::sitka-defaults/default-marcattributes.adoc[Line Item MARC Attribute definitions]
+include::sitka-defaults/default-requestnew.adoc[New Sitka Defaults]
