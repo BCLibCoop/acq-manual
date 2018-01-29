@@ -2,7 +2,6 @@ Sitka's Evergreen Acquisitions Training Manual
 =================================
 :doctype: book
 :toc:
-:toclevels: 3
 :numbered:
 
 *Evergreen 3*
@@ -19,12 +18,22 @@ include::intro/intro-workflow.adoc[Recommended Workflows]
 
 Acquisitions
 ============
-
-
+include::acquisitions/acq-search.adoc[Acquisitions Search]
+include::acquisitions/acq-selectionlist.adoc[Selection Lists]
+include::acquistions/acq-purchaseorder.adoc[Purchase Orders]
+include::acquisitions/acq-loadrecords.adoc[Load MARC order Records]
+include::acquisitions/acq-lineitems.adoc[Line Items]
+include::acquistions/acq-receive.adoc[Receive/Un-receive]
+include::acquistions/acq-invoice.adoc[Invoices]
+include::acquistions/acq-claim.adoc[Claims]
+include::acquistions/acq-cancel.adoc[Cancel/Suspend]
 
 Acquisitions Administration
 ===========================
-
+include::administration/admin-initialsetup.adoc[Acquisitions Initial Set up]
+include::administration/admin-fundingsource.adoc[Funding Sources]
+include::administration/admin-fund.adoc[Funds]
+include::administration/admin-provider.adoc[Providers]
 
 Sitka's Acquisitions Defaults
 =============================
