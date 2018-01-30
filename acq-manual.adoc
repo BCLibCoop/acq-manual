@@ -1,5 +1,5 @@
 Sitka's Evergreen Acquisitions Training Manual
-=================================
+==============================================
 :doctype: book
 :toc:
 :numbered:
