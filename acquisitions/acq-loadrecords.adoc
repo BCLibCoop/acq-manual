@@ -1,0 +1,114 @@
+Load MARC Order Records
+-----------------------
+
+The Acquisitions Load MARC Order Record interface enables you to add MARC
+records to selection lists and purchase orders and upload the records into the
+catalog.
+
+Leveraging the match sets available in the cataloging MARC batch Import
+interface, you can also utilize record matching mechanisms to prevent the
+creation of duplicate records.
+
+For detailed instructions on record matching and importing, see
+the cataloging manual.
+
+Basic Upload Options
+~~~~~~~~~~~~~~~~~~~~
+. Click *Acquisitions* -> *Load MARC Order Records*.
+. If you want to upload the MARC records to a new purchase order, then
+check _Create Purchase Order_.
+. Do not check _Activate Purchase Order_.
+. Enter the name of the *Provider*. The text will auto-complete.
+. Select an org unit from the drop down menu. The context org unit is the org
+unit responsible for placing and managing the order. It defines what org unit
+settings (eg copy locations) are in scope, what fiscal year to use, who is
+allowed to view/modify the PO, where the items should be delivered and the EDI
+SAN. In the case of a multi-branch system uploading records for multiple
+branches, choosing the system is probably best. Single branch libraries or
+branches responsible for their own orders should probably select the branch.
+. If you want to upload the records to a selection list, you can select a list
+from the drop down menu, or type in the name of the selection list that you
+want to create.
+. Select a *Fiscal Year* from the dropdown menu that matches the fiscal year
+of the funds that will be used for the order. If no fiscal year is selected, the
+system will use the organizational unit's default fiscal year stored in the
+database. If no fiscal year is set, the system will default to the current
+calendar year.
+
+Record Matching Options
+~~~~~~~~~~~~~~~~~~~~~~~
+Use the options below the horizontal rule for the system to check for matching
+records before importing an order record.
+
+. Create a queue to which you can upload your records, or add you records to an existing queue
+. Select a *Record Match Set* from the drop-down menu.
+. Select a *Merge Profile.* Merge profiles enable you to specify which tags
+should be removed or preserved in incoming records.
+. Select a *Record Source* from the drop-down menu.
+. If you want to automatically import records on upload, select one or more of
+the following options.
+  .. *Import Non-Matching Records* - import any records that don't have a match
+  in the system.
+  .. *Merge on Exact Match (901c)* - use only for records that will match on
+  the 901c field.
+  .. *Merge on Single Match* - import records that only have one match in the
+  system.
+  .. *Merge on Best Match* - If more than one match is found in the catalog for
+  a given record, Evergreen will attempt to perform the best match as defined
+  by the match score.
+. To only import records that have a quality equal to or greater than the
+existing record, enter a *Best/Single Match Minimum Quality Ratio*.  Divide the
+incoming record quality score, as determined by the match set's quality
+metrics, by the record quality score of the best match that exists in the
+catalog. If you want to ensure that the inbound record is only imported when it
+has a higher quality than the best match, then you must enter a ratio that is
+higher than 1, such as 1.1. If you want to bypass all quality restraints, enter
+a 0 (zero) in this field.
+. Select an *Insufficient Quality Fall-Through Profile* if desired. This field
+enables you to indicate that if the inbound record does not meet the
+configured quality standards, then you may still import the record using an
+alternate merge profile. This field is typically used for selecting a merge
+profile that allows the user to import holdings attached to a lower quality
+record without replacing the existing (target) record with the incoming record.
+This field is optional.
+. If your order records contain holdings information, by default, Evergreen
+will load them as acquisitions copies.
+. Do no check *Load Items for Imported Records*.
+
+Default Upload Settings
+~~~~~~~~~~~~~~~~~~~~~~~
+You can set default upload values by modifying the following settings in
+*Administration* -> *Local Administration* -> *Library Settings Editor*:
+
+* Upload Activate PO *False*
+* Upload Create PO *True*
+* Upload Default Insufficient Quality Fall-Thru Profile
+* Upload Default Match Set *Sitka Match*
+* Upload Default Merge Profile
+* Upload Upload Default Min. Quality Ratio
+* Upload Default Provider
+* Upload Import Non Matching by Default
+* Upload Load Items for Imported Records by Default
+* Upload Merge on Best Match by Default
+* Upload Merge on Exact Match by Default
+* Upload Merge on Single Match by Default
+
+
+Sticky Settings
+~~~~~~~~~~~~~~~
+If the above default settings are not implemented, the selections/values used
+in the following fields will be sticky and will automatically populate the
+fields the next time the *Load MARC Order Records* screen is pulled up:
+
+* Create Purchase Order
+* Activate Purchase Order
+* Context Org Unit
+* Record Match Set
+* Merge Profile
+* Import Non-Matching Records
+* Merge on Exact Match (901c)
+* Merge on Single Match
+* Merge on Best Match
+* Best/Single Match Minimum Quality Ratio
+* Insufficient Quality Fall-Through Profile
+* Load Items for Imported Records

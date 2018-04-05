@@ -1,0 +1,15 @@
+Acquisitions
+------------
+
+Initial Configuration
+~~~~~~~~~~~~~~~~~~~~~
+
+Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:
+
+* Claiming (optional)
+* Distribution Formulas (optional)
+* EDI Accounts (optional)
+* Funds and Fund Sources
+* Providers
+
+More details can be found in the Staff Client System Administration manual.

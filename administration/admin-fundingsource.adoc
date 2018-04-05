@@ -1,0 +1,81 @@
+Funding Sources
+---------------
+
+In the funding sources interface you can create funding sources, allocate credit to funding sources, and apply credit to funds. Funding sources allow you to specify the sources that contribute monies to your fund(s), such as your municipal government, grants, and donations. You can create as few or as many funding sources as you need.
+
+Funding sources are not tied to fiscal or calendar years, but since any unspent money is returned to the funding source during the year end process Support recommends that you create new funding sources for each year. To distinguish the funding sources from year to year, best practice is to include the year in the funding source name and code. Example City of Fiction 2018, COF2018.
+
+Create a Funding Source
+~~~~~~~~~~~~~~~~~~~~~~~
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Click *New Funding Source*.
+. Enter a Funding Source Name.
+. Select an Owner from the drop down menu.
+.. The owner indicates the organizational unit(s) whose staff can use this funding source. If a multi-branch library system is made the owner of a funding source, then users with appropriate permissions at the branches can also use the funding source.
+. Create a unique Code for the source.
+. Select a Currency from the drop down menu.
+. Click *Save*.
+
+Edit a Funding Source
+~~~~~~~~~~~~~~~~~~~~~
+
+While you are able to edit your funding source's name, owner, code, and currency, you are unable to edit the balance of your funding source. The balance of a funding source can only be altered by applying credit to the funding source or allocating credit from the funding source to a fund.
+
+Caution Editing the currency of an active in use funding source is not recommended as it can have serious consequences.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Double-click on the row you would like to edit. A pop-up box will appear in which you can edit fields.
+. Make your changes and click *Save*.
+
+Delete a Funding Source
+~~~~~~~~~~~~~~~~~~~~~~~
+
+A Funding Source can only be deleted if no credit has been applied to it.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Check the box of the funding source you wish to delete and click *Delete Selected*.
+
+
+Apply Credit
+~~~~~~~~~~~~
+
+Once a funding source has credit applied to it it cannot be deleted. Ensure you apply the correct amount of credit to each funding source as there is no way in the staff client to edit the amount applied.
+
+Note In the event that an incorrect amount is allocated to a funding source, please submit a ticket to Sitka Support that includes the name of the funding source and the incorrect amount that has been allocated.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Click on the hyper linked name of the funding source you would like to apply credit to. This takes you to the Funding Source Details screen.
+. Click Apply Credit.
+. Enter the amount to apply to this funding source.
+. Enter a note. This field is optional.
+. Click *Apply*.
+. The Summary tab will update to reflect the credit applied. The Credits tab will display all credits that have been applied to the funding source. You may need to click Reload to view the Credits tab.
+
+Allocate Credit to Funds - Funding Source Interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once you have set up your funds, credit can be allocated to them from your funding sources in two ways:
+. Allocate Credit to Fund - Funding Source Interface
+. Allocate Credit to Fund - Fund Interface
+
+To allocate credit to your funds using the Funding Source Interface:
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Click on the hyper linked name of the funding source.
+. Click *Allocate to Fund*
+. Select the fund you would like to allocate credit to.
+Enter the amount that you would like to allocate.
+
+Enter a note. This field is optional.
+
+Click Apply.
+The Allocations tab will display all allocations made to funds out of this funding source. See Track Debits and Credits for more information.
+
+Track Debits and Credits
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can track credits to and allocations from for each funding source through the Summary tab on the Funding Source Details screen.
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Click on the hyper linked name of the funding source to open the Funding Source Details screen.
+.. *Credits* - The Credits tab tracks all credits applied to the funding source. After applying credit you will need to click Reload to view the Credits tab.
+.. *Debits* - The Allocations tab tracks all allocations from the funding source to funds. After allocating to a fund you will need to click Reload to view the Allocations tab.

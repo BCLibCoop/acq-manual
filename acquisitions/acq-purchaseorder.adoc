@@ -1,0 +1,75 @@
+Purchase Orders
+---------------
+
+Brief Records
+~~~~~~~~~~~~~
+
+Brief records are short bibliographic records with minimal information that are often used as placeholder records until items are received. Brief records can be added to selection lists or purchase orders and can be imported into the catalog. You can add brief records to new or existing selection lists. You can add brief records to new, pending or on-order purchase orders.
+
+Add brief records to purchase orders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can add brief records to new or existing purchase orders.
+
+. Open or create a purchase order. See the section on <<_purchase_orders,purchase orders>> for more information.
+. Click Add Brief Record.
+. Enter bibliographic information in the desired fields. Notice that the record is added to the purchase order that you just created.
+. Click Save Record.
+
+Duplicate Purchase Order Name Warning Dialog
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When creating a purchase order or editing an existing purchase order, the purchase order name must be unique for the ordering agency.  Evergreen will display a warning dialog to users, if they attempt to create or edit purchase order names that match the names of already existing purchase orders at the same ordering agency. The *Duplicate Purchase Order Name Warning Dialog* includes a link that will open the matching purchase order in a new tab.
+
+Purchase Order Names are case sensitive.
+
+*Duplicate PO Name Detection When Creating a New Purchase Order*
+
+image::media/po_name_detection_1.JPG[PO Name Detection 1]
+
+When a duplicate purchase order name is detected during the creation of a new purchase order, the user may:
+
+* Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
+* Click *Cancel* to cancel the creation of the new purchase order.
+* Within the _Name (optional)_ field, enter a different, unique name for the new purchase order.
+
+If the purchase order name is unique for the ordering agency, the user will continue filling in the remaining fields and click *Save*.
+
+If the purchase order name is not unique for the ordering agency, the Save button will remain grayed out to the user until the purchase order is given a unique name.
+
+*Duplicate PO Name Detection When Editing the Name of an Existing Purchase Order*
+
+To change the name of an existing purchase order:
+
+. Within the purchase order, the _Name_ of the purchase order is a link (located at the top left-hand side of the purchase order). Click the PO Name.
+. A new window will open, where users can rename the purchase order.
+. Enter the new purchase order name.
+. Click *OK*.
+
+If the new purchase order name is unique for the ordering agency, the purchase order will be updated to reflect the new name.
+If the purchase order name is not unique for the ordering agency, the purchase order will not be updated with the new name. Instead, the user will see the *Duplicate Purchase Order Name Warning Dialog* within the purchase order.
+
+When a duplicate purchase order name is detected during the renaming of an existing purchase order, the user may:
+
+* Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
+* Repeat the steps to change the name of an existing purchase order and make the name unique.
+
+Purchase Order Activation Progress Bar
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalog. Once you complete entering in the parameters for the record import interface, the progress screen will appear. As of Evergreen 2.9, this progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
+
+* Lineitems processed
+* Vandelay Records processed
+* Bib Records Merged/Imported
+* ACQ Copies Processed
+* Debits Encumbered
+* Real Copies Processed
+
+Activate Purchase Order with Zero Copies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+By default, a purchase order cannot be activated if a line item on the
+purchase order has zero copies. To activate a purchase order with line
+items that have zero copies, check the box *Allow activation with
+zero-copy lineitems*.

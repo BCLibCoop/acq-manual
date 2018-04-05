@@ -1,0 +1,12 @@
+Permissions
+-----------
+
+IMPORT_MARC - Using batch importer to create new bib records requires the
+IMPORT_MARC permission (same as open-ils.cat.biblio.record.xml.import). If the
+permission fails, the queued record will fail import and be stamped with a new
+"import.record.perm_failure" import error
+
+IMPORT_ACQ_LINEITEM_BIB_RECORD_UPLOAD -  This allows interfaces leveraging
+the batch importer, such as Acquisitions, to create a higher barrier to entry.
+This permission prevents users from creating new bib records directly from the
+ACQ vendor MARC file upload interface.

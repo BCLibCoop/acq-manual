@@ -1,0 +1,109 @@
+Line Items
+----------
+
+Line items represent bibliographic records on a selection list or purchase order. One line item corresponds to one bibliographic record. Line items contain attributes, which are characteristics of the bibliographic record, such as ISBN or Title. Line items also contain copy information, price information, notes, and alerts.
+
+Line Item Batch updater
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Anatomy of a Line Item
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+*Order Identifier Selector* - Line items that are created from existing MARC records may have multiple ISBNs, ISSNs, or UPCs attached to the record (depending on the type of item). Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
+*Existing copy count*
+
+
+
+Line Item Detailed view
+~~~~~~~~~~~~~~~~~~~~~~~
+Line items have both a simple and detailed view.
+
+. Open the selection list or purchase order.
+. Click the hyperlink *Expand* on a line item to display the detailed view for that line item.
+. Click the hyperlink *Expand All* to display the detailed view for all line items.
+.. Clicking Expand or Expand All a second time will close the detailed view.
+
+Line Item Worksheet
+~~~~~~~~~~~~~~~~~~~
+The Line Item Worksheet is designed to be a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information. The system fills in the worksheet as a line item goes through the acquisitions process. This worksheet can be placed in an item that is sent to cataloguing or processing.
+
+Line Item notes
+~~~~~~~~~~~~~~~
+
+Line Item Alerts
+~~~~~~~~~~~~~~~~
+
+Line Item Statuses
+~~~~~~~~~~~~~~~~~~
+The status of a line item displays to the right of the actions menu. The line item bar changes colour depending on the status of the line item.
+
+The colours that display may vary depending on your screen resolution.
+
+Return to Line Item
+^^^^^^^^^^^^^^^^^^^
+This feature enables you to return to a specific line item on a selection list,
+purchase order, or invoice after you have navigated away from the page that
+contained the line item.  This feature is especially useful when you must
+identify a line item in a long list. After working with a line item, you can
+return to your place in the search results or the list of line items.
+
+To use this feature, select a line item, and then, depending on the location of
+the line item, click *Return* or *Return to search*.  Evergreen will take you
+back to the specific line item in your search and highlight the line item with a
+colored box.
+
+For example, you retrieve a selection list, find a line item to examine, and
+click the *Copies* link.  After editing the copies, you click *Return*.
+Evergreen takes you back to your selection list and highlights the line item
+that you viewed.
+
+This feature is available in _General Search Results_, _Purchase Orders_, and
+_Selection Lists_, whenever any of the following links are available:
+
+* Selection List
+* Purchase Order
+* Copies
+* Notes
+* Worksheet
+
+This feature is available in Invoices whenever any of the following links are
+available:
+
+* Title
+* Selection List
+* Purchase Order
+
+Display a Count of Existing Copies on Line items
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
+
+The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
+
+The count of existing copies does not include copies that are in either a Lost or a Missing status.
+
+The existing copy count displays in the link "bar" located below the Order Identifier within the line item.
+
+If no existing copies are found, a "0" (zero) will display in plain text.
+
+If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
+
+Enhancements to Canceled and Delayed Items
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Cancel/Delay reasons have been modified so that you can easily
+differentiate between canceled and delayed items.  Each label now begins
+with *Canceled* or *Delayed*.  To view the list, click *Administration*
+-> *Acquisitions Administration* -> *Cancel Reasons*.
+
+The cancel/delay reason label is displayed as the line item status in the list of line items or as the copy status in the list of copies.
+
+A delayed line item can now be canceled.  You can mark a line item as delayed, and if later, the order cannot be filled, you can change the line item's status to canceled.  When delayed line items are canceled, the encumbrances are deleted.
+
+Cancel/delay reasons now appear on the worksheet and the printable purchase order.
+
+Paid PO Line Items
+^^^^^^^^^^^^^^^^^^
+Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
