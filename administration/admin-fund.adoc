@@ -1,0 +1,55 @@
+Funds
+-----
+
+Create a Fund
+~~~~~~~~~~~~~
+
+Edit a Fund
+~~~~~~~~~~~
+
+Delete a Fund
+~~~~~~~~~~~~~
+
+Allocate Credit to Funds - Funds Interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To allocate credits using the Fund Interface:
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Click *Create Allocation*.
+. Choose the Funding Source from the drop down menu.
+. Enter the amount you would like to apply to the fund from the funding source.
+. Enter a note. (Optional).
+. Click *Apply*.
+
+Transfer Credit Between Funds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The credits that you allocate to funds can be transferred between funds if desired. The system tracks these transfers.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Click *Transfer Money*.
+. Enter the amount you would like to transfer.
+. From the drop down menu, select the code of the destination fund.
+. Enter a note. (Optional).
+. Click *Transfer*.
+. Click *OK* to the pop that appears to confirm that you are ready to commit the transfer.
+
+Track Balances and Expenditures
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Fund Details screen allows you to track a fund's balance, encumbrances, and amount spent.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
+.. *Summary* - The summary tab allows you to track the following:
+* _Balance_ - The balance is calculated by subtracting both spent and encumbered funds from the total allocated to the fund.
+* _Total Allocated_ - This amount is the total monies allocated from the Funding Source(s).
+* _Spent Balance_ - This balance is calculated by subtracting only the funds that been invoiced, and so spent, from the total allocated to the fund. It does not included encumbrances.
+* _Total Debits_ - The total debits are calculated by adding together the total spent and total encumbered.
+* _Total Spent_ - The total spent is calculated by adding the cost of all items that have been invoiced. It does not include encumbrances.
+* _Total Encumbered_ - The total encumbered is calculated by adding all the encumbrances. It does not include items that have been invoiced.
+
+The *Allocations* tab allows you to track credit allocated from funding sources, transfers to other funds, and transfers from other funds.
+
+The *Debits* tab allows you to track all purchases made and monies encumbered against the fund.
+The *Tags* tab allows you to add and delete fund tags. See Fund Tags for more information.
