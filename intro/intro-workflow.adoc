@@ -1,7 +1,7 @@
 Recommended Workflows
 ---------------------
 
-include::workflow-briefrecord.adoc
-include::workflow/workflow-catalogue.adoc
-include::workflow/workflow-loadrecords.adoc
-include::workflow/workflow-shelfready.adoc
+include::workflow/workflow-briefrecord.adoc[]
+include::workflow/workflow-catalogue.adoc[]
+include::workflow/workflow-loadrecords.adoc[]
+include::workflow/workflow-shelfready.adoc[]
