@@ -1,9 +1,6 @@
 Introduction
 ------------
 
-Initial Configuration
-~~~~~~~~~~~~~~~~~~~~~
-
 Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:
 
 * Claiming (optional)
