@@ -1,8 +1,8 @@
 Introduction
-------------
+============
 
 An Introduction to Acquisitions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 The Acquisitions Module allows your library to track funds and purchases through the Evergreen Integrated Library System.
 
@@ -23,7 +23,6 @@ Initial Acquisitions Set-up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:
-
 * Funds and Fund Sources
 * Providers
 * Claiming (optional)
