@@ -1,2 +1,14 @@
-Order Shelf Ready Items
-~~~~~~~~~~~~~~~~~~~~~~~
+Workflow: Order Shelf Ready Items
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Select
+^^^^^^
+
+Purchase
+^^^^^^^^
+
+Invoice and Receive
+^^^^^^^^^^^^^^^^^^^
+
+Catalogue
+^^^^^^^^^

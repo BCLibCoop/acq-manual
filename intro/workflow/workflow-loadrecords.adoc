@@ -1,5 +1,17 @@
-Upload MARC Records
-~~~~~~~~~~~~~~~~~~~
+Workflow: Upload MARC Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Select
+^^^^^^
+
+Purchase
+^^^^^^^^
+
+Invoice and Receive
+^^^^^^^^^^^^^^^^^^^
+
+Catalogue
+^^^^^^^^^
 
 *Example 1*
 Using the Acquisitions MARC Batch Load interface, upload MARC records to a

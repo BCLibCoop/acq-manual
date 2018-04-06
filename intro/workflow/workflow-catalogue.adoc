@@ -1,2 +1,14 @@
-Order from the Catalogue
-~~~~~~~~~~~~~~~~~~~~~~~~
+Workflow: Order from the Catalogue
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Select
+^^^^^^
+
+Purchase
+^^^^^^^^
+
+Invoice and Receive
+^^^^^^^^^^^^^^^^^^^
+
+Catalogue
+^^^^^^^^^

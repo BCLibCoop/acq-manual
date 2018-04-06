@@ -1,5 +1,6 @@
 New in Evergreen Acquisitions version 3.1
 -----------------------------------------
 
-EDI Attribute sets
-~~~~~~~~~~~~~~~~~~
+The Acquisitions module is mostly unchanged in version 3.1.
+
+Watch out for exciting improvements coming from the Evergreen Community Angularizing Acquisitions project.
