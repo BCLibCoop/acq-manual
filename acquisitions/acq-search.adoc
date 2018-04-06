@@ -14,8 +14,7 @@ Use the *Search for* drop down menu to specify what you are searching for. The c
 Search fields are divided into a number of categories. These categories are: Line Item, Selection List, Purchase Order, Invoice, Line Item Detail, and Line Item Attribute. Unless grayed out these fields can be used with any of the Search for options.
 
 [[acquisitions-general-search-tips]]
-*Acquisitions General Search Tips
-
+.Acquisitions General Search Tips
 * The Search for option you choose will be the form in which your results are returned in.
 * Search terms are ANDed together when all is selected.
 * Search terms are ORed together when any is selected.
@@ -34,8 +33,7 @@ Search for Line items
 . View your search results.
 .. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
 
-*Search Tips
-
+.Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
 * See xref:acquisitions-general-search-tips[Acquisitions General Search Tips] for general search tips
 
@@ -48,7 +46,7 @@ Search for Line Items and Catalogue Record
 . Click *Search*
 . View your search results.
 
-*Search Tips
+.Search Tips
 * There are five Line Item Attribute search fields you can use when searching for line items and catalogue records.
 ** LIA-Title of Work: Use with the connecting word of "contains" to keyword search for a line item or catalogue record with a particular title.
 ** LIA-Author of work: Use with the connecting word of "contains" to keyword search for line items or catalogue records by a particular author.
@@ -71,7 +69,7 @@ Search for Selection Lists
 . Click *Search*.
 . View your search results.
 
-*Search Tips
+.Search Tips
 * Search for lists created by a particular user:
 ** SL-Owner: Searches the selection lists based on the owning user.
 ** SL-Creator: Searches the selection lists based on the creating user.
@@ -94,7 +92,7 @@ The default purchase order search allows you to quickly generate a list of on-or
 . Click *Search*.
 . View your search results.
 
-*Search Tips
+.Search Tips
 * Search for new pending purchase orders, simply replace *PO - State* _on-order_ with *PO - State* is _pending_.
 * By default the *PO-Ordering Agency* is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Purchase Order search fields to modify your search as needed.
@@ -110,7 +108,7 @@ Search for Invoices
 The default invoice search allows you to quickly generate a list of open invoices created by your ordering agency. The search fields can be modified to search for invoices using other search terms.
 
 
-*Search Tips
+.Search Tips
 * Search for closed invoices by checking the box adjacent to the *I-Complete* search field.
 * By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Invoice search fields to modify your search as needed.
