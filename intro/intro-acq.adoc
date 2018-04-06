@@ -4,6 +4,7 @@ An Introduction to Acquisitions
 The Acquisitions Module allows your library to track funds and purchases through the Evergreen Integrated Library System.
 
 Through acquisitions staff are able to:
+
 * create selection lists which can be shared by users
 * convert selection lists into purchase orders
 * create purchase orders for non-library materials such as processing supplies
@@ -20,6 +21,7 @@ Initial Acquisitions Set-up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:
+
 * Funds and Fund Sources
 * Providers
 * Claiming (optional)
