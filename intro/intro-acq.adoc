@@ -24,8 +24,8 @@ Initial Acquisitions Set-up
 
 Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:
 
+* Funds and Fund Sources
+* Providers
 * Claiming (optional)
 * Distribution Formulas (optional)
 * EDI Accounts (optional)
-* Funds and Fund Sources
-* Providers
