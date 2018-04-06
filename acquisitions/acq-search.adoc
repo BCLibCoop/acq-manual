@@ -30,10 +30,88 @@ Search for Line items
 
 . Click *Acquisitions* -> *General Search*.
 . Choose _line items_ from the *Search for* drop down menu.
-. Selecting the specific fields you would like to search. (Acq General Search Tips)
+. Select your search field(s) and enter your search term(s). (Acq General Search Tips)
 . Click *Search*
 . View your search results.
 .. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
 
 *Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
+* See (Acq General Search Tips) for general search tips
+
+Search for Line Items and Catalogue Record
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Click *Acquisitions* -> *General Search*.
+. Choose _line items and catalogue records_ from the *Search for* drop down menu.
+. Select your search field(s) and enter your search term(s). (Acq General Search Tips)
+. Click *Search*
+. View your search results.
+
+*Search Tips
+* There are five Line Item Attribute search fields you can use when searching for line items and catalogue records.
+** LIA-Title of Work: Use with the connecting word of "contains" to keyword search for a line item or catalogue record with a particular title.
+** LIA-Author of work: Use with the connecting word of "contains" to keyword search for line items or catalogue records by a particular author.
+** LIA-ISBN: Use with the connecting word "is" to search for a line item or catalogue record with a specific ISBN.
+** LIA-ISSN: Use with the connecting word "is" to search for a line item or catalogue record with a specific ISSN.
+** LIA-UPC: use with the connecting word "is" to search for a line item or catalogue record with a specific UPC.
+*** *Sitka Recommendation* - Use a combination of the title field _Title of work_ and the number field (ISBN, ISSN, UPC) associated with the item.
+* See (Acq General Search Tips) for general search tips
+
+Search for Selection Lists
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Click *Acquisitions* -> *My Selection Lists*.
+
+*My Selection Lists* displays the selection lists created by the user currently logged into the workstation. You can view selection lists created by other users using the General Search.
+
+. Click *Acquisitions* -> *General Search*.
+. Choose _selection lists_ from the *Search for* drop down menu.
+. Select your search field(s) and enter your search term(s).
+. Click *Search*.
+. View your search results.
+
+*Search Tips
+* Search for lists created by a particular user:
+** SL-Owner: Searches the selection lists based on the owning user.
+** SL-Creator: Searches the selection lists based on the creating user.
+** SL-Org Unit: Searches the selection lists based on the library of the creating user.
+* Search for a specific selection list:
+** SL-Name: Searches for the name of a particular selection list.
+* See (Acq General Search Tips) for general search tips.
+
+Search for Purchase Orders
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Click *Acquisitions* -> *Purchase Orders*.
+. Click *Search*.
+. View your search results.
+
+The default purchase order search allows you to quickly generate a list of on-order purchase orders. The search fields can be modified to search for purchase orders using other search terms.
+
+. Click *Acquisitions* -> *Purchase Orders*.
+. Select your search field(s) and enter your search term(s).
+. Click *Search*.
+. View your search results.
+
+*Search Tips
+* Search for new pending purchase orders, simply replace *PO - State* _on-order_ with *PO - State* is _pending_.
+* By default the *PO-Ordering Agency* is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
+* Use the Purchase Order search fields to modify your search as needed.
+* See (Acq General Search Tips) for general search tips.
+
+Search for Invoices
+~~~~~~~~~~~~~~~~~~~
+
+. Click *Acquisitions* -> *Open Invoices*.
+. Click *Search*.
+. View your search results.
+
+The default invoice search allows you to quickly generate a list of open invoices created by your ordering agency. The search fields can be modified to search for invoices using other search terms.
+
+
+*Search Tips
+* Search for closed invoices by checking the box adjacent to the *I-Complete* search field.
+* By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
+* Use the Invoice search fields to modify your search as needed.
+* See (Acq General Search Tips) for general search tips.
