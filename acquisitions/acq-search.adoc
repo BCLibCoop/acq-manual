@@ -4,6 +4,7 @@ Acquisitions Search
 . Click *Acquisitions* -> *General Search*.
 
 Use the *Search for* drop down menu to specify what you are searching for. The choices are:
+
 * Line items
 * Line items and catalogue records
 * Selection lists
@@ -14,6 +15,7 @@ Search fields are divided into a number of categories. These categories are: Lin
 
 [[acquisitions-general-search-tips]]
 *Acquisitions General Search Tips
+
 * The Search for option you choose will be the form in which your results are returned in.
 * Search terms are ANDed together when all is selected.
 * Search terms are ORed together when any is selected.
@@ -33,6 +35,7 @@ Search for Line items
 .. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
 
 *Search Tips
+
 * To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
 * See xref:acquisitions-general-search-tips[Acquisitions General Search Tips] for general search tips
 
