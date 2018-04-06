@@ -20,13 +20,13 @@ Acquisitions
 ============
 include::acquisitions/acq-search.adoc[General Search]
 include::acquisitions/acq-selectionlist.adoc[Selection Lists]
-include::acquistions/acq-purchaseorder.adoc[Purchase Orders]
+include::acquisitions/acq-purchaseorder.adoc[Purchase Orders]
 include::acquisitions/acq-loadrecords.adoc[Load MARC order Records]
 include::acquisitions/acq-lineitems.adoc[Line Items]
-include::acquistions/acq-receive.adoc[Receive/Un-receive]
-include::acquistions/acq-invoice.adoc[Invoices]
-include::acquistions/acq-claim.adoc[Claims]
-include::acquistions/acq-cancel.adoc[Cancel/Suspend]
+include::acquisitions/acq-receive.adoc[Receive/Un-receive]
+include::acquisitions/acq-invoice.adoc[Invoices]
+include::acquisitions/acq-claim.adoc[Claims]
+include::acquisitions/acq-cancel.adoc[Cancel/Suspend]
 
 Acquisitions Administration
 ===========================
