@@ -2,16 +2,12 @@ Acquisitions Search
 -------------------
 
 . Click *Acquisitions* -> *General Search*.
+. Use the *Search for* drop down menu to specify what you are searching for.
+. Select your search field(s) and enter your search term(s).
+. Click *Search*
+. View your search results.
 
-Use the *Search for* drop down menu to specify what you are searching for. The choices are:
-
-* Line items
-* Line items and catalogue records
-* Selection lists
-* Purchase orders
-* Invoices
-
-Search fields are divided into a number of categories. These categories are: Line Item, Selection List, Purchase Order, Invoice, Line Item Detail, and Line Item Attribute. Unless grayed out these fields can be used with any of the Search for options.
+Search fields are divided into a number of categories. These categories are: Line Item, Selection List, Purchase Order, Invoice, Line Item Detail, and Line Item Attribute. Unless grayed out these fields can be used with any of the *Search for* options.
 
 [[acquisitions-general-search-tips]]
 .Acquisitions General Search Tips
@@ -28,21 +24,21 @@ Search for Line items
 
 . Click *Acquisitions* -> *General Search*.
 . Choose _line items_ from the *Search for* drop down menu.
-. Select your search field(s) and enter your search term(s). (Acq General Search Tips)
+. Select your search field(s) and enter your search term(s).
 . Click *Search*
 . View your search results.
 .. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
 
 .Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
-* See xref:acquisitions-general-search-tips[Acquisitions General Search Tips] for general search tips
+* See xref:acquisitions-general-search-tips for general search tips
 
 Search for Line Items and Catalogue Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click *Acquisitions* -> *General Search*.
 . Choose _line items and catalogue records_ from the *Search for* drop down menu.
-. Select your search field(s) and enter your search term(s). (Acq General Search Tips)
+. Select your search field(s) and enter your search term(s).
 . Click *Search*
 . View your search results.
 
@@ -54,7 +50,7 @@ Search for Line Items and Catalogue Record
 ** LIA-ISSN: Use with the connecting word "is" to search for a line item or catalogue record with a specific ISSN.
 ** LIA-UPC: use with the connecting word "is" to search for a line item or catalogue record with a specific UPC.
 *** *Sitka Recommendation* - Use a combination of the title field _Title of work_ and the number field (ISBN, ISSN, UPC) associated with the item.
-* See (Acq General Search Tips) for general search tips
+* See xref:acquisitions-general-search-tips for general search tips
 
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,16 +72,18 @@ Search for Selection Lists
 ** SL-Org Unit: Searches the selection lists based on the library of the creating user.
 * Search for a specific selection list:
 ** SL-Name: Searches for the name of a particular selection list.
-* See (Acq General Search Tips) for general search tips.
+* See xref:acquisitions-general-search-tips for general search tips
 
 Search for Purchase Orders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The default purchase order search allows you to quickly generate a list of on-order purchase orders.
 
 . Click *Acquisitions* -> *Purchase Orders*.
 . Click *Search*.
 . View your search results.
 
-The default purchase order search allows you to quickly generate a list of on-order purchase orders. The search fields can be modified to search for purchase orders using other search terms.
+The search fields can be modified to search for purchase orders using other search terms.
 
 . Click *Acquisitions* -> *Purchase Orders*.
 . Select your search field(s) and enter your search term(s).
@@ -96,20 +94,21 @@ The default purchase order search allows you to quickly generate a list of on-or
 * Search for new pending purchase orders, simply replace *PO - State* _on-order_ with *PO - State* is _pending_.
 * By default the *PO-Ordering Agency* is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Purchase Order search fields to modify your search as needed.
-* See (Acq General Search Tips) for general search tips.
+* See xref:acquisitions-general-search-tips for general search tips
 
 Search for Invoices
 ~~~~~~~~~~~~~~~~~~~
+
+The default invoice search allows you to quickly generate a list of open invoices created by your ordering agency.
 
 . Click *Acquisitions* -> *Open Invoices*.
 . Click *Search*.
 . View your search results.
 
-The default invoice search allows you to quickly generate a list of open invoices created by your ordering agency. The search fields can be modified to search for invoices using other search terms.
-
+The search fields can be modified to search for invoices using other search terms.
 
 .Search Tips
 * Search for closed invoices by checking the box adjacent to the *I-Complete* search field.
 * By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Invoice search fields to modify your search as needed.
-* See (Acq General Search Tips) for general search tips.
+* See xref:acquisitions-general-search-tips for general search tips
