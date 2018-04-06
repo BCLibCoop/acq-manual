@@ -1,0 +1,31 @@
+Electronic Data Interchange (EDI)
+---------------------------------
+
+Electronic Data Interchange (EDI) accounts are used to electronically send purchase orders and receive invoices from providers.
+
+NOTE: Currently EDI for Sitka Evergreen has been set up to be used with the following providers:
+
+* United Library Services ULS
+* Whitehots
+
+Standard Address Number (SAN)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact Sitka Support if your library does not already have a SAN.
+
+For EDI to work your library must have a SAN and each of your providers must supply you with their SAN.
+
+Library SAN
+^^^^^^^^^^^
+
+
+Provider SAN
+^^^^^^^^^^^^
+
+
+Create an EDI Account
+^^^^^^^^^^^^^^^^^^^^^
+
+
+View EDI Messages
+^^^^^^^^^^^^^^^^^
