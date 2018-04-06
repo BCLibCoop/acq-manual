@@ -14,6 +14,7 @@ the cataloging manual.
 
 Basic Upload Options
 ~~~~~~~~~~~~~~~~~~~~
+
 . Click *Acquisitions* -> *Load MARC Order Records*.
 . If you want to upload the MARC records to a new purchase order, then
 check _Create Purchase Order_.

@@ -56,10 +56,12 @@ Allocate Credit to Funds - Funding Source Interface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once you have set up your funds, credit can be allocated to them from your funding sources in two ways:
+
 . Allocate Credit to Fund - Funding Source Interface
 . Allocate Credit to Fund - Fund Interface
 
 To allocate credit to your funds using the Funding Source Interface:
+
 . Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
 . Click on the hyper linked name of the funding source.
 . Click *Allocate to Fund*
@@ -75,6 +77,7 @@ Track Debits and Credits
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can track credits to and allocations from for each funding source through the Summary tab on the Funding Source Details screen.
+
 . Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
 . Click on the hyper linked name of the funding source to open the Funding Source Details screen.
 .. *Credits* - The Credits tab tracks all credits applied to the funding source. After applying credit you will need to click Reload to view the Credits tab.
