@@ -13,6 +13,7 @@ Last Updated January 29, 2018
 Introduction
 ============
 include::intro/intro-acq.adoc[]
+include::intro/intro-whatsnew.adoc[]
 include::intro/intro-workflow.adoc[]
 
 Acquisitions
