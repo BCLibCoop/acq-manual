@@ -1,2 +1,14 @@
-Workflow: Add Brief Records
+Work flow: Add Brief Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Select
+^^^^^^
+
+Purchase
+^^^^^^^^
+
+Invoice and Receive
+^^^^^^^^^^^^^^^^^^^
+
+Catalogue
+^^^^^^^^^
