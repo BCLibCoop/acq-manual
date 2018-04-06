@@ -34,7 +34,7 @@ Search for Line items
 
 .Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
-* See xref:acquisitions-general-search-tips for general search tips
+* See xref:acquisitions-general-search-tips[] for general search tips
 
 Search for Line Items and Catalogue Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +53,7 @@ Search for Line Items and Catalogue Record
 ** LIA-ISSN: Use with the connecting word "is" to search for a line item or catalogue record with a specific ISSN.
 ** LIA-UPC: use with the connecting word "is" to search for a line item or catalogue record with a specific UPC.
 *** *Sitka Recommendation* - Use a combination of the title field _Title of work_ and the number field (ISBN, ISSN, UPC) associated with the item.
-* See xref:acquisitions-general-search-tips for general search tips
+* See xref:acquisitions-general-search-tips[] for general search tips
 
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -75,7 +75,7 @@ Search for Selection Lists
 ** SL-Org Unit: Searches the selection lists based on the library of the creating user.
 * Search for a specific selection list:
 ** SL-Name: Searches for the name of a particular selection list.
-* See xref:acquisitions-general-search-tips for general search tips
+* See xref:acquisitions-general-search-tips[] for general search tips
 
 Search for Purchase Orders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,7 +97,7 @@ The search fields can be modified to search for purchase orders using other sear
 * Search for new pending purchase orders, simply replace *PO - State* _on-order_ with *PO - State* is _pending_.
 * By default the *PO-Ordering Agency* is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Purchase Order search fields to modify your search as needed.
-* See xref:acquisitions-general-search-tips for general search tips
+* See xref:acquisitions-general-search-tips[] for general search tips
 
 Search for Invoices
 ~~~~~~~~~~~~~~~~~~~
@@ -114,4 +114,4 @@ The search fields can be modified to search for invoices using other search term
 * Search for closed invoices by checking the box adjacent to the *I-Complete* search field.
 * By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Invoice search fields to modify your search as needed.
-* See xref:acquisitions-general-search-tips for general search tips
+* See xref:acquisitions-general-search-tips[] for general search tips
