@@ -1,2 +1,39 @@
 Acquisitions Search
 -------------------
+
+General search
+~~~~~~~~~~~~~~
+
+. Click *Acquisitions* -> *General Search*.
+
+Use the *Search for* drop down menu to specify what you are searching for. The choices are:
+* Line items
+* Line items and catalogue records
+* Selection lists
+* Purchase orders
+* Invoices
+
+Search fields are divided into a number of categories. These categories are: Line Item, Selection List, Purchase Order, Invoice, Line Item Detail, and Line Item Attribute. Unless grayed out these fields can be used with any of the Search for options.
+
+[Acq General Search Tips]
+*Search Tips
+* The Search for option you choose will be the form in which your results are returned in.
+* Search terms are ANDed together when all is selected.
+* Search terms are ORed together when any is selected.
+* Click Add Search Term to add more fields.
+* Click the red X at the end of each row to delete search terms.
+* Use "contains" when doing keyword searching, such as for Title of a Work.
+* Use "is" when searching for an exact match, such as for an ISBN.
+
+Search for Line items
+~~~~~~~~~~~~~~~~~~~~~
+
+. Click *Acquisitions* -> *General Search*.
+. Choose _line items_ from the *Search for* drop down menu.
+. Selecting the specific fields you would like to search. (Acq General Search Tips)
+. Click *Search*
+. View your search results.
+.. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
+
+*Search Tips
+* To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
