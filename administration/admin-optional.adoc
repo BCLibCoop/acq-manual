@@ -1,0 +1,12 @@
+Optional Administrative Set-up
+------------------------------
+
+include::optionaladmin/admin-claimpolicy.adoc[]
+
+include::optionaladmin/admin-distributionformulas.adoc[]
+
+include::optionaladmin/admin-lineitemalerts.adoc[]
+
+include::optionaladmin/admin-edi.adoc[]
+
+include::optionaladmin/admin-invisibleonorderrecords.adoc[]

@@ -49,6 +49,14 @@ include::administration/admin-fund.adoc[Funds]
 
 include::administration/admin-provider.adoc[Providers]
 
+include::administration/admin-acqsettings.adoc[Acquisitions Settings]
+
+include::administration/admin-acqpermissions.adoc[Acquisitions Permissions]
+
+include::administration/admin-optional.adoc[Optional Administrative Set-up]
+
+
+
 Sitka's Acquisitions Defaults
 =============================
 include::sitka-defaults/default-currency.adoc[Currency Types]
