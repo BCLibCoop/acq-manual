@@ -15,8 +15,8 @@ Use the *Search for* drop down menu to specify what you are searching for. The c
 
 Search fields are divided into a number of categories. These categories are: Line Item, Selection List, Purchase Order, Invoice, Line Item Detail, and Line Item Attribute. Unless grayed out these fields can be used with any of the Search for options.
 
-[Acq General Search Tips]
-*Search Tips
+[[acquisitions-general-search-tips]]
+*Acquisitions General Search Tips
 * The Search for option you choose will be the form in which your results are returned in.
 * Search terms are ANDed together when all is selected.
 * Search terms are ORed together when any is selected.
@@ -37,7 +37,7 @@ Search for Line items
 
 *Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
-* See (Acq General Search Tips) for general search tips
+* See xref:acquisitions-general-search-tips[Acquisitions General Search Tips] for general search tips
 
 Search for Line Items and Catalogue Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
