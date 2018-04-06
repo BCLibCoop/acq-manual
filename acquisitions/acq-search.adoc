@@ -1,6 +1,9 @@
 Acquisitions Search
 -------------------
 
+General Search
+~~~~~~~~~~~~~~
+
 . Click *Acquisitions* -> *General Search*.
 . Use the *Search for* drop down menu to specify what you are searching for.
 . Select your search field(s) and enter your search term(s).
