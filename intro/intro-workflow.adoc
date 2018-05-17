@@ -1,10 +1,10 @@
 Recommended Workflows
 ---------------------
 
-include::workflow/workflow-briefrecord.adoc[Brief Record]
-
-include::workflow/workflow-catalogue.adoc[Catalogue]
-
 include::workflow/workflow-loadrecords.adoc[Load MARC Records]
 
 include::workflow/workflow-shelfready.adoc[Shelf Ready]
+
+include::workflow/workflow-briefrecord.adoc[]
+
+include::workflow/workflow-catalogue.adoc[]

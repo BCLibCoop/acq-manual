@@ -37,7 +37,7 @@ Catalogue
 
 . Update barcode and copy information for each item.
 
-. Import a full record or do original cataloguing to replace any brief bibliographic records.
+. Import a full record or do original cataloguing to replace brief bibliographic records.
 
 . Process items.
 
