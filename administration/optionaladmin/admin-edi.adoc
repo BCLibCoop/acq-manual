@@ -28,3 +28,5 @@ Create an EDI Account
 
 View EDI Messages
 +++++++++++++++++
+
+. Click *Administration* -> *Acquisitions Administration* -> *EDI Messages*

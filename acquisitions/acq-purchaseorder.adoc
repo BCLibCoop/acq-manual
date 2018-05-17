@@ -4,6 +4,18 @@ Purchase Orders
 Create Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~
 
+Create a Blank Purchase Order
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Acquisitions* -> *Create Purchase Order*
+. Choose your library from the *Ordering Agency* drop down menu.
+. Enter a purchase order *Name* (optional).
+.. If you do not enter a name the database ID will be used.
+. Enter the Provider code. The text will auto-complete.
+. Check the box for Prepayment Required if prepayment is required.
+. Click *Save*
+. The purchase order has been created. You can now add a brief record or view/place order to select from the catalogue.
+
 Duplicate Purchase Order Name Warning Dialog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -12,8 +24,6 @@ When creating a purchase order or editing an existing purchase order, the purcha
 Purchase Order Names are case sensitive.
 
 *Duplicate PO Name Detection When Creating a New Purchase Order*
-
-image::media/po_name_detection_1.JPG[PO Name Detection 1]
 
 When a duplicate purchase order name is detected during the creation of a new purchase order, the user may:
 
@@ -52,7 +62,7 @@ Add brief records to purchase orders
 
 You can add brief records to new or existing purchase orders.
 
-. Open or create a purchase order. See the section on <<_purchase_orders,purchase orders>> for more information.
+. Open or create a purchase order.
 . Click Add Brief Record.
 . Enter bibliographic information in the desired fields. Notice that the record is added to the purchase order that you just created.
 . Click Save Record.
@@ -81,3 +91,9 @@ By default, a purchase order cannot be activated if a line item on the
 purchase order has zero copies. To activate a purchase order with line
 items that have zero copies, check the box *Allow activation with
 zero-copy lineitems*.
+
+WARNING: Once the purchase order has been activated without loading items, it is not possible to load the items. This feature should only be used in situations where the copies have already been added to the catalogue.
+
+* Cleaning up pre-acquisitions backlog
+
+* Direct purchases that have already been catalogued

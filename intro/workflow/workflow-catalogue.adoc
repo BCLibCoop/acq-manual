@@ -4,11 +4,41 @@ Workflow: Order from the Catalogue
 Select
 ^^^^^^
 
+You can use View/Place Orders to easily order an additional copy of an item that is already in the catalogue. Load Catalog Record IDs is more effective when working with a list of additional copies of titles to be ordered.
+
+. Open the bibliographic record of the title you wish to purchase.
+
+. Click *Other Actions* -> *View/Place Orders*
+
+. Click *Add to Selection List*, *Add to Purchase Order* or *Create a Purchase Order*
+
+
 Purchase
 ^^^^^^^^
+
+. Activate Purchase Order
+
 
 Invoice and Receive
 ^^^^^^^^^^^^^^^^^^^
 
+. Create an invoice from a purchase order or from a line item.
+
+. Link Selected Line Items to Invoice.
+
+. Receives Line Items.
+
+. Close the Invoice
+.. Print/Save a copy of the invoice for finance department/bookkeeper.
+
+
 Catalogue
 ^^^^^^^^^
+
+. Update barcode and copy information for each item.
+
+. Import a full record or do original cataloguing to replace any brief bibliographic records.
+
+. Process items.
+
+. Check in items.

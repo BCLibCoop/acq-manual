@@ -5,22 +5,20 @@ The Acquisitions Load MARC Order Record interface enables you to add MARC
 records to selection lists and purchase orders and upload the records into the
 catalog.
 
-Leveraging the match sets available in the cataloging MARC batch Import
-interface, you can also utilize record matching mechanisms to prevent the
-creation of duplicate records.
+The Load MARC Order Records interface is made up of two parts: Acquisitions and Vandelay. Working together these two parts enable selection lists or purchase orders to be created from uploaded MARC records without causing unnecessary duplication in the Sitka catalogue.
 
-For detailed instructions on record matching and importing, see
-the cataloging manual.
+When Load MARC Order Records is used in conjunction with a holding tag and subfield information such as number of copies, price, and fund for payment can be loaded from the provider. See Holding Subfields for information on setting up holding tags and subfields.
 
-Basic Upload Options
-~~~~~~~~~~~~~~~~~~~~
+A number of defaults can be set for fields in this interface by using settings available in the library settings editor. These fields are also sticky and will keep the last information entered until the user quits Evergreen. For a list of the available defaults see the Acquisitions Specific Settings in the Library Settings Editor.
 
+.Upload MARC Order Records
 . Click *Acquisitions* -> *Load MARC Order Records*.
 . If you want to upload the MARC records to a new purchase order, then
 check _Create Purchase Order_.
 . Do not check _Activate Purchase Order_.
 . Enter the name of the *Provider*. The text will auto-complete.
-. Select an org unit from the drop down menu. The context org unit is the org
+. Select an org unit from the drop down menu.
+.. The context org unit is the org
 unit responsible for placing and managing the order. It defines what org unit
 settings (eg copy locations) are in scope, what fiscal year to use, who is
 allowed to view/modify the PO, where the items should be delivered and the EDI
@@ -30,19 +28,14 @@ branches responsible for their own orders should probably select the branch.
 . If you want to upload the records to a selection list, you can select a list
 from the drop down menu, or type in the name of the selection list that you
 want to create.
-. Select a *Fiscal Year* from the dropdown menu that matches the fiscal year
+. Select a *Fiscal Year* from the drop down menu that matches the fiscal year
 of the funds that will be used for the order. If no fiscal year is selected, the
 system will use the organizational unit's default fiscal year stored in the
 database. If no fiscal year is set, the system will default to the current
 calendar year.
-
-Record Matching Options
-~~~~~~~~~~~~~~~~~~~~~~~
-Use the options below the horizontal rule for the system to check for matching
-records before importing an order record.
-
 . Create a queue to which you can upload your records, or add you records to an existing queue
 . Select a *Record Match Set* from the drop-down menu.
+.. Choose *Sitka Match*
 . Select a *Merge Profile.* Merge profiles enable you to specify which tags
 should be removed or preserved in incoming records.
 . Select a *Record Source* from the drop-down menu.
@@ -81,10 +74,12 @@ Default Upload Settings
 You can set default upload values by modifying the following settings in
 *Administration* -> *Local Administration* -> *Library Settings Editor*:
 
-* Upload Activate PO *False*
-* Upload Create PO *True*
+* Upload Activate PO
+* Upload Create PO
+** *True*
 * Upload Default Insufficient Quality Fall-Thru Profile
-* Upload Default Match Set *Sitka Match*
+* Upload Default Match Set
+** *Sitka Match*
 * Upload Default Merge Profile
 * Upload Upload Default Min. Quality Ratio
 * Upload Default Provider
@@ -113,3 +108,4 @@ fields the next time the *Load MARC Order Records* screen is pulled up:
 * Best/Single Match Minimum Quality Ratio
 * Insufficient Quality Fall-Through Profile
 * Load Items for Imported Records
+** We strongly recommend you do not check this box

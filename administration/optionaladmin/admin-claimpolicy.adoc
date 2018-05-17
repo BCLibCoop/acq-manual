@@ -1,2 +1,4 @@
 Claim Policies
 ~~~~~~~~~~~~~~
+
+. Click *Administration* -> *Acquisitions Administration* ->

@@ -1,2 +1,33 @@
 Line Item Marc Attributes
 -------------------------
+
+Line item attributes define the fields that Evergreen needs to extract from the bibliographic records that are in the acquisitions database to display in the catalogue.
+
+These attributes also appear as the fields in the New Brief Record interface.
+
+.Line Item MARC Attribute Definitions Defaults
+* Author of Work
+
+* Edition
+
+* Identifier
+
+* ISBN
+
+* ISSN
+
+* Language of Work
+
+* Local Notes
+
+* Pagination
+
+* Price
+
+* Publication Date
+
+* Publisher
+
+* Title
+
+* UPC

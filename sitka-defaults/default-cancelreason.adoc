@@ -1,2 +1,78 @@
 Cancel Reasons
 --------------
+
+You must choose a Cancel Reason if a copy, line item or purchase order is cancelled. The most common cancel reasons have been set in the Acquisitions Module.
+
+.Suspend or delay a purchase and keep debits
+* Delayed: Damaged
+
+* Delayed: Backordered
+
+* Delayed: Delivered But Lost
+
+* Delayed: Postponed
+
+* Delayed: Reprint under consideration
+
+.Cancel a purchase and release debits
+* Canceled: Account cancelled
+
+* Canceled: Already delivered
+
+* Canceled: Already owned
+
+* Canceled: Canceled order
+
+* Canceled: Discontinued
+
+* Canceled: Duplicate
+
+* Canceled: Duplicate order
+
+* Canceled: Incorrect order
+
+* Canceled: Invalid ISBN
+
+* Canceled: Items blocked from crossing border
+
+* Canceled: Lost goods
+
+* Canceled: Miscellaneous
+
+* Canceled: Never received
+
+* Canceled: No longer available
+
+* Canceled: No longer needed
+
+* Canceled: Not found
+
+* Canceled: Not in process
+
+* Canceled: Not in stock
+
+* Canceled: Out of business
+
+* Canceled: Out of print
+
+* Canceled: Out of stock indefinitely
+
+* Canceled: Overbudget
+
+* Canceled: Provider will not fill order
+
+* Canceled: Publication cancelled
+
+* Canceled: Quantity change
+
+* Canceled: Repriced
+
+* Canceled: Unauthorized order
+
+* Canceled: Wrong author
+
+* Canceled: Wrong edition
+
+* Canceled: Wrong provider
+
+* Canceled: Wrong title

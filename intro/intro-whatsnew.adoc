@@ -10,4 +10,4 @@ Improved Functionality
 . Claim Ready Items
 . Patron Requests
 
-Watch out for exciting improvements coming from the Evergreen Community Angularizing Acquisitions project.
+Watch out for exciting improvements coming in the next version of Sitka's Evergreen.

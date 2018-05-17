@@ -1,2 +1,4 @@
 Line Item Alerts
 ~~~~~~~~~~~~~~~~
+
+. Click *Administration* -> *Acquisitions Administration* -> *Line Item Alerts*

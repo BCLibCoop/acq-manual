@@ -12,3 +12,11 @@ Invoice and Receive
 
 Catalogue
 ^^^^^^^^^
+
+. Update barcode and copy information for each item.
+
+. Import a full record or do original cataloguing to replace any brief bibliographic records.
+
+. Process items.
+
+. Check in items.

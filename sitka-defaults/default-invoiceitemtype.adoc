@@ -1,2 +1,45 @@
 Invoice Item Types
 ------------------
+
+Invoice Item Types allow you to enter additional charges on a purchase order or invoice.
+
+Charges for bibliographic items are listed separately from these additional charges on a purchase order or invoice.
+
+Invoice Item Types are either set to Prorate=True or Prorate=False. When Save and Close is selected on an invoice, the system will prorate any charges where Prorate=True. This means that payment for the Invoice Item Type will be divided by all the funds in use on the invoice in proportion to the amount being spent by each fund on the invoice.
+
+.Sitka Invoice Item Type Defaults
+* Access Fee (f)
+
+* Blanket Order (f)
+
+* Cataloguing Charge (f)
+
+* Direct Purchase (f)
+
+* Goods and Services Tax (t)
+
+* Handling Charge (t)
+
+* Harmonized Sales Tax (t)
+
+* Import Fee (t)
+
+* Lamination fee (t)
+
+* Non-library Item (f)
+
+* Processing Fee (f)
+
+* Processing Fee - Prorate (t)
+
+* Provincial Sales Tax (t)
+
+* PST (No Prorate) (f)
+
+* Serial Subscription (f)
+
+* Serial Supplemental Charges (f)
+
+* Shipping Charge (t)
+
+NOTE: A *(t)* indicates that the charge is proratable, a *(f)* indicates that it is not.

@@ -4,8 +4,21 @@ Workflow: Upload MARC Records
 Select
 ^^^^^^
 
+. Creates a cart on your provider's website and add the desired items to the cart.
+
+. Downloads the MARC records for the items in the cart.
+
+. Clear the cart. Do NOT submit the cart as an order to your provider via their website.
+.. We recommend you clear the cart after you have successfully created your purchase order in Evergreen.
+
+
 Purchase
 ^^^^^^^^
+
+. Upload the MARC record file downloaded from the provider's website.
+.. See xref:load-marc[]
+
+
 
 Invoice and Receive
 ^^^^^^^^^^^^^^^^^^^

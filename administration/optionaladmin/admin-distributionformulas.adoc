@@ -1,2 +1,4 @@
 Distribution Formulas
 ~~~~~~~~~~~~~~~~~~~~~
+
+. Click *Administration* -> *Acquisitions Administration* -> *Distribution Formulas*
