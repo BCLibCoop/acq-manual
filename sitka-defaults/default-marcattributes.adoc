@@ -5,7 +5,7 @@ Line item attributes define the fields that Evergreen needs to extract from the 
 
 These attributes also appear as the fields in the New Brief Record interface.
 
-.Line Item MARC Attribute Definitions Defaults
+.Sitka's Line Item MARC Attribute Definition Defaults
 * Author of Work
 
 * Edition

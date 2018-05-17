@@ -3,8 +3,7 @@ Currency Types
 
 Currency types are assigned to funds, funding sources, and providers in the administrative module. When a fund is applied to a copy or line item for purchase, the item will be purchased in the currency associated with that fund.
 
-.The currencies set in the Acquisitions Module are:
-
+.Sitka's Currency Defaults
 * Canadian Dollars
 
 * U.S. Dollars

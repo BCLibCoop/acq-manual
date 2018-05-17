@@ -5,8 +5,7 @@ Invoice payment methods are the ways you pay your providers for your purchases. 
 
 The most common invoice payment methods have been set in the Acquisitions Module.
 
-.Sitka Invoice Payment Method Defaults
-
+.Sitka's Invoice Payment Method Defaults
 * American Express
 
 * Cash

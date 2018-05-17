@@ -11,8 +11,7 @@ Exchange rates define the rate of exchange between currencies. Evergreen uses th
 
 The most commonly used exchange rates have been set in the Acquisitions Module. Co-op support staff update the exchange rates on the first business day of each month using the Google Currency Converter.
 
-.Sitka Exchange Rate Defaults
-
+.Sitka's Exchange Rate Defaults
 * U.S Dollars to Canadian Dollars
 
 * Canadian Dollars to U.S. Dollars
