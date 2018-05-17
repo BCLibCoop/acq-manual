@@ -7,7 +7,7 @@ Charges for bibliographic items are listed separately from these additional char
 
 Invoice Item Types are either set to Prorate=True or Prorate=False. When Save and Close is selected on an invoice, the system will prorate any charges where Prorate=True. This means that payment for the Invoice Item Type will be divided by all the funds in use on the invoice in proportion to the amount being spent by each fund on the invoice.
 
-.Sitka Invoice Item Type Defaults
+.Sitka's Invoice Item Type Defaults
 * Access Fee (f)
 
 * Blanket Order (f)
