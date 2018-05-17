@@ -16,8 +16,8 @@ Purchase
 ^^^^^^^^
 
 . Upload the MARC record file downloaded from the provider's website.
-.. See xref:load-marc[]
-
+.. Refer to xref:load_marc_order_records[] for details.
+. Activate Purchase Order
 
 
 Invoice and Receive

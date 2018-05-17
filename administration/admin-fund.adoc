@@ -4,6 +4,9 @@ Funds
 Create a Fund
 ~~~~~~~~~~~~~
 
+. Click *Administration* -> *Acquisitions Administration* -> *Funds*
+
+
 Edit a Fund
 ~~~~~~~~~~~
 
