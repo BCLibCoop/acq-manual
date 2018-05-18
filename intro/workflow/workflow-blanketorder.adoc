@@ -44,7 +44,21 @@ Invoices for Blanket Order items must be created from the Purchase Order Interfa
 .. The Fund will auto-populate with the Fund used on the Purchase Order.
 . Enter an optional Title / Description.
 . Click *Save*.
-. Click Close to close the invoice. Funds will change from encumbered to spent.
+. Click Close to close the invoice.
+.. Funds will change from encumbered to spent.
+
+.Final Invoice
+. Click *Acquisitions* -> *Purchase Orders*
+. Search for your Purchase Order (by name, by open etc)
+. From the purchase order screen, click *Create Invoice*
+. Check the *Final Invoice for Blanket Order* checkbox.
+. Enter the amount billed into the Billed field.
+.. The Paid field will auto-fill to match.
+.. The Fund will auto-populate with the Fund used on the Purchase Order.
+. Enter an optional Title / Description.
+. Click *Save*.
+. Click Close to close the invoice.
+.. The Purchase Order will be marked as received and any remaining encumbrances set to $0.00.
 
 Catalogue
 ^^^^^^^^^

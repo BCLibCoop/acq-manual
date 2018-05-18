@@ -1,2 +1,2 @@
-Acquisitions Specific Settings in the Library Settings Editor
--------------------------------------------------------------
+Acquisitions Settings in the Library Settings Editor
+----------------------------------------------------
