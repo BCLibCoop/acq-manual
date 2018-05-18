@@ -4,12 +4,10 @@ MARC Federated Search
 The MARC Federated Search enables you to import bibliographic records into a selection list or purchase order from a Z39.50 source.
 
 . Click *Acquisitions* -> *MARC Federated Search*.
-. Check the boxes of Z39.50 services that you want to search. Your local Evergreen Catalog is checked by default. Click Submit.
-. A list of results will appear. Click the "Copies" link to add copy information to the line item. See the <<_line_items,section on Line Items>> for more information.
-. Click the Notes link to add notes or line item alerts to the line item. See the <<_line_items,section on Line Items>> for more information.
-. Enter a price in the "Estimated Price" field.
-. You can save the line item(s) to a selection list by checking the box
-on the line item and clicking *Actions* -> *Save Items to Selection
-List*. You can also create a purchase order from the line item(s) by
-checking the box on the line item and clicking Actions -> Create
-Purchase Order.
+. Check the boxes of Z39.50 services that you want to search. Your local Evergreen Catalog is checked by default.
+. Click *Submit*.
+. A list of results will appear.
+. Check the box(es) on the line item -> Click *Actions*
+.. *Save Items to Selection List* - save the line item(s) to a xref:selection[].
+.. *Create Purchase Order* - create a xref:purchase[] from the line item(s).
+.. *Add to Purchase Order* - add the line item(s) to an existing purchase order.

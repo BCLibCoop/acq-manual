@@ -39,7 +39,6 @@ After an item has been added to a selection list or purchase order, you can mark
 . Click Go.
 . The screen will refresh. The marked line item(s) will be highlighted pink, and the status changes to selector-ready.
 
-
 Convert to purchase order
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -53,7 +52,6 @@ Convert to purchase order
 . Check the box if you want to Import Bibs and Create Copies in the catalog.
 . Click Submit.
 
-
 Clone selection lists
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -64,7 +62,6 @@ Cloning selection lists enables you to copy one selection list into a new select
 . Check the box adjacent to the list that you want to clone.
 . Click Clone Selected.
 . Enter a name into the box that appears, and click Clone.
-
 
 Merge selection lists
 ~~~~~~~~~~~~~~~~~~~~~

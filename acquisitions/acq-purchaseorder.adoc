@@ -1,12 +1,12 @@
 Purchase Orders
 ---------------
 
-Create Purchase Order
-~~~~~~~~~~~~~~~~~~~~~
+anchor:purchase[purchase order]
 
-Create a Blank Purchase Order
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create Purchase Orders
+~~~~~~~~~~~~~~~~~~~~~~
 
+.Create a Blank Purchase Order
 . Click *Acquisitions* -> *Create Purchase Order*
 . Choose your library from the *Ordering Agency* drop down menu.
 . Enter a purchase order *Name* (optional).
@@ -15,6 +15,12 @@ Create a Blank Purchase Order
 . Check the box for Prepayment Required if prepayment is required.
 . Click *Save*
 . The purchase order has been created. You can now add a brief record or view/place order to select from the catalogue.
+
+You can also create a Purchase Order on these screens.
+
+. *Upload MARC Order Records*
+. *MARC Federated Search*
+. *View/Place Orders*
 
 Duplicate Purchase Order Name Warning Dialog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,23 +57,6 @@ When a duplicate purchase order name is detected during the renaming of an exist
 
 * Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
 * Repeat the steps to change the name of an existing purchase order and make the name unique.
-
-Brief Records
-~~~~~~~~~~~~~
-
-Brief records are short bibliographic records with minimal information that are often used as placeholder records until items are received. Brief records can be added to selection lists or purchase orders and can be imported into the catalog. You can add brief records to new or existing selection lists. You can add brief records to new, pending or on-order purchase orders.
-
-Add brief records to purchase orders
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can add brief records to new or existing purchase orders.
-
-. Open or create a purchase order.
-. Click Add Brief Record.
-. Enter bibliographic information in the desired fields. Notice that the record is added to the purchase order that you just created.
-. Click Save Record.
-
-
 
 Activate Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~

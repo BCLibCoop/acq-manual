@@ -13,49 +13,56 @@ Last Updated May 11, 2018
 
 Introduction
 ============
-include::intro/intro-acq.adoc[Introduction]
+include::intro/intro-acq.adoc[]
 
-include::intro/intro-whatsnew.adoc[What's New in 3.1]
+include::intro/intro-whatsnew.adoc[]
 
-include::intro/intro-workflow.adoc[Recommended Workflows]
+include::intro/intro-workflow.adoc[]
 
 Acquisitions
 ============
-include::acquisitions/acq-search.adoc[General Search]
+include::acquisitions/acq-search.adoc[]
 
-include::acquisitions/acq-selectionlist.adoc[Selection Lists]
+include::acquisitions/acq-selectionlist.adoc[]
 
-include::acquisitions/acq-purchaseorder.adoc[Purchase Orders]
+include::acquisitions/acq-loadrecords.adoc[L]
 
-include::acquisitions/acq-loadrecords.adoc[Load MARC order Records]
+include::acquisitions/acq-federated-search.adoc[]
 
-include::acquisitions/acq-lineitems.adoc[Line Items]
+include::acquisitions/acq-load-cataloguerecordid.adoc[]
 
-include::acquisitions/acq-receive.adoc[Receive/Un-receive]
+include::acquisitions/acq-purchaseorder.adoc[]
 
-include::acquisitions/acq-invoice.adoc[Invoices]
+include::acquisitions/acq-lineitems.adoc[]
 
-include::acquisitions/acq-claim.adoc[Claims]
+include::acquisitions/acq-receive.adoc[]
 
-include::acquisitions/acq-cancel.adoc[Cancel/Suspend]
+include::acquisitions/acq-invoice.adoc[]
+
+include::acquisitions/acq-claim.adoc[]
+
+include::acquisitions/acq-cancel.adoc[]
 
 Acquisitions Administration
 ===========================
-include::administration/admin-initialsetup.adoc[Acquisitions Initial Set up]
+include::administration/admin-initialsetup.adoc[]
 
-include::administration/admin-fundingsource.adoc[Funding Sources]
+include::administration/admin-fundingsource.adoc[]
 
-include::administration/admin-fund.adoc[Funds]
+include::administration/admin-fund.adoc[]
 
-include::administration/admin-provider.adoc[Providers]
+include::administration/admin-provider.adoc[]
 
-include::administration/admin-acqsettings.adoc[Acquisitions Settings]
+include::administration/admin-acqsettings.adoc[]
 
-include::administration/admin-acqpermissions.adoc[Acquisitions Permissions]
+include::administration/admin-acqpermissions.adoc[]
 
-include::administration/admin-optional.adoc[Optional Administrative Set-up]
+include::administration/admin-optional.adoc[]
 
 include::administration/admin-eoor-sri.adoc[]
+
+include::administration/admin-acqreports.adoc[]
+
 
 Sitka's Acquisitions Defaults
 =============================
