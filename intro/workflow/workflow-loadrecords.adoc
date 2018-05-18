@@ -1,26 +1,30 @@
 Workflow: Upload MARC Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sitka's Enhanced On Order Record work flow
 
-* This work flow should be followed by libraries that download brief Marc Records from their provider's website.
-* This work flow assumes you have been setup for EDI
+.Sitka's Enhanced On Order Record work flow
+NOTE: This workflow should be followed by libraries that download brief Marc Records from their provider's website. This workflow assumes you have been setup for xref:edi[].
 
 Select
 ^^^^^^
 
+.Selection process
 . Create a cart on your provider's website and add the desired items to the cart.
-
+.. Assign your line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
-
 . Clear the cart. Do NOT submit the cart as an order to your provider via their website.
 .. We recommend you clear the cart after you have successfully created your purchase order in Evergreen.
 
 Purchase
 ^^^^^^^^
 
+.Ordering process
 . Upload the MARC record file downloaded from the provider's website.
-.. Refer to xref:load_marc_order_records[] for details.
+.. Refer to xref:_load_marc_order_records[] for details.
+. Review Purchase Order
+.. Rename Purchase Order according to provider naming conventions
+... ULS CODEMMDD  MPL0518
+..
 . Activate Purchase Order
 . View EDI Message
 .. Evergreen will automatically send the order to your vendor via EDI
@@ -29,6 +33,7 @@ Purchase
 Invoice and Receive
 ^^^^^^^^^^^^^^^^^^^
 
+.Receiving process
 . Open the box
 . Find the Invoice
 . Search in Evergreen using *Vendor Invoice ID*
@@ -41,12 +46,9 @@ Invoice and Receive
 Catalogue
 ^^^^^^^^^
 
+.Cataloguing process
 . Update existing On Order copies
-
 . Update barcode and copy information for each item.
-
 . Import a full record or do original cataloguing to replace brief bibliographic records.
-
 . Process items.
-
 . Check in items.

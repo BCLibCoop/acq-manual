@@ -1,0 +1,17 @@
+Enhanced On Order records
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Enhanced On Order Records
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Enhanced On Order Records include holdings information (quantity, owning library, shelving location & circulation modifier) in a 9xx field. After you place an order on your vendor’s website a file of brief MARC records with holdings information will be available for the titles you ordered.
+
+
+
+Shelf Ready Items
+^^^^^^^^^^^^^^^^^
+
+In addition to everything you get with Enhanced On Order Records, Shelf Ready Items arrive at your library with their processing done and ready for your patrons to use. When Shelf Ready Items are sent to your library a file of matching full MARC records are sent to the Co-op for loading. These full records include the barcodes for your items. When you physically receive the items all you need to do is check them in and then shelve them.
+
+There are additional costs for Shelf Ready Items

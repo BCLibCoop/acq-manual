@@ -55,6 +55,8 @@ include::administration/admin-acqpermissions.adoc[Acquisitions Permissions]
 
 include::administration/admin-optional.adoc[Optional Administrative Set-up]
 
+include::administration/admin-eoor-sri.adoc[]
+
 Sitka's Acquisitions Defaults
 =============================
 include::sitka-defaults/default-currency.adoc[Currency Types]

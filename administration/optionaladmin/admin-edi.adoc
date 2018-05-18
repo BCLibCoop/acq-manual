@@ -1,9 +1,12 @@
 Electronic Data Interchange (EDI)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+anchor:edi[EDI]
+
 Electronic Data Interchange (EDI) accounts are used to electronically send purchase orders and receive invoices from providers.
 
 NOTE: Currently EDI for Sitka Evergreen has been set up to be used with the following providers:
+* CVS
 * United Library Services ULS
 * Whitehots
 
@@ -17,16 +20,97 @@ For EDI to work your library must have a SAN and each of your providers must sup
 Library SAN
 +++++++++++
 
+Your Library SAN is stored in your Org Unit settings. 
+
+A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact Sitka Support if your library does not already have a SAN.
+
+Entering a Library's SAN
+
+These steps only need to be done once per library.
+
+In Evergreen select Admin → Server Administration → Organizational Units.
+
+Find your library from the tree on the left side of the page and click on it to open the settings.
+
+Multi-branch library systems will see an entry for each branch but should select their system's top organization unit.
+
+Click on the Address tab.
+
+Click on the Mailing Address tab.
+
+Enter your library's SAN in the field labeled SAN.
+
+Click Save.
 
 Provider SAN
 ++++++++++++
 
 
+These steps need to be repeated for every provider with which EDI is used.
+
+In Evergreen select Admin → Acquisitions → Providers.
+
+Click the hyperlinked name of the provider you would like to edit.
+
+Enter your provider's SAN in the field labeled SAN.
+
+Click Save.
+
 Create an EDI Account
 +++++++++++++++++++++
+
+TIP: You must create your provider before you create an EDI account for the provider.
+
+Contact your provider requesting the following information:
+
+Host
+
+Username
+
+Password
+
+Path
+
+Incoming Directory
+
+Provider's SAN
+
+In Evergreen select Admin → Acquisitions → EDI Accounts.
+
+Click New Account. A pop-up will appear.
+
+Fill in the following fields:
+
+In the Label field, enter a name for the EDI account.
+
+The name should be entered as PROVIDERCODE_LIBRARYCODE. This enables Sitka Support to easily identify the owning library of the EDI account when troubleshooting.
+
+In the Host field, enter the requisite FTP or SCP information supplied by your provider.
+
+In the Username field, enter the username supplied by your provider.
+
+In the Password field, enter the password supplied by your provider.
+
+Select your library as the Owner from the drop down menu. Multi-branch libraries should select their top level organizational unit.
+
+In the Provider field, enter the code used in Evergreen for your provider.
+
+In the Path field, enter the path supplied by your provider.
+
+In the Incoming Directory field, enter the incoming directory supplied by your provider.
+
+Click Save.
+
+Click on the link in the Provider field.
+
+Select the EDI account that has just been created from the EDI Default drop down menu.
 
 
 View EDI Messages
 +++++++++++++++++
 
+The EDI Messages screen displays all incoming and outgoing messages between the library and the provider.
+
+.View EDI Messages
 . Click *Administration* -> *Acquisitions Administration* -> *EDI Messages*
+. The messages will display. Use the column headers to sort.
