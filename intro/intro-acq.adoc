@@ -9,7 +9,7 @@ An overview video of the acquisitions module can be viewed here.
 
 NOTE: The Acquisitions module is an add-on service with additional costs. Please contact Sitka Support for information regarding adding this module.
 
-Initial Acquisitions Set-up
+Acquisitions Initial Set-up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:

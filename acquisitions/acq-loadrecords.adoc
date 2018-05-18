@@ -3,27 +3,19 @@ Load MARC Order Records
 
 Use the Acquisitions Load MARC Order Record screen to add MARC records to selection lists or purchase orders and upload records into the catalog.
 
-The Load MARC Order Records interface is made up of two parts: Acquisitions and Vandelay. Working together these two parts enable selection lists or purchase orders to be created from uploaded MARC records without causing unnecessary duplication in the Sitka catalogue.
+The Load MARC Order Records interface leverages match sets and merge profiles to prevent duplication in the Sitka catalogue.
 
-When Load MARC Order Records is used in conjunction with a holding tag and subfield information such as number of copies, price, and fund for payment can be loaded from the provider. See Holding Subfields for information on setting up holding tags and subfields.
+When Load MARC Order Records is used in conjunction with a holding tag and subfield information copies can be created in the catalogue during upload. See Holding Subfields for information on setting up holding tags and subfields.
 
 .Upload MARC Order Records
 . Click *Acquisitions* -> *Load MARC Order Records*.
-. If you want to upload the MARC records to a new purchase order, then
-check _Create Purchase Order_.
+. Check *Create Purchase Order*.
+.. If you want to upload the records to a selection list instead, you can select a list
+from the drop down menu, or type in the name of the selection list that you
+want to create.
 . Do not check _Activate Purchase Order_.
 . Enter the name of the *Provider*. The text will auto-complete.
 . Select an org unit from the drop down menu.
-.. The context org unit is the org
-unit responsible for placing and managing the order. It defines what org unit
-settings (eg copy locations) are in scope, what fiscal year to use, who is
-allowed to view/modify the PO, where the items should be delivered and the EDI
-SAN. In the case of a multi-branch system uploading records for multiple
-branches, choosing the system is probably best. Single branch libraries or
-branches responsible for their own orders should probably select the branch.
-. If you want to upload the records to a selection list, you can select a list
-from the drop down menu, or type in the name of the selection list that you
-want to create.
 . Select a *Fiscal Year* from the drop down menu that matches the fiscal year
 of the funds that will be used for the order. If no fiscal year is selected, the
 system will use the organizational unit's default fiscal year stored in the
@@ -64,6 +56,8 @@ This field is optional.
 . If your order records contain holdings information, by default, Evergreen
 will load them as acquisitions copies.
 . Do no check *Load Items for Imported Records*.
+.. If *Load Items for Imported Records* is checked copies will be created in the catalogue during upload.
+.. If *Load Items for Imported Records* is not checked copies will be created in the catalogue when the order is activated. 
 
 Default Upload Settings
 ~~~~~~~~~~~~~~~~~~~~~~~
