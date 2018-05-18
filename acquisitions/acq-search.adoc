@@ -87,9 +87,12 @@ The default purchase order search allows you to quickly generate a list of on-or
 . Click *Search*.
 . View your search results.
 
+Modify the default purchase order search to generate a list of pending purchase orders.
+
+anchor:pending-order[pending purchase orders]
 .Search for *Pending* purchase orders
 . Click *Acquisitions* -> *Purchase Orders*.
-. 
+. Enter *PO-State* is "pending"
 . Click *Search*.
 . View your search results.
 

@@ -3,10 +3,10 @@ New Features in Evergreen Acquisitions version 3.1
 
 The Acquisitions module is mostly unchanged in version 3.1.
 
-Improved Functionality
-~~~~~~~~~~~~~~~~~~~~~~
-
+.Improved Functionality
 . View/Place orders
+.. When using the View/Place orders function the bibliographic record information will display under *Related Lineitems*.
 . Claim Ready Items
+.. When claiming items the *Claim Voucher* will print consistently.
 
 Watch out for exciting improvements coming in the next version of Sitka's Evergreen.
