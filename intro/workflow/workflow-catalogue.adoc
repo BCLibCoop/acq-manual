@@ -1,33 +1,67 @@
 Workflow: Order from the Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.Sitka's Create Purchase Order from Scratch workflow
+NOTE: This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
+
 Select
 ^^^^^^
 
-You can use View/Place Orders to easily order an additional copy of an item that is already in the catalogue. Load Catalog Record IDs is more effective when working with a list of additional copies of titles to be ordered.
+Using the existing bibliographic records from the catalogue you can add line items to a Purchase Order
 
+View/Place Order
+++++++++++++++++
+
+.View/Place Orders to order an additional copy of an item that is already in the catalogue.
 . Open the bibliographic record of the title you wish to purchase.
-
 . Click *Other Actions* -> *View/Place Orders*
-
 . Click *Add to Selection List*, *Add to Purchase Order* or *Create a Purchase Order*
 
+
+Load Catalog Record IDs
++++++++++++++++++++++++
+
+Load Catalog Record IDs is more effective when working with a list of additional copies of titles to be ordered.
+
+
+MARC Federated Search
++++++++++++++++++++++
+
+If you can't find a record in Sitka's catalogue you can import a record from Z39.50.
+
+.MARC Federated Search
+. Click *Acquisitions* -> *MARC Federated Search*
+. Choose *Search Sources*
+. Enter *Search Fields*
+. Click *Submit*
+
+
+Add Brief Records
++++++++++++++++++
+
+If you can't find an existing record for your item you can create a brief record for your item.
+
+.Add Brief Records
+. Create or Open a Purchase Order
+. Click *Actions* -> *Add Brief Record*
+. Enter bibliographic information in the desired fields -> click *Save Record*.
 
 Purchase
 ^^^^^^^^
 
+.Ordering process
+. View Purchase Order
+. Add Copies
 . Activate Purchase Order
 
 
 Invoice and Receive
 ^^^^^^^^^^^^^^^^^^^
 
+.Invoicing process
 . Create an invoice from a purchase order or from a line item.
-
 . Link Selected Line Items to Invoice.
-
 . Receives Line Items.
-
 . Close the Invoice
 .. Print/Save a copy of the invoice for finance department/bookkeeper.
 
@@ -36,9 +70,6 @@ Catalogue
 ^^^^^^^^^
 
 . Update barcode and copy information for each item.
-
 . Import a full record or do original cataloguing to replace brief bibliographic records.
-
 . Process items.
-
 . Check in items.

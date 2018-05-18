@@ -1,7 +1,7 @@
 Recommended Workflows
 ---------------------
 
-These are the recommended workflows for using Sitka's Evergreen Acquisitions module.
+These are the recommended workflows for using Sitka's Evergreen Acquisitions module. 
 
 include::workflow/workflow-loadrecords.adoc[]
 

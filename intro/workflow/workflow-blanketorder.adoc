@@ -1,0 +1,56 @@
+Workflow: Blanket Orders
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.Sitka's Blanket Order workflow
+NOTE: This workflow should be followed by libraries that want to track money spent on Blanket Orders. This workflow The work flow supported by this development assumes staff does not need to track the individual contents of the order, only the amounts encumbered and invoiced in bulk.
+
+Blanket orders allow staff to invoice an encumbered amount multiple times, paying off the charge over a period of time.
+
+Select
+^^^^^^
+
+.Selection process
+. Items selected based on Blanket/Standing Order criteria
+. Not completed in Sitka's Evergreen
+
+Purchase
+^^^^^^^^
+
+.Ordering process
+. Click *Acquisitions* -> *Create Purchase Order*
+. Choose the correct Ordering Agency.
+. Enter a Purchase Order Name.
+. Enter the Provider code.
+. Click *Save*.
+. Click *New Charge*.
+. Choose Blanket Order from the Charge Type drop down menu.
+. Choose a Fund from the Fund drop down menu.
+. Enter the Estimated Cost for the blanket order.
+. Click Save New Charges
+. Click Activate Order
+
+Invoice and Receive
+^^^^^^^^^^^^^^^^^^^
+
+Invoices for Blanket Order items must be created from the Purchase Order Interface
+
+.Invoicing process
+. Click *Acquisitions* -> *Purchase Orders*
+. Search for your Purchase Order (by name, by open etc)
+. From the purchase order screen, click *Create Invoice*
+. Enter the Invoice information. Refer to xref:_acq_invoice[] for details.
+. Enter the amount billed into the Billed field.
+.. The Paid field will auto-fill to match.
+.. The Fund will auto-populate with the Fund used on the Purchase Order.
+. Enter an optional Title / Description.
+. Click *Save*.
+. Click Close to close the invoice. Funds will change from encumbered to spent.
+
+Catalogue
+^^^^^^^^^
+
+.Cataloguing process
+. Retrieve biblographic record from the catalogue, Import a record record from Z39.50 or do original cataloguing.
+. Add Volume/Copy.
+. Process items.
+. Check in items.

@@ -2,7 +2,7 @@ Workflow: Invoice only
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .Sitka's Invoice Only workflow
-NOTE: This workflow should be used if you want to track money spent on items not ordered via Evergreen.
+NOTE: This workflow should be used by libraries that want to track money spent on items not ordered via Evergreen.
 
 Select
 ^^^^^^

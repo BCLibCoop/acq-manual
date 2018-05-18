@@ -1,5 +1,5 @@
-New in Evergreen Acquisitions version 3.1
------------------------------------------
+New Features in Evergreen Acquisitions version 3.1
+--------------------------------------------------
 
 The Acquisitions module is mostly unchanged in version 3.1.
 
@@ -8,6 +8,5 @@ Improved Functionality
 
 . View/Place orders
 . Claim Ready Items
-. Patron Requests
 
 Watch out for exciting improvements coming in the next version of Sitka's Evergreen.

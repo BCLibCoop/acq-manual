@@ -1,7 +1,7 @@
 Workflow: Upload MARC Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Sitka's Enhanced On Order Record work flow
+.Sitka's Enhanced On Order Record workflow
 NOTE: This workflow should be followed by libraries that download brief Marc Records from their provider's website. This workflow assumes you have been setup for xref:edi[].
 
 Select
@@ -22,7 +22,7 @@ Purchase
 .. Refer to xref:_load_marc_order_records[] for details.
 . View Purchase Order
 .. When your Purchase Order has finished loading, click *View Purchase Order*.
-.. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading. After waiting a few minutes if the link does not appear you can do a search for your  
+.. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading. After waiting a few minutes if the link does not appear you can do a search for your
 . Prepare Purchase Order for Activation
 .. Rename Purchase Order according to provider naming conventions
 ... Example for ULS orders use *LIBRARYMMDD*.  _MPL0518_
