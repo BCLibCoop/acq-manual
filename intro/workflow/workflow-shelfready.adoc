@@ -1,8 +1,18 @@
 Workflow: Order Shelf Ready Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.Sitka's Shelf Ready Items workflow
+NOTE: This workflow should be followed by libraries that order xref:shelf-ready[]. This workflow assumes you have been setup for xref:edi[].
+
 Select
 ^^^^^^
+
+.Selection process
+. Create a cart on your provider's website and add the desired items to the cart.
+.. Assign your line item templates while adding items to the cart.
+. Download the MARC records for the items in the cart.
+. Clear the cart. Do NOT submit the cart as an order to your provider via their website.
+.. We recommend you clear the cart after you have successfully created your purchase order in Evergreen.
 
 Purchase
 ^^^^^^^^

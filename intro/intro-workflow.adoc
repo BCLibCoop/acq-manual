@@ -1,10 +1,14 @@
 Recommended Workflows
 ---------------------
 
-include::workflow/workflow-loadrecords.adoc[Load MARC Records]
+These are the recommended workflows for using Sitka's Evergreen Acquisitions module.
 
-include::workflow/workflow-shelfready.adoc[Shelf Ready]
+include::workflow/workflow-loadrecords.adoc[]
 
-include::workflow/workflow-briefrecord.adoc[]
+include::workflow/workflow-shelfready.adoc[]
 
 include::workflow/workflow-catalogue.adoc[]
+
+include::workflow/workflow-blanketorder.adoc[]
+
+include::workflow/workflow-invoiceonly.adoc[]

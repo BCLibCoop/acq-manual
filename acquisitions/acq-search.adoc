@@ -82,7 +82,14 @@ Search for Purchase Orders
 
 The default purchase order search allows you to quickly generate a list of on-order purchase orders.
 
+.Search for On Order purchase orders
 . Click *Acquisitions* -> *Purchase Orders*.
+. Click *Search*.
+. View your search results.
+
+.Search for *Pending* purchase orders
+. Click *Acquisitions* -> *Purchase Orders*.
+. 
 . Click *Search*.
 . View your search results.
 
