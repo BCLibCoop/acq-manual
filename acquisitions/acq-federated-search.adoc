@@ -3,6 +3,7 @@ MARC Federated Search
 
 The MARC Federated Search enables you to import bibliographic records into a selection list or purchase order from a Z39.50 source.
 
+.Import record using MARC Federated Search
 . Click *Acquisitions* -> *MARC Federated Search*.
 . Check the boxes of Z39.50 services that you want to search. Your local Evergreen Catalog is checked by default.
 . Click *Submit*.

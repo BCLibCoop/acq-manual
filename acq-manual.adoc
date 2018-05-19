@@ -63,7 +63,6 @@ include::administration/admin-eoor-sri.adoc[]
 
 include::administration/admin-acqreports.adoc[]
 
-
 Sitka's Acquisitions Defaults
 =============================
 include::sitka-defaults/default-currency.adoc[Currency Types]
