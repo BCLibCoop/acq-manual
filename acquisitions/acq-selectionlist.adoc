@@ -1,6 +1,8 @@
 Selection Lists
 ---------------
 
+anchor:selection[selection list]
+
 Selection lists allow you to create, manage, and save lists of items that you may want to purchase. To view your selection list, click
 *Acquisitions* -> *My Selection Lists*. Use the general search to view selection lists created by other users.
 
