@@ -12,8 +12,8 @@ Select
 . Create a cart on your provider's website and add the desired items to the cart.
 .. Assign your line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
-. Clear the cart. Do NOT submit the cart as an order to your provider via their website.
-.. We recommend you clear the cart after you have successfully created your purchase order in Evergreen.
+. Do NOT submit the cart as an order to your provider via their website.
+.. *After* you have successfully created your purchase order in Evergreen you can go back to the vendor website and clear your cart.
 
 Purchase
 ^^^^^^^^
@@ -31,10 +31,13 @@ Purchase
 .. Rename Purchase Order according to provider naming conventions
 ... Click *Name* enter a unique name
 ... Example for ULS orders use *LIBRARYMMDD*.  _MPL0518_
-..
+.. Check the line item attributes and make any changes
+... Click *Expand All* to view line item details
 . Activate Purchase Order
+.. Refer to xref:_activate_purchase_order[] for details.
 . View EDI Message
 .. Evergreen will automatically send the order to your vendor via EDI
+.. Refer to xref:_edi[] for details.
 
 
 Invoice and Receive
