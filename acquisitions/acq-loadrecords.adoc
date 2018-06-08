@@ -53,22 +53,28 @@ Default Upload Settings
 You can set default upload values by modifying the following settings in
 *Administration* -> *Local Administration* -> *Library Settings Editor*:
 
-* Upload Activate PO
+.Recommended Settings
 * Upload Create PO
-* Upload Default Insufficient Quality Fall-Thru Profile
+** True
 * Upload Default Match Set
+** SitkaMatch
 * Upload Default Merge Profile
-* Upload Upload Default Min. Quality Ratio
-* Upload Default Provider
-* Upload Import Non Matching by Default
-* Upload Load Items for Imported Records by Default
+** Merge Using EXISTING Record
+** True
 * Upload Merge on Best Match by Default
+** True
+
+.Do not Set values for these ones
+* Upload Activate PO
+* Upload Default Provider
+* Upload Load Items for Imported Records by Default
+* Upload Upload Default Min. Quality Ratio
+* Upload Default Insufficient Quality Fall-Thru Profile
 * Upload Merge on Exact Match by Default
 * Upload Merge on Single Match by Default
 
-
 Sticky Settings
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 If the above default settings are not implemented, the selections/values used
 in the following fields will be sticky and will automatically populate the
 fields the next time the *Load MARC Order Records* screen is pulled up:
