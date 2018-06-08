@@ -1,11 +1,7 @@
 Load MARC Order Records
 -----------------------
 
-Use the Acquisitions Load MARC Order Record screen to add MARC records to selection lists or purchase orders and upload records into the catalog.
-
-The Load MARC Order Records interface leverages match sets and merge profiles to prevent duplication in the Sitka catalogue.
-
-When Load MARC Order Records is used in conjunction with a holding tag and subfield information copies can be created in the catalogue during upload. See Holding Subfields for information on setting up holding tags and subfields.
+Use the Acquisitions *Load MARC Order Record* screen to add MARC records to selection lists or purchase orders and upload records into the catalog.  When *Load MARC Order Records* is used in conjunction with a holding tag and subfield information copies can be created during upload. See Holding Subfields for information on setting up holding tags and subfields.
 
 .Upload MARC Order Records
 . Click *Acquisitions* -> *Load MARC Order Records*.
