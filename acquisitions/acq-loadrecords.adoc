@@ -17,15 +17,15 @@ want to create.
 . Enter the name of the *Provider*. The text will auto-complete.
 . Select an org unit from the drop down menu.
 . Select a *Fiscal Year* from the drop down menu that matches the fiscal year
-of the funds that will be used for the order. If no fiscal year is selected, the
-system will use the organizational unit's default fiscal year stored in the
-database. If no fiscal year is set, the system will default to the current
-calendar year.
+of the funds that will be used for the order.
+.. If no fiscal year is selected, the system will use the organizational unit's default fiscal year stored in the
+database. If no fiscal year is set, the system will default to the current calendar year.
 . Create a queue to which you can upload your records, or add you records to an existing queue
 . Select a *Record Match Set* from the drop-down menu.
 .. Choose *Sitka Match*
 . Select a *Merge Profile.* Merge profiles enable you to specify which tags
 should be removed or preserved in incoming records.
+.. Choose *Merge Using EXISTING Record*
 . Select a *Record Source* from the drop-down menu.
 . If you want to automatically import records on upload, select one or more of
 the following options.
@@ -38,26 +38,13 @@ the following options.
   .. *Merge on Best Match* - If more than one match is found in the catalog for
   a given record, Evergreen will attempt to perform the best match as defined
   by the match score.
-. To only import records that have a quality equal to or greater than the
-existing record, enter a *Best/Single Match Minimum Quality Ratio*.  Divide the
-incoming record quality score, as determined by the match set's quality
-metrics, by the record quality score of the best match that exists in the
-catalog. If you want to ensure that the inbound record is only imported when it
-has a higher quality than the best match, then you must enter a ratio that is
-higher than 1, such as 1.1. If you want to bypass all quality restraints, enter
-a 0 (zero) in this field.
-. Select an *Insufficient Quality Fall-Through Profile* if desired. This field
-enables you to indicate that if the inbound record does not meet the
-configured quality standards, then you may still import the record using an
-alternate merge profile. This field is typically used for selecting a merge
-profile that allows the user to import holdings attached to a lower quality
-record without replacing the existing (target) record with the incoming record.
-This field is optional.
-. If your order records contain holdings information, by default, Evergreen
-will load them as acquisitions copies.
+. *Best/Single Match Minimum Quality Ratio*. (Optional)
+. *Insufficient Quality Fall-Through Profile* (Optional).
 . Do not check *Load Items for Imported Records*.
-.. If *Load Items for Imported Records* is checked copies will be created in the catalogue during upload.
-.. If *Load Items for Imported Records* is not checked copies will be created in the catalogue when the order is activated.
+.. If your order records contain holdings information, by default, Evergreen
+will load them as acquisitions copies.
+... If *Load Items for Imported Records* is checked copies will be created in the catalogue during upload.
+... If *Load Items for Imported Records* is not checked copies will be created in the catalogue when the order is activated.
 +
 image::images/acquisitions/uploadmarc.png[]
 
