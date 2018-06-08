@@ -9,9 +9,9 @@ Use the Acquisitions *Load MARC Order Record* screen to add MARC records to sele
 .. If you want to upload the records to a selection list instead, you can select a list
 from the drop down menu, or type in the name of the selection list that you
 want to create.
-. Do not check _Activate Purchase Order_.
+. Do not check Activate Purchase Order.
 . Enter the name of the *Provider*. The text will auto-complete.
-. Select an org unit from the drop down menu.
+. Select a *Context Org Unit* from the drop down menu.
 . Select a *Fiscal Year* from the drop down menu that matches the fiscal year
 of the funds that will be used for the order.
 .. If no fiscal year is selected, the system will use the organizational unit's default fiscal year stored in the
@@ -25,22 +25,22 @@ should be removed or preserved in incoming records.
 . Select a *Record Source* from the drop-down menu.
 . If you want to automatically import records on upload, select one or more of
 the following options.
-  .. *Import Non-Matching Records* - import any records that don't have a match
+  .. Import Non-Matching Records - import any records that don't have a match
   in the system.
-  .. *Merge on Exact Match (901c)* - use only for records that will match on
+  .. Merge on Exact Match (901c) - use only for records that will match on
   the 901c field.
-  .. *Merge on Single Match* - import records that only have one match in the
+  .. Merge on Single Match - import records that only have one match in the
   system.
-  .. *Merge on Best Match* - If more than one match is found in the catalog for
+  .. Merge on Best Match - If more than one match is found in the catalog for
   a given record, Evergreen will attempt to perform the best match as defined
   by the match score.
-. *Best/Single Match Minimum Quality Ratio*. (Optional)
-. *Insufficient Quality Fall-Through Profile* (Optional).
-. Do not check *Load Items for Imported Records*.
+. Best/Single Match Minimum Quality Ratio. (Optional)
+. Insufficient Quality Fall-Through Profile. (Optional)
+. *Do not check* Load Items for Imported Records.
 .. If your order records contain holdings information, by default, Evergreen
 will load them as acquisitions copies.
-... If *Load Items for Imported Records* is checked copies will be created in the catalogue during upload.
-... If *Load Items for Imported Records* is not checked copies will be created in the catalogue when the order is activated.
+... If Load Items for Imported Records is *checked* copies will be created in the catalogue during upload.
+... If Load Items for Imported Records is *not checked* copies will be created in the catalogue when the order is activated.
 +
 image::images/acquisitions/uploadmarc.png[]
 
