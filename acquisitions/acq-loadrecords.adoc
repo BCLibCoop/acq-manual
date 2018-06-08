@@ -69,5 +69,4 @@ You can set default upload values by modifying the following settings in
 * Upload Merge on Exact Match by Default
 * Upload Merge on Single Match by Default
 
-.Sticky Settings
-If the above default settings are not implemented, the selections/values used during upload will be sticky and will automatically populate the fields the next time the *Load MARC Order Records* screen is pulled up.
+NOTE: If the above default settings are not implemented, the selections/values used during upload will be sticky and will automatically populate the fields the next time the *Load MARC Order Records* screen is pulled up.
