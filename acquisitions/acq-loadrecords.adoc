@@ -41,7 +41,8 @@ the following options.
 will load them as acquisitions copies.
 ... If Load Items for Imported Records is *checked* copies will be created in the catalogue during upload.
 ... If Load Items for Imported Records is *not checked* copies will be created in the catalogue when the order is activated.
-+
+
+.Screenshot showing recommended settings
 image::images/acquisitions/uploadmarc.png[]
 
 Default Upload Settings
