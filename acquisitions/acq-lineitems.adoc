@@ -6,7 +6,8 @@ Line items represent bibliographic records on a selection list or purchase order
 Line Item Batch updater
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-
+Click the Notes link to add notes or line item alerts to the line item.
+. Enter a price in the "Estimated Price" field.
 
 Anatomy of a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~

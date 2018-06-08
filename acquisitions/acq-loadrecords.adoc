@@ -55,9 +55,11 @@ record without replacing the existing (target) record with the incoming record.
 This field is optional.
 . If your order records contain holdings information, by default, Evergreen
 will load them as acquisitions copies.
-. Do no check *Load Items for Imported Records*.
+. Do not check *Load Items for Imported Records*.
 .. If *Load Items for Imported Records* is checked copies will be created in the catalogue during upload.
-.. If *Load Items for Imported Records* is not checked copies will be created in the catalogue when the order is activated. 
+.. If *Load Items for Imported Records* is not checked copies will be created in the catalogue when the order is activated.
++
+image::images/acquisitions/uploadmarc.png[]
 
 Default Upload Settings
 ~~~~~~~~~~~~~~~~~~~~~~~
