@@ -57,7 +57,6 @@ You can set default upload values by modifying the following settings in
 ** SitkaMatch
 * Upload Default Merge Profile
 ** Merge Using EXISTING Record
-** True
 * Upload Merge on Best Match by Default
 ** True
 
@@ -70,22 +69,5 @@ You can set default upload values by modifying the following settings in
 * Upload Merge on Exact Match by Default
 * Upload Merge on Single Match by Default
 
-Sticky Settings
-^^^^^^^^^^^^^^^
-If the above default settings are not implemented, the selections/values used
-in the following fields will be sticky and will automatically populate the
-fields the next time the *Load MARC Order Records* screen is pulled up:
-
-* Create Purchase Order
-* Activate Purchase Order
-* Context Org Unit
-* Record Match Set
-* Merge Profile
-* Import Non-Matching Records
-* Merge on Exact Match (901c)
-* Merge on Single Match
-* Merge on Best Match
-* Best/Single Match Minimum Quality Ratio
-* Insufficient Quality Fall-Through Profile
-* Load Items for Imported Records
-** We strongly recommend you do not check this box
+. Sticky Settings
+If the above default settings are not implemented, the selections/values used during upload will be sticky and will automatically populate the fields the next time the *Load MARC Order Records* screen is pulled up.
