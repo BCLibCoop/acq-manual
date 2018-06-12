@@ -46,13 +46,19 @@ Invoice and Receive
 .Receiving process
 . Open the box
 . Find the Invoice
+.. Verify that all the items on the invoice are in the box
 . Search in Evergreen using *Vendor Invoice ID*
 .. Refer to xref:vendor-invoice[] for details.
 . Receive items
+.. Click *Receive Items* button on the invoice.
 . Verify Totals
-. Add charges
+.. Edit Billed / Total amounts in Evergreen to match the paper invoice.
+. Add Charges
+.. Click *Add Charge* to add lines for invoice charges such as shippinp, processing fees or taxes.
+.. Refer to xref:_invoice_item_types
 . Prorate
 . Close the Invoice
+.. Click *Close*
 
 Catalogue
 ^^^^^^^^^
