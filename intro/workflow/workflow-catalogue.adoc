@@ -4,11 +4,16 @@ Workflow: Order from the Catalogue
 .Sitka's Create Purchase Order from Scratch workflow
 NOTE: This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
 
-Using existing bibliographic records from the catalogue you can add line items to a Purchase Order in four ways
+.Select
 
-. Click *View/Place Order* in Record Summary. Refer to xref:_view/place_order[] for details.
-. Load Catalog Record IDs. Refer to xref:_load_catalog_record_ids[] for details.
-. MARC Federated Search. Refer to xref:_marc_federated_search[] for details.
+Using existing bibliographic records from the Sitka catalogue you can add line items to a Purchase Order in four ways
+
+. Click *View/Place Order* in Record Summary.
+.. Refer to xref:_view/place_order[] for details.
+. Load Catalog Record IDs.
+.. Refer to xref:_load_catalog_record_ids[] for details.
+. MARC Federated Search.
+.. Refer to xref:_marc_federated_search[] for details.
 . Add Brief Records. Refer to xref:
 
 .Order

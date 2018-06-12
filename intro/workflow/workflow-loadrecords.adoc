@@ -18,13 +18,13 @@ This workflow should be followed by libraries that download brief Marc Records f
 . View Purchase Order
 .. When your Purchase Order has finished loading, click *View Purchase Order*.
 .. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading into the database.
-.. Wait a few minutes if the link does not appear do a search for your xref:pending-order[].
+.. Wait a few minutes if the link does not appear search for your xref:pending-order[].
 . Once your purchase order is displayed on screen verify
 .. *Total Line Items*
 .. *Total Estimated*
 . Prepare Purchase Order for Activation
-.. Rename Purchase Order according to provider naming conventions
-... Click *Name* enter a unique name
+.. Enter a Purchase Order name according to provider naming conventions
+... Click *Name* enter a unique name.
 ... Example for ULS orders use *LIBRARYMMDD*.  _MPL0518_
 .. Check the line item attributes and make any changes
 ... Click *Expand All* to view line item details
