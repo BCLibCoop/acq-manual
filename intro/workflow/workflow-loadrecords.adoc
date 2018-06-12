@@ -51,6 +51,7 @@ Invoice and Receive
 .. Refer to xref:vendor-invoice[] for details.
 . Receive items
 .. Click *Receive Items* button on the invoice.
+.. Refer to xref: for details.
 . Verify Totals
 .. Edit Billed / Total amounts in Evergreen to match the paper invoice.
 . Add Charges

@@ -21,28 +21,11 @@ You can also create a Selection lists on these screens.
 . *MARC Federated Search*
 .. In each of these interfaces, you will find the Add to Selection List field. Enter the name of the selection list that you want to create in that field.
 
-Add items to a selection list
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 .Add Items
 * add a brief record
 * upload MARC order records
 * MARC federated search
 * View/Place Orders menu item in the catalog.
-
-Mark Ready for Selector
-^^^^^^^^^^^^^^^^^^^^^^^
-
-After an item has been added to a selection list or purchase order, you can mark it ready for selector. This step is optional but may be useful to individual workflows.
-
-. If you want to mark part of a selection list ready for selector, then you can check the box(es) of the line item(s) that you wish to mark ready for selector. If you want to mark the entire list ready for selector, then skip to step 2.
-. Click *Actions* -> *Mark Ready for Selector*.
-. A pop up box will appear. Choose to mark the selected line items or all line items.
-. Click Go.
-. The screen will refresh. The marked line item(s) will be highlighted pink, and the status changes to selector-ready.
-
-Convert to purchase order
-^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Convert a selection list to a purchase order.
 . From a selection list, click *Actions* -> *Create Purchase Order*.
