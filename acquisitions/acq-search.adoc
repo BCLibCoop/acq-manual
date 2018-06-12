@@ -90,7 +90,7 @@ image::images/acquisitions/searchonorder.png[]
 +
 . View your search results.
 
-Modify the default purchase order search to generate a list of pending purchase orders.
+You can modify the default purchase order search to generate a list of pending purchase orders.
 
 anchor:pending-order[pending purchase orders]
 
@@ -103,7 +103,7 @@ image::images/acquisitions/searchpending.png[]
 +
 . View your search results.
 
-The search fields can be modified to search for purchase orders using other search terms.
+Modify the search fields to search for purchase orders using other search terms.
 
 . Click *Acquisitions* -> *Purchase Orders*.
 . Select your search field(s) and enter your search term(s).
@@ -129,7 +129,7 @@ image::images/acquisitions/invoicesearch.png[]
 +
 . View your search results.
 
-Modify the default invoice search to search for a specific invoice by "Vendor Invoice ID"
+You can modify the default invoice search to search for a specific invoice by "Vendor Invoice ID"
 
 anchor:vendor-invoice[search by invoice ID]
 
@@ -143,8 +143,7 @@ image::images/acquisitions/invoicesearch2.png[]
 +
 . View your search results.
 
-
-The search fields can be modified to search for invoices using other search terms.
+Modify the search fields to search for invoices using other search terms.
 
 . Click *Acquisitions* -> *Open Invoices*.
 . Select your search field(s) and enter your search term(s).
