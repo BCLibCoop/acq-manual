@@ -5,14 +5,14 @@ Workflow: Upload MARC Records
 [NOTE]
 This workflow should be followed by libraries that download brief Marc Records from their provider's website. This workflow assumes you have been setup for xref:edi[].
 
-.Select process
+.Select
 . Create a cart on your provider's website and add the desired items to the cart.
 .. Assign your line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
 . Do NOT submit the cart as an order to your provider via their website.
 .. *After* you have successfully created your purchase order in Evergreen you can go back to the vendor website and clear your cart.
 
-.Order process
+.Order
 . Upload the MARC record file downloaded from the provider's website.
 .. Refer to xref:_load_marc_order_records[] for details.
 . View Purchase Order
@@ -33,7 +33,7 @@ This workflow should be followed by libraries that download brief Marc Records f
 .. Evergreen will automatically send the order to your vendor via EDI
 .. Refer to xref:edi[] for details.
 
-.Invoice & Receive process
+.Invoice & Receive
 . Open the box
 . Find the Invoice
 .. Verify that all the items on the invoice are in the box
@@ -51,7 +51,7 @@ This workflow should be followed by libraries that download brief Marc Records f
 . Close the Invoice
 .. Click *Close*
 
-.Catalogue process
+.Catalogue
 . Update existing On Order copies
 . Update barcode and copy information for each item.
 . Import a full record or do original cataloguing to replace brief bibliographic records.

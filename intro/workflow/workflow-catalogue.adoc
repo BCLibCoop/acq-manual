@@ -4,9 +4,6 @@ Workflow: Order from the Catalogue
 .Sitka's Create Purchase Order from Scratch workflow
 NOTE: This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
 
-Select
-^^^^^^
-
 Using existing bibliographic records from the catalogue you can add line items to a Purchase Order in four ways
 
 . Click *View/Place Order* in Record Summary. Refer to xref:_view/place_order[] for details.
@@ -14,30 +11,19 @@ Using existing bibliographic records from the catalogue you can add line items t
 . MARC Federated Search. Refer to xref:_marc_federated_search[] for details.
 . Add Brief Records. Refer to xref:
 
-
-Purchase
-^^^^^^^^
-
-.Ordering process
+.Order
 . View Purchase Order
 . Add Copies
 . Activate Purchase Order
 
-
-Invoice and Receive
-^^^^^^^^^^^^^^^^^^^
-
-.Invoicing process
+.Invoice and Receive
 . Create an invoice from a purchase order or from a line item.
 . Link Selected Line Items to Invoice.
 . Receives Line Items.
 . Close the Invoice
 .. Print/Save a copy of the invoice for finance department/bookkeeper.
 
-
-Catalogue
-^^^^^^^^^
-
+.Catalogue
 . Update barcode and copy information for each item.
 . Import a full record or do original cataloguing to replace brief bibliographic records.
 . Process items.

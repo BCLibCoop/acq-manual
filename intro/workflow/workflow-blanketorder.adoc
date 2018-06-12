@@ -6,17 +6,11 @@ NOTE: This workflow should be followed by libraries that want to track money spe
 
 Blanket orders allow staff to invoice an encumbered amount multiple times, paying off the charge over a period of time.
 
-Select
-^^^^^^
-
-.Selection process
+.Select
 . Items selected based on Blanket/Standing Order criteria
 . Not completed in Sitka's Evergreen
 
-Purchase
-^^^^^^^^
-
-.Ordering process
+.Order
 . Click *Acquisitions* -> *Create Purchase Order*
 . Choose the correct Ordering Agency.
 . Enter a Purchase Order Name.
@@ -29,12 +23,7 @@ Purchase
 . Click Save New Charges
 . Click Activate Order
 
-Invoice and Receive
-^^^^^^^^^^^^^^^^^^^
-
-Invoices for Blanket Order items must be created from the Purchase Order Interface
-
-.Invoicing process
+.Invoice and Receive
 . Click *Acquisitions* -> *Purchase Orders*
 . Search for your Purchase Order (by name, by open etc)
 . From the purchase order screen, click *Create Invoice*
@@ -46,6 +35,8 @@ Invoices for Blanket Order items must be created from the Purchase Order Interfa
 . Click *Save*.
 . Click Close to close the invoice.
 .. Funds will change from encumbered to spent.
+
+NOTE: Invoices for Blanket Order items must be created from the Purchase Order Interface
 
 .Final Invoice
 . Click *Acquisitions* -> *Purchase Orders*
@@ -60,10 +51,7 @@ Invoices for Blanket Order items must be created from the Purchase Order Interfa
 . Click Close to close the invoice.
 .. The Purchase Order will be marked as received and any remaining encumbrances set to $0.00.
 
-Catalogue
-^^^^^^^^^
-
-.Cataloguing process
+.Catalogue
 . Retrieve biblographic record from the catalogue, Import a record record from Z39.50 or do original cataloguing.
 . Add Volume/Copy.
 . Process items.

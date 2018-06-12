@@ -4,28 +4,16 @@ Workflow: Invoice only
 .Sitka's Invoice Only workflow
 NOTE: This workflow should be used by libraries that want to track money spent on items not ordered via Evergreen.
 
-Select
-^^^^^^
-
-.Selection process
+.Select
 . Not completed in Sitka's Evergreen
 
-Purchase
-^^^^^^^^
-
-.Ordering process
+.Order
 . Not completed in Sitka's Evergreen
 
-Invoice and Receive
-^^^^^^^^^^^^^^^^^^^
-
-.Invoicing process
+.Invoice
 . Click *Acquisitions* -> *Create Invoice*
 
-Catalogue
-^^^^^^^^^
-
-.Cataloguing process
+.Catalogue
 . Retrieve biblographic record from the catalogue, Import a record record from Z39.50 or do original cataloguing.
 
 . Add Volume/Copy.
