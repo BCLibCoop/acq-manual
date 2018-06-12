@@ -33,11 +33,11 @@ Search for Line items
 .. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
 
 .Search Tips
-* To search for line items using non-library specific search fields, such as _LI - State_, it is recommended that you also use a library specific search field such as _SL - Org Unit_ or _PO - Ordering Agency_ to restrict the search to your library.
+* To search for line items using non-library specific search fields, such as _LI - State_, you must also use a library specific search field such as _PO - Ordering Agency_ to restrict the search to your library.
 * See xref:acquisitions-general-search-tips[] for general search tips
 
-Search for Line Items and Catalogue Record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Search for Line Items and Catalogue Records
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Acquisitions* -> *General Search*.
 . Choose _line items and catalogue records_ from the *Search for* drop down menu.
@@ -105,6 +105,7 @@ image::images/acquisitions/searchpending.png[]
 
 Modify the search fields to search for purchase orders using other search terms.
 
+.Search for purchase orders using other search terms
 . Click *Acquisitions* -> *Purchase Orders*.
 . Select your search field(s) and enter your search term(s).
 . Click *Search*.
@@ -133,7 +134,7 @@ You can modify the default invoice search to search for a specific invoice by "V
 
 anchor:vendor-invoice[search by invoice ID]
 
-.Search for invoice by vendor invoice ID
+.Search for a specific invoice by vendor invoice ID
 . Click *Acquisitions* -> *Open Invoices*.
 . Choose *I-Vendor Invoice ID* from the drop down menu.
 . Enter the invoice ID found on the paper invoice.
@@ -145,6 +146,7 @@ image::images/acquisitions/invoicesearch2.png[]
 
 Modify the search fields to search for invoices using other search terms.
 
+.Search for invoices using other search terms
 . Click *Acquisitions* -> *Open Invoices*.
 . Select your search field(s) and enter your search term(s).
 . Click *Search*.
