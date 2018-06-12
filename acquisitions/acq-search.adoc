@@ -125,7 +125,7 @@ The default invoice search allows you to quickly generate a list of open invoice
 . Click *Acquisitions* -> *Open Invoices*.
 . Click *Search*.
 +
-image::images/acquisitions/searchinvoice.png[]
+image::images/acquisitions/invoicesearch.png[]
 +
 . View your search results.
 
@@ -139,7 +139,7 @@ anchor:vendor-invoice[search by invoice ID]
 . Enter the invoice ID found on the paper invoice.
 . Click *Search*.
 +
-image::images/acquisitions/searchinvoice2.png[]
+image::images/acquisitions/invoicesearch2.png[]
 +
 . View your search results.
 
