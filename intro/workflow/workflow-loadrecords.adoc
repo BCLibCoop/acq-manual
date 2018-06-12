@@ -37,7 +37,7 @@ Purchase
 .. Refer to xref:_activate_purchase_order[] for details.
 . View EDI Message
 .. Evergreen will automatically send the order to your vendor via EDI
-.. Refer to xref:_edi[] for details.
+.. Refer to xref:edi[] for details.
 
 
 Invoice and Receive
@@ -47,6 +47,7 @@ Invoice and Receive
 . Open the box
 . Find the Invoice
 . Search in Evergreen using *Vendor Invoice ID*
+.. Refer to xref:vendor-invoice[] for details.
 . Receive items
 . Verify Totals
 . Add charges

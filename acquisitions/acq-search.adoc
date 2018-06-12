@@ -121,11 +121,35 @@ Search for Invoices
 
 The default invoice search allows you to quickly generate a list of open invoices created by your ordering agency.
 
+.Search for open invoices
 . Click *Acquisitions* -> *Open Invoices*.
 . Click *Search*.
++
+image::images/acquisitions/searchinvoice.png[]
++
 . View your search results.
 
+Modify the default invoice search to search for a specific invoice by "Vendor Invoice ID"
+
+anchor:vendor-invoice[search by invoice ID]
+
+.Search for invoice by vendor invoice ID
+. Click *Acquisitions* -> *Open Invoices*.
+. Choose *I-Vendor Invoice ID* from the drop down menu.
+. Enter the invoice ID found on the paper invoice.
+. Click *Search*.
++
+image::images/acquisitions/searchinvoice2.png[]
++
+. View your search results.
+
+
 The search fields can be modified to search for invoices using other search terms.
+
+. Click *Acquisitions* -> *Open Invoices*.
+. Select your search field(s) and enter your search term(s).
+. Click *Search*.
+. View your search results.
 
 .Search Tips
 * Search for closed invoices by checking the box adjacent to the *I-Complete* search field.
