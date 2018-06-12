@@ -17,7 +17,8 @@ This workflow should be followed by libraries that download brief Marc Records f
 .. Refer to xref:_load_marc_order_records[] for details.
 . View Purchase Order
 .. When your Purchase Order has finished loading, click *View Purchase Order*.
-.. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading into the database. Wait a few minutes if the link does not appear you can do a search for your xref:pending-order[].
+.. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading into the database.
+.. Wait a few minutes if the link does not appear do a search for your xref:pending-order[].
 . Once your purchase order is displayed on screen verify
 .. *Total Line Items*
 .. *Total Estimated*
