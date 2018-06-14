@@ -46,9 +46,9 @@ This workflow should be followed by libraries that download brief Marc Records f
 . Verify Totals
 .. Edit Billed / Total amounts in Evergreen to match the paper invoice.
 . Add Charges
-.. Click *Add Charge* to add lines for invoice charges such as shippinp, processing fees or taxes.
+.. Click *Add Charge* to add lines for invoice charges such as shipping fee, processing fees or taxes.
 .. Refer to xref:_invoice_item_types[] for details.
-. Prorate
+. Click *Prorate*
 . Close the Invoice
 .. Click *Close*
 
