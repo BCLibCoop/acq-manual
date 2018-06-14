@@ -1,7 +1,7 @@
 Exchange Rates
 --------------
 
-Exchange rates define the rate of exchange between currencies. Evergreen uses these exchange rates in several situations.
+Exchange rates define the rate of exchange between currencies. Evergreen uses these exchange rates only for certain situations.
 
 * When the currency of the fund that is used for the purchase is different from the currency of the provider, as listed in the provider's profile, Evergreen will use the exchange rate and the estimated price to calculate the amount to encumber for the item in the currency of the fund and debit the fund accordingly.
 
@@ -9,7 +9,7 @@ Exchange rates define the rate of exchange between currencies. Evergreen uses th
 
 * When money is allocated from a funding source to a fund that uses a different currency types Evergreen will automatically use the exchange rate to convert the money to the currency of the receiving fund.
 
-The most commonly used exchange rates have been set in the Acquisitions Module. Co-op support staff update the exchange rates on the first business day of each month using the Google Currency Converter.
+NOTE: Co-op Support updates the exchange rates on the first business day of each month using the Google Currency Converter.
 
 .Sitka's Exchange Rate Defaults
 * U.S Dollars to Canadian Dollars

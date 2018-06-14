@@ -1,0 +1,98 @@
+Receive
+-------
+
+You can receive or un-receive entire purchase orders, individual line items or specific copies. Items can be marked as received before or after they are invoiced.
+
+Receive Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~
+
+You can receive purchase orders that have a status of on-order. You can un-receive purchase orders that have a status of received.
+
+In the event that all items on a purchase order arrive together you are able to receive the entire purchase order at once.
+
+.Receive a Purchase Order
+. Open a purchase order.
+. Check the check box to select all items on the purchase order.
+. Click *Actions* -> *Mark Selected Line Items as Received*.
+. Any alerts for the line items will pop up. Click OK to acknowledge the alerts and receive the items.
+. The line items will change to a gray blue colour and the Status will update to received.
+
+.Un-Receive a Purchase Order
+. Open a purchase order.
+. Check the check box to select all items on the purchase order.
+. Click *Actions* -> *Un-Receive Selected Line Items*.
+. A pop up will appear asking you to confirm the action -> Click *OK*.
+. The line items on the purchase order will change to a pink colour and the status will update to on-order.
+.. If the purchase order is received in the future it will behave in the same manner as a purchase order that is being received for the first time.
+
+Receive Line items
+~~~~~~~~~~~~~~~~~~
+
+You can receive line items that have a status of on-order. You can un-receive line items that have a status of received.
+
+.Receive a Line Item
+. Open a purchase order.
+. Check the check box(es) of the line item(s) you wish to receive.
+. Click *Actions* -> *Mark Selected Line Items as Received*.
+. Any alerts on the line item will pop up. Click OK to acknowledge the alert and receive the item(s).
+. The line item(s) will change to a gray blue colour and the status will update to received.
+
+.Unreceive a Line Item
+. Open a purchase order.
+. Check the check box(es) of the line item(s) you wish to un-receive.
+. Click *Actions* -> *Un-Receive Selected Line Items*.
+. A pop up will appear asking you to confirm the action -> Click *OK*.
+. The line item(s) will change to a pink colour and the status will update to on-order.
+.. If the line item is received in the future it will behave in the same manner as a line item that is being received for the first time.
+
+Receive Copies
+~~~~~~~~~~~~~~
+
+You can receive copies that have a status of on-order. You can un-receive copies that have a status of received.
+
+.Receive a Specific Copy
+. Open a purchase order.
+. Click *Copies* on the line item for the copy or copies you wish to receive.
+. Click *Mark Received* adjacent to the copy you wish to receive.
+. Any alerts on the associated with the line item will pop up -> Click *OK* to acknowledge the alert and receive the copy.
+.. The alerts associated with a particular line item will appear each time a copy on that line item is received.
+. Click *Return* to return to the purchase order.
+.. The line item will only change to a gray blue colour and update the status to received when all copies associated with the line item have been received. Otherwise the line item continues to display in a pink colour with a state of on-order.
+
+.Unreceive a Specific Copy
+. Open a purchase order.
+. Click *Copies* link on the line item for the copy or copies you wish to un-receive.
+. Click *Un-Receive* adjacent to the copy you wish to un-receive.
+. Click *OK*.
+. Click *Return* to return to the purchase order.
+. The line item will be a pink colour and the Status will show as on-order.
+.. If the copy is received in the future it will behave in the same manner as a copy that is being received for the first time.
+
+Receive Items on the Invoice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can receive line items directly from the invoice rather than through a purchase order.
+
+. Create or open an invoice.
+. link all applicable line items to the invoice. See Populating Invoices for instructions.
+. Click *Save*
+. Click Receive Items.
+. The Acquisitions Invoice Receiving screen opens.
+. Select the number of copies you would like to receive for each line item on the invoice.
+. Click *Receive Selected Copies*.
+. Click *Return to Invoice*.
+
+List Mode
+^^^^^^^^^
+
+.Receive specific copies
+. Create or open an invoice.
+. Click *Receive Items*.
+. Click *Use List Mode*.
+.. Line item details including Fund, Call Number, & Barcode will be displayed
+. Use the check boxes to select the specific copies you would like to receive.
+. Click Receive Selected Copies.
+. Select more copies to receive or click *Return to Invoice*.
+
+
+NOTE: Fund debits linked to an invoice are marked as paid (encumbrances = false) only when the invoice is closed.

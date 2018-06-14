@@ -7,7 +7,7 @@ This workflow should be followed by libraries that download brief Marc Records f
 
 .Select
 . Create a cart on your provider's website and add the desired items to the cart.
-.. Assign your line item templates while adding items to the cart.
+.. Assign line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
 . Do NOT submit the cart as an order to your provider via their website.
 .. *After* you have successfully created your purchase order in Evergreen you can go back to the vendor website and clear your cart.
@@ -42,12 +42,12 @@ This workflow should be followed by libraries that download brief Marc Records f
 .. Refer to xref:vendor-invoice[] for details.
 . Receive items
 .. Click *Receive Items* button on the invoice.
-.. Refer to xref: for details.
+.. Refer to xref:_receive_items_on_the_invoice[] for details.
 . Verify Totals
 .. Edit Billed / Total amounts in Evergreen to match the paper invoice.
 . Add Charges
 .. Click *Add Charge* to add lines for invoice charges such as shippinp, processing fees or taxes.
-.. Refer to xref:_invoice_item_types
+.. Refer to xref:_invoice_item_types[] for details.
 . Prorate
 . Close the Invoice
 .. Click *Close*
