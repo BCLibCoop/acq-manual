@@ -19,3 +19,29 @@ anchor:shelf-ready[Shelf Ready Items]
 In addition to everything you get with Enhanced On Order Records, Shelf Ready Items arrive at your library with their processing done and ready for your patrons to use. When Shelf Ready Items are sent to your library a file of matching full MARC records are sent to the Co-op for loading. These full records include the barcodes for your items. When you physically receive the items all you need to do is check them in and then shelve them.
 
 There are additional costs for Shelf Ready Items
+
+
+Admin
+The following setup must be completed in order to complete this workflow.
+
+The line item templates are created on the provider's website. Contact Co-op Support if you are interested in ordering Shelf Ready Items.
+
+A 970 holdings tag is set up in the provider's record.
+
+The 970 holdings tag is set up with the actual provider to contain the following subfields:
+
+m: circ modifier
+
+l: copy location
+
+e: estimated price
+
+f: fund code
+
+o: owning library
+
+q: quantity
+
+The subfields used will depend on the provider. $o must always be used.
+
+An EDI Account is set up to send orders and receive invoices	

@@ -1,25 +1,80 @@
 Workflow: Order Shelf Ready Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+[NOTE]
 .Sitka's Shelf Ready Items workflow
-NOTE: This workflow should be followed by libraries that order xref:shelf-ready[]. This workflow assumes you have been setup for xref:edi[].
+This workflow should be followed by libraries that order xref:shelf-ready[]. This workflow assumes you have been setup for xref:edi[].
 
 .Select
 . Create a cart on your provider's website and add the desired items to the cart.
-.. Assign your line item templates while adding items to the cart.
+.. Assign line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
-. Clear the cart. Do NOT submit the cart as an order to your provider via their website.
-.. We recommend you clear the cart after you have successfully created your purchase order in Evergreen.
+.. Save the .mrc file on your computer. It's important to remember where you save it.
+. Do NOT submit the cart as an order to your provider via their website.
+.. *After* you have successfully created your purchase order in Evergreen you can go back to the vendor website and clear your cart.
 
 .Order
-
+. Upload the MARC record file downloaded from the provider's website.
+.. Refer to xref:_load_marc_order_records[] for details.
+. View Purchase Order
+.. When your Purchase Order has finished loading, click *View Purchase Order*.
+.. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading do NOT start the upload again.
+.. Wait a few minutes if the link does not appear search for your xref:pending-order[].
+. Once your purchase order is displayed on screen verify
+.. *Total Line Items*
+.. *Total Estimated*
+. Prepare Purchase Order for Activation
+.. Enter a Purchase Order name according to provider naming conventions
+... Click *Name* enter a unique name.
+... Example for ULS orders use *LIBRARYMMDD*.  _MPL0518_
+.. Check the line item attributes and make any changes
+... Click *Expand All* to view line item details
+... Refer to xref:_line_items[] for details.
+. Activate Purchase Order
+.. Refer to xref:_activate_purchase_order[] for details.
+. View EDI Message
+.. Evergreen will automatically send the order to your vendor via EDI
+.. Refer to xref:edi[] for details.
 
 .Invoice and Receive
+. Open the box
+. Find the Invoice
+.. Verify that all the items on the invoice are in the box
+. Check the Status of the items
+.. In Evergreen click *Circulation* -> *Item Status* -> Scan an item barcode into Item Status -> verify the item is "In process"
+Receiver verifies the item is in status In process
 
+If the item status is On order wait 48 hours and try again
+
+If the item status is still shows On order after 48 hours email sitka@bc.libraries.coop
+
+Receiver searches for the invoice using the vendor invoice id on the paper invoice received with the items.
+
+See Vendor created invoice from EDI for detailed instructions.
+
+Receiver marks items as received on the invoice
+
+Receiver completes the invoice
+
+Verify invoice totals. If required edit the electronic invoice so the totals match the paper invoice
+
+. Information is forwarded to finance department/bookkeeper.
 
 .Catalogue
 
+Cataloguer checks the completeness of the item attributes.
 
+Barcode
+
+Call Number
+
+Shelving Location
+
+Circulation Modifier
+
+Cataloguer verifies the completeness of the MARC record and adds additional information if required.
+
+Items are checked in.
 
 
 . Check in items.
