@@ -1,8 +1,8 @@
 Workflow: Order from the Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Sitka's Create Purchase Order from Scratch workflow
-NOTE: This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
+[NOTE]
+*Sitka's Create Purchase Order from Scratch workflow* - This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
 
 .Select
 

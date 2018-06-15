@@ -1,6 +1,7 @@
 Purchase Orders
 ---------------
 
+This chapter describes how to create, activate, and receive purchase orders in the Acquisitions Module. Other functions related to purchase orders are also covered.
 anchor:purchase[purchase order]
 
 Create Purchase Orders
@@ -11,6 +12,7 @@ Create Purchase Orders
 . Choose your library from the *Ordering Agency* drop down menu.
 . Enter a purchase order *Name* (optional).
 .. If you do not enter a name the database ID will be used.
+.. You can change the name to any grouping of letters or numbers as determined by your library's policies. You can reuse purchase order names as long as a name is never used twice in the same year.
 . Enter the Provider code. The text will auto-complete.
 . Check the box for Prepayment Required if prepayment is required.
 . Click *Save*
@@ -22,49 +24,52 @@ You can also create a Purchase Order on these screens.
 . *MARC Federated Search*
 . *View/Place Orders*
 
-Duplicate Purchase Order Name Warning Dialog
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 When creating a purchase order or editing an existing purchase order, the purchase order name must be unique for the ordering agency.  Evergreen will display a warning dialog to users, if they attempt to create or edit purchase order names that match the names of already existing purchase orders at the same ordering agency. The *Duplicate Purchase Order Name Warning Dialog* includes a link that will open the matching purchase order in a new tab.
 
-Purchase Order Names are case sensitive.
-
-*Duplicate PO Name Detection When Creating a New Purchase Order*
-
-When a duplicate purchase order name is detected during the creation of a new purchase order, the user may:
-
+.When a duplicate purchase order name is detected, the user may:
 * Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
 * Click *Cancel* to cancel the creation of the new purchase order.
 * Within the _Name (optional)_ field, enter a different, unique name for the new purchase order.
+** If the purchase order name is unique for the ordering agency, the user will continue filling in the remaining fields and click *Save*.
+** If the purchase order name is not unique for the ordering agency, the Save button will remain grayed out to the user until the purchase order is given a unique name.
 
-If the purchase order name is unique for the ordering agency, the user will continue filling in the remaining fields and click *Save*.
-
-If the purchase order name is not unique for the ordering agency, the Save button will remain grayed out to the user until the purchase order is given a unique name.
-
-*Duplicate PO Name Detection When Editing the Name of an Existing Purchase Order*
-
-To change the name of an existing purchase order:
-
+.To change the name of an existing purchase order:
 . Within the purchase order, the _Name_ of the purchase order is a link (located at the top left-hand side of the purchase order). Click the PO Name.
 . A new window will open, where users can rename the purchase order.
 . Enter the new purchase order name.
 . Click *OK*.
 
-If the new purchase order name is unique for the ordering agency, the purchase order will be updated to reflect the new name.
-If the purchase order name is not unique for the ordering agency, the purchase order will not be updated with the new name. Instead, the user will see the *Duplicate Purchase Order Name Warning Dialog* within the purchase order.
-
-When a duplicate purchase order name is detected during the renaming of an existing purchase order, the user may:
-
-* Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
-* Repeat the steps to change the name of an existing purchase order and make the name unique.
+NOTE: Purchase Order Names are case sensitive.
 
 Activate Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+.Activation criteria
+. *Copy* - Each line must have at least one copy attached to it.
+.. If there is no copy the Activate Order? field will read, Activatable? No: The lineitem has no attached copies (ACQ_LINEITEM_NO_COPIES) (lineitemID). Simply attach a copy to the line item.
+.. See Add a Copy to a Line Item for instructions.
+.. Copies should not be added to line items after a purchase order is activated.
+. *Owning Branch* - Each line item must have an Owning Branch. If there is no assigned Owning Branch Activate Order? field will read, Activatable. However attempting to Activate the order will result in the following error message. Simply click Reload and use the Line Item Batch Updater to assign an Owning Branch.
+. *Price* - Each line item must contain an estimated price. If there is no estimated price the Activate Order? field will read, No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE). Simply enter prices in the estimated price fields and click Reload.
+. *Fund* - Each line item must have funds applied to it. If no funds are applied the Activate Order? field will read, No: The requested acq. fund was not found (ACQ_FUND_NOT_FOUND). Simply apply funds individually or as a batch.
+.. See Apply Funds to Line Items for instructions.
+
+When the above criteria have been met the Activate Order button will appear and you can proceed with the following:
+
+The fund(s) used for the purchase order must not have reached its stop level. If the fund is above its stop level the Activate Order? field will read, No; fund [fund name here] would be encumbered beyond its stop level. In this case, more credit must be allocated to the fund or a different fund must be applied to the purchase order.
+
+If the fund(s) used for the purchase order have reached its warning level staff will be alerted but are able to continue with activating the purchase order.
+
+.Activate a Purchase Order
+. Click *Activate Order*.
+. When you activate the order the bibliographic records and copies will be imported into the catalogue using the Vandelay interface, if not previously imported. See How to Load Bibliographic Records and Items into the Catalogue for instructions on using the Vandelay interface.
+. The funds associated with the purchases will be encumbered.
+
+
 Purchase Order Activation Progress Bar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalog. Once you complete entering in the parameters for the record import interface, the progress screen will appear. As of Evergreen 2.9, this progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
+After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalog. Once you complete entering in the parameters for the record import interface, the progress screen will appear. This progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
 
 * Lineitems processed
 * Vandelay Records processed
