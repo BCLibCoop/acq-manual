@@ -2,8 +2,7 @@ Workflow: Upload MARC Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
-.Sitka's Enhanced On Order Record workflow
-This workflow should be followed by libraries that download brief Marc records from their provider's website. This workflow assumes you have been setup for xref:edi[].
+*Sitka's Enhanced On Order Record workflow* - This workflow should be followed by libraries that download brief Marc records from their provider's website. This workflow assumes you have been setup for xref:edi[].
 
 .Select
 . Create a cart on your provider's website and add the desired items to the cart.
