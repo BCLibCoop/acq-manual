@@ -54,7 +54,14 @@ This workflow should be followed by libraries that download brief Marc Records f
 
 .Catalogue
 . Update existing On Order copies
-. Update barcode and copy information for each item.
-. Import a full record or do original cataloguing to replace brief bibliographic records.
+.. Use ISBN to search the catalogue to find your item
+.. Refer to https://docs.libraries.coop/sitka/_searching_the_database_for_cataloguing_purposes.html#_advanced_numeric_search[Numeric Search] for details.
+. Click *Edit*
+.. Update barcode and copy information for each item.
+.. Refer to link:
+. Use Z39.50 to overlay the brief record with a full record or do original cataloguing to replace brief bibliographic records.
+.. Refer to https://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlay records via Z39.50] for details.
 . Process items.
+.. As per your libraries processing specifications.
 . Check in items.
+.. Items are now ready to circulate.
