@@ -2,8 +2,7 @@ Workflow: Order Shelf Ready Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
-.Sitka's Shelf Ready Items workflow
-This workflow should be followed by libraries that order xref:shelf-ready[]. This workflow assumes you have been setup for xref:edi[].
+*Sitka's Shelf Ready Items workflow* - This workflow should be followed by libraries that order xref:shelf-ready[]. This workflow assumes you have been setup for xref:edi[].
 
 .Select
 . Create a cart on your provider's website and add the desired items to the cart.
