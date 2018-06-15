@@ -40,41 +40,33 @@ This workflow should be followed by libraries that order xref:shelf-ready[]. Thi
 . Open the box
 . Find the Invoice
 .. Verify that all the items on the invoice are in the box
+.. Verify all the items have been processed (Barcodes & Spine labels)
 . Check the Status of the items
-.. In Evergreen click *Circulation* -> *Item Status* -> Scan an item barcode into Item Status -> verify the item is "In process"
-Receiver verifies the item is in status In process
-
-If the item status is On order wait 48 hours and try again
-
-If the item status is still shows On order after 48 hours email sitka@bc.libraries.coop
-
-Receiver searches for the invoice using the vendor invoice id on the paper invoice received with the items.
-
-See Vendor created invoice from EDI for detailed instructions.
-
-Receiver marks items as received on the invoice
-
-Receiver completes the invoice
-
-Verify invoice totals. If required edit the electronic invoice so the totals match the paper invoice
-
+.. Scan an item barcode into https://docs.libraries.coop/sitka/_item_status.html[Item Status] -> verify the item is "In process"
+.. If the item status is On order wait 48 hours and try again
+.. If the item status is still shows On order after 48 hours email sitka@bc.libraries.coop
+. Search in Evergreen using *Vendor Invoice ID*
+.. Refer to xref:vendor-invoice[] for details.
+. Receive items
+.. Click *Receive Items* button on the invoice.
+.. Refer to xref:_receive_items_on_the_invoice[] for details.
+. Verify Totals
+.. Edit Billed / Total amounts in Evergreen to match the paper invoice.
+. Add Charges
+.. Click *Add Charge* to add lines for invoice charges such as shipping fee, processing fees or taxes.
+.. Refer to xref:_invoice_item_types[] for details.
+. Close the Invoice
+.. Click *Close*
+.. Refer to xref:_close_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
 .Catalogue
-
-Cataloguer checks the completeness of the item attributes.
-
-Barcode
-
-Call Number
-
-Shelving Location
-
-Circulation Modifier
-
-Cataloguer verifies the completeness of the MARC record and adds additional information if required.
-
-Items are checked in.
-
-
+. Use https://docs.libraries.coop/sitka/_item_status.html[Item Status] to verify the completeness of the item attributes.
+.. Barcode
+.. Call Number
+.. Shelving Location
+.. Circulation Modifier
+. Verify the completeness of the MARC record and adds additional information if required.
+.. See https://docs.libraries.coop/sitka/edit-marc.html[Maintaining Bibliographic records] for details.
 . Check in items.
+.. Items are now ready to circulate.

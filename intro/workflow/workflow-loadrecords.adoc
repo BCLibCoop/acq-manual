@@ -50,9 +50,9 @@ This workflow should be followed by libraries that download brief Marc records f
 . Add Charges
 .. Click *Add Charge* to add lines for invoice charges such as shipping fee, processing fees or taxes.
 .. Refer to xref:_invoice_item_types[] for details.
-. Click *Prorate*
 . Close the Invoice
 .. Click *Close*
+.. Refer to xref:_close_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
 .Catalogue
