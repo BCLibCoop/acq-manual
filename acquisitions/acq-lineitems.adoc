@@ -10,9 +10,9 @@ image::images/acquisitions/lineitem.png[]
 . *Order Identifier Selector* - Line items that are created from existing MARC records may have multiple ISBNs, ISSNs, or UPCs attached to the record (depending on the type of item). Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
 .. From the drop down menu chose the appropriate ISBN, ISSN, or UPC; or you can highlight the existing identifier and type in or paste your new identifier.
 . *Line Item ID* - System generated ID
-. *Existing copy count* - a count of existing catalog copies on the line item
+. xref:existing-copies[] - a count of existing catalog copies on the line item
 . *Link to catalogue* -
-. Work sheet
+. xref:worksheet[] - a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information.
 . requests
 . Invoice
 . Queue
@@ -23,23 +23,22 @@ image::images/acquisitions/lineitem.png[]
 . Status
 . Price
 
+
+anchor:lineitem-detail[Line Item Detailed view]
 .Line Item Detailed view
 * Click *Expand* on a line item to display the detailed view for that line item.
 * Click *Expand All* to display the detailed view for all line items.
 ** Clicking Expand or Expand All a second time will close the detailed view.
 anchor:lineitem-detail[Line Item Detailed view]
 
+anchor:worksheet[worksheet]
 .Line Item Worksheet
-The Line Item Worksheet is designed to be a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information. The system fills in the worksheet as a line item goes through the acquisitions process. This worksheet can be placed in an item that is sent to cataloguing or processing.
+. Click the worksheet link on the line item for which you would like to view the worksheet.
+. The line item worksheet will appear.
+. The worksheet can be printed by CTRL+P.
+. When you are finished, click Return to return to your selection list or purchase order.
 
-Click the worksheet link on the line item for which you would like to view the worksheet.
-
-The line item worksheet will appear.
-
-The worksheet can be printed by CTRL+P.
-
-When you are finished, click Return to return to your selection list or purchase order.
-
+anchor:link-catalogue[Link to Catalog]
 .Link to the Catalog
 You can link a line item on a selection list to a corresponding MARC record in the catalogue.
 
@@ -65,122 +64,73 @@ The screen will reload and the line item will display with a catalog link.
 
 The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
 
+Paid Line Items
+^^^^^^^^^^^^^^^
+Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
 
-Line Item notes
+image::images/acquisitions/lineitempaid.png[]
+
+Line Item Actions
+~~~~~~~~~~~~~~~~~
+The line item actions menu provides you with a number of functions that can be applied to a particular line item.
+
+.Update Barcode
+. You are only able to update barcodes once a line item has been received.
+. Using the Actions menu on the line item, select Actions → Update Barcodes.
+. The Create or Re-barcode Items screen will open in a new tab.
+. See Adding Holdings to Title Records beginning with step 4 for further instructions.
+
+.Holdings Maintenance
+. Once an item is received it is possible to use the Actions menu to go directly to Holding Maintenance to view and edit the holdings for a line item.
+. Open a purchase order.
+. Using the Actions menu on the line item, select Actions → Holdings Maint.
+. The Holdings Maintenance screen will open in a new tab.
+. See Adding Holdings to Title Records for further instructions.
+
+.Claim
+. Using the Actions menu on the line item, select Actions → Claims (0 existing).
+. Check the boxes adjacent to the copies you wish to claim and click Claim Selected.
+. From the Claim Type drop down menu select the reason you are making the claim.
+. Enter a note if you desire and click Claim.
+. The number of existing claims on the line item updates.
+. Use the Actions menu on the line item, select Actions → Claims (X existing).
+. The claimed items will appear in the top half of the pop up with link to their associated vouchers.
+. Click Show Voucher.
+
+.View History
+. Using the Actions menu on the line item, select *Actions* -> *View History*.
+. By default the newest changes appear first. Use the column headers to sort.
+
+
+Line Item Notes
 ~~~~~~~~~~~~~~~
 
 Notes on line items can include any additional information that you wish to add to the line item. Notes can be internal or can be made available to providers. Notes also display on the Line Item Worksheet for the item.
 
-Open a selection list or purchase order.
-
-Click the Notes (0) link.
-
-Click New Note.
-
-Enter your note.
-
-If you wish to make this note available to your provider, check the box adjacent to Note is vendor-public.
-
-Click Create. The note will display on the screen.
-
-Click Return to return to the selection list or purchase order.
-
-The zero of the Notes link will update to display the total number of alerts and notes for the line item.
-
-
+.Add a Note
+. Click *Notes (0)*.
+. Click *New Note*.
+. Enter your note.
+. If you wish to make this note available to your provider, check the box adjacent to Note is vendor-public.
+. Click *Create*. The note will display on the screen.
+. Click *Return* to return to the selection list or purchase order.
+. The zero of the Notes link will update to display the total number of alerts and notes for the line item.
 
 Line Item Alerts
 ~~~~~~~~~~~~~~~~
 
 Alerts are pop up messages that appear when an item is received. Alerts also display on the Line Item Worksheet for the item.
 
-Alerts will not pop up if they are added after the purchase order is activated.
+.Add an Alert
+. Click *Notes (0)*.
+. Click *New Alert*.
+. Choose an alert code from the drop down menu. These Line Item Alert codes are created by your Acquisitions Administrator.
+. Add additional comments (optional).
+. Click *Create*. The alert will display on the screen.
+. Click *Return* to return to the selection list or purchase order.
+. A red flag will now appear to the right of the Notes link and the zero of the Notes link will update to display the total number of alerts and notes for the line item.
 
-Open a selection list or purchase order.
-
-Click the Notes (0) link.
-
-Click New Alert.
-
-Choose an alert code from the drop down menu. These Line Item Alert codes are created by your Acquisitions Administrator.
-
-Add additional comments if you desire.
-
-Click Create. The alert will display on the screen.
-
-Click Return to return to the selection list or purchase order.
-
-A red flag will now appear to the right of the Notes link and the zero of the Notes link will update to display the total number of alerts and notes for the line item.
-
-.Line Item Actions Menu
-
-The line item actions menu provides you with a number of functions that can be applied to a particular line item.
-
-Update Barcode Holdings Maintenance Claims View History
-
-Update Barcode
-You are only able to update barcodes once a line item has been received.
-
-Using the Actions menu on the line item, select Actions → Update Barcodes.
-
-The Create or Re-barcode Items screen will open in a new tab.
-
-
-See Adding Holdings to Title Records beginning with step 4 for further instructions.
-
-Holdings Maintenance
-Once an item is received it is possible to use the Actions menu to go directly to Holding Maintenance to view and edit the holdings for a line item.
-
-Open a purchase order.
-
-Using the Actions menu on the line item, select Actions → Holdings Maint.
-
-
-The Holdings Maintenance screen will open in a new tab.
-
-
-See Adding Holdings to Title Records for further instructions.
-
-Claims
-You can manually claim a copy any time after it has been ordered until it is received. You can also claim copies that have been suspended.
-
-Open a purchase order.
-
-Using the Actions menu on the line item, select Actions → Claims (0 existing).
-
-
-Check the boxes adjacent to the copies you wish to claim and click Claim Selected.
-
-
-From the Claim Type drop down menu select the reason you are making the claim.
-
-
-Enter a note if you desire and click Claim.
-
-
-The number of existing claims on the line item updates.
-
-
-Use the Actions menu on the line item, select Actions → Claims (X existing).
-
-
-The claimed items will appear in the top half of the pop up with link to their associated vouchers.
-
-Click Show Voucher.
-
-There is currently a bug preventing claim vouchers from appearing.
-
-
-View History
-It is possible to view the changes that have been made to a line item.
-
-Open a selection list or purchase order.
-
-Using the Actions menu on the line item, select Actions → View History.
-
-
-By default the newest changes appear first. Use the column headers to sort.
-
+NOTE: Alerts will not pop up if they are added after the purchase order is activated.
 
 Line Item Statuses
 ~~~~~~~~~~~~~~~~~~
@@ -370,48 +320,25 @@ available:
 * Selection List
 * Purchase Order
 
+anchor:existing-copies[Count of Existing Copies]
 . Count of Existing Copies on Line items
 When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
 
-The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
+* The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
+** If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
+** If no existing copies are found, a "0" (zero) will display in plain text.
+* The count of existing copies does not include copies that are in either a Lost or a Missing status.
 
-The count of existing copies does not include copies that are in either a Lost or a Missing status.
+Delete a Line Item
+~~~~~~~~~~~~~~~~~~
 
-The existing copy count displays in the link "bar" located below the Order Identifier within the line item.
+Line items with the status of new, selector-ready, order-ready, or pending-order can be deleted. Be sure you want to delete the line item as there is no warning message and once deleted line items cannot be un-deleted.
 
-If no existing copies are found, a "0" (zero) will display in plain text.
+NOTE: If you created copies for your line items before activating the purchase order you will need to delete the copies from the catalogue before deleting the Acquisitions line item. See Delete Copies
 
-If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
+.Delete line item
+. Check the box(es) of the line item(s) you would like to delete.
+. Using the main Actions menu, select *Actions* -> *Delete Selected Items*.
+. Your line item and the history associated with it will disappear.
 
-.Delete a Line Item
-Line items with the status of new, selector-ready, order-ready, or pending-order can be deleted.
-
-Be sure you want to delete the line item as there is no warning message and once deleted line items cannot be un-deleted..
-
-If you created copies for your line items before activating the purchase order you will need to delete the copies from the catalogue before deleting the Acquisitions line item. See Delete Copies
-
-Open a selection list or purchase order.
-
-Check the box(es) of the line item(s) you would like to delete.
-
-Using the main Actions menu, select Actions → Delete Selected Items.
-
-Your line item and the history associated with it will disappear.
-
-.Enhancements to Canceled and Delayed Items
-Cancel/Delay reasons have been modified so that you can easily
-differentiate between canceled and delayed items.  Each label now begins
-with *Canceled* or *Delayed*.  To view the list, click *Administration*
--> *Acquisitions Administration* -> *Cancel Reasons*.
-
-The cancel/delay reason label is displayed as the line item status in the list of line items or as the copy status in the list of copies.
-
-A delayed line item can now be canceled.  You can mark a line item as delayed, and if later, the order cannot be filled, you can change the line item's status to canceled.  When delayed line items are canceled, the encumbrances are deleted.
-
-Cancel/delay reasons now appear on the worksheet and the printable purchase order.
-
-Paid PO Line Items
-^^^^^^^^^^^^^^^^^^
-Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
-
-image::images/acquisitions/lineitempaid.png[]
+Line items with the status of On-order cannot be deleted - these must be cancelled. See Cancel Acq for details
