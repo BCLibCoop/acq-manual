@@ -4,9 +4,9 @@ Permissions
 Acquisitions Permission Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector, Purchaser, Administrator. These permission groups are applied in additional to a staff member's current permissions group.
+There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector, Purchaser, Administrator. These permission groups are applied in addition to a staff member's current permissions group.
 
-.Acq Basic Selector
+.Basic Selector
 * perform searches using the Acquisitions General Search
 * create, merge, clone, and delete selection lists
 * add line items to a selection list
@@ -20,14 +20,15 @@ There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector
 * view, but not create, purchase orders
 * view fund summaries for the current year for the location the workstation is registered to
 
-.Acq Advanced Selector
-* In addition to the Acq Basic Selector permissions, this group includes permissions to:
+.Advanced Selector
+* Basic Selector permissions
 * view fund summaries for multiple years and location
 * create, edit, delete funds
 * view debits associated with a fund
 * transfer money between funds
 
-.Acquisitions Purchaser
+.Purchaser
+* Advanced Selector permissions
 * apply distribution formulas to line items
 * create, view, rename, print, and activate purchase orders
 * add notes and charges to purchase orders
@@ -44,7 +45,7 @@ There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector
 * view, but not edit, providers
 * view all invoices associated with a particular provider
 
-Acquisitions Administrator
+.Administrator
 * Selector and purchaser permissions
 * Create, edit, and delete funding sources
 * Allocate credit to funding sources
@@ -56,31 +57,26 @@ Acquisitions Administrator
 * Create line item alerts
 * Assign acquisitions permission groups to other staff members
 
-The Acquisition Administrator Permission Group can only be assigned to library staff by members of the Sitka Team.
-
 Granting Acquisitions Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Secondary Groups button functionality has been introduced with the acquisitions module. This button enables supplemental permission groups to be added to staff accounts. The Secondary Groups button is currently only visible to those users with the Acq Admin supplemental permission group.
-
-The Acq Admin permission can only be granted to users by Sitka Staff. Only users with the Acq Admin permission can grant the Acq Purchaser, Acq Avd. Selector, and Acq Basic Selector permission to other users.
-
-Acquisitions permissions groups only function as secondary groups. If an acquisitions permission group is set as a user's Main (Profile) Permission Group, that user will be unable to login to Evergreen.
+Users with the Acquisitions Administrator permissions can grant the Basic Selector, Advanced Selector or Purchaser permission to other users. The Administrator permissions can only be granted by Sitka Staff.
 
 .Grant Acquisitions Permissions
-. To be able to use the acquisitions module, staff must be granted the appropriate supplemental permission group.
 . Open the account of the user you wish to grant acquisitions permissions to.
-. Click Edit.
-. Click Secondary Groups, located to the right of the Main (Profile) Permission Group.
-. From the dropdown menu select one of the Acq Supplementary Perm Groups.
-. Click Add.
-. Click Save.
-. Click Save in the top right hand corner of the Edit Screen to save the user's account.
+. Click *Edit*.
+. Click *Secondary Groups*
+. From the drop down menu select one of the Acq Supplementary Perm Groups.
+. Click *Add*.
+. Click *Save* in the pop-up.
+. Click *Save* in the patron account.
 
 .Remove Acquisitions Permissions
 . Open the account of the user you wish to remove acquisitions permissions from.
-. Click Edit.
-. Click Secondary Groups, located to the right of the Main (Profile) Permission Group.
-. Click Delete beside the permission group you would like to remove.
-. Click Save.
-. Click Save in the top right hand corner of the Edit Screen to save the user's account.
+. Click *Edit*.
+. Click *Secondary Groups*
+. Click *Delete* beside the permission group you would like to remove.
+. Click *Save* in the pop-up.
+. Click *Save* in the patron account.
+
+NOTE: Acquisitions permissions groups only function as secondary groups. If an acquisitions permission group is set as a user's Main (Profile) Permission Group, that user will be unable to login to Evergreen.
