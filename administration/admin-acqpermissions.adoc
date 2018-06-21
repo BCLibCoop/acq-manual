@@ -1,12 +1,86 @@
 Permissions
 -----------
 
-IMPORT_MARC - Using batch importer to create new bib records requires the
-IMPORT_MARC permission (same as open-ils.cat.biblio.record.xml.import). If the
-permission fails, the queued record will fail import and be stamped with a new
-"import.record.perm_failure" import error
+Acquisitions Permission Groups
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-IMPORT_ACQ_LINEITEM_BIB_RECORD_UPLOAD -  This allows interfaces leveraging
-the batch importer, such as Acquisitions, to create a higher barrier to entry.
-This permission prevents users from creating new bib records directly from the
-ACQ vendor MARC file upload interface.
+There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector, Purchaser, Administrator. These permission groups are applied in additional to a staff member's current permissions group.
+
+.Acq Basic Selector
+* perform searches using the Acquisitions General Search
+* create, merge, clone, and delete selection lists
+* add line items to a selection list
+* view and use selection lists created by another user
+* create brief MARC records
+* perform a MARC Federated Search
+* add copies, alerts, and notes to line items
+* apply funds to copies and line items on a selection list
+* link line items to bibliographic records in the catalogue
+* mark line items selector-ready and/or order-ready
+* view, but not create, purchase orders
+* view fund summaries for the current year for the location the workstation is registered to
+
+.Acq Advanced Selector
+* In addition to the Acq Basic Selector permissions, this group includes permissions to:
+* view fund summaries for multiple years and location
+* create, edit, delete funds
+* view debits associated with a fund
+* transfer money between funds
+
+.Acquisitions Purchaser
+* apply distribution formulas to line items
+* create, view, rename, print, and activate purchase orders
+* add notes and charges to purchase orders
+* receive and un-receive purchase orders, line items, and copies
+* view purchase order history
+* cancel purchase orders, line items, and copies
+* change a line item's claim policy
+* claim line items and copies
+* print claim vouchers
+* create, view, print, and close invoices
+* reopen invoices
+* add charges to invoices
+* prorate charges across the funds on an invoice
+* view, but not edit, providers
+* view all invoices associated with a particular provider
+
+Acquisitions Administrator
+* Selector and purchaser permissions
+* Create, edit, and delete funding sources
+* Allocate credit to funding sources
+* Create, edit, and delete funds
+* Allocate credit from funding sources to funds
+* Create, edit, and delete providers
+* Update a variety of Library Editor Settings
+* Create distribution formulas
+* Create line item alerts
+* Assign acquisitions permission groups to other staff members
+
+The Acquisition Administrator Permission Group can only be assigned to library staff by members of the Sitka Team.
+
+Granting Acquisitions Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Secondary Groups button functionality has been introduced with the acquisitions module. This button enables supplemental permission groups to be added to staff accounts. The Secondary Groups button is currently only visible to those users with the Acq Admin supplemental permission group.
+
+The Acq Admin permission can only be granted to users by Sitka Staff. Only users with the Acq Admin permission can grant the Acq Purchaser, Acq Avd. Selector, and Acq Basic Selector permission to other users.
+
+Acquisitions permissions groups only function as secondary groups. If an acquisitions permission group is set as a user's Main (Profile) Permission Group, that user will be unable to login to Evergreen.
+
+.Grant Acquisitions Permissions
+. To be able to use the acquisitions module, staff must be granted the appropriate supplemental permission group.
+. Open the account of the user you wish to grant acquisitions permissions to.
+. Click Edit.
+. Click Secondary Groups, located to the right of the Main (Profile) Permission Group.
+. From the dropdown menu select one of the Acq Supplementary Perm Groups.
+. Click Add.
+. Click Save.
+. Click Save in the top right hand corner of the Edit Screen to save the user's account.
+
+.Remove Acquisitions Permissions
+. Open the account of the user you wish to remove acquisitions permissions from.
+. Click Edit.
+. Click Secondary Groups, located to the right of the Main (Profile) Permission Group.
+. Click Delete beside the permission group you would like to remove.
+. Click Save.
+. Click Save in the top right hand corner of the Edit Screen to save the user's account.
