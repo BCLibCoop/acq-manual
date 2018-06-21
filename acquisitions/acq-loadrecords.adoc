@@ -41,6 +41,7 @@ the following options.
 will load them as acquisitions copies.
 ... If Load Items for Imported Records is *checked* copies will be created in the catalogue during upload.
 ... If Load Items for Imported Records is *not checked* copies will be created in the catalogue when the order is activated.
+. Click *Upload*
 
 .Load MARC Order Records recommended settings for upload
 image::images/acquisitions/uploadmarc.png[]
@@ -60,7 +61,7 @@ You can set default upload values by modifying the following settings in
 * Upload Merge on Best Match by Default
 ** True
 
-.Do not Set values for these ones
+.Do not Set values for these settings
 * Upload Activate PO
 * Upload Default Provider
 * Upload Load Items for Imported Records by Default

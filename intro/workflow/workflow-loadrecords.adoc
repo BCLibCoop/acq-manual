@@ -17,8 +17,8 @@ Workflow: Upload MARC Records
 .. Refer to xref:_load_marc_order_records[] for details.
 . View Purchase Order
 .. When your Purchase Order has finished loading, click *View Purchase Order*.
-.. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading do NOT start the upload again.
-.. Wait a few minutes if the link does not appear search for your xref:pending-order[].
+... It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading do NOT start the upload again.
+... Wait a few minutes if the link does not appear *Search* for your xref:pending-order[].
 . Once your purchase order is displayed on screen verify
 .. *Total Line Items*
 .. *Total Estimated*
@@ -30,8 +30,9 @@ Workflow: Upload MARC Records
 ... Click *Expand All* to view line item details
 ... Refer to xref:_line_items[] for details.
 . Activate Purchase Order
+.. Click *Activate Order*
 .. Refer to xref:_activate_purchase_order[] for details.
-. View EDI Message
+. View EDI Messages
 .. Evergreen will automatically send the order to your vendor via EDI
 .. Refer to xref:edi[] for details.
 

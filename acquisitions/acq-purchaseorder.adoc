@@ -65,10 +65,7 @@ If the fund(s) used for the purchase order have reached its warning level staff 
 . When you activate the order the bibliographic records and copies will be imported into the catalogue using the Vandelay interface, if not previously imported. See How to Load Bibliographic Records and Items into the Catalogue for instructions on using the Vandelay interface.
 . The funds associated with the purchases will be encumbered.
 
-
-Purchase Order Activation Progress Bar
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+.Activation Progress Bar
 After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalog. Once you complete entering in the parameters for the record import interface, the progress screen will appear. This progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
 
 * Lineitems processed
@@ -78,15 +75,13 @@ After you click *Activate Order*, you will be presented with the record import i
 * Debits Encumbered
 * Real Copies Processed
 
-Activate Purchase Order with Zero Copies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+.Activate Purchase Order with Zero Copies
 By default, a purchase order cannot be activated if a line item on the
 purchase order has zero copies. To activate a purchase order with line
 items that have zero copies, check the box *Allow activation with
 zero-copy lineitems*.
 
-WARNING: Once the purchase order has been activated without loading items, it is not possible to load the items. This feature should only be used in situations where the copies have already been added to the catalogue.
+NOTE: Once the purchase order has been activated without loading items, it is not possible to load the items. This feature should only be used in situations where the copies have already been added to the catalogue.
 
 * Cleaning up pre-acquisitions backlog
 
