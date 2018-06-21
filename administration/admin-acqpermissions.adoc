@@ -7,43 +7,43 @@ Acquisitions Permission Groups
 There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector, Purchaser, Administrator. These permission groups are applied in addition to a staff member's current permissions group.
 
 .Basic Selector
-* perform searches using the Acquisitions General Search
-* create, merge, clone, and delete selection lists
-* add line items to a selection list
-* view and use selection lists created by another user
-* create brief MARC records
-* perform a MARC Federated Search
-* add copies, alerts, and notes to line items
-* apply funds to copies and line items on a selection list
-* link line items to bibliographic records in the catalogue
-* mark line items selector-ready and/or order-ready
-* view, but not create, purchase orders
-* view fund summaries for the current year for the location the workstation is registered to
+* Use the Acquisitions General Search
+* Create, merge, clone, and delete selection lists
+* Add line items to a selection list
+* View and use selection lists created by another user
+* Create brief MARC records
+* Perform a MARC Federated Search
+* Add copies, alerts, and notes to line items
+* Apply funds to copies and line items on a selection list
+* Link line items to bibliographic records in the catalogue
+* Mark line items selector-ready and/or order-ready
+* View, but not create, purchase orders
+* View fund summaries for the current year for the location the workstation is registered to
 
 .Advanced Selector
 * Basic Selector permissions
-* view fund summaries for multiple years and location
-* create, edit, delete funds
-* view debits associated with a fund
-* transfer money between funds
+* View fund summaries for multiple years and location
+* Create, edit, delete funds
+* View debits associated with a fund
+* Transfer money between funds
 
 .Purchaser
 * Advanced Selector permissions
-* apply distribution formulas to line items
-* create, view, rename, print, and activate purchase orders
-* add notes and charges to purchase orders
-* receive and un-receive purchase orders, line items, and copies
-* view purchase order history
-* cancel purchase orders, line items, and copies
-* change a line item's claim policy
-* claim line items and copies
-* print claim vouchers
-* create, view, print, and close invoices
-* reopen invoices
-* add charges to invoices
-* prorate charges across the funds on an invoice
-* view, but not edit, providers
-* view all invoices associated with a particular provider
+* Apply distribution formulas to line items
+* Create, view, rename, print, and activate purchase orders
+* Add notes and charges to purchase orders
+* Receive and un-receive purchase orders, line items, and copies
+* View purchase order history
+* Cancel purchase orders, line items, and copies
+* Change a line item's claim policy
+* Claim line items and copies
+* Print claim vouchers
+* Create, view, print, and close invoices
+* Reopen invoices
+* Add charges to invoices
+* Prorate charges across the funds on an invoice
+* View, but not edit, providers
+* View all invoices associated with a particular provider
 
 .Administrator
 * Selector and purchaser permissions
