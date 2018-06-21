@@ -106,6 +106,45 @@ Purchase Order line items are marked as "Paid" in red text when all non-cancelle
 
 image::images/acquisitions/lineitempaid.png[]
 
+Add a Copy to a Line Item
+~~~~~~~~~~~~~~~~~~~~~~~~~
+By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added.
+
+Use the Copies link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
+
+.Add a Copy via the Line Item Batch Updater on a purchase order.
+. Open a purchase order.
+. Enter the total number of copies for the line item in the Copies field on the Line Item Batch Updater.
+. The number entered in the Copies field is always the total number of copies for the line item, not the number of copies to add to the selected line item(s).
+. Check the box(es) beside the line item(s) you wish to apply the copies to.
+. Click Apply to Selected.
+. The zero of the Copies link will update to reflect the number of copies created for the line item.
+
+.Add a Copy via the Copies Screen on a selection list or purchase order.
+. Open a selection list or purchase order.
+. Click the Copies (0) link on the line item you would like to add copies to. This will take you to the Copies screen.
+. Enter the number of copies you would like to order into Item Count and click Go. A line will be created for each copy.
+. The gray box is a batch update function. Each field in this box corresponds to the columns below.
+.. You can use the batch update for:
+... Owning Branch
+... Copy Location
+... Collection Code
+... Fund
+... Circ Modifier
+... Call Number
+.. Enter your terms and click Batch Update. The copies will update to reflect your choices.
+
+Once you have entered all the desired information, click Save Changes.
+
+
+Click Return to return to your selection list or purchase order.
+
+
+The zero of the Copies link will update to reflect the number of copies you have created for the line item.
+
+
+NOTE: Copies should not be added once a purchase order has been activated.
+
 Line Item Batch updater
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -125,99 +164,12 @@ Fund
 
 Circ Modifier
 
-Rather than filling in the same fields every time users can set up Distribution Formulas to use as Line Item Templates.
+Rather than filling in the same fields every time users can set up xref:_distribution_formulas[] to use as Line Item Templates.
 
-
-Fill in the individual fields on the Batch Updater you wish to update or select a Distribution Formula to use.
-
-Select the line items to apply the updates to.
-
-Click Apply to Selected.
-
-Click the Notes link to add notes or line item alerts to the line item.
-. Enter a price in the "Estimated Price" field.
-
-
-
-Add a Copy to a Line Item
-By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added.
-
-Use the Copies link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
-
-Copies can be added to line items in two ways:
-
-via the Line Item Batch Updater on a purchase order.
-
-via the Copies Screen on a selection list or purchase order.
-
-Copies should not be added once a purchase order has been activated.
-
-Batch Update
-Open a purchase order.
-
-Enter the total number of copies for the line item in the Copies field on the Line Item Batch Updater.
-
-
-The number entered in the Copies field is always the total number of copies for the line item, not the number of copies to add to the selected line item(s).
-
-Check the box(es) beside the line item(s) you wish to apply the copies to.
-
-Click Apply to Selected.
-
-The zero of the Copies link will update to reflect the number of copies created for the line item.
-
-
-Copies Screen
-Open a selection list or purchase order.
-
-Click the Copies (0) link on the line item you would like to add copies to. This will take you to the Copies screen.
-
-
-Enter the number of copies you would like to order into Item Count and click Go. A line will be created for each copy.
-
-
-The gray box is a batch update function. Each field in this box corresponds to the columns below.
-
-
-You can use the batch update for:
-
-Owning Branch
-
-Copy Location
-
-Collection Code
-
-Fund
-
-Circ Modifier
-
-Call Number
-
-Enter your terms and click Batch Update. The copies will update to reflect your choices.
-
-Evergreen will populate the shelving location field with the default shelving location if this field is left blank.
-
-Distribution formulas tell Evergreen how many copies should be distributed to each location. If desired, select a distribution formula from the Distribution Formulas drop down list. Click Apply. This will populate the Owning Branch and Shelving Location fields for your copies.
-
-Distribution Formulas can be created by Acquisitions Administrators; see Distribution Formulas.
-
-
-Leave the barcode field blank. Evergreen will assign the copy a temporary barcode.
-
-
-A temporary barcode prefix has been assigned to your library. This prefix is your library's code. Using this code ensures that there are no conflicts between the different libraries using acquisitions.
-
-Once you have entered all the desired information, click Save Changes.
-
-
-Click Return to return to your selection list or purchase order.
-
-
-The zero of the Copies link will update to reflect the number of copies you have created for the line item.
-
-
-
-
+.Batch Update Line Items
+. Select the line items to apply the updates to.
+. Fill in the individual fields on the Batch Updater you wish to update or select a Distribution Formula to use.
+. Click Apply to Selected.
 
 Line Item Actions
 ~~~~~~~~~~~~~~~~~

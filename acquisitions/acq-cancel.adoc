@@ -1,2 +1,14 @@
 Cancel Acquisitions
 -------------------
+
+.Enhancements to Canceled and Delayed Items
+Cancel/Delay reasons have been modified so that you can easily
+differentiate between canceled and delayed items.  Each label now begins
+with *Canceled* or *Delayed*.  To view the list, click *Administration*
+-> *Acquisitions Administration* -> *Cancel Reasons*.
+
+The cancel/delay reason label is displayed as the line item status in the list of line items or as the copy status in the list of copies.
+
+A delayed line item can now be canceled.  You can mark a line item as delayed, and if later, the order cannot be filled, you can change the line item's status to canceled.  When delayed line items are canceled, the encumbrances are deleted.
+
+Cancel/delay reasons now appear on the worksheet and the printable purchase order.
