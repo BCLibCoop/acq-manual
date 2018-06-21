@@ -13,9 +13,9 @@ image::images/acquisitions/lineitem.png[]
 . xref:existing-copies[] - a count of existing catalog copies on the line item
 . *Link to catalogue* -
 . xref:worksheet[] - a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information.
-. requests
-. Invoice
-. Queue
+. requests - this feature is not currently used by Sitka libraries
+. Invoice - a link to the invoice
+. Queue - a link to the Acquisitions queue
 . xref:lineitem-detail[] - Line items have both a simple and detailed view.
 . copies
 . notes
@@ -25,6 +25,7 @@ image::images/acquisitions/lineitem.png[]
 
 
 anchor:lineitem-detail[Line Item Detailed view]
+
 .Line Item Detailed view
 * Click *Expand* on a line item to display the detailed view for that line item.
 * Click *Expand All* to display the detailed view for all line items.
@@ -32,6 +33,7 @@ anchor:lineitem-detail[Line Item Detailed view]
 anchor:lineitem-detail[Line Item Detailed view]
 
 anchor:worksheet[worksheet]
+
 .Line Item Worksheet
 . Click the worksheet link on the line item for which you would like to view the worksheet.
 . The line item worksheet will appear.
@@ -39,6 +41,7 @@ anchor:worksheet[worksheet]
 . When you are finished, click Return to return to your selection list or purchase order.
 
 anchor:link-catalogue[Link to Catalog]
+
 .Link to the Catalog
 You can link a line item on a selection list to a corresponding MARC record in the catalogue.
 
@@ -64,8 +67,8 @@ The screen will reload and the line item will display with a catalog link.
 
 The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
 
-Paid Line Items
-^^^^^^^^^^^^^^^
+Paid for Line Items
+^^^^^^^^^^^^^^^^^^^
 Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
 
 image::images/acquisitions/lineitempaid.png[]
