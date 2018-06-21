@@ -6,31 +6,60 @@ Line items represent bibliographic records on a selection list or purchase order
 image::images/acquisitions/lineitem.png[]
 
 .Line Item
-. *Title & Publishing information*
-. *Order Identifier Selector* - Line items that are created from existing MARC records may have multiple ISBNs, ISSNs, or UPCs attached to the record (depending on the type of item). Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
-.. From the drop down menu chose the appropriate ISBN, ISSN, or UPC; or you can highlight the existing identifier and type in or paste your new identifier.
-. *Line Item ID* - System generated ID
-. xref:existing-copies[] - a count of existing catalog copies on the line item
-. *Link to catalogue* -
-. xref:worksheet[] - a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information.
-. requests - this feature is not currently used by Sitka libraries
+. xref:line-title[]
+. xref:order-identifier[]
+. xref:lineitem-id[]
+. xref:existing-copies[]
+. xref:link-catalogue[]
+. xref:worksheet[]
+. requests -
 . Invoice - a link to the invoice
 . Queue - a link to the Acquisitions queue
 . xref:lineitem-detail[] - Line items have both a simple and detailed view.
-. copies
-. notes
-. Actions
-. Status
-. Price
+. xref:lineitem-copies[]
+. xref:lineitem-notes[]
+. xref:lineitem-actions[]
+. xref:lineitem-status[]
+. xref:lineitem-price[]
 
+anchor:line-title[Title & Publishing information]
 
-anchor:lineitem-detail[Line Item Detailed view]
+Title & Publishing information
 
-.Line Item Detailed view
-* Click *Expand* on a line item to display the detailed view for that line item.
-* Click *Expand All* to display the detailed view for all line items.
-** Clicking Expand or Expand All a second time will close the detailed view.
-anchor:lineitem-detail[Line Item Detailed view]
+anchor:order-identifier[Order Identifier Selector]
+
+.Order Identifier Selector - Line items that are created from existing MARC records may have multiple ISBNs, ISSNs, or UPCs attached to the record (depending on the type of item).
+Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
+.. From the drop down menu chose the appropriate ISBN, ISSN, or UPC; or you can highlight the existing identifier and type in or paste your new identifier.
+
+anchor:lineitem-id[Line Item ID]
+
+Line Item ID = A unique system generated ID# which can be used to search for & retrieve line items
+
+anchor:existing-copies[Count of Existing Copies]
+. Count of Existing Copies on Line items
+When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
+
+* The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
+** If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
+** If no existing copies are found, a "0" (zero) will display in plain text.
+* The count of existing copies does not include copies that are in either a Lost or a Missing status.
+
+anchor:link-catalogue[Link to Catalog]
+
+.Link to the Catalog
+You can link a line item on a selection list to a corresponding MARC record in the catalogue.
+The link to catalog option enables you to search for a matching record and link the line item to it. The catalogue record replaces the record originally used to create the line item. When bibliographic records and copies are loaded into the catalogue the copies are attached to the linked record in the catalogue.
+Open a selection list or purchase order.
+On the line item you would like to link, click link to catalog.
+The Locate Bib Record search box will appear. By default the search box contains the item's the ISBN, title, and author. Adjust your search terms if necessary.
+Click Search.
+Your result(s) will appear. If there are no results you will return to the search screen.
+The brief bibliographic information appears.
+Click View MARC to view the MARC record of your selection. Click Hide to hide the MARC record.
+If you are satisfied that the record is for the same item, click Select to link it to the record on the selection list or purchase order.
+The screen will reload and the line item will display with a catalog link.
+The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
 
 anchor:worksheet[worksheet]
 
@@ -40,32 +69,36 @@ anchor:worksheet[worksheet]
 . The worksheet can be printed by CTRL+P.
 . When you are finished, click Return to return to your selection list or purchase order.
 
-anchor:link-catalogue[Link to Catalog]
+anchor:requests[Requests]
 
-.Link to the Catalog
-You can link a line item on a selection list to a corresponding MARC record in the catalogue.
+Requests - this feature is not currently used by Sitka libraries
 
-The link to catalog option enables you to search for a matching record and link the line item to it. The catalogue record replaces the record originally used to create the line item. When bibliographic records and copies are loaded into the catalogue the copies are attached to the linked record in the catalogue.
+Invoice - a link to the invoice
 
-Open a selection list or purchase order.
+Queue - a link to the Acquisitions queue
 
-On the line item you would like to link, click link to catalog.
+anchor:lineitem-detail[Line Item Detailed view]
 
-The Locate Bib Record search box will appear. By default the search box contains the item's the ISBN, title, and author. Adjust your search terms if necessary.
+.Line Item Detailed view
+* Click *Expand* on a line item to display the detailed view for that line item.
+* Click *Expand All* to display the detailed view for all line items.
+** Clicking Expand or Expand All a second time will close the detailed view.
 
-Click Search.
+anchor:lineitem-copies[Copies]
 
-Your result(s) will appear. If there are no results you will return to the search screen.
+anchor:lineitem-notes[Notes]
 
-The brief bibliographic information appears.
+anchor:lineitem-actions[Actions]
 
-Click View MARC to view the MARC record of your selection. Click Hide to hide the MARC record.
+Refer to xref:_line_item_actions[] for details.
 
-If you are satisfied that the record is for the same item, click Select to link it to the record on the selection list or purchase order.
+anchor:lineitem-status[Status]
 
-The screen will reload and the line item will display with a catalog link.
+Refer to xref:_line_item_status[] for details.
 
-The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
+anchor:lineitem-price[Price]
+
+
 
 Paid for Line Items
 ^^^^^^^^^^^^^^^^^^^
@@ -135,8 +168,8 @@ Alerts are pop up messages that appear when an item is received. Alerts also dis
 
 NOTE: Alerts will not pop up if they are added after the purchase order is activated.
 
-Line Item Statuses
-~~~~~~~~~~~~~~~~~~
+Line Item Status
+~~~~~~~~~~~~~~~~
 The status of a line item displays to the right of the actions menu. The line item bar changes colour depending on the status of the line item.
 
 The colours that display may vary depending on your screen resolution.
@@ -323,14 +356,7 @@ available:
 * Selection List
 * Purchase Order
 
-anchor:existing-copies[Count of Existing Copies]
-. Count of Existing Copies on Line items
-When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
 
-* The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
-** If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
-** If no existing copies are found, a "0" (zero) will display in plain text.
-* The count of existing copies does not include copies that are in either a Lost or a Missing status.
 
 Delete a Line Item
 ~~~~~~~~~~~~~~~~~~
