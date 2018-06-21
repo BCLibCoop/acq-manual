@@ -9,26 +9,25 @@ image::images/acquisitions/lineitem.png[]
 . *Title & Publishing information*
 . *Order Identifier Selector* - Line items that are created from existing MARC records may have multiple ISBNs, ISSNs, or UPCs attached to the record (depending on the type of item). Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
 .. From the drop down menu chose the appropriate ISBN, ISSN, or UPC; or you can highlight the existing identifier and type in or paste your new identifier.
-. *Line Item ID* -
+. *Line Item ID* - System generated ID
 . *Existing copy count* - a count of existing catalog copies on the line item
-. Link to catalogue
+. *Link to catalogue* -
 . Work sheet
 . requests
 . Invoice
 . Queue
-. xref:lineitem-detail - Line items have both a simple and detailed view.
+. xref:lineitem-detail[] - Line items have both a simple and detailed view.
 . copies
 . notes
 . Actions
 . Status
 . Price
 
-
-anchor:lineitem-detail[Line Item Detailed view]
 .Line Item Detailed view
 * Click *Expand* on a line item to display the detailed view for that line item.
 * Click *Expand All* to display the detailed view for all line items.
 ** Clicking Expand or Expand All a second time will close the detailed view.
+anchor:lineitem-detail[Line Item Detailed view]
 
 .Line Item Worksheet
 The Line Item Worksheet is designed to be a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information. The system fills in the worksheet as a line item goes through the acquisitions process. This worksheet can be placed in an item that is sent to cataloguing or processing.
@@ -56,7 +55,7 @@ Click Search.
 
 Your result(s) will appear. If there are no results you will return to the search screen.
 
-Currently the brief bibliographic information does not appear. This is a known bug.
+The brief bibliographic information appears.
 
 Click View MARC to view the MARC record of your selection. Click Hide to hide the MARC record.
 
