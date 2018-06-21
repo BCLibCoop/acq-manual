@@ -133,15 +133,9 @@ Use the Copies link to add copy information to a line item. You can add copies t
 ... Circ Modifier
 ... Call Number
 .. Enter your terms and click Batch Update. The copies will update to reflect your choices.
-
-Once you have entered all the desired information, click Save Changes.
-
-
-Click Return to return to your selection list or purchase order.
-
-
-The zero of the Copies link will update to reflect the number of copies you have created for the line item.
-
+. Once you have entered all the desired information, click Save Changes.
+. Click Return to return to your selection list or purchase order.
+. The zero of the Copies link will update to reflect the number of copies you have created for the line item.
 
 NOTE: Copies should not be added once a purchase order has been activated.
 
@@ -152,17 +146,12 @@ The Line Item Batch Updater allows line items on purchase orders to have multipl
 
 The following fields can be batch updated:
 
-Copies - this is the total number of copies for the line item, rather than additional copies
-
-Owning Branch
-
-Copy Location
-
-Collection Code
-
-Fund
-
-Circ Modifier
+* Copies - this is the total number of copies for the line item, rather than additional copies
+* Owning Branch
+* Copy Location
+* Collection Code
+* Fund
+* Circ Modifier
 
 Rather than filling in the same fields every time users can set up xref:_distribution_formulas[] to use as Line Item Templates.
 
@@ -251,42 +240,6 @@ The colours that display may vary depending on your screen resolution.
 * delayed (blue): Item has been cancelled but debits remain as the item is really delayed.
 
 NOTE: While there is some overlap in naming, line item statuses and item statuses are not the same thing.
-
-Return to Line Item
-^^^^^^^^^^^^^^^^^^^
-This feature enables you to return to a specific line item on a selection list,
-purchase order, or invoice after you have navigated away from the page that
-contained the line item.  This feature is especially useful when you must
-identify a line item in a long list. After working with a line item, you can
-return to your place in the search results or the list of line items.
-
-To use this feature, select a line item, and then, depending on the location of
-the line item, click *Return* or *Return to search*.  Evergreen will take you
-back to the specific line item in your search and highlight the line item with a
-colored box.
-
-For example, you retrieve a selection list, find a line item to examine, and
-click the *Copies* link.  After editing the copies, you click *Return*.
-Evergreen takes you back to your selection list and highlights the line item
-that you viewed.
-
-This feature is available in _General Search Results_, _Purchase Orders_, and
-_Selection Lists_, whenever any of the following links are available:
-
-* Selection List
-* Purchase Order
-* Copies
-* Notes
-* Worksheet
-
-This feature is available in Invoices whenever any of the following links are
-available:
-
-* Title
-* Selection List
-* Purchase Order
-
-
 
 Delete a Line Item
 ~~~~~~~~~~~~~~~~~~
