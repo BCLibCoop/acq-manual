@@ -1,7 +1,7 @@
 Line Items
 ----------
 
-Line items represent bibliographic records on a selection list or purchase order. One line item corresponds to one bibliographic record. Line items contain attributes, which are characteristics of the bibliographic record, such as ISBN or Title. Line items also contain copy information, price information, notes, and alerts.
+Line items represent bibliographic records on a selection list or purchase order. Line items contain attributes, which are characteristics of the bibliographic record, such as ISBN or Title. Line items also contain copy information, price information, notes, and alerts.
 
 image::images/acquisitions/lineitem.png[]
 
@@ -16,7 +16,7 @@ image::images/acquisitions/lineitem.png[]
 . requests
 . Invoice
 . Queue
-. Line Item Detailed view
+. xref:lineitem-detail - Line items have both a simple and detailed view.
 . copies
 . notes
 . Actions
@@ -24,18 +24,13 @@ image::images/acquisitions/lineitem.png[]
 . Price
 
 
+anchor:lineitem-detail[Line Item Detailed view]
+.Line Item Detailed view
+* Click *Expand* on a line item to display the detailed view for that line item.
+* Click *Expand All* to display the detailed view for all line items.
+** Clicking Expand or Expand All a second time will close the detailed view.
 
-Line Item Detailed view
-~~~~~~~~~~~~~~~~~~~~~~~
-Line items have both a simple and detailed view.
-
-. Open the selection list or purchase order.
-. Click the hyperlink *Expand* on a line item to display the detailed view for that line item.
-. Click the hyperlink *Expand All* to display the detailed view for all line items.
-.. Clicking Expand or Expand All a second time will close the detailed view.
-
-Line Item Worksheet
-~~~~~~~~~~~~~~~~~~~
+.Line Item Worksheet
 The Line Item Worksheet is designed to be a printable sheet that contains details about the line item, including alerts, notes, number of holds, and distribution information. The system fills in the worksheet as a line item goes through the acquisitions process. This worksheet can be placed in an item that is sent to cataloguing or processing.
 
 Click the worksheet link on the line item for which you would like to view the worksheet.
@@ -45,6 +40,31 @@ The line item worksheet will appear.
 The worksheet can be printed by CTRL+P.
 
 When you are finished, click Return to return to your selection list or purchase order.
+
+.Link to the Catalog
+You can link a line item on a selection list to a corresponding MARC record in the catalogue.
+
+The link to catalog option enables you to search for a matching record and link the line item to it. The catalogue record replaces the record originally used to create the line item. When bibliographic records and copies are loaded into the catalogue the copies are attached to the linked record in the catalogue.
+
+Open a selection list or purchase order.
+
+On the line item you would like to link, click link to catalog.
+
+The Locate Bib Record search box will appear. By default the search box contains the item's the ISBN, title, and author. Adjust your search terms if necessary.
+
+Click Search.
+
+Your result(s) will appear. If there are no results you will return to the search screen.
+
+Currently the brief bibliographic information does not appear. This is a known bug.
+
+Click View MARC to view the MARC record of your selection. Click Hide to hide the MARC record.
+
+If you are satisfied that the record is for the same item, click Select to link it to the record on the selection list or purchase order.
+
+The screen will reload and the line item will display with a catalog link.
+
+The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
 
 
 Line Item notes
@@ -93,24 +113,21 @@ Click Return to return to the selection list or purchase order.
 
 A red flag will now appear to the right of the Notes link and the zero of the Notes link will update to display the total number of alerts and notes for the line item.
 
-Line Item Actions Menu
-The line item actions menu provides you with a number of functions that can be applied to a particular line item.
+.Line Item Actions Menu
 
+The line item actions menu provides you with a number of functions that can be applied to a particular line item.
 
 Update Barcode Holdings Maintenance Claims View History
 
 Update Barcode
 You are only able to update barcodes once a line item has been received.
 
-Open a purchase order.
-
 Using the Actions menu on the line item, select Actions → Update Barcodes.
-
 
 The Create or Re-barcode Items screen will open in a new tab.
 
 
-See Adding Holdings to Title Records begining with step 4 for further instructions.
+See Adding Holdings to Title Records beginning with step 4 for further instructions.
 
 Holdings Maintenance
 Once an item is received it is possible to use the Actions menu to go directly to Holding Maintenance to view and edit the holdings for a line item.
@@ -207,8 +224,7 @@ delayed (blue): Item has been cancelled but debits remain as the item is really 
 
 While there is some overlap in naming, line item statuses and item statuses are not the same thing.
 
-Line Item Batch updater
-~~~~~~~~~~~~~~~~~~~~~~~
+.Line Item Batch updater
 
 The Line Item Batch Updater allows line items on purchase orders to have multiple fields batch updated simultaneously.
 
@@ -238,36 +254,7 @@ Click Apply to Selected.
 Click the Notes link to add notes or line item alerts to the line item.
 . Enter a price in the "Estimated Price" field.
 
-Link Line Items to the Catalog
-You can link a line item on a selection list to a corresponding MARC record in the catalogue.
 
-The link to catalog option enables you to search for a matching record and link the line item to it. The catalogue record replaces the record originally used to create the line item. When bibliographic records and copies are loaded into the catalogue the copies are attached to the linked record in the catalogue.
-
-Open a selection list or purchase order.
-
-On the line item you would like to link, click link to catalog.
-
-
-The Locate Bib Record search box will appear. By default the search box contains the item's the ISBN, title, and author. Adjust your search terms if necessary.
-
-
-Click Search.
-
-
-Your result(s) will appear. If there are no results you will return to the search screen.
-
-
-Currently the brief bibliographic information does not appear. This is a known bug.
-
-Click View MARC to view the MARC record of your selection. Click Hide to hide the MARC record.
-
-
-If you are satisfied that the record is for the same item, click Select to link it to the record on the selection list or purchase order.
-
-
-The screen will reload and the line item will display with a catalog link.
-
-The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
 
 Add a Copy to a Line Item
 By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added.
@@ -384,8 +371,7 @@ available:
 * Selection List
 * Purchase Order
 
-Count of Existing Copies on Line items
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+. Count of Existing Copies on Line items
 When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
 
 The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
@@ -398,8 +384,7 @@ If no existing copies are found, a "0" (zero) will display in plain text.
 
 If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
 
-Delete a Line Item
-~~~~~~~~~~~~~~~~~~
+.Delete a Line Item
 Line items with the status of new, selector-ready, order-ready, or pending-order can be deleted.
 
 Be sure you want to delete the line item as there is no warning message and once deleted line items cannot be un-deleted..
@@ -410,14 +395,11 @@ Open a selection list or purchase order.
 
 Check the box(es) of the line item(s) you would like to delete.
 
-
 Using the main Actions menu, select Actions → Delete Selected Items.
-
 
 Your line item and the history associated with it will disappear.
 
-Enhancements to Canceled and Delayed Items
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.Enhancements to Canceled and Delayed Items
 Cancel/Delay reasons have been modified so that you can easily
 differentiate between canceled and delayed items.  Each label now begins
 with *Canceled* or *Delayed*.  To view the list, click *Administration*
