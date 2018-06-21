@@ -12,10 +12,10 @@ image::images/acquisitions/lineitem.png[]
 . xref:existing-copies[]
 . xref:link-catalogue[]
 . xref:worksheet[]
-. requests -
-. Invoice - a link to the invoice
-. Queue - a link to the Acquisitions queue
-. xref:lineitem-detail[] - Line items have both a simple and detailed view.
+. xref:lineitem-requests[]
+. xref:lineitem-invoice[]
+. xref:lineitem-queue[]
+. xref:lineitem-detail[]
 . xref:lineitem-copies[]
 . xref:lineitem-notes[]
 . xref:lineitem-actions[]
@@ -24,7 +24,7 @@ image::images/acquisitions/lineitem.png[]
 
 anchor:line-title[Title & Publishing information]
 
-*Title & Publishing information* -
+*Title & Publishing information* - Title & Publishing information from the bibliographic record. If there is a jacket cover it will be displayed.
 
 anchor:order-identifier[Order Identifier]
 
@@ -39,7 +39,7 @@ anchor:lineitem-id[Line Item ID]
 
 anchor:existing-copies[Count of Existing Copies]
 
-. Count of Existing Copies on Line items
+.Count of Existing Copies on Line items
 When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
 
 * The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
@@ -49,7 +49,7 @@ When displaying Acquisitions line items within the Selection List and Purchase O
 
 anchor:link-catalogue[Link to Catalog]
 
-.Link to the Catalog
+.Catalog link / Link to Catalog
 You can link a line item on a selection list to a corresponding MARC record in the catalogue.
 The link to catalog option enables you to search for a matching record and link the line item to it. The catalogue record replaces the record originally used to create the line item. When bibliographic records and copies are loaded into the catalogue the copies are attached to the linked record in the catalogue.
 Open a selection list or purchase order.
@@ -63,7 +63,7 @@ If you are satisfied that the record is for the same item, click Select to link 
 The screen will reload and the line item will display with a catalog link.
 The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
 
-anchor:worksheet[worksheet]
+anchor:worksheet[Worksheet]
 
 .Line Item Worksheet
 . Click the worksheet link on the line item for which you would like to view the worksheet.
@@ -71,13 +71,17 @@ anchor:worksheet[worksheet]
 . The worksheet can be printed by CTRL+P.
 . When you are finished, click Return to return to your selection list or purchase order.
 
-anchor:requests[Requests]
+anchor:lineitem-requests[Requests]
 
-Requests - this feature is not currently used by Sitka libraries
+*Patron Requests* - this feature is not currently used by Sitka libraries
 
-Invoice - a link to the invoice
+anchor:lineitem-invoice[Invoice]
 
-Queue - a link to the Acquisitions queue
+*Invoice* - a link to the invoice
+
+anchor:lineitem-queue[Queue]
+
+*Queue* - a link to the Acquisitions queue
 
 anchor:lineitem-detail[Line Item Detailed view]
 
@@ -88,17 +92,25 @@ anchor:lineitem-detail[Line Item Detailed view]
 
 anchor:lineitem-copies[Copies]
 
+*Copies* - Use the Copies link to add copy information to a line item.
+
 anchor:lineitem-notes[Notes]
 
+*Notes* - Use the Notes link to add notes or alerts to a line item.
+
 anchor:lineitem-actions[Actions]
+
+*Actions* - Use the Actions link to perform specific actions on a line item.
 
 Refer to xref:_line_item_actions[] for details.
 
 anchor:lineitem-status[Status]
 
-Refer to xref:_line_item_status[] for details.
+*Line Item Status* - Refer to xref:_line_item_status[] for details.
 
 anchor:lineitem-price[Price]
+
+*Estimated Price* - A purchase order will not activate without the Estimated Price field filled in for each line item. The price entered into Estimated Price is the amount that will be encumbered for the item. It is also the amount that will appear in the price field of the copy editor for all copies created from this line item.
 
 Paid for Line Items
 ^^^^^^^^^^^^^^^^^^^
