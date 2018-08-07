@@ -78,10 +78,12 @@ Allocate Credit to Funds - Funding Source Interface
 
 Once you have set up your funds, credit can be allocated to them from your funding sources in two ways:
 
-. Allocate Credit to Fund - Funding Source Interface
-. Allocate Credit to Fund - Fund Interface
+. xref:allocate-credit-fund-source[]
+. xref:allocate-credit-fund[]
 
 To allocate credit to your funds using the Funding Source Interface:
+
+anchor:allocate-credit-fund-source[Allocate Credit to Fund - Funding Source Interface]
 
 . Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
 . Click on the hyper linked name of the funding source.
