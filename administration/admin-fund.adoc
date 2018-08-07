@@ -15,6 +15,9 @@ Delete a Fund
 
 Allocate Credit to Funds - Funds Interface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+anchor:allocate-credit-funds[Allocate Credit to Fund - Fund Interface]
+
 To allocate credits using the Fund Interface:
 
 . Select *Administration* -> *Acquisitions Administration* -> *Funds*.
