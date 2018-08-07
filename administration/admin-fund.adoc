@@ -1,17 +1,52 @@
 Funds
 -----
 
+Funds should be created for every budget you wish to track. For some libraries this may be a fund per individual collection. Other libraries may only use one fund for all purchasing. Libraries may want to create funds specifically for non-bibliographic purchases, such as processing supplies, or for other charges such as charges for MARC records.
+
+Multi-branch libraries may have a single set of funds for their entire system, a set of funds for each branch, or may use a combination of funds at the branch and system levels.
+
 Create a Fund
 ~~~~~~~~~~~~~
 
 . Click *Administration* -> *Acquisitions Administration* -> *Funds*
+. Click New Fund.
+. Enter a Name for the fund. There is no limit to the number of characters that can be entered in this field.
+. Create a unique Code for the fund. There is no limit to the number of characters that can be entered in this field.
+. Please add your library short code to the end of all fund codes. Example AF_ZSP
+. Enter a year for the fund. This can be a fiscal year or a calendar year. The format of the year is YYYY.
+. Select an org unit from the drop down menu. The org unit indicates the organizational unit(s) whose staff can use this fund.
+.. In a multi-branch system funds may be set to the top organizational unit, the organizational units for branches, or a combination.
+. Select a Currency Type from the drop down menu. When a fund is applied to a line item or copy the price of the item will be encumbered in the currency associated with the fund.
+. Check the Active box to activate this fund. You cannot make purchases from an inactive fund.
+. Enter a Balance Stop Percent. The balance stop percent prevents you from making purchases when only a specified amount of the fund remains. For example, if you want the fund to stop purchases after 95% of the fund has been spent, then you would enter 95 in the field. When the fund reaches its Balance Stop Percent, it will appear in red when you apply funds to copies.
+.. If this field is left blank it is possible to overspend the fund.
+. The Balance Stop Percent can be adjusted as needed throughout your fiscal year.
+. Enter a Balance Warning Percent. The balance warning percent gives you a warning that the fund is low. You can specify any percent. For example, if you want to be warned when 90% of the fund has been spent, then you would enter 90 in the field. When the fund reaches its Balance Warning Percent, it will appear in yellow when you apply funds to copies.
+. The Balance Warning Percent can be adjusted as needed throughout your fiscal year.
+. Check the Propagate box to propagate funds. When you propagate a fund, Evergreen will create a new fund for the following fiscal year with the same parameters as your current fund. All of the settings transfer except for the year and the amount of money in the fund. Propagation occurs during the fiscal year close-out operation.
+. Check the Rollover box if you would like to roll over remaining funds and/or encumbrances during the fiscal year close-out operation into the same fund for the next year.
+. Click Save.
+. Click Reload.
 
 
 Edit a Fund
 ~~~~~~~~~~~
 
+While you are able to edit your fund's name, owner, and code you are unable to edit the balance of your fund. A fund's balance can be adjusted by allocating monies to the fund or transferring monies to another fund.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Double-click on the row you would like to edit. A pop-up box will appear in which you can edit the fields.
+. Make your changes and click *Save*.
+
+NOTE: Do Not edit the currency of an active in-use fund.
+
+
 Delete a Fund
 ~~~~~~~~~~~~~
+
+It is possible to delete a fund by checking the box of the fund you wish to delete and clicking Delete Selected.
+
+A Fund can only be deleted if no credit has been applied to it.
 
 Allocate Credit to Funds - Funds Interface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
