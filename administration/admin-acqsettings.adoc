@@ -27,7 +27,16 @@ You can access these settings by clicking Admin → Local Administration → Lib
 [options="header"]
 |==============================================
 | Setting | Description | Data type | Edited by | Notes
-| | | |
-| | | |
-| | | |
+| Upload Activate PO | | True/False | LSA and Acq Admin |
+| Upload Create PO | | True/False | LSA and Acq Admin |
+| Upload Default Insufficient Quality Fall-Thru Profile | | Selection List | LSA and Acq Admin | Quality Fall-Thru Profiles are not currently set up in the system.
+| Upload Default Match Set | | Selection List | LSA and Acq Admin
+| Upload Default Merge Profile | | Selection List | LSA and Acq Admin
+| Upload Default Min. Quality Ratio | | Number | LSA and Acq Admin | Minimum quality ratios are not currently set up in the system.
+| Upload Default Provider | | Text | LSA and Acq Admin
+| Upload Import Non Matching by Default | | True/False | LSA and Acq Admin |
+| Upload Load Items for Imported Records by Default | | True/False | LSA and Acq Admin |
+| Upload Merge on Best Match by Default | | True/False | LSA and Acq Admin |
+| Upload Merge on Exact Match by Default | | True/False | LSA and Acq Admin |
+| Upload Merge on Single Match by Default | | True/False | LSA and Acq Admin |
 |===
