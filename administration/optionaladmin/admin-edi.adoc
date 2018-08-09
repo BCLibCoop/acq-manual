@@ -20,7 +20,7 @@ For EDI to work your library must have a SAN and each of your providers must sup
 Library SAN
 +++++++++++
 
-Your Library SAN is stored in your Org Unit settings. 
+Your Library SAN is stored in your Org Unit settings.
 
 A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact Sitka Support if your library does not already have a SAN.
 

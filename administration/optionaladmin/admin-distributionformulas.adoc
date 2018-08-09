@@ -1,4 +1,50 @@
 Distribution Formulas
 ~~~~~~~~~~~~~~~~~~~~~
 
+Distribution formulas are intented for use in multi-branch systems to specify the number of copies that should be distributed to specific branches. The formulas are also used for all libraries as line item templates with the batch updater on purchase orders. Formulas can be created and reused as needed.
+
+.Create a Distribution Formula
 . Click *Administration* -> *Acquisitions Administration* -> *Distribution Formulas*
+. Click New Formula.
+. Enter a Formula name. There is no limit to the number of characters that can be entered in this field.
+. Choose a Formula Owner. The formula owner indicates the organizational units whose staff can use this formula.
+. Ignore the Skip Count field. It has no purpose in 2.6.
+. Click Save.
+. Click New Entry.
+. Each entry represents a copy.
+
+Create your distribution formula/line item template using a combination of the following fields:
+* Owning Library
+* Copy Location
+* Fund
+* Circ Modifier
+* Collection Code
+
+In the Item Count field, enter the number of copies that should be added to the branch.
+You can enter the number or use the arrows on the right side of the field.
+Click Apply Changes. The screen will reload.
+For multi-branch libraries, repeat steps 7 through 11 to add copies for as many branches as you require.
+
+To view the changes to your formula, select Admin → Acquisitions → Distribution Formulas. The item count will reflect the entries to your distribution formula.
+
+.Edit a Distribution Formula
+Select Admin → Acquisitions → Distribution Formulas.
+Click on the hyperlinked name of the formula you would like to edit.
+At this screen you can add a new entry, edit an existing entry using the drop down menus, or delete an existing entry using the red X beside the entry you wish to delete. If you click and hold the three dots you are able to reorder your list.
+When using a distribution formula the system will start at the top of the list and work down the list until it runs out of copies. For example, if you are ordering five copies of a title and you apply a distribution formula with entries for seven branches (1 copy each), only the first five branches will receive copies.
+Click Apply Changes after you have made your changes.
+
+.Clone a Distribution Formula
+Select Admin → Acquisitions → Distribution Formulas.
+Check the box adjacent to the formula you wish to clone and click Clone Selected.
+Make the necessary changes to your cloned formula and click Apply Changes.
+Edit the Name of a Distribution Formula
+Select Admin → Acquisitions → Distribution Formulas.
+Double-click on the line you would like to edit. A pop-up box will appear.
+Change the name and click Save.
+OR
+
+Select Admin → Acquisitions → Distribution Formulas.
+Click on the hyperlinked name of the formula you would like to edit.
+In the top left hand corner of the screen, click on the large hyperlinked name of your formula.
+In the pop-up box that appears change the name and click OK.
