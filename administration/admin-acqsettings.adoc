@@ -1,2 +1,24 @@
 Acquisitions Settings in the Library Settings Editor
 ----------------------------------------------------
+
+Several settings in the Library Settings Editor pertain to functions in the Acquisitions Module.
+
+You can access these settings by clicking Admin → Local Administration → Library Settings Editor. To update these settings a user must have both LSA and Acquisitions Administration permissions.
+
+.Acquisitions
+[options="header"]
+|============
+| Setting | Description | Data type | Edited by | Notes
+| Allow funds to be rolloed over without bringing the money along | This setting controls whether money and encumbrances or just encumbrances are rolled over when performing the Fiscal Year Close-out Operation. | True/false | LSA and Acq Admin
+| Allows patrons to create automatic holds from purchase requests | | |
+| Default circulation modifier | | |
+|===
+
+.Acquisitions - Load MARC Order Record Defaults
+[options="header"]
+|==============================================
+| Setting | Description | Data type | Edited by | Notes
+| | | |
+| | | |
+| | | |
+|===
