@@ -1,4 +1,16 @@
 Claim Policies
 ~~~~~~~~~~~~~~
 
-. Click *Administration* -> *Acquisitions Administration* ->
+.Create a Claim policy
+. Click *Administration* -> *Acquisitions Administration* -> Claim Policies
+. Click *New Claim Policy*
+.. Claim Policy name
+.. Org Unit
+.. Description
+. Click *Save*
+. Click *Administration* -> *Acquisitions Administration* -> *Claim Policy Actions*
+. Click *New Claim Policy Action*
+.. Action (Event Type)
+.. Action (Interval)
+.. Claim Policy ID
+. Click *Save*

@@ -1,0 +1,4 @@
+Acquisitions Reports
+--------------------
+
+Acquisitions report templates can be found in the Acquisitions sub folder in the Sitka templates [Link]
