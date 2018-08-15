@@ -6,14 +6,14 @@ Evergreen uses claim policies to compile a list of claim-ready items based on or
 Claim Policies
 ~~~~~~~~~~~~~~
 
-The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies purchased from the provider. The claim policy for a line item can be changed on the purchase order until the line item is received.
+The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies purchased from the provider.
 
 image::images/acquisitions/claimpolicies1.png[]
 
 .Apply or Change a Line Item Claim Policy
 . Open your purchase order.
 . Check the check boxes adjacent to each line item you would like to apply the claim policy to.
-. Click *Actions* -> Select *Apply Claim Policy to Selected Line Items*.
+. Click *Actions* -> *Apply Claim Policy to Selected Line Items*.
 . Choose a *Claim policy* from the drop down menu.
 . Click *Save*.
 . The new claim policy will be applied to the line item(s).
@@ -25,10 +25,10 @@ Claim-Ready Items
 
 Evergreen can produce a list of items, by ordering branch, which are ready to be claimed. You can use this list to manually claim items from your provider without having to open the purchase orders.
 
-If an item has not been received and meets the conditions for claiming, according to the item's claim policy, the item will be eligible for claiming.
+If an item has not been received and meets the conditions for claiming, the item will be eligible for claiming.
 
 .Batch Claiming of Claim-Ready Items
-. Click -> *Acquisitions* -> *Claim-Ready Items*.
+. Click *Acquisitions* -> *Claim-Ready Items*.
 . Any items that meet the conditions for claiming will appear.
 .. Any items being claimed with the same claim type (claim reason) can be claimed at the same time.
 . Check the box(es) adjacent to the line item(s) you wish to claim.
@@ -57,13 +57,14 @@ Individual copies on a line item can be manually claimed through the claim-ready
 
 .Claim a Line Item from the Purchase Order
 . Open your purchase order.
-. Using the *Actions* menu on the line item, select
-. Actions -> Claims (0 existing)
+. Using the *Actions* menu on the line item
+. Click *Actions* -> *Claims (0 existing)*
 . Check the boxes adjacent to the copies you wish to claim and click *Claim Selected*.
 . From the *Claim Type* drop down menu select the reason you are making the claim.
-. Enter a note if you desire and click *Claim*.
-. The number of existing claims on the line item updates and a claim voucher appears.
-. The voucher can be printed and mailed to the provider to initiate the claim.
+. Enter a note (optional) and click *Claim*.
+. Claim vouchers for the claimed items will appear.
+. Click *Print* to save or print out your vouchers.
+.. The voucher can be mailed or emailed to the provider to initiate the claim.
 
 Items can be manually claimed at any time.  Manual claiming can be done for both line items and individual copies. You can manually claim a line item any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
 

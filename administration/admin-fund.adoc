@@ -48,10 +48,10 @@ It is possible to delete a fund by checking the box of the fund you wish to dele
 
 A Fund can only be deleted if no credit has been applied to it.
 
-Allocate Credit to Funds - Funds Interface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Allocate to Funds - Funds Interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-anchor:allocate-credit-funds[Allocate Credit to Fund - Fund Interface]
+anchor:allocate-funds[Allocate to Fund - Funds Interface]
 
 To allocate credits using the Fund Interface:
 
