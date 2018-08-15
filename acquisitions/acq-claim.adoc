@@ -6,9 +6,9 @@ Evergreen uses claim policies to compile a list of claim-ready items based on or
 Claim Policies
 ~~~~~~~~~~~~~~
 
-The default claim policy associated with each provider is automatically assigned to line items and copies purchased from the provider. The claim policy for a line item can be changed on the purchase order until the line item is received. While it is possible to change the claim policy on a selection list, the change is over-written by the provider default when the selection list is converted to a purchase order.
+The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies purchased from the provider. The claim policy for a line item can be changed on the purchase order until the line item is received. 
 
-image
+image::images/acquisitions/claimpolicies1.png[]
 
 .Apply or Change a Line Item Claim Policy
 . Open your purchase order.

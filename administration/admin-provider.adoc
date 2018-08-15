@@ -1,6 +1,8 @@
 Providers
 ---------
 
+anchor:provider[Provider]
+
 Providers must be created in the acquisitions module before users can create purchase orders for providers.
 
 Create a Provider
