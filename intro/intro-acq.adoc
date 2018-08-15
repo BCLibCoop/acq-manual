@@ -17,3 +17,8 @@ Before beginning to use Acquisitions, the following must be configured by an Acq
 * Claiming (optional)
 * Distribution Formulas (optional)
 * EDI Accounts (optional)
+
+.Multi vs Single Branch Library
+* The context org unit is the org unit responsible for placing and managing the order. It defines what org unit settings (eg copy locations) are in scope, what fiscal year to use, who is allowed to view/modify the PO, where the items should be delivered and the EDI SAN.
+** Multi-branch systems uploading records for multiple branches should choose the system.
+** Single branch libraries or branches responsible for their own orders should choose the branch.
