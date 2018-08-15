@@ -2,13 +2,151 @@ Cancel Acquisitions
 -------------------
 
 .Enhancements to Canceled and Delayed Items
-Cancel/Delay reasons have been modified so that you can easily
-differentiate between canceled and delayed items.  Each label now begins
-with *Canceled* or *Delayed*.  To view the list, click *Administration*
--> *Acquisitions Administration* -> *Cancel Reasons*.
+Cancel/Delay reasons have been modified so that you can easily differentiate between canceled and delayed items.  Each label now begins with *Canceled* or *Delayed*.  To view the list, click *Administration* -> *Acquisitions Administration* -> *Cancel Reasons*.
 
 The cancel/delay reason label is displayed as the line item status in the list of line items or as the copy status in the list of copies.
 
 A delayed line item can now be canceled.  You can mark a line item as delayed, and if later, the order cannot be filled, you can change the line item's status to canceled.  When delayed line items are canceled, the encumbrances are deleted.
 
 Cancel/delay reasons now appear on the worksheet and the printable purchase order.
+
+You can cancel entire purchase orders, line items on a purchase order, and individual copies that are attached to a line item.
+
+Certain cancel reasons are used to suspend purchase orders. These cancel reasons are set to keep the debits when the purchase order is cancelled. For example, a cancel reason such as Publication Postponed, for which debits are kept, indicates that the item will still be purchased when published. The funds remain encumbered for the purchases while the purchase order, line item, or copy has the status of cancelled.
+
+If a hold has been placed for an item that is subsequently cancelled through acquisitions, the system will cancel the hold. The cancelled hold will appear in the patron's account under cancelled holds as a staff forced hold.
+
+You can cancel or suspend purchase orders where all line items are in a state of on-order.
+
+.Cancel a Purchase Order
+. Open a purchase order.
+. Click Cancel order.
+. Select a *Cancel Reason*.
+. Click Cancel order.
+. Click *OK*.
+.. The status of the purchase order becomes cancelled and all the line item bars change to white.
+.. The funds no longer show as encumbered for the purchase order.
+
+.Suspend a Purchase Order
+. Open a purchase order.
+. Click Cancel order.
+. From the drop down menu that appears, select a cancel reason for which debits are kept.
+. Click Cancel order.
+. A pop up will appear asking you to confirm that you wish to cancel the purchase order. Click OK.
+.. The status of the purchase order becomes Delayed and all the line item bars change to blue.
+.. The funds are still encumbered.
+
+
+A suspended purchase order is resolved when all items on a purchase order arrive and are received.
+
+You can cancel or suspend line items that are in a state of on-order.
+
+Cancel a Line Item
+
+Suspend a Line Item
+
+Cancel a Line Item
+Open a purchase order.
+
+Check the box(es) of the line item(s) you wish to cancel.
+
+
+Using the main Actions menu, select Actions → Cancel Selected Lineitems.
+
+
+From the drop down menu that appears, select a cancel reason.
+
+If line items are being cancelled for different reasons they will need to be cancelled separately so different cancel reasons can be used.
+
+
+Click Cancel Line Items.
+
+
+A pop up will appear asking you to confirm that you wish to cancel the line item. Click OK.
+
+
+The line item will change to white and the status will update to cancelled.
+
+The funds for the particular line item will no longer be encumbered.
+
+
+Suspend a Line Item
+Open a purchase order.
+
+Check the box(es) of the line item(s) you wish to suspend.
+
+
+Using the main Actions menu, select Actions → Cancel Selected Lineitems.
+
+
+From the drop down menu that appears, select a cancel reason for which debits are kept.
+
+If line items are being suspended for different reasons they will need to be suspended separately so different cancel reasons can be used.
+
+
+Click Cancel Line Items.
+
+
+A pop up will appear asking you to confirm that you wish to cancel the line item. Click OK.
+
+
+The line item will change to white and the status will update to cancelled.
+
+Because the line item has been suspended rather than cancelled, the funds for the line item are still encumbered.
+
+
+A suspended line item is resolved when all copies of the item arrive and are received.
+
+You can cancel or suspend copies that are in a state of on-order.
+
+Cancel a Copy
+
+Suspend a Copy
+
+Cancel a Copy
+Open a purchase order.
+
+Click the Copies link on the line item containing the copy or copies you wish to cancel.
+
+
+Click the Cancel link adjacent to the copy you wish to cancel. Copies must be cancelled individually.
+
+
+From the drop down menu that appears, select a cancel reason.
+
+
+Click Cancel copy.
+
+
+A pop up will appear asking you to confirm that you wish to cancel the copy. Click OK.
+
+
+The status of the copy becomes cancelled. The line item bar will only change to white and have a status of cancelled if all copies for the line item have been cancelled.
+
+The funds for the particular copy will no longer be encumbered.
+
+
+Suspend a Copy
+Open a purchase order.
+
+Click the Copies link on the line item containing the copy or copies you wish to suspend.
+
+
+Click the Cancel link adjacent to the copy you wish to suspend. Copies must be suspended individually.
+
+
+From the drop down menu that appears, select a cancel reason for which debits are kept. See Sitka Cancel Reason Defaults for which cancel reasons keep debits.
+
+
+Click Cancel copy.
+
+
+A pop up will appear asking you to confirm that you wish to cancel the copy. Click OK.
+
+
+The status of the copy becomes cancelled. The line item bar will only change to blue and have a status of cancelled if all copies for the line item have been cancelled.
+
+Because the copy has been suspended rather than cancelled, the funds for the copy are still encumbered.
+
+
+A suspended copy is resolved when the copy arrives and is received.

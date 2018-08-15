@@ -1,4 +1,4 @@
-Workflow: Invoice only
+Workflow: Invoice Only
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .Sitka's Invoice Only workflow

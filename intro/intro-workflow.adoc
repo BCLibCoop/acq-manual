@@ -1,7 +1,7 @@
 Recommended Workflows
 ---------------------
 
-The Evergreen Acquisitions module is flexible and can accommodate many different Acquisitions procedures. The workflows discussed in this chapter are recommend for Sitka's Acquisitions libraries. 
+The Evergreen Acquisitions module is flexible and can accommodate many different Acquisitions procedures. The workflows discussed in this chapter are recommend for Sitka's Acquisitions libraries.
 
 include::workflow/workflow-loadrecords.adoc[]
 

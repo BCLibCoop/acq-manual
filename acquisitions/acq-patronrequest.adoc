@@ -1,5 +1,5 @@
-Managing patron purchase requests
----------------------------------
+Patron Purchase requests
+------------------------
 
 Introduction
 ~~~~~~~~~~~~
