@@ -112,12 +112,6 @@ anchor:lineitem-price[Price]
 
 *Estimated Price* - A purchase order will not activate without the Estimated Price field filled in for each line item. The price entered into Estimated Price is the amount that will be encumbered for the item. It is also the amount that will appear in the price field of the copy editor for all copies created from this line item.
 
-Paid for Line Items
-^^^^^^^^^^^^^^^^^^^
-Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
-
-image::images/acquisitions/lineitempaid.png[]
-
 Add a Copy to a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added.
@@ -252,6 +246,13 @@ The colours that display may vary depending on your screen resolution.
 * delayed (blue): Item has been cancelled but debits remain as the item is really delayed.
 
 NOTE: While there is some overlap in naming, line item statuses and item statuses are not the same thing.
+
+Paid for Line Items
+^^^^^^^^^^^^^^^^^^^
+Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
+
+image::images/acquisitions/lineitempaid.png[]
+
 
 Delete a Line Item
 ~~~~~~~~~~~~~~~~~~

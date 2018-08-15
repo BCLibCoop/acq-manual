@@ -5,7 +5,7 @@ Several settings in the Library Settings Editor pertain to functions in the Acqu
 
 You can access these settings by clicking Admin → Local Administration → Library Settings Editor. To update these settings a user must have both LSA and Acquisitions Administration permissions.
 
-.Acquisitions
+.Acquisitions Settings
 [options="header"]
 |============
 | Setting | Description | Data type | Edited by | Notes
@@ -23,7 +23,7 @@ You can access these settings by clicking Admin → Local Administration → Lib
 | Delete bib if all copies are deleted via Acquisitions lineitem cancellation. | This means when a line item is cancelled, if there are no longer copies at any library attached to the bibliographic record, the bibliographic record will be deleted | True/False | Sitka Support | Default TRUE
 |===
 
-.Acquisitions - Load MARC Order Record Defaults
+.Acquisitions Settings - Load MARC Order Records Defaults
 [options="header"]
 |==============================================
 | Setting | Description | Data type | Edited by | Notes
