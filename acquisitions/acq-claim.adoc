@@ -35,7 +35,10 @@ If an item has not been received and meets the conditions for claiming, accordin
 . Click *Claim selected items*.
 .. From the *Claim Type* drop down menu select the reason you are making the claim.
 .. Enter a note if you desire and click *Claim*.
-. Claim vouchers for the claimed items will appear.  Click *Print* to print out your vouchers.  The voucher can be mailed / emailed to the provider to initiate the claim.
+. Claim vouchers for the claimed items will appear.
+. Click *Print* to save or print out your vouchers.
+.. The voucher can be mailed or emailed to the provider to initiate the claim.
+. The number of existing claims on the line item updates.
 
 ////
 Individual copies on a line item can be manually claimed through the claim-ready list.

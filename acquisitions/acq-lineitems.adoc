@@ -114,6 +114,7 @@ anchor:lineitem-price[Price]
 
 Add a Copy to a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
 By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added.
 
 Use the Copies link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
@@ -171,27 +172,26 @@ Line Item Actions
 The line item actions menu provides you with a number of functions that can be applied to a particular line item.
 
 .Update Barcode
-. You are only able to update barcodes once a line item has been received.
-. Using the Actions menu on the line item, select Actions → Update Barcodes.
-. The Create or Re-barcode Items screen will open in a new tab.
-. See Adding Holdings to Title Records beginning with step 4 for further instructions.
+. Using the Actions menu on the line item, click *Actions* -> *Update Barcodes*.
+.. The line item must be marked as received before you can update the barcode.
+. The http://docs.libraries.coop/sitka/add_holdings.html#_adding_holdings_to_bibliographic_records[Volume/Copy Editor] will open in a new tab.
 
 .Holdings Maintenance
 . Once an item is received it is possible to use the Actions menu to go directly to Holding Maintenance to view and edit the holdings for a line item.
 . Open a purchase order.
-. Using the Actions menu on the line item, select Actions → Holdings Maint.
+. Using the Actions menu on the line item, click *Actions* -> *Holdings Maint.*.
 . The Holdings Maintenance screen will open in a new tab.
-. See Adding Holdings to Title Records for further instructions.
+. See http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings] for further instructions.
 
 .Claim
-. Using the Actions menu on the line item, select Actions → Claims (0 existing).
-. Check the boxes adjacent to the copies you wish to claim and click Claim Selected.
-. From the Claim Type drop down menu select the reason you are making the claim.
-. Enter a note if you desire and click Claim.
+. Using the Actions menu on the line item, click *Actions* -> *Claims (0 existing)*.
+. Check the boxes adjacent to the copies you wish to claim and click *Claim Selected*.
+. From the Claim Type drop down menu select the Claim reason.
+. Enter a note(optional) and click *Claim*.
+. Claim vouchers for the claimed items will appear.
+. Click *Print* to save or print out your vouchers.
+.. The voucher can be mailed or emailed to the provider to initiate the claim.
 . The number of existing claims on the line item updates.
-. Use the Actions menu on the line item, select Actions → Claims (X existing).
-. The claimed items will appear in the top half of the pop up with link to their associated vouchers.
-. Click Show Voucher.
 
 .View History
 . Using the Actions menu on the line item, select *Actions* -> *View History*.
