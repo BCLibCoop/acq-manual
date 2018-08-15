@@ -6,15 +6,15 @@ Evergreen uses claim policies to compile a list of claim-ready items based on or
 Claim Policies
 ~~~~~~~~~~~~~~
 
-The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies purchased from the provider. The claim policy for a line item can be changed on the purchase order until the line item is received. 
+The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies purchased from the provider. The claim policy for a line item can be changed on the purchase order until the line item is received.
 
 image::images/acquisitions/claimpolicies1.png[]
 
 .Apply or Change a Line Item Claim Policy
 . Open your purchase order.
-. Use the check boxes adjacent to each line item to select the line items you would like to apply the claim policy to.
-. Click *Actions* -> *Apply Claim Policy to Selected Line Items*.
-. A popup with a drop down menu of claim policies will appear. Choose a claim policy to apply to the line item(s).
+. Check the check boxes adjacent to each line item you would like to apply the claim policy to.
+. Click *Actions* -> Select *Apply Claim Policy to Selected Line Items*.
+. Choose a *Claim policy* from the drop down menu.
 . Click *Save*.
 . The new claim policy will be applied to the line item(s).
 
@@ -53,12 +53,7 @@ Individual copies on a line item can be manually claimed through the claim-ready
 . Click *Go Back* to return to the *Claim-Ready Items* list.
 ////
 
-Manual Claiming
-^^^^^^^^^^^^^^^
-
-Items can be manually claimed at any time.  Manual claiming can be done for both line items and individual copies. You can manually claim a line item any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
-
-.Manually Claim a Line Item
+.Claim a Line Item from the Purchase Order
 . Open your purchase order.
 . Using the *Actions* menu on the line item, select
 . Actions -> Claims (0 existing)
@@ -67,6 +62,8 @@ Items can be manually claimed at any time.  Manual claiming can be done for both
 . Enter a note if you desire and click *Claim*.
 . The number of existing claims on the line item updates and a claim voucher appears.(BUG: The voucher appears inconsistently).
 . The voucher can be printed and mailed to the provider to initiate the claim.
+
+Items can be manually claimed at any time.  Manual claiming can be done for both line items and individual copies. You can manually claim a line item any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
 
 ////
 .Manually Claim a Copy
@@ -90,21 +87,22 @@ Claim Vouchers
 Claim vouchers can be saved and emailed to providers to initiate claims. These vouchers can be printed at the time of the manual claim in the system or reprinted at a later time through the copies link.
 
 .Claim vouchers contain the following information:
-* Claim Type (Claim Reason)
-* Title and Author of item
-* Event Type: The action to be performed by the library to claim the item.
-* Event Date: The date the item was claimed in Evergreen.
-* Order Date: The date the purchase order for the item was activated.
-* Expected receive date: (Not currently functional)
-* Initiated by: The name of the staff member who manually claimed the item in Evergreen.
-* Barcode: In most cases this will be a temporary system-generated barcode.
-* Fund: The name of the fund being used to purchase the item.
+* *Claim Type (Claim Reason)*
+* *Title and Author of item*
+* *Event Type*: The action to be performed by the library to claim the item.
+* *Event Date*: The date the item was claimed in Evergreen.
+* *Order Date*: The date the purchase order for the item was activated.
+* *Expected receive date*: (Not currently functional)
+* *Initiated by*: The name of the staff member who manually claimed the item in Evergreen.
+* *Barcode*: In most cases this will be a temporary system-generated barcode.
+* *Fund*: The name of the fund being used to purchase the item.
 
-.Save or Print Claim Vouchers
-.. Open a purchase order.
+.View, Save or Print Claim Vouchers
+. Open a purchase order.
 . Click the *Copies* link on the line item containing the copy or copies you wish to view the claim voucher for.
 . Click the *Claim* link adjacent to any of the copies.
 . The claim type (claim reason) will display with a *Show Voucher* link.
 . Click the *Show Voucher* link.
+.. View the voucher on screen.
 .. Save the voucher as a PDF.
 .. Print the voucher.
