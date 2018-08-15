@@ -1,6 +1,8 @@
 Claim Policies
 ~~~~~~~~~~~~~~
 
+Evergreen uses claim policies to compile a list of claim-ready items based on order date. The default claim policy associated with each provider is automatically assigned to line items and copies purchased from the provider.
+
 .Create a Claim policy
 . Click *Administration* -> *Acquisitions Administration* -> Claim Policies
 . Click *New Claim Policy*
@@ -14,3 +16,5 @@ Claim Policies
 .. Action (Interval)
 .. Claim Policy ID
 . Click *Save*
+
+NOTE: See xref:_providers[]  

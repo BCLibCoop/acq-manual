@@ -20,6 +20,7 @@ Create a Provider
 . Enter the default number of copies for the provider.
 .. When line items are added to purchase orders for this provider the default number of copies will be automatically created.
 . Select a default claim policy from the drop down menu. Choose the policy that best describes the policy you use with the provider. The default policy does not need to cover all possible situations as it is possible to override with a different policy at the time of the claim.
+.. The default claim policy associated with each provider is automatically assigned to line items and copies purchased from the provider.
 .. This field may be left blank if no default policy should be applied to the provider.
 . Do NOT select an EDI default from the drop down menu. Leave this field blank. EDI defaults must be created after the provider and then linked. See EDI Accounts for more information.
 . *E-mail* field, enter the provider's e-mail address.
