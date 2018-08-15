@@ -1,7 +1,7 @@
 
 Multi vs Single Branch Library_
 
-Decide 
+Decide
 
 
 The context org unit is the org unit responsible for placing and managing the order. It defines what org unit settings (eg copy locations) are in scope, what fiscal year to use, who is allowed to view/modify the PO, where the items should be delivered and the EDI

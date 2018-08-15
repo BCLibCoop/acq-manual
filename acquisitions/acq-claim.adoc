@@ -38,7 +38,6 @@ If an item has not been received and meets the conditions for claiming, accordin
 . Claim vouchers for the claimed items will appear.
 . Click *Print* to save or print out your vouchers.
 .. The voucher can be mailed or emailed to the provider to initiate the claim.
-. The number of existing claims on the line item updates.
 
 ////
 Individual copies on a line item can be manually claimed through the claim-ready list.
@@ -63,7 +62,7 @@ Individual copies on a line item can be manually claimed through the claim-ready
 . Check the boxes adjacent to the copies you wish to claim and click *Claim Selected*.
 . From the *Claim Type* drop down menu select the reason you are making the claim.
 . Enter a note if you desire and click *Claim*.
-. The number of existing claims on the line item updates and a claim voucher appears.(BUG: The voucher appears inconsistently).
+. The number of existing claims on the line item updates and a claim voucher appears.
 . The voucher can be printed and mailed to the provider to initiate the claim.
 
 Items can be manually claimed at any time.  Manual claiming can be done for both line items and individual copies. You can manually claim a line item any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
@@ -82,12 +81,20 @@ Items can be manually claimed at any time.  Manual claiming can be done for both
 You can manually claim a copy any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
 ////
 
-The claims count on the line item *Actions* menu will update to reflect the total number of claims on the line item.
-
 Claim Vouchers
 ~~~~~~~~~~~~~~
 
 Claim vouchers can be saved and emailed to providers to initiate claims. These vouchers can be printed at the time of the manual claim in the system or reprinted at a later time through the copies link.
+
+.View, Save or Print Claim Vouchers
+. Open a purchase order.
+. Click the *Copies* link on the line item containing the copy or copies you wish to view the claim voucher for.
+. Click the *Claim* link adjacent to any of the copies.
+. The claim type (claim reason) will display with a *Show Voucher* link.
+. Click the *Show Voucher* link.
+.. View the voucher on screen.
+.. Save the voucher as a PDF.
+.. Print the voucher.
 
 .Claim vouchers contain the following information:
 * *Claim Type (Claim Reason)*
@@ -99,13 +106,3 @@ Claim vouchers can be saved and emailed to providers to initiate claims. These v
 * *Initiated by*: The name of the staff member who manually claimed the item in Evergreen.
 * *Barcode*: In most cases this will be a temporary system-generated barcode.
 * *Fund*: The name of the fund being used to purchase the item.
-
-.View, Save or Print Claim Vouchers
-. Open a purchase order.
-. Click the *Copies* link on the line item containing the copy or copies you wish to view the claim voucher for.
-. Click the *Claim* link adjacent to any of the copies.
-. The claim type (claim reason) will display with a *Show Voucher* link.
-. Click the *Show Voucher* link.
-.. View the voucher on screen.
-.. Save the voucher as a PDF.
-.. Print the voucher.
