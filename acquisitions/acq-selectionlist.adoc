@@ -3,31 +3,36 @@ Selection Lists
 
 anchor:selection[selection list]
 
-Selection lists allow you to create, manage, and save lists of items that you may want to purchase. To view your selection list, click
-*Acquisitions* -> *My Selection Lists*. Use the general search to view selection lists created by other users.
+Selection lists allow you to create, manage, and save lists of items that you may want to purchase.
+
+.View your Selection Lists
+. Click *Acquisitions* -> *My Selection Lists*.
+.. Use the general search to view selection lists created by other users.
+.. Refer to xref:_search_for_selection_lists[] for details.
 
 .Create a Selection List
 . Click *Acquisitions* -> *My Selection Lists*.
 . Click the New Selection List drop down arrow.
 . Enter the name of the selection list in the box that appears.
-. Click Create.
+. Click *Create*.
 
 You can also create a Selection lists on these screens.
 
 * *New Brief Record*
 * *Upload MARC Order Records*
 * *MARC Federated Search*
-** In each of these interfaces, you will find the Add to Selection List field. Enter the name of the selection list that you want to create in that field.
 
-.Add Items
+NOTE: In each of these interfaces, you will find the Add to Selection List field. Enter the name of the selection list that you want to create in that field.
+
+.Add Items to a Selection List
 * Add a brief record
-** See xref:_brief_records[]
+** See xref:add-brief-records[]
 * Upload MARC order records
 ** See xref:_load_marc_order_records[]
 * MARC federated search
 ** See xref:_marc_federated_search[]
 * View/Place Orders menu item in the catalog.
-** See xref:_place_order[]
+** See xref:view-place-order[]
 
 .Convert a selection list to a purchase order.
 . From a selection list, click *Actions* -> *Create Purchase Order*.
