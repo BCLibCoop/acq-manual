@@ -9,7 +9,7 @@ Workflow: Order from the Catalogue
 Using existing bibliographic records from the Sitka catalogue you can add line items to a Purchase Order in four ways
 
 . Click *View/Place Order* in Record Summary.
-.. Refer to xref:-view-place-order[] for details.
+.. Refer to xref:view-place-order[] for details.
 . Load Catalog Record IDs.
 .. Refer to xref:_load_catalog_record_ids[] for details.
 . MARC Federated Search.
