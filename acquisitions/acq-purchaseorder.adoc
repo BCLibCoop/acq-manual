@@ -99,6 +99,6 @@ NOTE: Once the purchase order has been activated without loading items, it is no
 Add Line Items to Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-include::acquisitions/acq-briefrecord.adoc[]
+include::acq-briefrecord.adoc[]
 
-include::acquisitions/acq-viewplaceorder.adoc[]
+include::acq-viewplaceorder.adoc[]
