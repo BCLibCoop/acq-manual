@@ -95,3 +95,10 @@ This function should only be used in situations where the copies have already be
 . The funds associated with the purchases will be encumbered.
 
 NOTE: Once the purchase order has been activated without loading items, it is not possible to load the items in Acquisitions.
+
+Add Line Items to Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+include::acquisitions/acq-briefrecord.adoc[]
+
+include::acquisitions/acq-viewplaceorder.adoc[]

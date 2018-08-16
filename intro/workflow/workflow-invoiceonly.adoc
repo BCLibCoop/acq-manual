@@ -23,7 +23,7 @@ NOTE: This workflow should be used by libraries that want to track money spent o
 . Information is forwarded to finance department/bookkeeper.
 
 .Catalogue
-. Retrieve a matching biblographic record from the catalogue, Import a new record from Z39.50 or do original cataloguing.
+. Retrieve a matching bibliographic record from the catalogue, Import a new record from Z39.50 or do original cataloguing.
 .. Refer to the http://docs.libraries.coop/sitka/_cataloguing_2.html[Cataloguing Part] of Sitka's Evergreen Documentation for details.
 . Add Volume/Copy.
 .. Refer to the [Add Holdings Chapter] of Sitka's Evergreen Documentation for details.
