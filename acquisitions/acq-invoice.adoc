@@ -1,18 +1,12 @@
 Invoices
 --------
 
-You can create invoices for purchase orders, individual line items, as well as creating blank invoices that charges can be added to. If you are setup for EDI your vendor can send you electronic invoices.
-
-If desired, you can create an invoice for items before you receive them. You are able to re-open closed invoices to make adjustments as well as print out all invoices.
-
-You can create an invoice to use for direct purchases or to link line items to.
+You can create invoices for purchase orders, individual line items, as well as creating blank invoices that charges can be added to. If you are setup for EDI your vendor can send you electronic invoices. If desired, you can create an invoice for items before you receive them. You are able to re-open closed invoices to make adjustments as well as print out all invoices. You can create an invoice to use for direct purchases or to link line items to.
 
 .Create a Blank Invoice
 . Click *Acquisitions* -> *Create Invoice*.
 . Fill in the top section of the invoice. See xref:_invoice_details[] for details.
 . Click *Save*.
-
-You can create an invoice containing all of the line items on a purchase order.
 
 .Create an Invoice From a Purchase Order
 . Open a purchase order.
@@ -22,8 +16,6 @@ You can create an invoice containing all of the line items on a purchase order.
 . The Bibliographic Items section of the invoice will list all of the line items from the purchase order along with information pertaining to each line item.
 . Click *Save*.
 
-You can create an invoice from multiple line items on a purchase order. You can then link additional line items from the same or different purchase orders to this invoice.
-
 .Create an Invoice From Multiple Line Items
 . Open a purchase order.
 . Check the boxes beside the line items you would like to use to create your invoice.
@@ -31,44 +23,33 @@ You can create an invoice from multiple line items on a purchase order. You can 
 . A new invoice will open in the same tab.
 . Click *Save*.
 
-You can search for vendor created invoices received via EDI.
+NOTE: You can link additional line items from the same or different purchase orders to this invoice.
 
 .Vendor created invoice from EDI
-. Select Acquisitions → General Search.
-. Search for the invoice using the Vendor Invoice Id found on the paper invoice received with the items.
+. Select Acquisitions -> General Search.
+. Search for the invoice using the *Vendor Invoice Id* found on the paper invoice received with the items.
 . Click on the Vendor Invoice ID to retrieve the invoice.
 . Click on Show Details.
-. Verify the information in the invoice details. See Invoice Details for guidelines on filling in this information.
+. Verify the information in the invoice details.
+.. See Invoice Details for guidelines on filling in this information.
+. If your shipment includes items received from a Standing Order the line item count will not match the count of items in the shipment.
+.. Only the items ordered via the Acquisitions module will appear as line items on the invoice.
+.. Standing Order items should be added as Direct Purchase charges.
+. Verify the billed amounts for each line item listed in the Bibliographic Items section.
+.. Invoices received via EDI will have line items attached with the billed and paid amounts entered by the vendor. If required the electronic invoice should be edited to match the paper invoice.
+. Mark the items as received
+. Add Charges for:
+.. Items received from a Standing Order should be added as a Direct Purchase.
+.. Processing costs should be added as Processing Fee or Processing Fee - Prorate.
+.. Shipping costs.
+.. Taxes.
+. Prorate the charges.
+.. Some charge types, such as taxes, are proratable. This means when Prorate is clicked the system divides the amount being charged proportionally among the funds in use on the invoice based on how much is being spent out of each fund.
+.. If the charge type selected is proratable the fund field will be grayed out. When the invoice is prorated the system will determine which funds to apply the charges to based on the contents of the invoice.
+.. Do NOT Prorate the charges until you are ready to close the invoice. If changes are made to billed amounts after prorating has been done the existing charges will not be automatically updated.
+. Save and Close the invoice
+.. Invoices must be closed for items to show as "Paid". Fund debits linked to an invoice are only marked as paid when the invoice is closed.
 
-If your shipment includes items received from a Standing Order the line item count will not match the count of items in the shipment. Only the items ordered via the Acquisitions module will appear as line items on the invoice.
-
-Verify the billed amounts for each line item listed in the Bibliographic Itemssection.
-
-Mark the items as received
-
-Add Charges for:
-
-Items received from a Standing Order should be added as a Direct Purchase.
-
-Processing costs should be added as Processing Fee or Processing Fee - Prorate.
-
-Shipping costs.
-
-Taxes.
-
-Prorate the charges.
-
-Some charge types, such as taxes, are proratable. This means when Prorate is clicked the system divides the amount being charged proportionally among the funds in use on the invoice based on how much is being spent out of each fund.
-
-If the charge type selected is proratable the fund field will be grayed out. When the invoice is prorated the system will determine which funds to apply the charges to based on the contents of the invoice.
-
-Do NOT Prorate the charges until you are ready to close the invoice. If changes are made to billed amounts after prorating has been done the existing charges will not be automatically updated.
-
-Save and Close the invoice
-
-Invoices must be closed for items to show as "Paid". Fund debits linked to an invoice are only marked as paid when the invoice is closed.
-
-Invoices received via EDI will have line items attached with the billed and paid amounts entered by the vendor. If required the electronic invoice should be edited to match the paper invoice.
 
 Invoice details
 ~~~~~~~~~~~~~~~
@@ -135,166 +116,126 @@ Click Close to close the invoice. Once all the line items and invoice charges ha
 Add Line items to the Invoice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Link an Entire Purchase Order to an Existing Invoice
 You can use the Link Invoice button to link all the line items on a purchase order to an existing invoice.
 For example, an invoice is received for a shipment with items on purchase order #1 and purchase order #2. When the invoice arrives, purchase order #1 is retrieved, and the invoice is created. Rather than recreate the invoice for purchase order #2 you simply link the purchase order to the invoice.
-Open a purchase order.
-Click Link Invoice.
-In the drop down that appears, enter the invoice number of the invoice you would like to link the purchase order to.
-Enter the code for the provider. This field will auto-complete.
-Click Link.
-The invoice will open in the same tab and all the line items on the purchase order will be added to the invoice.
 
-.Link Multiple Line Items to an Existing Invoice
+.Link an Entire Purchase Order to an Existing Invoice
+. Open a purchase order.
+. Click Link Invoice.
+. In the drop down that appears, enter the invoice number of the invoice you would like to link the purchase order to.
+. Enter the code for the provider. This field will auto-complete.
+. Click *Link*.
+. The invoice will open in the same tab and all the line items on the purchase order will be added to the invoice.
+
 Use the Link to Invoice for Selected Lineitems menu option to link multiple line items to an invoice that already exists in Evergreen.
 For example, an invoice may be made up of items from multiple purchase orders. In this circumstance, you can create an invoice for the selected line items from your first purchase order and then link the line items from other purchase orders onto your invoice.
-Open a purchase order.
-Check the boxes beside the line items you would like to link to your invoice.
-Using the main Actions menu, select Actions → Link Selected Line Items to Invoice.
-In the pop up box that appears, enter the invoice number of the invoice you would like to link the line item to.
-Enter the code for the provider. This field will auto-complete.
-Click Link.
-The Invoice # and Provider fields are sticky. The information entered in those fields will persist as you move between purchase orders until you change the information.
-The invoice will open in the same tab with the selected line items attached.
-Click Save.
 
-. Search for Line Items from an Invoice
+.Link Multiple Line Items to an Existing Invoice
+. Open a purchase order.
+. Check the boxes beside the line items you would like to link to your invoice.
+. Using the main Actions menu, select Actions -> Link Selected Line Items to Invoice.
+. In the pop up box that appears, enter the invoice number of the invoice you would like to link the line item to.
+. Enter the code for the provider. This field will auto-complete.
+. Click Link.
+. The Invoice # and Provider fields are sticky. The information entered in those fields will persist as you move between purchase orders until you change the information.
+. The invoice will open in the same tab with the selected line items attached.
+. Click Save.
+
 You can use the new Search tab to search for and add line items to an invoice from within the invoice.
-Open an invoice or create an invoice.
-Click the Search tab.
-Select your search criteria from the drop down menu.
-See Searching for Line Items for general searching tips.
-The Limit to Invoiceable Items check box is checked by default.
-Invoiceable items are those that are on order, have not been cancelled, and have not yet been invoiced.
-The Sort by title check box is optional.
-By default, results are listed by line number. This check box sorts the results by ascending title.
-Click Search or press Enter on your keyboard.
-Search will start a new search while Enter will build on your current search.
-For example, choose LIA-ISBN as your search field, type in the ISBN of your first book and press Enter. The line item will appear in the results list. Then, type your next ISBN into the search box and press Enter. Both line items will now appear in the results list. Continue building your list.
-Use the Next and Back links to navigate through the results.
-Select the line items you would like to add to the invoice and click Add Selected Items to Invoice.
-The selected line items are highlighted, and the invoice summary at the top of the screen updates.
-Click the Invoice tab to see the updated invoice.
-You can add additional charges to any invoice. Possible charges include taxes and shipping fees as well as charges for items that are purchased without a purchase order, such as a bulk book buy at a local bookstore. See Invoice Item Type for a list of the charge types available.
-Some charge types, such as taxes, are proratable. This means when Prorate is clicked the system divides the amount being charged proportionally among the funds in use on the invoice based on how much is being spent out of each fund.
+
+.Search for Line Items from an Invoice
+. Open an invoice or create an invoice.
+. Click the Search tab.
+. Select your search criteria from the drop down menu.
+. See Searching for Line Items for general searching tips.
+. The Limit to Invoiceable Items check box is checked by default.
+. Invoiceable items are those that are on order, have not been cancelled, and have not yet been invoiced.
+. The Sort by title check box is optional.
+. By default, results are listed by line number. This check box sorts the results by ascending title.
+. Click Search or press Enter on your keyboard.
+. Search will start a new search while Enter will build on your current search.
+.. For example, choose LIA-ISBN as your search field, type in the ISBN of your first book and press Enter. The line item will appear in the results list. Then, type your next ISBN into the search box and press Enter. Both line items will now appear in the results list. Continue building your list.
+. Use the Next and Back links to navigate through the results.
+. Select the line items you would like to add to the invoice and click Add Selected Items to Invoice.
+. The selected line items are highlighted, and the invoice summary at the top of the screen updates.
+. Click the Invoice tab to see the updated invoice.
+. You can add additional charges to any invoice. Possible charges include taxes and shipping fees as well as charges for items that are purchased without a purchase order, such as a bulk book buy at a local bookstore.
+.. See Invoice Item Type for a list of the charge types available.
+.. Some charge types, such as taxes, are proratable. This means when Prorate is clicked the system divides the amount being charged proportionally among the funds in use on the invoice based on how much is being spent out of each fund.
 
 .Add Charges to an Invoice
-Open an invoice.
-Click the Add Charge... link.
-Choose the charge you would like to apply from the Charge Type drop down menu.
-Using the drop down menu, choose the fund from which payment for the charge will come.
-If the charge type selected is proratable the fund field will be grayed out. When the invoice is prorated the system will determine which funds to apply the charges to based on the contents of the invoice.
-Enter a Title/Description of the charge.
-In the Billed and Paid fields enter the amount billed and the amount paid respectively.
-There are two options for saving an invoice:
-Click Save to save the changes you have made and keep the invoice open.
-Click Save and Clear to save the invoice and open a blank invoice.
-Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
-Invoices can be re-opened at a later date if adjustments are required. See Re-Open an Invoice.
+. Open an invoice.
+. Click the Add Charge... link.
+. Choose the charge you would like to apply from the Charge Type drop down menu.
+. Using the drop down menu, choose the fund from which payment for the charge will come.
+. If the charge type selected is proratable the fund field will be grayed out. When the invoice is prorated the system will determine which funds to apply the charges to based on the contents of the invoice.
+. Enter a Title/Description of the charge.
+. In the Billed and Paid fields enter the amount billed and the amount paid respectively.
+. Click Save to save the changes you have made.
+. Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
+. Invoices can be re-opened at a later date if adjustments are required. See Re-Open an Invoice.
 
 .Delete Charges from an Invoice
-An invoice must be open in order to delete charges from it. It is possible to re-open a closed invoice if adjustments are necessary. See Re-Open an Invoice.
-Open an invoice.
-Click the Delete link adjacent to the charge line.
-Confirm that you wish to delete the charge by clicking OK on the pop up that appears.
-The charge is deleted and removed from the invoice.
-There are two options for saving an invoice:
-Click Save to save the changes you have made and keep the invoice open.
-Click Save and Clear to save the invoice and open a blank invoice.
-Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
+. Open an invoice.
+. Click the Delete link adjacent to the charge line.
+. Confirm that you wish to delete the charge by clicking OK on the pop up that appears.
+. The charge is deleted and removed from the invoice.
+. Click Save to save the changes you have made.
+. Click Close to close the invoice.
 
-.Add Additional Copies to an Invoice
+NOTE: An invoice must be open in order to delete charges from it. It is possible to re-open a closed invoice if adjustments are necessary. See Re-Open an Invoice.
+
 In the event that you receive and are invoiced for more copies that originally ordered, the additional copies can be easily added to the invoice.
 
-Additional copies must be added before the Billed and Paid columns are filled for the line item.
+.Add Additional Copies to an Invoice
+. Additional copies must be added before the Billed and Paid columns are filled for the line item.
+. Open an invoice.
+. Update the number of copies in both # Invoiced and # Paid to reflect the number of copies you actually have.
+. The Extra Items pop up will appear to confirm the number of copies you are adding.
+. Select a fund from the drop down menu to apply to the new copies.
+. Click Add New Items.
+. Click Save to allow the changes to take effect.
+. The Title Details for the line item will update to reflect the additional copies. The additional copies are automatically received in the system. Proceed with paying the invoice.
+. The additional copies can be un-received if needed following the instruction in the Receiving and Un-Receiving Copies section.
 
-Open an invoice.
-
-Update the number of copies in both # Invoiced and # Paid to reflect the number of copies you actually have.
-
-
-The Extra Items pop up will appear to confirm the number of copies you are adding.
-
-Select a fund from the drop down menu to apply to the new copies.
-
-Click Add New Items.
-
-
-Click Save to allow the changes to take effect.
-
-
-The Title Details for the line item will update to reflect the additional copies. The additional copies are automatically received in the system. Proceed with paying the invoice.
-
-
-The additional copies can be un-received if needed following the instruction in the Receiving and Un-Receiving Copies section.
-
-Detach Line Items from an Invoice
-Open an invoice.
-
-Click the Detach link adjacent to the line item you wish to remove.
-
-
-Confirm that you wish to detach the line item by clicking OK on the pop up that appears.
-
-
-If your invoice is complete and contains proratable charges, click Prorate.
-
-Save the invoice. There are two options for saving an invoice:
-
-
-Click Save to save the changes you have made and keep the invoice open.
-
-Click Save and Clear to save the invoice and open a blank invoice.
-
-Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
-
+.Detach Line Items from an Invoice
+. Open an invoice.
+. Click the Detach link adjacent to the line item you wish to remove.
+. Confirm that you wish to detach the line item by clicking OK on the pop up that appears.
+. If your invoice is complete and contains proratable charges, click Prorate.
+. Save the invoice.
+. Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
+. Don't forget to link the detached line item to another invoice or create a new invoice for it so it can be paid for.
 
 Invoices can be re-opened at a later date if adjustments are required. See Re-Open an Invoice.
 
-Don't forget to link the detached line item to another invoice or create a new invoice for it so it can be paid for.
 
-13.8. View an Invoice
+View an Invoice
+~~~~~~~~~~~~~~~
+
 You can view an invoice in one of three ways:
 
-View Invoices through a Search
+* View Invoices through a Search
+* View Invoices on a Purchase Order
+* View Invoices Attached to a Line Item
 
-View Invoices on a Purchase Order
+.View Invoices through a Search
+. Click *Acquisitions* -> *Open Invoices*.
+. By default the search interface is set to search for open invoices created by your ordering agency.
+. Click *Search*.
 
-View Invoices Attached to a Line Item
+NOTE: The default invoice search allows you to quickly generate a list of open invoices. This search can also easily be modified to search for invoices using other parameters.
 
-View Invoices through a Search
-Search Tips
+.View Invoices on a Purchase Order
+. Open a purchase order.
+. Click *View Invoices*.
+.. The number in parentheses indicates the number of invoices attached to the purchase order.
+. Select the invoice you would like to display from the grid that appears.
 
-The default invoice search allows you to quickly generate a list of open invoices.
-
-This search can also easily be modified to search for invoices using other parameters.
-
-To access the searching interface, select Acquisitions → Open Invoices.
-
-
-By default the search interface is set to search for open invoices created by your ordering agency.
-
-If this is search you wish to perform, click Search.
-
-
-View Invoices on a Purchase Order
-Open a purchase order.
-
-Click View Invoices. The number in parentheses indicates the number of invoices attached to the purchase order.
-
-
-Select the invoice you would like to display from the grid that appears. The invoice will appear in the current tab.
-
-
-View Invoices Attached to a Line Item
-Open a purchase order.
-
-Click view invoice(s) on the Line Item.
-
-
-Select the invoice you would like to display from the grid that appears. The invoice will appear in the current tab.
-
-
+.View Invoices Attached to a Line Item
+. Open a purchase order.
+. Click view invoice(s) on the Line Item.
+. Select the invoice you would like to display from the grid that appears. The invoice will appear in the current tab.
 
 Close an Invoice
 ~~~~~~~~~~~~~~~~
