@@ -1,7 +1,12 @@
 Line Items
 ----------
 
-Line items represent bibliographic records on a selection list or purchase order. Line items contain attributes, which are characteristics of the bibliographic record, such as ISBN or Title. Line items also contain copy information, price information, notes, and alerts.
+Line items represent bibliographic records on a selection list or purchase order.
+
+Line Item Attributes
+~~~~~~~~~~~~~~~~~~~~
+
+Line item attributes are characteristics of the bibliographic record, such as ISBN or Title. Line items also contain copy information, price information, notes, and alerts.
 
 image::images/acquisitions/lineitem.png[]
 
@@ -112,15 +117,13 @@ anchor:lineitem-price[Price]
 
 *Estimated Price* - A purchase order will not activate without the Estimated Price field filled in for each line item. The price entered into Estimated Price is the amount that will be encumbered for the item. It is also the amount that will appear in the price field of the copy editor for all copies created from this line item.
 
-Add a Copy to a Line Item
+Add Copies to a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added.
+By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added. Use the *Batch Updater* or *Copies* link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
 
-Use the Copies link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
-
-.Add a Copy via the Line Item Batch Updater on a purchase order.
-. Open a purchase order.
+.Add a Copy via the Line Item Batch Updater on a selection list or purchase order.
+. Open a selection list or purchase order.
 . Enter the total number of copies for the line item in the Copies field on the Line Item Batch Updater.
 . The number entered in the Copies field is always the total number of copies for the line item, not the number of copies to add to the selected line item(s).
 . Check the box(es) beside the line item(s) you wish to apply the copies to.
@@ -149,7 +152,7 @@ NOTE: Copies should not be added once a purchase order has been activated.
 Line Item Batch updater
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The Line Item Batch Updater allows line items on purchase orders to have multiple fields batch updated simultaneously.
+The Line Item Batch Updater allows line items on selection lists or purchase orders to have multiple fields batch updated simultaneously.
 
 The following fields can be batch updated:
 
@@ -165,7 +168,7 @@ Rather than filling in the same fields every time users can set up xref:_distrib
 .Batch Update Line Items
 . Select the line items to apply the updates to.
 . Fill in the individual fields on the Batch Updater you wish to update or select a Distribution Formula to use.
-. Click Apply to Selected.
+. Click *Apply to Selected*.
 
 Line Item Actions
 ~~~~~~~~~~~~~~~~~

@@ -41,6 +41,14 @@ When creating a purchase order or editing an existing purchase order, the purcha
 
 NOTE: Purchase Order Names are case sensitive.
 
+Add Line Items to Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+include::acq-briefrecord.adoc[]
+
+include::acq-viewplaceorder.adoc[]
+
+
 Activate Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -96,9 +104,25 @@ This function should only be used in situations where the copies have already be
 
 NOTE: Once the purchase order has been activated without loading items, it is not possible to load the items in Acquisitions.
 
-Add Line Items to Purchase Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Purchase Order Actions
+~~~~~~~~~~~~~~~~~~~~~~
 
-include::acq-briefrecord.adoc[]
+The actions available will depend on the current state.
 
-include::acq-viewplaceorder.adoc[]
+.Any State
+* Export Single Attribute List
+* Print Purchase Order
+* View PO History
+* Apply Claim Policy to Selected Line Items
+
+.If Purchase Order State is pending
+* Delete Selected Items
+* Add Brief Record
+* Load Bibs and Items
+
+.If Purchase Order State is on-order
+* Cancel Selected Line items
+* Mark Selected Line Items as Received
+* Un-Receive Selected Line Items
+* Create Invoice From Selected Line Items
+* Link Selected Line Items to Invoice
