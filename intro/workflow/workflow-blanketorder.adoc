@@ -22,6 +22,7 @@ Blanket orders allow staff to invoice an encumbered amount multiple times, payin
 . Enter the Estimated Cost for the blanket order.
 . Click Save New Charges
 . Click Activate Order
+.. Refer to xref:_activate_purchase_order[] for details.
 
 .Invoice and Receive
 . Click *Acquisitions* -> *Purchase Orders*

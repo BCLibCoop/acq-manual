@@ -13,11 +13,11 @@ Create a Provider
 . Enter the provider name.
 . Create a unique code for the provider.
 .. This code is used throughout the acquisitions module to identify the provider.
-.. We recommend that libraries add their library short code ex. ULS_MPL
-. Select an owner from the drop down menu.
+.. We recommend that libraries add their library short code *ex. ULS_MPL*
+. Choose an owner from the drop down menu.
 .. The owner indicates the organizational unit(s) whose staff can use this provider.
-. Select a currency from the drop down menu.
-. Check the box adjacent to Active to activate the provider.
+. Choose a currency from the drop down menu.
+. Check the check box adjacent to Active to activate the provider.
 .. Unchecking this box deactivates the provider. A provider must be active in order for purchase orders to be made from that provider.
 . Enter the default number of copies for the provider.
 .. When line items are added to purchase orders for this provider the default number of copies will be automatically created.

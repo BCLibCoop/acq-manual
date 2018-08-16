@@ -1,6 +1,8 @@
 Place Order
 -----------
 
+anchor:-view-place-order[View/Place Order]
+
 .View/Place Orders to order an additional copy of an item that is already in the catalogue.
 . Open the bibliographic record of the title you wish to purchase.
 . Click *Other Actions* -> *View/Place Orders*

@@ -9,27 +9,44 @@ Workflow: Order from the Catalogue
 Using existing bibliographic records from the Sitka catalogue you can add line items to a Purchase Order in four ways
 
 . Click *View/Place Order* in Record Summary.
-.. Refer to xref:_place_order[] for details.
+.. Refer to xref:-view-place-order[] for details.
 . Load Catalog Record IDs.
 .. Refer to xref:_load_catalog_record_ids[] for details.
 . MARC Federated Search.
 .. Refer to xref:_marc_federated_search[] for details.
-. Add Brief Records. Refer to xref:
+. Add Brief Records.
+.. Refer to xref:_brief_records[] for details.
 
 .Order
-. View Purchase Order
+. Open Purchase Order
+.. Search for your xref:pending-order[].
 . Add Copies
+.. Refer to xref:-add-a-copy-to-a-line-item[] for details.
 . Activate Purchase Order
+.. Refer to xref:_activate_purchase_order[] for details.
 
 .Invoice and Receive
 . Create an invoice from a purchase order or from a line item.
 . Link Selected Line Items to Invoice.
 . Receives Line Items.
+. Add Charges
+.. Click *Add Charge* to add lines for invoice charges such as shipping fee, processing fees or taxes.
+.. Refer to xref:_invoice_item_types[] for details.
 . Close the Invoice
-.. Print/Save a copy of the invoice for finance department/bookkeeper.
+.. Click *Close*
+.. Refer to xref:_close_invoice[] for details.
+. Information is forwarded to finance department/bookkeeper.
 
 .Catalogue
-. Update barcode and copy information for each item.
-. Import a full record or do original cataloguing to replace brief bibliographic records.
+. Update existing On Order copies
+.. Use ISBN to search the catalogue to find your item
+.. Refer to https://docs.libraries.coop/sitka/_searching_the_database_for_cataloguing_purposes.html#_advanced_numeric_search[Numeric Search] for details.
+. Click *Edit* beside the item's temporary barcode.
+.. Update Volume/Copy information for each item.
+.. Refer to https://docs.libraries.coop/sitka/_editing_holdings.html[Editing a Copy from OPAC View]
+. Use Z39.50 to overlay the brief record with a full record or do original cataloguing to replace brief bibliographic records.
+.. Refer to https://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlay records via Z39.50] for details.
 . Process items.
+.. As per your libraries processing specifications.
 . Check in items.
+.. Items are now ready to circulate.
