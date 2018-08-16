@@ -15,7 +15,7 @@ Using existing bibliographic records from the Sitka catalogue you can add line i
 . MARC Federated Search.
 .. Refer to xref:_marc_federated_search[] for details.
 . Add Brief Records.
-.. Refer to xref:_brief_records[] for details.
+.. Refer to xref:add-brief-records[] for details.
 
 .Order
 . Open Purchase Order

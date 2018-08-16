@@ -6,6 +6,8 @@ Brief records are short bibliographic records with minimal information that are 
 Add brief records to purchase orders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+anchor:add-brief-records[Add Brief Records]
+
 You can add brief records to new or existing purchase orders.
 
 . Open or create a purchase order.
