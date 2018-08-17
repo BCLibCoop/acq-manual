@@ -1,5 +1,5 @@
 Place Order
------------
+~~~~~~~~~~~
 
 anchor:view-place-order[View/Place Order]
 

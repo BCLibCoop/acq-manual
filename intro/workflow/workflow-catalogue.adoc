@@ -21,7 +21,7 @@ Using existing bibliographic records from the Sitka catalogue you can add line i
 . Open Purchase Order
 .. Search for your xref:pending-order[].
 . Add Copies
-.. Refer to xref:_add_a_copy_to_a_line_item[] for details.
+.. Refer to xref:_add_copies_to_a_line_item[] for details.
 . Activate Purchase Order
 .. Refer to xref:_activate_purchase_order[] for details.
 
