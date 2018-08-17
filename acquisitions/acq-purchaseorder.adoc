@@ -41,8 +41,8 @@ When creating a purchase order or editing an existing purchase order, the purcha
 
 NOTE: Purchase Order Names are case sensitive.
 
-Add Line Items to Purchase Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add Line Items
+~~~~~~~~~~~~~~
 
 include::acq-briefrecord.adoc[]
 
@@ -109,7 +109,7 @@ Purchase Order Actions
 
 The actions available will depend on the current state.
 
-.Any State
+.Purchase Order in any State
 * Export Single Attribute List
 * Print Purchase Order
 * View PO History
