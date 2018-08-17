@@ -9,16 +9,4 @@ An overview video of the acquisitions module can be viewed here.
 
 NOTE: The Acquisitions module is an add-on service with additional costs. Please contact Sitka Support for information regarding adding this module.
 
-Before beginning to use Acquisitions, the following must be configured by an Acquisitions administrator:
-
-.Acquisitions Initial Set-up
-* Funding Sources and Funds
-* Providers
-* Claiming (optional)
-* Distribution Formulas (optional)
-* EDI Accounts (optional)
-
-.Multi vs Single Branch Library
-* The context org unit is the org unit responsible for placing and managing the order. It defines what org unit settings (eg copy locations) are in scope, what fiscal year to use, who is allowed to view/modify the PO, where the items should be delivered and the EDI SAN.
-** Multi-branch systems uploading records for multiple branches should choose the system.
-** Single branch libraries or branches responsible for their own orders should choose the branch.
+Before beginning to use Acquisitions, the Acquisitions initial setup must be completed by the Acquisitions administrator:. Refer to xref:_acquisitions_module_configuration[] for details.

@@ -1,0 +1,21 @@
+Acquisitions Module Configuration
+---------------------------------
+
+.Acquisitions Initial Set-up
+* Funding Sources
+** Refer to xref:_funding_sources[] for details.
+* Funds
+** Refer to xref:_funds[] for details.
+* Providers
+** Refer to xref:admin-provider.adoc[] for details.
+* Claiming
+** Refer to xref:_providers[] for details.
+* Distribution Formulas (optional)
+** Refer to xref:_distribution_formulas[] for details.
+* EDI Accounts (optional)
+** Refer to xref:edi[] for details.
+
+.Multi vs Single Branch Library
+* The context org unit is the org unit responsible for placing and managing the order. It defines what org unit settings (eg copy locations) are in scope, what fiscal year to use, who is allowed to view/modify the PO, where the items should be delivered and the EDI SAN.
+** Multi-branch systems uploading records for multiple branches should choose the system.
+** Single branch libraries or branches responsible for their own orders should choose the branch.
