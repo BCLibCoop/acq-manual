@@ -58,11 +58,11 @@ Search for Line Items and Catalogue Records
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Search for Selection Lists you created
+.Search for your Selection Lists
 . Click *Acquisitions* -> *My Selection Lists*.
 .. *My Selection Lists* displays the selection lists created by the user currently logged into the workstation.
 
-.Search for Selection Lists
+.Search for Selection Lists created by others
 . Click *Acquisitions* -> *General Search*.
 . Choose _selection lists_ from the *Search for* drop down menu.
 . Select your search field(s) and enter your search term(s).

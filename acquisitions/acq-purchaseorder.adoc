@@ -54,7 +54,8 @@ include::acq-viewplaceorder.adoc[]
 Activate Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.Activation criteria
+Activation criteria
+^^^^^^^^^^^^^^^^^^^
 
 .Copy
 * Each line must have at least one copy attached to it.
