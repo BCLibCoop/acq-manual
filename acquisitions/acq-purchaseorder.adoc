@@ -2,6 +2,7 @@ Purchase Orders
 ---------------
 
 This chapter describes how to create and activate purchase orders in the Acquisitions Module.
+
 anchor:purchase[purchase order]
 
 Create Purchase Orders
@@ -11,8 +12,9 @@ Create Purchase Orders
 . Click *Acquisitions* -> *Create Purchase Order*
 . Choose your library from the *Ordering Agency* drop down menu.
 . Enter a purchase order *Name* (optional).
-.. If you do not enter a name the database ID will be used.
-.. You can change the name to any grouping of letters or numbers as determined by your library's policies. You can reuse purchase order names as long as a name is never used twice in the same year.
+.. If you do not enter a name the PO ID will be used.
+.. You can change the name to any grouping of letters or numbers as determined by your library's policies.
+.. You can reuse purchase order names as long as a name is never used twice in the same year.
 . Enter the Provider code. The text will auto-complete.
 . Check the box for Prepayment Required if prepayment is required.
 . Click *Save*
