@@ -59,23 +59,28 @@ Activation criteria
 
 .Copy
 * Each line must have at least one copy attached to it.
-* If there is no copy the Activate Order? field will read, Activatable? No: The lineitem has no attached copies (ACQ_LINEITEM_NO_COPIES) (lineitemID). Simply attach a copy to the line item.
+* If there is no copy the Activate Order? field will read, _Activatable? No: The lineitem has no attached copies (ACQ_LINEITEM_NO_COPIES) (lineitemID)_.
+. Attach a copy to the line item to resolve the issue.
 ** See Add a Copy to a Line Item for instructions.
 ** Copies should not be added to line items after a purchase order is activated.
 
 .Owning Branch
 * Each line item must have an Owning Branch.
-* If there is no assigned Owning Branch Activate Order? field will read, Activatable. However attempting to Activate the order will result in the following error message. Simply click Reload and use the Line Item Batch Updater to assign an Owning Branch.
+* If there is no assigned Owning Branch Activate Order? field will read, _Activatable_. However attempting to Activate the order will result in an error message.
+* Use the Line Item Batch Updater to assign an Owning Branch.
+** Refer to xref:_line_item_batch_updater[] for details.
 
 .Fund
 * Each line item must have funds applied to it.
-* If no funds are applied the Activate Order? field will read, No: The requested acq. fund was not found (ACQ_FUND_NOT_FOUND). Simply apply funds individually or as a batch.
+* If no funds are applied the Activate Order? field will read, _No: The requested acq. fund was not found (ACQ_FUND_NOT_FOUND)._
+* Apply funds individually or as a batch.
 ** The fund(s) used for the purchase order must not have reached its stop level. If the fund is above its stop level the Activate Order? field will read, No; fund [fund name here] would be encumbered beyond its stop level. In this case, more credit must be allocated to the fund or a different fund must be applied to the purchase order.
 ** If the fund(s) used for the purchase order have reached its warning level staff will be alerted but are able to continue with activating the purchase order.
 
 .Price
 * Each line item must contain an estimated price.
-* If there is no estimated price the Activate Order? field will read, No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE). Simply enter prices in the estimated price fields and click Reload.
+* If there is no estimated price the Activate Order? field will read, No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE).
+* Enter prices in the estimated price fields.
 
 When the above criteria have been met the Activate Order button will appear and you can proceed with the following:
 
