@@ -17,4 +17,4 @@ Evergreen uses claim policies to compile a list of claim-ready items based on or
 .. Claim Policy ID
 . Click *Save*
 
-NOTE: See xref:_providers[]  
+NOTE: See xref:_providers[] for the steps to add a default claim policy. 

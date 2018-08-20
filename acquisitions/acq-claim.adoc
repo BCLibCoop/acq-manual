@@ -1,12 +1,12 @@
 Claiming
 --------
 
-Evergreen uses claim policies to compile a list of claim-ready items based on order date.  This list can aid staff when claiming items.  Staff can use Evergreen to track items that have been manually claimed. All claiming is currently manual; electronic claiming is not available
+Evergreen uses claim policies to compile a list of claim-ready items based on order date. All claiming is currently manual; electronic claiming is not available
 
 Claim Policies
 ~~~~~~~~~~~~~~
 
-The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies purchased from the provider.
+The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies ordered from the provider.
 
 image::images/acquisitions/claimpolicies1.png[]
 
@@ -34,7 +34,7 @@ If an item has not been received and meets the conditions for claiming, the item
 . Check the box(es) adjacent to the line item(s) you wish to claim.
 . Click *Claim selected items*.
 .. From the *Claim Type* drop down menu select the reason you are making the claim.
-.. Enter a note if you desire and click *Claim*.
+.. Enter a note (optional) and click *Claim*.
 . Claim vouchers for the claimed items will appear.
 . Click *Print* to save or print out your vouchers.
 .. The voucher can be mailed or emailed to the provider to initiate the claim.
@@ -66,21 +66,17 @@ Individual copies on a line item can be manually claimed through the claim-ready
 . Click *Print* to save or print out your vouchers.
 .. The voucher can be mailed or emailed to the provider to initiate the claim.
 
-Items can be manually claimed at any time.  Manual claiming can be done for both line items and individual copies. You can manually claim a line item any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
-
-////
-.Manually Claim a Copy
+.Claim a Copy from the Purchase Order
 . Open your purchase order.
 . Click the *Copies* link on the line item containing the copy or copies you wish to claim.
 . Click the *Claim* link adjacent to the copy you wish to claim.
 . Use the check boxes to select any additional copies you wish to claim and then click *Claim selected*.
 . From the *Claim Type* drop down menu select the reason you are making the claim.
-. Enter a note if you desire and click *Claim*.
+. Enter a note (optional) and click *Claim*.
 . The number of existing claims on the line item updates and a claim voucher appears.
 .. The voucher can be printed and mailed to the provider to initiate the claim.
 
-You can manually claim a copy any time after it has been ordered until it is received. Line items that have been suspended can be claimed.
-////
+Manual claiming can be done for both line items and individual copies. You can manually claim a line item or copy any time after it has been ordered until it is received. Line items or copies that have been suspended can be claimed.
 
 Claim Vouchers
 ~~~~~~~~~~~~~~
