@@ -7,9 +7,9 @@ Acquisitions Module Configuration
 * Funds
 ** Refer to xref:_funds[] for details.
 * Providers
-** Refer to xref:admin-provider.adoc[] for details.
-* Claiming
 ** Refer to xref:_providers[] for details.
+* Claiming
+** Refer to xref:_claim_policies[] for details.
 * Distribution Formulas (optional)
 ** Refer to xref:_distribution_formulas[] for details.
 * EDI Accounts (optional)

@@ -21,10 +21,11 @@ Create a Provider
 .. Unchecking this box deactivates the provider. A provider must be active in order for purchase orders to be made from that provider.
 . Enter the default number of copies for the provider.
 .. When line items are added to purchase orders for this provider the default number of copies will be automatically created.
-. Select a default claim policy from the drop down menu. Choose the policy that best describes the policy you use with the provider. The default policy does not need to cover all possible situations as it is possible to override with a different policy at the time of the claim.
+. Select a default *Claim policy* from the drop down menu.
 .. The default claim policy associated with each provider is automatically assigned to line items and copies purchased from the provider.
+.. Choose the policy that best describes the policy you use with the provider. The default policy does not need to cover all possible situations as it is possible to override with a different policy at the time of the claim.
 .. This field may be left blank if no default policy should be applied to the provider.
-. Do NOT select an EDI default from the drop down menu. Leave this field blank. EDI defaults must be created after the provider and then linked. See EDI Accounts for more information.
+. Do NOT select an EDI default from the drop down menu. Leave this field blank. EDI defaults must be created after the provider and then linked. Refer to xref:_create_an_edi_account[] for details.
 . *E-mail* field, enter the provider's e-mail address.
 . Fax Phone field, enter the provider's fax number.
 . If your provider enters holding data in MARC records, enter 970 into the Holdings Tag field.
@@ -77,12 +78,12 @@ The names of contacts and their specific contact details can be added to provide
 Edit Provider
 ~~~~~~~~~~~~~
 Provider information can be updated at any time.
-Select Admin → Acquisitions Administration → Providers.
-If needed use the Filter to locate the desired provider.
-Providers can be filtered on the following fields:
-Click the hyperlinked name of the provider you would like to edit.
-Make your changes in the top half of the Provider Details screen.
-Click Save.
+
+. Select Admin → Acquisitions Administration → Providers.
+. If needed use the Filter to locate the desired provider.
+. Click the hyperlinked name of the provider you would like to edit.
+. Make your changes in the top half of the Provider Details screen.
+. Click *Save*.
 
 Delete Provider
 ~~~~~~~~~~~~~~~
@@ -96,24 +97,23 @@ Holding Subfields
 
 Holding subfields are used with a 970 Holdings Tag to allow you to specify subfields within the holding tags to which your provider adds holdings information.
 
-Open a provider.
-Click the Holding Subfield tab.
-Click New Holding Subfield. A pop-up will appear.
-In the Name field, enter a name for your holding subfield.
-In the Subfield field, enter your subfield.
-The holdings subfields in use by Sitka are:
-b : barcode
-c : call_number
-m : circ_modifier
-l : copy_location
-e : estimated_price
-f : fund_code
-n : note
-o : owning_lib
-q : quantity
-
-The subfields used will depend on your provider, but $o must always be used.
-Click Save.
+. Open a provider.
+. Click the Holding Subfield tab.
+. Click New Holding Subfield. A pop-up will appear.
+. In the Name field, enter a name for your holding subfield.
+. In the Subfield field, enter your subfield.
+.. The holdings subfields in use by Sitka are:
+... b : barcode
+... c : call_number
+... m : circ_modifier
+... l : copy_location
+... e : estimated_price
+... f : fund_code
+... n : note
+... o : owning_lib
+... q : quantity
+.. The subfields used will depend on your provider, but $o must always be used.
+. Click *Save*.
 
 Now when MARC records for this provider are loaded through Load MARC Order Records the system will use the subfields in the 970 tag to do such things as generate copies on the line items, apply funds, and add in estimated prices.
 

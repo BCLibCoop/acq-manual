@@ -96,8 +96,8 @@ image::images/administration/fundingsource7.png[]
 +
 . The Allocations tab will display all allocations made to funds out of this funding source. See Track Debits and Credits for more information.
 
-Track Debits and Credits
-~~~~~~~~~~~~~~~~~~~~~~~~
+Track Credits and Allocations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can track credits to and allocations from for each funding source through the Summary tab on the Funding Source Details screen.
 
