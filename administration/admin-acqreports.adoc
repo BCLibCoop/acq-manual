@@ -1,4 +1,22 @@
 Acquisitions Reports
 --------------------
 
-Acquisitions report templates can be found in the Acquisitions sub folder in the Sitka templates [Link]
+Acquisitions report templates can be found in the Acquisitions sub folder in the http://docs.libraries.coop/sitka/_shared_sitka_templates.html[Sitka templates] shared folder.
+
+. Click *Administration* -> *Reports* -> *Shared Folders* -> *Sitka Templates* -> *Acquisitions*
+
+* Line items received but not invoiced.
+** Shows you line items which have been marked as received, but have not yet been invoiced.
+
+* Line items invoice but not received.
+** Shows you line items which have been marked as invoiced, but have not yet been received.
+** This one is particularly important for sites which receive EDI invoices
+
+* Line Items with the Status of On-order
+** This template will produce a report of all line items with the status of on-order.
+
+* Fund Report by Year
+** This report will display your budget (total allocated), amount of money encumbered, amount of money spent, and current money available (after spent and encumbered) for all of the funds for your library for the specified year.
+
+* Claim Ready Items
+** This report will show you claim ready items
