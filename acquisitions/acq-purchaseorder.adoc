@@ -54,14 +54,14 @@ include::acq-viewplaceorder.adoc[]
 Activate Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Activation criteria
+Activation Criteria
 ^^^^^^^^^^^^^^^^^^^
 
 .Copy
 * Each line must have at least one copy attached to it.
 * If there is no copy the Activate Order? field will read, _Activatable? No: The lineitem has no attached copies (ACQ_LINEITEM_NO_COPIES) (lineitemID)_.
 . Attach a copy to the line item to resolve the issue.
-** See Add a Copy to a Line Item for instructions.
+** Refer to xref:_add_copies_to_a_line_item[] for details.
 ** Copies should not be added to line items after a purchase order is activated.
 
 .Owning Branch
@@ -83,6 +83,9 @@ Activation criteria
 * Enter prices in the estimated price fields.
 
 When the above criteria have been met the Activate Order button will appear and you can proceed with the following:
+
+Activate a Purchase Order
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Activate a Purchase Order
 . Click *Activate Order*.
