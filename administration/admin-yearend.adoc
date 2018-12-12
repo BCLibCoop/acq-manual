@@ -8,7 +8,7 @@ Sitka Acquisitions Video - Fiscal Year Close-out (Year End) (5:15)
 
 Sitka Acquisitions Video - Fiscal Year Start (New Year) (5:33)
 
-At the end of each fiscal year libraries need to run year end processess to close out the year.
+At the end of each fiscal year libraries need to run year end processes to close out the year.
 
 Year End Checklist
 ~~~~~~~~~~~~~~~~~~
@@ -17,7 +17,7 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 
 * All pending purchase orders are activated.
 +
-** Acquisitions --> Purchase Orders --> PO-Ordering Agency = Your Library --> PO-State = pending --> Search
+** Search for xref:pending-order[].
 +
 * All items physically received in the current fiscal year are received in Evergreen.
 +
@@ -31,7 +31,7 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 +
 * Save and Close all open invoices.
 +
-** Acquisitions --> Open Invoices
+** xref:_search_for_invoices[].
 +
 * A date on which to run the year end processes has been chosen.
 +
@@ -50,6 +50,8 @@ If you run into difficulties at any point in this process please contact Support
 . Prepare for year end using the Year End Checklist.
 
 . Confirm that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
+
+.. xref:_acquisitions_settings_in_the_library_settings_editor[]
 
 . Implement acquisitions year end freeze.
 
