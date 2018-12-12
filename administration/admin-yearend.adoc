@@ -15,29 +15,33 @@ Year End Checklist
 
 Libraries should review this checklist as they reach the end of their fiscal year in preparation for the year end processes.
 
-* All pending purchase orders are activated.
-+
+* Activate all pending purchase orders.
+
 ** Search for xref:pending-order[].
-+
-* All items physically received in the current fiscal year are received in Evergreen.
-+
-** Run report found in Sitka_templates --> Acquisitions --> Line Items --> Lines Items That Have Been Invoiced but not Received
-+
-* All items to be paid for in the current fiscal year are invoiced for in Evergreen.
-+
-** Run report found in Sitka_templates --> Acquisitions --> Line Items --> Lines Items That Have Been Received but not Invoiced
-+
-* The balance for all Funding Sources is not negative.
-+
+
+* Run report "Lines Items That Have Been Invoiced but not Received".
+
+** Found in Sitka_templates -> Acquisitions -> Line Items
+
+* Mark as received all items physically received in the current fiscal year.
+
+* Run report "Lines Items That Have Been Received but not Invoiced".
+
+** Found in Sitka_templates -> Acquisitions -> Line Items
+
+* Invoice all items to be paid for in the current fiscal year.
+
 * Save and Close all open invoices.
-+
+
 ** xref:_search_for_invoices[].
-+
-* A date on which to run the year end processes has been chosen.
-+
+
+* Check the Funding Sources do not have a negative balance.
+
+* Choose a date to run the year end process.
+
 ** Libraries should NOT run year end between 9:30am and 11:00am PT as EDI invoices are retrieved by the system system during this period every morning.
-+
-* Dates for an acquisitions year end freeze have been selected and staff are aware of what those dates are.
+
+* Implement an acquisitions year end freeze.
 
 Sitka's Acquisitions Year End Procedure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +57,7 @@ If you run into difficulties at any point in this process please contact Support
 
 .. xref:_acquisitions_settings_in_the_library_settings_editor[]
 
-. Implement acquisitions year end freeze.
+. Implement an acquisitions year end freeze.
 
 .. An Acquisitions freeze helps ensure that all debits and encumbrances are assigned to the correct fiscal year.
 
@@ -116,7 +120,9 @@ Close-out runs as expected.
 . Check the check box for Dry Run.
 
 . Click *Process*.
-
++
+image::images/administration/yearend_dryrun.png[]
++
 . Evergreen will temporarily create the new funds and give details about what changes would be made. No changes are actually made to the system when doing a Dry Run.
 
 Fiscal Year Close-out Operation - Rollover Encumbrances Only
