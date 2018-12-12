@@ -4,7 +4,7 @@ Distribution Formulas
 *Distribution Formulas* are intented for use in multi-branch systems to specify the number of copies that should be distributed to specific branches. The formulas are also used for all libraries as line item templates with the batch updater on purchase orders. Formulas can be created and reused as needed.
 
 .Create a Distribution Formula
-. Click **Administration*istration* -> **Acquisitions Administration* *Administration*istration* -> **Distribution Formulas**
+. Click *Administration* -> **Acquisitions Administration*  -> **Distribution Formulas**
 . Click New Formula.
 . Enter a Formula name. There is no limit to the number of characters that can be entered in this field.
 . Choose a Formula Owner. The formula owner indicates the organizational units whose staff can use this formula.

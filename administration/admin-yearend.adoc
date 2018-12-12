@@ -1,12 +1,12 @@
 Acquisitions Year End
 ---------------------
 
-Adapted with permission from original material by the 
+Adapted with permission from original material by the
 https://wiki.evergreen-ils.org/lib/exe/fetch.php?media=administration_functions_in_the_acquistions_module_ev.pdf[Evergreen Community]
 
 Sitka Acquisitions Video - Fiscal Year Close-out (Year End) (5:15)
 
-Sitka Acquisitions Video - Start New Year (5:33)
+Sitka Acquisitions Video - Fiscal Year Start (New Year) (5:33)
 
 At the end of each fiscal year libraries need to run year end processess to close out the year.
 
@@ -39,81 +39,81 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 +
 * Dates for an acquisitions year end freeze have been selected and staff are aware of what those dates are.
 
-Sitka Acquisitions Year End Procedure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sitka's Acquisitions Year End Procedure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
 =====
 If you run into difficulties at any point in this process please contact Support for assistance.
 =====
 
-. Library prepares for year end using the Year End Checklist.
+. Prepare for year end using the Year End Checklist.
 
-. Library confirms that the Library Setting Allow funds to be rolled over without bringing the money along is set to True.
+. Confirm that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
 
-. Library implements acquisitions year end freeze.
+. Implement acquisitions year end freeze.
 
 .. An Acquisitions freeze helps ensure that all debits and encumbrances are assigned to the correct fiscal year.
 
-. Library runs fund report for old fiscal year.
+. Run fund report for old fiscal year.
 
-. Library runs a Dry Run to check that all necessary funds will be propagated for the new fiscal year.
+. Complete a Dry Run to check that all necessary funds will be propagated for the new fiscal year.
 
-. Library performs the Fiscal Year Close-out Operation.
+. Perform the Fiscal Year Close-out Operation.
 
-. Library runs fund report for old and new fiscal year.
+. Run the fund report for old and new fiscal year.
 
-. Library uses fund reports to confirm that the encumbrances and spent totals for the funds in the old and new fiscal years are correct.
-  
+. Use the fund reports to confirm that the encumbrances and spent totals for the funds in the old and new fiscal years are correct.
+
 .. Libraries that do not carry unspent money forward should see balances of zero in their old fiscal year and negative balances in their new fiscal year.
 
-. Library lifts acquisitions year end freeze.
+. Lift acquisitions year end freeze.
 
-. Library creates new funding source(s) and allocates credit to the funding source(s).
+. Create new funding source(s) and allocates credit to the funding source(s).
 
-. Library allocates money from the new funding source(s) into the new funds.
+. Allocate money from the new funding source(s) into the new funds.
 
-. Library begins new fiscal year.
+
 
 [NOTE]
 =====
-Any line items on selection lists with the status of new, selector-ready, order-ready, or 
-pending-order need to have the fund assigned to them manually updated to the equivalent new 
-fund before the line item is activated as part of a purchase order. See Update Funds to Copies 
+Any line items on selection lists with the status of new, selector-ready, order-ready, or
+pending-order need to have the fund assigned to them manually updated to the equivalent new
+fund before the line item is activated as part of a purchase order. See Update Funds to Copies
 via Batch Updates to Line Items for instructions.
 =====
 
 
-Fund Propagation and Rollover 
+Fund Propagation and Rollover
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Year End Close-out Operation allows you to deactivate funds for the current year and create analogous 
-funds for the next year. It transfers encumbrances to the analogous funds. Depending on the needs of a 
-library it can also transfers any remaining money into the analogous funds or back to the original 
+The Year End Close-out Operation allows you to deactivate funds for the current year and create analogous
+funds for the next year. It transfers encumbrances to the analogous funds. Depending on the needs of a
+library it can also transfers any remaining money into the analogous funds or back to the original
 funding sources.
 
 
 Fiscal Year Close-out Operation - Dry Run
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Before running the Fiscal Year Close-out Operation, a Dry Run can be performed to ensure that 
+Before running the Fiscal Year Close-out Operation, a Dry Run can be performed to ensure that
 Close-out runs as expected.
 
 . In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
 
 . From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Click Fund Propagation and Rollover.
+. Click *Fund Propagation and Rollover*.
 
 . Check the boxes applicable to your requirements for the close-out.
 
 .. See Fiscal Year Close-out Operation - Rollover Encumbrances Only, Fiscal Year Close-out Operation - Rollover Encumbrances and Funds, and Fiscal Year Close-out Operation - Propagation Only for the different fiscal close-out options.
 
-. Check the tickbox for Include Funds for Descendant Org Units. (Only applicable to multi-branch systems)
+. Check the check box for Include Funds for Descendant Org Units. (Only applicable to multi-branch systems)
 
-. Check the tickbox for Dry Run.
+. Check the check box for Dry Run.
 
-. Click Process.
+. Click *Process*.
 
 . Evergreen will temporarily create the new funds and give details about what changes would be made. No changes are actually made to the system when doing a Dry Run.
 
@@ -132,7 +132,7 @@ Fiscal Year Close-out Operation - Rollover Encumbrances Only
 
 . From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Click Fund Propagation and Rollover.
+. Click *Fund Propagation and Rollover*.
 
 . Check the box adjacent to Perform Fiscal Year Close-Out Operation.
 
@@ -142,14 +142,14 @@ Fiscal Year Close-out Operation - Rollover Encumbrances Only
 
 .. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
-. Click Process.
+. Click *Process*.
 
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances will be moved to the new funds for every fund where the Rollover box was checked.
 
 Fiscal Year Close-out Operation - Rollover Encumbrances and Unspent Money
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to False .
+. Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *False* .
 
 . The Propagate check box must be checked for every fund that will be rolled over.
 
@@ -161,7 +161,7 @@ Fiscal Year Close-out Operation - Rollover Encumbrances and Unspent Money
 
 . From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Click Fund Propagation and Rollover.
+. Click *Fund Propagation and Rollover*.
 
 . Check the box adjacent to Perform Fiscal Year Close-Out Operation.
 
@@ -171,17 +171,17 @@ Fiscal Year Close-out Operation - Rollover Encumbrances and Unspent Money
 
 .. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
-. Click Process.
+. Click *Process*.
 
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and money will be moved to the new funds for every fund where the Rollover box was checked.
 
 Fiscal Year Close-Out Operation - Rollover Encumbrances and Unspent Money for Particular Funds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal 
+To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
 year end close-out must be run twice.
 
-. Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to True .
+. Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True* .
 
 . Uncheck the Propagate check box for every fund where the unspent money will be rolled over.
 
@@ -193,7 +193,7 @@ year end close-out must be run twice.
 
 . From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Click Fund Propagation and Rollover.
+. Click *Fund Propagation and Rollover*.
 
 . Check the box adjacent to Perform Fiscal Year Close-Out Operation.
 
@@ -203,7 +203,7 @@ year end close-out must be run twice.
 
 .. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
-. Click Process.
+. Click *Process*.
 
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances will be moved to the new funds for every fund where the Rollover box was checked.
 
@@ -227,7 +227,7 @@ year end close-out must be run twice.
 
 . From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Click Fund Propagation and Rollover.
+. Click *Fund Propagation and Rollover*.
 
 . Check the box adjacent to Perform Fiscal Year Close-Out Operation.
 
@@ -237,7 +237,7 @@ year end close-out must be run twice.
 
 .. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
-. Click Process.
+. Click *Process*.
 
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and unspent money will be moved to the new funds for every fund where the Rollover box was checked.
 
@@ -258,7 +258,7 @@ To propagate funds in Evergreen without performing rollover:
 
 . See Create a Fund for information on these check boxes.
 
-. Click Fund Propagation and Rollover.
+. Click *Fund Propagation and Rollover*.
 
 . Uncheck the box adjacent to Perform Fiscal Year Close-Out Operation.
 
@@ -270,7 +270,6 @@ To propagate funds in Evergreen without performing rollover:
 
 .. If you want to propagate funds for context org unit and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
-. Click Process.
+. Click *Process*.
 
 . Evergreen will create new funds, increasing the year by one, for all the funds in the year you selected that have Propagate set to true. No money or encumbrances are moved.
-

@@ -40,7 +40,7 @@ Provider SAN
 
 .Enter a Provider's SAN
 . In Evergreen select *Administration* -> *Acquisitions Administration* -> *Providers*.
-. Click the hyperlinked name of the provider you would like to edit.
+. Click the hyper linked name of the provider you would like to edit.
 . Enter your provider's SAN in the field labeled SAN.
 . Click *Save*.
 
@@ -61,7 +61,7 @@ Contact your provider requesting the following information:
 * Provider's SAN
 
 .Create an EDI Account
-.Click **Administration* -> *Acquisitions Administration* -> *EDI Accounts*.
+.Click *Administration* -> *Acquisitions Administration* -> *EDI Accounts*.
 . Click New Account. A pop-up will appear.
 . In the Label field, enter a name for the EDI account.
 .. The name should be entered as PROVIDERCODE_LIBRARYCODE. This enables Sitka Support to easily identify the owning library of the EDI account when troubleshooting.
@@ -82,5 +82,5 @@ View EDI Messages
 The EDI Messages screen displays all incoming and outgoing messages between the library and the provider.
 
 .View EDI Messages
-. Click **Administration*istration* -> **Acquisitions Administration* *Administration*istration* -> *EDI Messages*
+. Click *Administration* -> *Acquisitions Administration* -> *EDI Messages*
 . The messages will display. Use the column headers to sort.
