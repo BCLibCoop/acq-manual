@@ -80,16 +80,6 @@ If you run into difficulties at any point in this process please contact Support
 . Allocate money from the new funding source(s) into the new funds.
 
 
-
-[NOTE]
-=====
-Any line items on selection lists with the status of new, selector-ready, order-ready, or
-pending-order need to have the fund assigned to them manually updated to the equivalent new
-fund before the line item is activated as part of a purchase order. See Update Funds to Copies
-via Batch Updates to Line Items for instructions.
-=====
-
-
 Fund Propagation and Rollover
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -99,8 +89,8 @@ library it can also transfers any remaining money into the analogous funds or ba
 funding sources.
 
 
-Fiscal Year Close-out Operation - Dry Run
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dry Run
+^^^^^^^
 
 Before running the Fiscal Year Close-out Operation, a Dry Run can be performed to ensure that
 Close-out runs as expected.
@@ -113,7 +103,7 @@ Close-out runs as expected.
 
 . Check the boxes applicable to your requirements for the close-out.
 
-.. See Fiscal Year Close-out Operation - Rollover Encumbrances Only, Fiscal Year Close-out Operation - Rollover Encumbrances and Funds, and Fiscal Year Close-out Operation - Propagation Only for the different fiscal close-out options.
+.. See xref:_fiscal_year_close-out_options
 
 . Check the check box for Include Funds for Descendant Org Units. (Only applicable to multi-branch systems)
 
@@ -125,8 +115,11 @@ image::images/administration/yearend_dryrun.png[]
 +
 . Evergreen will temporarily create the new funds and give details about what changes would be made. No changes are actually made to the system when doing a Dry Run.
 
-Fiscal Year Close-out Operation - Rollover Encumbrances Only
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Fiscal Year Close-out Options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Rollover Encumbrances Only
+++++++++++++++++++++++++++
 
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to True .
 
@@ -151,11 +144,13 @@ Fiscal Year Close-out Operation - Rollover Encumbrances Only
 .. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
 . Click *Process*.
-
++
+image::images/administration/yearend_encumbranceonly.png[]
++
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances will be moved to the new funds for every fund where the Rollover box was checked.
 
-Fiscal Year Close-out Operation - Rollover Encumbrances and Unspent Money
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Rollover Encumbrances and Unspent Money
++++++++++++++++++++++++++++++++++++++++
 
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *False* .
 
@@ -173,18 +168,18 @@ Fiscal Year Close-out Operation - Rollover Encumbrances and Unspent Money
 
 . Check the box adjacent to Perform Fiscal Year Close-Out Operation.
 
-. Ensure the box adjacent to Limit Fiscal Year Close-out Operation to Encumbrances is not checked.
-
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
 .. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
 . Click *Process*.
-
++
+image::images/administration/yearend_unspentmoney.png[]
++
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and money will be moved to the new funds for every fund where the Rollover box was checked.
 
-Fiscal Year Close-Out Operation - Rollover Encumbrances and Unspent Money for Particular Funds
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Rollover Encumbrances and Unspent Money for Particular Funds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
 year end close-out must be run twice.
@@ -193,9 +188,9 @@ year end close-out must be run twice.
 
 . Uncheck the Propagate check box for every fund where the unspent money will be rolled over.
 
-.. Uncheck the Rollover check box for every fund where the unspent money will be rolled over.
+. Uncheck the Rollover check box for every fund where the unspent money will be rolled over.
 
-... See Create a Fund for information on these check boxes.
+.. See Create a Fund for information on these check boxes.
 
 . In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
 
@@ -249,8 +244,8 @@ year end close-out must be run twice.
 
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and unspent money will be moved to the new funds for every fund where the Rollover box was checked.
 
-Fiscal Year Close-out Operation - Propagation Only
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Propagation Only
+++++++++++++++++
 
 To propagate funds in Evergreen without performing rollover:
 
@@ -268,16 +263,12 @@ To propagate funds in Evergreen without performing rollover:
 
 . Click *Fund Propagation and Rollover*.
 
-. Uncheck the box adjacent to Perform Fiscal Year Close-Out Operation.
-
-. Uncheck the box adjacent to Limit Fiscal Year Close-out Operation to Encumbrances.
-
-. Uncheck the box for Dry Run.
-
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
 .. If you want to propagate funds for context org unit and its child units, check the box adjacent to Include Funds for Descendant Org Units.
 
 . Click *Process*.
-
++
+image::images/administration/yearend_propagateonly.png[]
++
 . Evergreen will create new funds, increasing the year by one, for all the funds in the year you selected that have Propagate set to true. No money or encumbrances are moved.
