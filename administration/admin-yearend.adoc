@@ -290,7 +290,9 @@ year end close-out must be run *twice*.
 .. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
 
 . Click *Process*.
-
++
+image::images/administration/yearend_encumbranceonly.png[]
++
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances will be moved to the new funds for every fund where the Rollover box was checked.
 
 . Reload the Funds page and go back to the current fiscal year you are closing.
@@ -309,14 +311,16 @@ year end close-out must be run *twice*.
 
 . Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
-. Ensure the box adjacent to *Limit Fiscal Year Close-out Operation to Encumbrances is not checked*.
+. Ensure the box adjacent to *Limit Fiscal Year Close-out Operation to Encumbrances is NOT checked*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
 .. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
 
 . Click *Process*.
-
++
+image::images/administration/yearend_unspentmoney.png[]
++
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box set to True, but will increment the year by 1. Encumbrances and unspent money will be moved to the new funds for every fund where the Rollover box was checked.
 
 [NOTE]
