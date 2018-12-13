@@ -83,21 +83,17 @@ If you run into difficulties at any point in this process please contact Support
 Fund Propagation and Rollover
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Year End Close-out Operation allows you to deactivate funds for the current year and create analogous
-funds for the next year. It transfers encumbrances to the analogous funds. Depending on the needs of a
-library it can also transfers any remaining money into the analogous funds or back to the original
-funding sources.
-
+Before running the Fiscal Year Close-out Operation, a Dry Run can be performed to ensure that
+Close-out runs as expected.
 
 Dry Run
 ^^^^^^^
 
-Before running the Fiscal Year Close-out Operation, a Dry Run can be performed to ensure that
-Close-out runs as expected.
+. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
-. In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
+.. Only applicable to multi-branch systems
 
-. From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
+. From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . Click *Fund Propagation and Rollover*.
 
@@ -105,9 +101,11 @@ Close-out runs as expected.
 
 .. See xref:_fiscal_year_close-out_options
 
-. Check the check box for Include Funds for Descendant Org Units. (Only applicable to multi-branch systems)
+. Check the check box for *Include Funds for Descendant Org Units*.
 
-. Check the check box for Dry Run.
+.. Only applicable to multi-branch systems
+
+. Check the check box for *Dry Run*.
 
 . Click *Process*.
 +
@@ -117,6 +115,11 @@ image::images/administration/yearend_dryrun.png[]
 
 Fiscal Year Close-out Options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Year End Close-out Operation allows you to deactivate funds for the current year and create analogous
+funds for the next year. It transfers encumbrances to the analogous funds. Depending on the needs of a
+library it can also transfers any remaining money into the analogous funds or back to the original
+funding sources.
 
 Rollover Encumbrances Only
 ++++++++++++++++++++++++++
