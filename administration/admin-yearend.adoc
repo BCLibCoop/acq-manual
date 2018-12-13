@@ -160,6 +160,31 @@ Choose one of the following options
 
 . xref:rollover-encumbrances-and-unspent-money-for-specific-funds[] - Create analogous funds for the next year and rollover encumbrances and unspent money for some funds and only encumbrances for other funds.
 
+anchor:propagation-only[Propagation Only]
+
+.Propagation Only
+. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
+
+.. Only applicable to multi-branch system.
+
+. From the *Year* drop down menu, choose the year for which you would like to propagate the funds.
+
+. The Propagate check box must be checked for every fund that will be propagated.
+
+.. See xref:_create_a_fund[] for information on these check boxes.
+
+. Click *Fund Propagation and Rollover*.
+
+. Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
+
+.. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
+
+. Click *Process*.
++
+image::images/administration/yearend_propagateonly.png[]
++
+. Evergreen will create new funds, increasing the year by one, for all the funds in the year you selected that have Propagate set to true. No money or encumbrances are moved.
+
 anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 
 .Rollover Encumbrances Only
@@ -291,28 +316,3 @@ year end close-out must be run *twice*.
 
 [NOTE]
 The Limit Fiscal Year Close-out Operation to Encumbrances will only display if the setting *Allow funds to be rolled over without bringing the money along* is set to *True* in the Library Settings Editor.
-
-anchor:propagation-only[Propagation Only]
-
-.Propagation Only
-. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
-
-.. Only applicable to multi-branch system.
-
-. From the *Year* drop down menu, choose the year for which you would like to propagate the funds.
-
-. The Propagate check box must be checked for every fund that will be propagated.
-
-.. See xref:_create_a_fund[] for information on these check boxes.
-
-. Click *Fund Propagation and Rollover*.
-
-. Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
-
-.. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
-
-. Click *Process*.
-+
-image::images/administration/yearend_propagateonly.png[]
-+
-. Evergreen will create new funds, increasing the year by one, for all the funds in the year you selected that have Propagate set to true. No money or encumbrances are moved.
