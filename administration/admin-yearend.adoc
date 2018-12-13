@@ -19,35 +19,37 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 
 ** Search for xref:pending-order[].
 
-* Run report "Lines Items That Have Been Invoiced but not Received".
+* Run report *Lines Items That Have Been Invoiced but not Received*.
 
 ** Template found in Sitka_templates -> Acquisitions -> Line Items
 
 * Mark as received all items physically received in the current fiscal year.
 
-** xref:_receive_line_items[].
+** See xref:_receive_line_items[].
 
-* Run report "Lines Items That Have Been Received but not Invoiced".
+* Run report *Lines Items That Have Been Received but not Invoiced*.
 
 ** Template found in Sitka_templates -> Acquisitions -> Line Items
 
 * Invoice all items to be paid for in the current fiscal year.
 
-** xref:_invoices[]
+** See xref:_invoices[]
 
 * Save and Close all open invoices.
 
-** xref:_search_for_invoices[].
+** See xref:_search_for_invoices[].
 
 * Check the Funding Sources do not have a negative balance.
 
-** xref:_funding_sources[]
+** See xref:_funding_sources[]
 
 * Choose a date to run the year end process.
 
 ** Libraries should NOT run year end between 9:30am and 11:00am PT as EDI invoices are retrieved by the system system during this period every morning.
 
 * Implement an acquisitions year end freeze.
+
+** New orders should not be created while you are preparing for Year End.
 
 Sitka's Acquisitions Year End Procedure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,29 +61,29 @@ If you run into difficulties at any point in this process please contact Support
 
 . Prepare for year end using the Year End Checklist.
 
-.. xref:_year_end_checklist[]
+.. See xref:_year_end_checklist[]
 
 . Confirm that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
 
-.. xref:_acquisitions_settings_in_the_library_settings_editor[]
+.. See xref:_acquisitions_settings_in_the_library_settings_editor[]
 
 . Implement an acquisitions year end freeze.
 
 .. An Acquisitions freeze helps ensure that all debits and encumbrances are assigned to the correct fiscal year.
 
-. Run report "Fund Report by Year" for old fiscal year.
+. Run report *Fund Report by Year* for old fiscal year.
 
 .. Template found in Sitka_templates -> Acquisitions -> Funds
 
 . Complete a Dry Run to check that all necessary funds will be propagated for the new fiscal year.
 
-.. xref:_dry_run[]
+.. See xref:_dry_run[]
 
 . Perform the Fiscal Year Close-out Operation.
 
-.. xref:_fiscal_year_close_out_operations[]
+.. See xref:_fiscal_year_close_out_operations[]
 
-. Run report "Fund Report by Year" for old and new fiscal year.
+. Run report *Fund Report by Year* for old and new fiscal year.
 
 .. Template found in Sitka_templates -> Acquisitions -> Funds
 
@@ -91,13 +93,15 @@ If you run into difficulties at any point in this process please contact Support
 
 . Create new funding source(s) and allocates credit to the funding source(s).
 
-.. xref:_funding_sources[]
+.. See xref:_funding_sources[]
 
 . Allocate money from the new funding source(s) into the new funds.
 
-.. xref:_allocate_credit_to_funds_funding_source_interface[]
+.. See xref:_allocate_credit_to_funds_funding_source_interface[]
 
 . Lift acquisitions year end freeze.
+
+.. New orders can be created.
 
 
 Fund Propagation and Rollover
@@ -116,10 +120,12 @@ Dry Run
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . Click *Fund Propagation and Rollover*.
-
++
+image::images/administration/yearend_fundscontext.png[]
++
 . Check the boxes applicable to your requirements for the close-out.
 
-.. See xref:_fiscal_year_close-out_operations[]
+.. See xref:_fiscal_year_close_out_operations[]
 
 . Check the check box for *Include Funds for Descendant Org Units*.
 
