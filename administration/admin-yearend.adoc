@@ -169,7 +169,7 @@ anchor:propagation-only[Propagation Only]
 
 . From the *Year* drop down menu, choose the year for which you would like to propagate the funds.
 
-. The Propagate check box must be checked for every fund that will be propagated.
+. *Propagate* must be set to *True* for every fund that will be propagated.
 
 .. See xref:_create_a_fund[] for information on these check boxes.
 
@@ -196,9 +196,9 @@ anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. The Propagate check box must be checked for every fund that will be rolled over.
+. *Propagate* must be set to *True* for every fund that will be rolled over.
 
-. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
+. *Rollover* must be set to *True* for every fund where the encumbrances should be rolled over.
 
 .. See xref:_create_a_fund[] for information on these check boxes.
 
@@ -234,9 +234,9 @@ anchor:rollover-encumbrances-and-unspent-money[Rollover Encumbrances and Unspent
 
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. The Propagate check box must be checked for every fund that will be rolled over.
+. *Propagate* must be set to *True* for every fund that will be rolled over.
 
-. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
+. *Rollover* must be set to *True* for every fund where the encumbrances should be rolled over.
 
 .. See xref:_create_a_fund[] for information on these check boxes.
 
@@ -268,9 +268,9 @@ year end close-out must be run *twice*.
 
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Uncheck the Propagate check box for every fund where the unspent money will be rolled over.
+. *Propagate* must be set to *False* for every fund where the unspent money will be rolled over.
 
-. Uncheck the Rollover check box for every fund where the unspent money will be rolled over.
+. *Rollover* must be set to *False* for every fund where the unspent money will be rolled over.
 
 .. See xref:_create_a_fund[] for information on these check boxes.
 
@@ -290,15 +290,15 @@ year end close-out must be run *twice*.
 
 . Reload the Funds page and go back to the current fiscal year you are closing.
 
-. Check the Propagate check box for every fund where the unspent money will be rolled over.
+. *Propagate* must be set to *True* for every fund where the unspent money will be rolled over.
 
-. Check the Rollover check box for every fund where the unspent money will be rolled over.
+. *Rollover* must be set to *True* for every fund where the encumbrances should be rolled over.
 
-. Uncheck the Propagate check box for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
+. *Propagate* must be set to *False* for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
 
-. Uncheck the Rollover check box for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
+. *Rollover* must be set to *False* for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
 
-. Ensure that the Active check box has been unchecked for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
+. Ensure that *Active* is set to *False* for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
 
 . Click *Fund Propagation and Rollover*.
 
