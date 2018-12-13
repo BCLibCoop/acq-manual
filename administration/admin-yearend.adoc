@@ -21,21 +21,27 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 
 * Run report "Lines Items That Have Been Invoiced but not Received".
 
-** Found in Sitka_templates -> Acquisitions -> Line Items
+** Template found in Sitka_templates -> Acquisitions -> Line Items
 
 * Mark as received all items physically received in the current fiscal year.
 
+** xref:_receive_line_items[].
+
 * Run report "Lines Items That Have Been Received but not Invoiced".
 
-** Found in Sitka_templates -> Acquisitions -> Line Items
+** Template found in Sitka_templates -> Acquisitions -> Line Items
 
 * Invoice all items to be paid for in the current fiscal year.
+
+** xref:_invoices[]
 
 * Save and Close all open invoices.
 
 ** xref:_search_for_invoices[].
 
 * Check the Funding Sources do not have a negative balance.
+
+** xref:_funding_sources[]
 
 * Choose a date to run the year end process.
 
@@ -53,6 +59,8 @@ If you run into difficulties at any point in this process please contact Support
 
 . Prepare for year end using the Year End Checklist.
 
+.. xref:_year_end_checklist[]
+
 . Confirm that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
 
 .. xref:_acquisitions_settings_in_the_library_settings_editor[]
@@ -61,23 +69,35 @@ If you run into difficulties at any point in this process please contact Support
 
 .. An Acquisitions freeze helps ensure that all debits and encumbrances are assigned to the correct fiscal year.
 
-. Run fund report for old fiscal year.
+. Run report "Fund Report by Year" for old fiscal year.
+
+.. Template found in Sitka_templates -> Acquisitions -> Funds
 
 . Complete a Dry Run to check that all necessary funds will be propagated for the new fiscal year.
 
+.. xref:_dry_run[]
+
 . Perform the Fiscal Year Close-out Operation.
 
-. Run the fund report for old and new fiscal year.
+.. xref:_fiscal_year_close_out_operations[]
+
+. Run report "Fund Report by Year" for old and new fiscal year.
+
+.. Template found in Sitka_templates -> Acquisitions -> Funds
 
 . Use the fund reports to confirm that the encumbrances and spent totals for the funds in the old and new fiscal years are correct.
 
 .. Libraries that do not carry unspent money forward should see balances of zero in their old fiscal year and negative balances in their new fiscal year.
 
-. Lift acquisitions year end freeze.
-
 . Create new funding source(s) and allocates credit to the funding source(s).
 
+.. xref:_funding_sources[]
+
 . Allocate money from the new funding source(s) into the new funds.
+
+.. xref:_allocate_credit_to_funds_funding_source_interface[]
+
+. Lift acquisitions year end freeze.
 
 
 Fund Propagation and Rollover
