@@ -150,7 +150,7 @@ funds for the next year. It transfers encumbrances to the analogous funds. Depen
 library it can also transfer any remaining money into the analogous funds or back to the original
 funding sources.
 
-Choose one of the following options
+Choose *ONE* of the following options for Fiscal Year Close-out
 
 . xref:propagation-only[] - Create analogous funds for the next year.
 
