@@ -174,7 +174,9 @@ anchor:propagation-only[Propagation Only]
 .. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
-
++
+image::images/administration/yearend_fundscontext.png[]
++
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
 .. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
@@ -241,7 +243,9 @@ anchor:rollover-encumbrances-and-unspent-money[Rollover Encumbrances and Unspent
 .. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
-
++
+image::images/administration/yearend_fundscontext.png[]
++
 . Check the box adjacent to Perform Fiscal Year Close-Out Operation.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
@@ -256,10 +260,11 @@ image::images/administration/yearend_unspentmoney.png[]
 
 anchor:rollover-encumbrances-and-unspent-money-for-specific-funds[Rollover Encumbrances and Unspent Money for Specific Funds]
 
-.Rollover Encumbrances and Unspent Money for Specific Funds
-. To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
+[NOTE]
+To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
 year end close-out must be run *twice*.
 
+.Rollover Encumbrances and Unspent Money for Specific Funds
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True* .
 
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
@@ -312,7 +317,7 @@ year end close-out must be run *twice*.
 
 . Click *Process*.
 
-. Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and unspent money will be moved to the new funds for every fund where the Rollover box was checked.
+. Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box set to True, but will increment the year by 1. Encumbrances and unspent money will be moved to the new funds for every fund where the Rollover box was checked.
 
 [NOTE]
 The Limit Fiscal Year Close-out Operation to Encumbrances will only display if the setting *Allow funds to be rolled over without bringing the money along* is set to *True* in the Library Settings Editor.
