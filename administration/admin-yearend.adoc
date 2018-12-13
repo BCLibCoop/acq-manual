@@ -63,13 +63,13 @@ If you run into difficulties at any point in this process please contact Support
 
 .. See xref:_year_end_checklist[]
 
-. Confirm that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
+. Confirm that the _Library Setting Allow funds to be rolled over without bringing the money along_ is set to *True*.
 
 .. See xref:_acquisitions_settings_in_the_library_settings_editor[]
 
 . Implement an acquisitions year end freeze.
 
-.. An Acquisitions freeze helps ensure that all debits and encumbrances are assigned to the correct fiscal year.
+.. An acquisitions freeze helps ensure that all debits and encumbrances are assigned to the correct fiscal year.
 
 . Run report *Fund Report by Year* for old fiscal year.
 
@@ -260,11 +260,12 @@ image::images/administration/yearend_unspentmoney.png[]
 
 anchor:rollover-encumbrances-and-unspent-money-for-specific-funds[Rollover Encumbrances and Unspent Money for Specific Funds]
 
-[NOTE]
+
+*Rollover Encumbrances and Unspent Money for Specific Funds*
+
 To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
 year end close-out must be run *twice*.
 
-.Rollover Encumbrances and Unspent Money for Specific Funds
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True* .
 
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
