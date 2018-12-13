@@ -99,7 +99,7 @@ Dry Run
 
 . Check the boxes applicable to your requirements for the close-out.
 
-.. See xref:_fiscal_year_close-out_options
+.. See xref:_fiscal_year_close-out_operations[]
 
 . Check the check box for *Include Funds for Descendant Org Units*.
 
@@ -113,34 +113,49 @@ image::images/administration/yearend_dryrun.png[]
 +
 . Evergreen will temporarily create the new funds and give details about what changes would be made. No changes are actually made to the system when doing a Dry Run.
 
-Fiscal Year Close-out Options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Fiscal Year Close-out Operations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Year End Close-out Operation allows you to deactivate funds for the current year and create analogous
 funds for the next year. It transfers encumbrances to the analogous funds. Depending on the needs of a
 library it can also transfers any remaining money into the analogous funds or back to the original
 funding sources.
 
+Choose one of the following options
+
+. xref:_propagation_only[] -
+
+. xref:_rollover_encumbrances_only[] -
+
+. xref:_rollover_encumbrances_and_unspent_money[] -
+
+. xref:_rollover_encumbrances_and_unspent_money[] -
+
+. xref:_rollover_encumbrances_and_unspent_money_for_specific_funds[] -
+
+
 Rollover Encumbrances Only
 ++++++++++++++++++++++++++
 
-. Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to True .
+. Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
 
 . The Propagate check box must be checked for every fund that will be rolled over.
 
-.. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
+. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
 
-... See Create a Fund for information on these check boxes.
+.. See Create a Fund for information on these check boxes.
 
-. In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
+. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
-. From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
+.. Only applicable to multi-branch systems
+
+. From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . Click *Fund Propagation and Rollover*.
 
-. Check the box adjacent to Perform Fiscal Year Close-Out Operation.
+. Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
-. Check the box adjacent to Limit Fiscal Year Close-out Operation to Encumbrances.
+. Check the box adjacent to *Limit Fiscal Year Close-out Operation to Encumbrances*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
@@ -181,8 +196,8 @@ image::images/administration/yearend_unspentmoney.png[]
 +
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and money will be moved to the new funds for every fund where the Rollover box was checked.
 
-Rollover Encumbrances and Unspent Money for Particular Funds
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Rollover Encumbrances and Unspent Money for Specific Funds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
 year end close-out must be run twice.
