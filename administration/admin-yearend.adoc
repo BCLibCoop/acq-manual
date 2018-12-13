@@ -165,20 +165,22 @@ anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 .Rollover Encumbrances Only
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True*.
 
-. The Propagate check box must be checked for every fund that will be rolled over.
-
-. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
-
-.. See Create a Fund for information on these check boxes.
-
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
 .. Only applicable to multi-branch systems
 
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
-. Click *Fund Propagation and Rollover*.
+. The Propagate check box must be checked for every fund that will be rolled over.
 
+. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
+
+.. See xref:_create_a_fund[] for information on these check boxes.
+
+. Click *Fund Propagation and Rollover*.
++
+image::images/administration/yearend_fundscontext.png[]
++
 . Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
 . Check the box adjacent to *Limit Fiscal Year Close-out Operation to Encumbrances*.
@@ -194,22 +196,24 @@ image::images/administration/yearend_encumbranceonly.png[]
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances will be moved to the new funds for every fund where the Rollover box was checked.
 
 [NOTE]
-The Limit Fiscal Year Close-out Operation to Encumbrances will only display if the setting 8Allow funds to be rolled over without bringing the money along* is set to *True* in the Library Settings Editor.
+The Limit Fiscal Year Close-out Operation to Encumbrances will only display if the setting *Allow funds to be rolled over without bringing the money along* is set to *True* in the Library Settings Editor.
 
 anchor:rollover-encumbrances-and-unspent-money[Rollover Encumbrances and Unspent Money]
 
 .Rollover Encumbrances and Unspent Money
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *False* .
 
+. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
+
+.. Only applicable to multi-branch systems
+
+. From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
+
 . The Propagate check box must be checked for every fund that will be rolled over.
 
-.. The Rollover check box must be checked for every fund where the encumbrances and money should be rolled over.
+. The Rollover check box must be checked for every fund where the encumbrances should be rolled over.
 
-... See Create a Fund for information on these check boxes.
-
-. In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
-
-. From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
+.. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
 
@@ -229,29 +233,31 @@ anchor:rollover-encumbrances-and-unspent-money-for-specific-funds[Rollover Encum
 
 .Rollover Encumbrances and Unspent Money for Specific Funds
 . To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
-year end close-out must be run twice.
+year end close-out must be run *twice*.
 
 . Ensure that the Library Setting Allow funds to be rolled over without bringing the money along is set to *True* .
+
+. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
+
+.. Only applicable to multi-branch systems
+
+. From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . Uncheck the Propagate check box for every fund where the unspent money will be rolled over.
 
 . Uncheck the Rollover check box for every fund where the unspent money will be rolled over.
 
-.. See Create a Fund for information on these check boxes.
-
-. In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
-
-. From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
+.. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
 
-. Check the box adjacent to Perform Fiscal Year Close-Out Operation.
+. Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
-. Check the box adjacent to Limit Fiscal Year Close-out Operation to Encumbrances
+. Check the box adjacent to *Limit Fiscal Year Close-out Operation to Encumbrances*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
-.. If you want to perform the close-out operation on the context org units and its child units, check the box adjacent to Include Funds for Descendant Org Units.
+.. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
 
 . Click *Process*.
 
@@ -263,25 +269,17 @@ year end close-out must be run twice.
 
 . Check the Rollover check box for every fund where the unspent money will be rolled over.
 
-.. See Create a Fund for information on these check boxes.
-
 . Uncheck the Propagate check box for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
 
 . Uncheck the Rollover check box for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
 
-.. Ensure that the Active check box has been unchecked for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
-
-... See Create a Fund for information on these check boxes.
-
-. In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
-
-. From the Year drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
+. Ensure that the Active check box has been unchecked for every fund in the current fiscal year where the encumbrances have been moved to the new fiscal year.
 
 . Click *Fund Propagation and Rollover*.
 
-. Check the box adjacent to Perform Fiscal Year Close-Out Operation.
+. Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
-. Ensure the box adjacent to Limit Fiscal Year Close-out Operation to Encumbrances is not checked.
+. Ensure the box adjacent to *Limit Fiscal Year Close-out Operation to Encumbrances is not checked*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
@@ -292,28 +290,26 @@ year end close-out must be run twice.
 . Evergreen will begin the fiscal year close-out operation. Evergreen will make a clone of each fund where the Propagate box was checked, but will increment the year by 1. Encumbrances and unspent money will be moved to the new funds for every fund where the Rollover box was checked.
 
 [NOTE]
-The Limit Fiscal Year Close-out Operation to Encumbrances will only display if the setting 8Allow funds to be rolled over without bringing the money along* is set to *True* in the Library Settings Editor.
+The Limit Fiscal Year Close-out Operation to Encumbrances will only display if the setting *Allow funds to be rolled over without bringing the money along* is set to *True* in the Library Settings Editor.
 
 anchor:propagation-only[Propagation Only]
 
 .Propagation Only
+. In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
+
+.. Only applicable to multi-branch system.
+
+. From the *Year* drop down menu, choose the year for which you would like to propagate the funds.
+
 . The Propagate check box must be checked for every fund that will be propagated.
 
-.. See Create a Fund for information on this check box.
-
-. In the Funds Interface, select the top level of your organization from the Context Org Unit drop down menu. (Only applicable to multi-branch systems)
-
-. From the Year drop down menu, choose the year for which you would like to propagate the funds.
-
-. The Propagate check box must be checked for every fund that will be rolled over.
-
-. See Create a Fund for information on these check boxes.
+.. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
-.. If you want to propagate funds for context org unit and its child units, check the box adjacent to Include Funds for Descendant Org Units.
+.. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
 
 . Click *Process*.
 +
