@@ -63,7 +63,7 @@ If you run into difficulties at any point in this process please contact Support
 
 .. See xref:_year_end_checklist[]
 
-. Confirm that the _Library Setting _Allow funds to be rolled over without bringing the money along_ is set to *True*.
+. Confirm that the Library Setting _Allow funds to be rolled over without bringing the money along_ is set to *True*.
 
 .. See xref:_acquisitions_settings_in_the_library_settings_editor[]
 
