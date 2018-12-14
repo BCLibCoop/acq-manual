@@ -190,7 +190,7 @@ image::images/administration/yearend_propagateonly.png[]
 anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 
 .Rollover Encumbrances Only
-. Ensure that the Library Setting _Allow funds to be rolled over without bringing the money along_is set to *True*.
+. Ensure that the Library Setting _Allow funds to be rolled over without bringing the money along_ is set to *True*.
 
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
@@ -228,7 +228,7 @@ The Limit Fiscal Year Close-out Operation to Encumbrances will only display if t
 anchor:rollover-encumbrances-and-unspent-money[Rollover Encumbrances and Unspent Money]
 
 .Rollover Encumbrances and Unspent Money
-. Ensure that the Library Setting _Allow funds to be rolled over without bringing the money along_is set to *False* .
+. Ensure that the Library Setting _Allow funds to be rolled over without bringing the money along_ is set to *False* .
 
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
@@ -266,7 +266,7 @@ anchor:rollover-encumbrances-and-unspent-money-for-specific-funds[Rollover Encum
 To rollover encumbrances and unspent money for some funds and only encumbrances for other funds fiscal
 year end close-out must be run *twice*.
 
-. Ensure that the Library Setting _Allow funds to be rolled over without bringing the money along_is set to *True* .
+. Ensure that the Library Setting _Allow funds to be rolled over without bringing the money along_ is set to *True* .
 
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
