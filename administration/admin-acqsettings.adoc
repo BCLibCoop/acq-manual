@@ -7,7 +7,7 @@ You can access these settings by clicking Admin → Local Administration → Lib
 
 .Acquisitions Settings
 [options="header"]
-|============
+|===
 | Setting | Description | Data type | Edited by | Notes
 | Allow funds to be rolloed over without bringing the money along | This setting controls whether money and encumbrances or just encumbrances are rolled over when performing the Fiscal Year Close-out Operation. | True/false | LSA and Acq Admin |
 | Allows patrons to create automatic holds from purchase requests | This function is not currently available as further development of this feature is required. | True/False | Sitka Support |
@@ -25,7 +25,7 @@ You can access these settings by clicking Admin → Local Administration → Lib
 
 .Acquisitions Settings - Load MARC Order Records Defaults
 [options="header"]
-|==============================================
+|===
 | Setting | Description | Data type | Edited by | Notes
 | Upload Activate PO | Activate the purchase order by default during ACQ file upload | True/False | LSA and Acq Admin |
 | Upload Create PO | Create a purchase order by default during ACQ file upload | True/False | LSA and Acq Admin |
