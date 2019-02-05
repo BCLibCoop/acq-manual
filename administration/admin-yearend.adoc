@@ -27,10 +27,6 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 
 ** See xref:_receive_line_items[].
 
-* Run report *Lines Items That Have Been Received but not Invoiced*.
-
-** Template found in Sitka_templates -> Acquisitions -> Line Items
-
 * Invoice all items to be paid for in the current fiscal year.
 
 ** See xref:_invoices[]
@@ -38,6 +34,10 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 * Save and Close all open invoices.
 
 ** See xref:_search_for_invoices[].
+
+* Run report *Lines Items That Have Been Received but not Invoiced*.
+
+** Template found in Sitka_templates -> Acquisitions -> Line Items
 
 * Verify the Funding Sources do not have a negative balance.
 
