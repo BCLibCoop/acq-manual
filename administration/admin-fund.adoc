@@ -121,8 +121,12 @@ image::images/administration/fund-tag-2.png[]
 +
 . Select the tag from the drop down menu and click *Add*.
 
-Note: Tags can be removed from funds by clicking the blue X beside the tag.
-+
+[Note] 
+====
+Tags can be removed from funds by clicking the blue X beside the tag.
+
 image::images/administration/fund-tag-3.png[]
-+
+
+====
+
 
