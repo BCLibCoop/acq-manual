@@ -104,6 +104,9 @@ Create a Fund Tag
 . Click *New Fund Tag*
 . Select a the library or branch the fund tag will be used by as the Fund Tag Owner from the drop down menu.
 . Enter a Fund Tag Name
++
+image::images/administration/fund-tag-1.png[]
++
 . Click Save
 
 Add a Fund Tag to a Fund
@@ -113,7 +116,13 @@ Add a Fund Tag to a Fund
 . Click the hyperlinked name of fund you would like to add a tag to. The Fund Details screen will appear.
 . Click on the *Tags* tab.
 . Click *Add Tag*.
++
+image::images/administration/fund-tag-2.png[]
++
 . Select the tag from the drop down menu and click *Add*.
 
 Note: Tags can be removed from funds by clicking the blue X beside the tag.
++
+image::images/administration/fund-tag-3.png[]
++
 
