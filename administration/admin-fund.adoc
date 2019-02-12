@@ -93,3 +93,27 @@ The Fund Details screen allows you to track a fund's balance, encumbrances, and 
 * *Allocations* - The Allocations tab allows you to track credit allocated from funding sources, transfers to other funds, and transfers from other funds.
 * *Debits* - The Debits tab allows you to track all purchases made and monies encumbered against the fund.
 * *Tags* - The *Tags* tab allows you to add and delete fund tags. See Fund Tags for more information.
+
+Fund Tags
+~~~~~~~~~
+
+Create a Fund Tag
+^^^^^^^^^^^^^^^^^
+
+. Select *Administration* -> *Acquisitions Administration* -> *Fund Tags*.
+. Click *New Fund Tag*
+. Select a the library or branch the fund tag will be used by as the Fund Tag Owner from the drop down menu.
+. Enter a Fund Tag Name
+. Click Save
+
+Add a Fund Tag to a Fund
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyperlinked name of fund you would like to add a tag to. The Fund Details screen will appear.
+. Click on the *Tags* tab.
+. Click *Add Tag*.
+. Select the tag from the drop down menu and click *Add*.
+
+Note: Tags can be removed from funds by clicking the blue X beside the tag.
+
