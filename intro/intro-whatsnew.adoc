@@ -1,11 +1,12 @@
 New Features in Evergreen Acquisitions version 3.3
 --------------------------------------------------
 
-*Auto-Cancel Line items When All Copies Are Canceled
+* Auto-Cancel Line items When All Copies Are Canceled
 ** When a copy is canceled through the Acquisitions interface, the parent line item is also canceled if all copies for that line item are also canceled.
-*Invoice Closed Date and Closed By Fields
+
+* Invoice Closed Date and Closed By Fields
 ** Close Date — This is set to the time when the user clicks the "Close" button in the invoice interface.
 *** This field replaces the existing complete field. An invoice is considered complete if a close date value is set.
 ** Closed By — This is set to the logged in staff user who performs the "Close" action.
-*Find Originating Acquisitions action has been added to the Cataloguing Action Menus
-*Fund year added to the Distribution Formula fund drop down menu
+* Find Originating Acquisitions action has been added to the Cataloguing Action Menus
+* Fund year added to the Distribution Formula fund drop down menu
