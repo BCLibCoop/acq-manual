@@ -8,5 +8,5 @@ New Features in Evergreen Acquisitions version 3.3
 ** Close Date — This is set to the time when the user clicks the "Close" button in the invoice interface.
 *** This field replaces the existing complete field. An invoice is considered complete if a close date value is set.
 ** Closed By — This is set to the logged in staff user who performs the "Close" action.
-* Find Originating Acquisitions action has been added to the Cataloguing Action Menus
+* Show *Originating Acquisition* action has been added to the Item Status Action Menu.
 * Fund year added to the Distribution Formula fund drop down menu
