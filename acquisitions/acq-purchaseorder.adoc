@@ -79,17 +79,17 @@ Activation Criteria
 
 .Price
 * Each line item must contain an estimated price.
-* If there is no estimated price the Activate Order? field will read, No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE).
+* If there is no estimated price the Activate Order? field will read, _No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE)._
 * Enter prices in the estimated price fields.
 
-When the above criteria have been met the Activate Order button will appear and you can proceed with the following:
+When the above criteria have been met the *Activate Order* button will appear and you can proceed with the following:
 
 Activate a Purchase Order
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Activate a Purchase Order
 . Click *Activate Order*.
-. When you activate the order the bibliographic records and copies will be imported into the catalogue using the Vandelay interface, if not previously imported. See How to Load Bibliographic Records and Items into the Catalogue for instructions on using the Vandelay interface.
+. When you activate the order the bibliographic records and copies will be imported into the catalogue using the Vandelay interface, if not previously imported. See xref:_load_marc_order_records[] for instructions on using the Vandelay interface.
 . The funds associated with the purchases will be encumbered.
 
 After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalog. Once you complete entering in the parameters for the record import interface, the progress screen will appear. This progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
@@ -100,6 +100,8 @@ After you click *Activate Order*, you will be presented with the record import i
 * ACQ Copies Processed
 * Debits Encumbered
 * Real Copies Processed
+
+CAUTION: There is a known bug which stalls activation on Purchase Orders where the records are not already linked to the catalogue.  If your progress bar freezes at 100% click your browser refresh button and click *Activate Order* for a second time. 
 
 Activate Purchase Order without loading items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
