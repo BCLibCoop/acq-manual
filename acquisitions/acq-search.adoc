@@ -158,3 +158,22 @@ Modify the search fields to search for invoices using other search terms.
 * By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Invoice search fields to modify your search as needed.
 * See xref:acquisitions-general-search-tips[] for general search tips
+
+Originating Acquisition
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.Show Originating Acquisitions from Item Status
+. Click *Circulation* -> *Item Status*
+. Enter the item barcode
+. Click *Actions* -> Show *Originating Acquisition*
++
+image::images/acquisitions/originatingacq1.png[]
+
+.Show Originating Acquisitions from the Catalogue
+. Click *view*
++
+image::images/acquisitions/originatingacq2.png[]
++
+. Click *Actions* -> Show *Originating Acquisition*
++
+image::images/acquisitions/originatingacq3.png[]
