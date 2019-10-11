@@ -101,7 +101,7 @@ Enter the amount billed into the Billed field. The Paid field will auto-fill to 
 . # Invoiced
 . # Paid
 
-There are two options for saving an invoice:
+.Save an invoice
 * Click Save to save the changes you have made and keep the invoice open.
 * Click Save and Clear to save the invoice and open a blank invoice.
 
