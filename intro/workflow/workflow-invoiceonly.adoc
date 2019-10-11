@@ -26,7 +26,7 @@ NOTE: This workflow should be used by libraries that want to track money spent o
 . Retrieve a matching bibliographic record from the catalogue, Import a new record from Z39.50 or do original cataloguing.
 .. Refer to the http://docs.libraries.coop/sitka/_cataloguing_2.html[Cataloguing Part] of Sitka's Evergreen Documentation for details.
 . Add Volume/Copy.
-.. Refer to the [Add Holdings Chapter] of Sitka's Evergreen Documentation for details.
+.. Refer to the http://docs.libraries.coop/sitka/add_holdings.html[Add Holdings Chapter] of Sitka's Evergreen Documentation for details.
 . Process items.
 .. As per your libraries processing specifications.
 . Check in items.
