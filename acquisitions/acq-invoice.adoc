@@ -105,23 +105,6 @@ Enter the amount billed into the Billed field. The Paid field will auto-fill to 
 * Click Save to save the changes you have made and keep the invoice open.
 * Click Save and Clear to save the invoice and open a blank invoice.
 
-
-Close Invoice
-~~~~~~~~~~~~~
-
-Invoices must be closed for items to show as "Paid". Fund debits linked to an invoice are only marked as paid when the invoice is closed. Once all the line items and invoice charges have been added the invoice must be closed.
-
-.Close Invoice
-. Click *Close*.
-.. Close Date — This is set to the time when the user clicks the *Close* button in the invoice interface.
-.. Closed By — This is set to the logged in staff user who performs the *Close* action.
-+
-image::images/acquisitions/closedinvoices.png[]
-
-
-CAUTION: If an invoice is reopened the Close date and Closed By fields are cleared.
-
-
 Add Line items to the Invoice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -249,8 +232,9 @@ NOTE: The default invoice search allows you to quickly generate a list of open i
 Close an Invoice
 ~~~~~~~~~~~~~~~~
 
-Invoices must be closed in Evergreen for line items to show as paid and for funds to update from encumbered to spent.
+Invoices must be closed for items to show as "Paid". Fund debits linked to an invoice are only marked as paid when the invoice is closed. Once all the line items and invoice charges have been added the invoice must be closed.
 
+.Close Invoice
 . Open or create an invoice.
 . Enter information into all of the required fields.
 .. see xref:
@@ -259,13 +243,17 @@ Invoices must be closed in Evergreen for line items to show as paid and for fund
 . In the Billed column, enter the amount paid for each line item. The Paid column will auto-fill to match.
 . If your invoice contains proratable charges, click Prorate.
 .. This prorates the charges, such as taxes, across funds if multiple funds are used to pay the invoice.
-. Save the invoice.
-. Click Save to save the changes you have made and keep the invoice open.
-. Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
-
-Invoices can be re-opened at a later date if adjustments are required. See Re-Open an Invoice.
+. Click *Save* to save the changes you have made to the invoice.
+. Click *Close*.
+.. Close Date — This is set to the time when the user clicks the *Close* button in the invoice interface.
+.. Closed By — This is set to the logged in staff user who performs the *Close* action.
++
+image::images/acquisitions/closedinvoices.png[]
 
 A "Paid" label appears along the bottom of each line item in the PO display when every non-cancelled copy on the line item has been invoiced.
+
+CAUTION: Invoices can be re-opened at a later date if adjustments are required. See Re-Open an Invoice. If an invoice is reopened the Close date and Closed By fields are cleared.
+
 
 Re-open an Invoice
 ~~~~~~~~~~~~~~~~~~
