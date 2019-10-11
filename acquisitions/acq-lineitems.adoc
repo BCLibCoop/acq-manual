@@ -262,7 +262,7 @@ Delete a Line Item
 
 Line items with the status of new, selector-ready, order-ready, or pending-order can be deleted. Be sure you want to delete the line item as there is no warning message and once deleted line items cannot be un-deleted.
 
-NOTE: If you created copies for your line items before activating the purchase order you will need to delete the copies from the catalogue before deleting the Acquisitions line item. See Delete Copies
+NOTE: If you created copies for your line items before activating the purchase order you will need to delete the copies from the catalogue before deleting the Acquisitions line item. See http://docs.libraries.coop/sitka/_deleting_holdings.html[Deleting Holdings]
 
 .Delete line item
 . Check the box(es) of the line item(s) you would like to delete.
