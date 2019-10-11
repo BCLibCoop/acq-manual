@@ -167,7 +167,7 @@ Originating Acquisition
 . Enter the item barcode
 . Click *Actions* -> Show *Originating Acquisition*
 +
-image::images/acquisitions/originatingacq1.png[]
+image::images/acquisitions/originatingacq.png[]
 
 .Show Originating Acquisitions from the Catalogue
 . Click *view*
