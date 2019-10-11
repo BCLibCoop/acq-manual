@@ -11,6 +11,8 @@ anchor:add-brief-records[Add Brief Records]
 You can add brief records to new or existing purchase orders.
 
 . Open or create a purchase order.
-. Click Add Brief Record.
-. Enter bibliographic information in the desired fields. Notice that the record is added to the purchase order that you just created.
-. Click Save Record.
+. Click *Actions* -> *Add Brief Record*.
+. Enter bibliographic information in the desired fields.
+. Click *Save Record*.
+
+CAUTION: Brief Records are created without an 008 field. Co-op Support strongly recommends that you http://docs.libraries.coop/sitka/_editing_marc_record_leader_and_fixed_field_008.html[edit the MARC record] to add an 008.
