@@ -154,7 +154,7 @@ Modify the search fields to search for invoices using other search terms.
 . View your search results.
 
 .Search Tips
-* Search for closed invoices by checking the box adjacent to the *I-Complete* search field.
+* Search for closed invoices by choosing a closed date in the *Close Date* field.
 * By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
 * Use the Invoice search fields to modify your search as needed.
 * See xref:acquisitions-general-search-tips[] for general search tips
