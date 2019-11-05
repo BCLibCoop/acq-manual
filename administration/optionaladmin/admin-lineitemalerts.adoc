@@ -17,6 +17,6 @@ image::images/administration/line-item-alert-1.png[scaledwidth="75%",alt="Creati
 image::images/administration/line-item-alert-2.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
 +
 . To view your alerts make sure the Owning Library filter is set to your library.  Multi-branch libraries
-may want to setthe Owning Library to the system and check the box for Descendants. 
+may want to set the Owning Library to the system and check the box for Descendants. 
 +
 image::images/administration/line-item-alert-3.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
