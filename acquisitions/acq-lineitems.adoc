@@ -222,14 +222,25 @@ Alerts are pop up messages that appear when an item is received. Alerts also dis
 
 .Add an Alert
 . Click *Notes (0)*.
++
+image::images/acquisitions/add-line-item-alert-1.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
++
 . Click *New Alert*.
 . Choose an alert code from the drop down menu. These Line Item Alert codes are created by your Acquisitions Administrator.
 . Add additional comments (optional).
 . Click *Create*. The alert will display on the screen.
++
+image::images/acquisitions/add-line-item-alert-2.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
++
 . Click *Return* to return to the selection list or purchase order.
++
+image::images/acquisitions/add-line-item-alert-3.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
++
 . A red flag will now appear to the right of the Notes link and the zero of the Notes link will update to display the total number of alerts and notes for the line item.
++
+image::images/acquisitions/add-line-item-alert-4.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
 
-NOTE: Alerts will not pop up if they are added after the purchase order is activated.
+
 
 Line Item Status
 ~~~~~~~~~~~~~~~~
