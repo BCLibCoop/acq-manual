@@ -6,7 +6,17 @@ Line item alerts are predefined text that can be added to line items on selectio
 .Create a Line Item Alert
 . Click *Administration* -> *Acquisitions Administration* -> *Line Item Alerts*
 . Click New Line Item Alert Text.
++
+image::images/administration/line-item-alert-1.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
++
 . Create a code for your alert. There is no limit to the number of characters that can be entered in this field.
 . Create a description of your alert. There is no limit to the number of characters that can be entered in this field.
 . Select an owning library from the drop down menu. The owning library indicates the organizational unit(s) whose staff can use this alert.
 . Click Save.
++
+image::images/administration/line-item-alert-2.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
++
+. To view your alerts make sure the Owning Library filter is set to your library.  Multi-branch libraries
+may want to setthe Owning Library to the system and check the box for Descendants. 
++
+image::images/administration/line-item-alert-3.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
