@@ -34,7 +34,7 @@ Using existing bibliographic records from the Sitka catalogue you can add line i
 .. Refer to xref:_invoice_item_types[] for details.
 . Close the Invoice
 .. Click *Close*
-.. Refer to xref:_close_invoice[] for details.
+.. Refer to xref:_close_an_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
 .Catalogue
