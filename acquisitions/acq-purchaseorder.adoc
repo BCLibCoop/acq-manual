@@ -139,3 +139,18 @@ The actions available will depend on the current state.
 * Un-Receive Selected Line Items
 * Create Invoice From Selected Line Items
 * Link Selected Line Items to Invoice
+
+Delete Purchase Orders
+~~~~~~~~~~~~~~~~~~~~~~
+
+Purchase orders cannot be deleted from within the staff client.
+
+Purchase orders that meet the following criteria are automatically deleted from the database daily.
+
+* The purchase order has the state of *Pending*
+* The purchase order is *empty*, has no line items or charges
+* The purchase order has the word *delete* at the beginning of its name
+
+image::images/acquisitions/delete-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+
+
