@@ -116,9 +116,7 @@ Dry Run
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . Click *Fund Propagation and Rollover*.
-+
-image::images/administration/yearend_fundscontext.png[]
-+
+
 . Check the boxes applicable to your requirements for the close-out.
 
 .. See xref:_fiscal_year_close_out_operations[]
@@ -164,9 +162,7 @@ anchor:propagation-only[Propagation Only]
 .. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
-+
-image::images/administration/yearend_fundscontext.png[]
-+
+
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
 
 .. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
@@ -193,9 +189,7 @@ anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 .. See xref:_create_a_fund[] for information on these check boxes.
 
 . Click *Fund Propagation and Rollover*.
-+
-image::images/administration/yearend_fundscontext.png[]
-+
+
 . Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
