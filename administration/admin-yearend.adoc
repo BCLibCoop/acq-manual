@@ -178,7 +178,7 @@ anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 
 . Click *Fund Propagation and Rollover*.
 +
-image::images/administration/yearend_encumbranceonly.png[]
+image::images/administration/yearend_fundcontext.png[]
 +
 . Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
