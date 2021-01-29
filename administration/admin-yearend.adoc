@@ -111,8 +111,6 @@ Dry Run
 
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
-.. Only applicable to multi-branch systems
-
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . Click *Fund Propagation and Rollover*.
@@ -121,9 +119,7 @@ Dry Run
 
 .. See xref:_fiscal_year_close_out_operations[]
 
-. Check the check box for Include Funds for Descendant Org Units.
-
-.. Only applicable to multi-branch systems
+.. Multi-branch systems should select Include Funds for Descendant Org Units.
 
 . Check the check box for *Dry Run*.
 
@@ -153,8 +149,6 @@ anchor:propagation-only[Propagation Only]
 .Propagation Only
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
-.. Only applicable to multi-branch system.
-
 . From the *Year* drop down menu, choose the year for which you would like to propagate the funds.
 
 . *Propagate* must be set to *True* for every fund that will be propagated.
@@ -163,9 +157,7 @@ anchor:propagation-only[Propagation Only]
 
 . Click *Fund Propagation and Rollover*.
 
-. Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
-
-.. Multi branch libraries should check the box adjacent to Include Funds for Descendant Org Units to perform the close-out operation on the context org units and its child units.
+.. Multi branch libraries should select Include Funds for Descendant Org Units to perform the close-out operation for all branches.
 
 . Click *Process*.
 +
@@ -178,18 +170,16 @@ anchor:rollover-encumbrance-only[Rollover Encumbrances Only]
 .Rollover Encumbrances Only
 . In the Funds Interface, select the top level of your organization from the *Context Org Unit* drop down menu.
 
-.. Only applicable to multi-branch systems
-
 . From the *Year* drop down menu, choose the year for which you would like to perform the Fiscal Year Close-out Operation.
 
 . *Propagate* must be set to *True* for every fund that will be rolled over.
 
 . *Rollover* must be set to *True* for every fund where the encumbrances should be rolled over.
 
-.. See xref:_create_a_fund[] for information on these check boxes.
-
 . Click *Fund Propagation and Rollover*.
-
++
+image::images/administration/yearend_encumbranceonly.png[]
++
 . Check the box adjacent to *Perform Fiscal Year Close-Out Operation*.
 
 . Notice that the context org unit reflects the context org unit that you selected at the top of the Funds screen.
