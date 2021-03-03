@@ -40,6 +40,10 @@ While you are able to edit your fund's name, owner, and code you are unable to e
 
 NOTE: Do Not edit the currency of an active in-use fund.
 
+CAUTION: If you load vendor records make sure you let your vendors know about any changes you make to 
+fund codes that are used in their templates.  If the fund code doesn't match between Evergreen and the 
+$f in the templates your MARC records will not load.
+
 
 Delete a Fund
 ~~~~~~~~~~~~~

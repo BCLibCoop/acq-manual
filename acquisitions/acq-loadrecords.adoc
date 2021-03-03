@@ -71,3 +71,15 @@ You can set default upload values by modifying the following settings in
 * Upload Merge on Single Match by Default
 
 NOTE: If the above default settings are not implemented, the selections/values used during upload will be sticky and will automatically populate the fields the next time the *Load MARC Order Records* screen is pulled up.
+
+Acq Import Error
+~~~~~~~~~~~~~~~~
+
+When loading records via the *Load MARC Order Records* screen you may occassionally encounter 
+the _ACQ IMPORT ERROR_.
+
+This error is usually caused by discrepancies between the holdings information supplied by the vendor 
+in the 970 field of the MARC record and the information in Evergreen.  
+
+If you update your shelving location names or fund codes in Evergreen make sure to let your vendors know
+about the changes so they can update their templates as well.
