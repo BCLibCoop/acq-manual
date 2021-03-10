@@ -4,7 +4,6 @@ Acquisitions Year End
 Adapted with permission from original material by the
 https://wiki.evergreen-ils.org/lib/exe/fetch.php?media=administration_functions_in_the_acquistions_module_ev.pdf[Evergreen Community]
 
-
 https://youtu.be/n7pvfTXwUbQ[*Sitka's Evergreen Acquisitions Video - Fiscal Year Close-out (Year End)* (5:19)]
 
 https://youtu.be/FacQgXtyoEU[*Sitka's Evergreen Acquisitions Video - Fiscal Year Start (New Year)* (2:35)]

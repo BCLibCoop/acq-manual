@@ -8,11 +8,11 @@ Blanket orders allow staff to invoice an encumbered amount multiple times, payin
 
 .Select
 . Items selected based on Blanket/Standing Order criteria
-. Not completed in Sitka's Evergreen
+.. Selection is not completed in Sitka's Evergreen
 
 .Order
 . Click *Acquisitions* -> *Create Purchase Order*
-. Choose the correct Ordering Agency.
+. Choose the Ordering Agency.
 . Enter a Purchase Order Name.
 . Enter the Provider code.
 . Click *Save*.
@@ -24,26 +24,43 @@ Blanket orders allow staff to invoice an encumbered amount multiple times, payin
 . Click Activate Order
 .. Refer to xref:_activate_purchase_order[] for details.
 
-.Invoice and Receive
+.Invoice
 . Click *Acquisitions* -> *Purchase Orders*
 . Search for your Purchase Order (by name, by open etc)
-. From the purchase order screen, click *Create Invoice*
+. From the purchase order screen, you can either *Create Invoice* or *Link Invoice*
++
+image::images/administration/blanketorder.png[]
+
+.Create Invoice
+. Click *Create Invoice*
 . Enter the Invoice information. Refer to xref:_invoice_details[] for details.
 . Enter the amount billed into the Billed field.
 .. The Paid field will auto-fill to match.
-.. The Fund will auto-populate with the Fund used on the Purchase Order.
 . Enter an optional Title / Description.
 . Click *Save*.
 . Click Close to close the invoice.
-.. Funds will change from encumbered to spent.
 
-NOTE: Invoices for Blanket Order items must be created from the Purchase Order Interface
+.Link Invoice
+. Click *Link Invoice*
+. Enter the Invoice #
+. Enter the Provider
+. Click *Link*.
++
+image::images/administration/blanketorder1.png[]
++
+. Enter the amount billed into the Billed field.
+.. The Paid field will auto-fill to match.
+. Enter an optional Title / Description.
+. Click *Save*.
+. Click Close to close the invoice.
++
+image::images/administration/blanketorder2.png[]
 
 .Final Invoice
-. Click *Acquisitions* -> *Purchase Orders*
-. Search for your Purchase Order (by name, by open etc)
-. From the purchase order screen, click *Create Invoice*
 . Check the *Final Invoice for Blanket Order* checkbox.
++
+image::images/administration/blanketorder3.png[]
++
 . Enter the amount billed into the Billed field.
 .. The Paid field will auto-fill to match.
 .. The Fund will auto-populate with the Fund used on the Purchase Order.
@@ -51,6 +68,8 @@ NOTE: Invoices for Blanket Order items must be created from the Purchase Order I
 . Click *Save*.
 . Click Close to close the invoice.
 .. The Purchase Order will be marked as received and any remaining encumbrances set to $0.00.
++
+image::images/administration/blanketorder4.png[]
 
 .Catalogue
 . Retrieve bibliographic record from the catalogue, Import a record from Z39.50 or do original cataloguing.
