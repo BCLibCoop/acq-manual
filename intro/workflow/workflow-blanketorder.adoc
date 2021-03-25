@@ -38,7 +38,7 @@ image::images/administration/blanketorder.png[]
 .. The Paid field will auto-fill to match.
 . Enter an optional Title / Description.
 . Click *Save*.
-. Click Close to close the invoice.
+. Click *Close* to close the invoice.
 
 .Link Invoice
 . Click *Link Invoice*
