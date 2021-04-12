@@ -95,23 +95,23 @@ Before a provider can be deleted any additional addresses, contacts, attribute d
 Holding Subfields
 ~~~~~~~~~~~~~~~~~
 
-Holding subfields are used with a 970 Holdings Tag to allow you to specify subfields within the holding tags to which your provider adds holdings information.
+Holding subfields are used with a *970 Holdings Tag* to allow you to specify subfields within the holding tags to which your provider adds holdings information.
 
 . Open a provider.
 . Click the Holding Subfield tab.
 . Click New Holding Subfield. A pop-up will appear.
-. In the Name field, enter a name for your holding subfield.
+. In the Name field, select the name for your holding subfield.
 . In the Subfield field, enter your subfield.
 .. The holdings subfields in use by Sitka are:
-... b : barcode
-... c : call_number
-... m : circ_modifier
-... l : copy_location
-... e : estimated_price
-... f : fund_code
-... n : note
-... o : owning_lib
-... q : quantity
+... b : Barcode
+... c : Call Number
+... m : Circulation  Modifier
+... l : Shelving Location
+... e : Estimated Price
+... f : Fund Code
+... n : Note
+... o : Owning Library
+... q : Quantity
 .. The subfields used will depend on your provider, but $o must always be used.
 . Click *Save*.
 
