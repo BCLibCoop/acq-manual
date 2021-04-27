@@ -1,6 +1,8 @@
 Acquisitions Search
 -------------------
 
+(((Search)))
+
 General Search
 ~~~~~~~~~~~~~~
 
