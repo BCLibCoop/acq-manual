@@ -4,140 +4,73 @@ Acquisitions Search
 General Search
 ~~~~~~~~~~~~~~
 
+The Acquisitions Search interface provides a centralized place for searching Line Items, Purchase Orders, Invoices, and Selection Lists.
+
 . Click *Acquisitions* -> *General Search*.
-. Use the *Search for* drop down menu to specify what you are searching for.
+
+Line Items Search
+~~~~~~~~~~~~~~~~~
+
+The Acquisitions Search interface defaults to the Line Items Search tab. Here you can search across the entire acquisitions module (selection lists, purchase orders, and invoices) to find line items matching your search terms. There is not an initial default search for this tab. Users must create their search or set a default line item search.
+
 . Select your search field(s) and enter your search term(s).
 . Click *Search*
 . View your search results.
-
-Search fields are divided into a number of categories. These categories are: Line Item, Selection List, Purchase Order, Invoice, Line Item Detail, and Line Item Attribute. Unless grayed out these fields can be used with any of the *Search for* options.
-
-[[acquisitions-general-search-tips]]
-.Acquisitions General Search Tips
-* The Search for option you choose will be the form in which your results are returned in.
-* Search terms are ANDed together when all is selected.
-* Search terms are ORed together when any is selected.
-* Click Add Search Term to add more fields.
-* Click the red X at the end of each row to delete search terms.
-* Use "contains" when doing keyword searching, such as for Title of a Work.
-* Use "is" when searching for an exact match, such as for an ISBN.
-
-Search for Line items
-~~~~~~~~~~~~~~~~~~~~~
-
-. Click *Acquisitions* -> *General Search*.
-. Choose _line items_ from the *Search for* drop down menu.
-. Select your search field(s) and enter your search term(s).
-. Click *Search*
-. View your search results.
-.. To edit your search, click *Reveal Search Form* in the top right hand corner of the results screen to display your search.
 
 .Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, you must also use a library specific search field such as _PO - Ordering Agency_ to restrict the search to your library.
-* See xref:acquisitions-general-search-tips[] for general search tips
 
-Search for Line Items and Catalogue Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Purchase Orders Search
+~~~~~~~~~~~~~~~~~~~~~~
 
-. Click *Acquisitions* -> *General Search*.
-. Choose _line items and catalogue records_ from the *Search for* drop down menu.
-. Select your search field(s) and enter your search term(s).
-. Click *Search*
-. View your search results.
+The Purchase Orders Search tab allows you to conduct a search of Purchase Orders. The default search that appears when the tab is viewed is a search for all purchase orders that are in the status of on order at your library:
 
-.Search Tips
-* There are five Line Item Attribute search fields you can use when searching for line items and catalogue records.
-** LIA-Title of Work: Use with the connecting word of "contains" to keyword search for a line item or catalogue record with a particular title.
-** LIA-Author of work: Use with the connecting word of "contains" to keyword search for line items or catalogue records by a particular author.
-** LIA-ISBN: Use with the connecting word "is" to search for a line item or catalogue record with a specific ISBN.
-** LIA-ISSN: Use with the connecting word "is" to search for a line item or catalogue record with a specific ISSN.
-** LIA-UPC: use with the connecting word "is" to search for a line item or catalogue record with a specific UPC.
-*** *Sitka Recommendation* - Use a combination of the title field _Title of work_ and the number field (ISBN, ISSN, UPC) associated with the item.
-* See xref:acquisitions-general-search-tips[] for general search tips
-
-Search for Selection Lists
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.Search for your Selection Lists
-. Click *Acquisitions* -> *My Selection Lists*.
-.. *My Selection Lists* displays the selection lists created by the user currently logged into the workstation.
-
-.Search for Selection Lists created by others
-. Click *Acquisitions* -> *General Search*.
-. Choose _selection lists_ from the *Search for* drop down menu.
-. Select your search field(s) and enter your search term(s).
-. Click *Search*.
-. View your search results.
-
-.Search Tips
-* Search for lists created by a particular user:
-** SL-Owner: Searches the selection lists based on the owning user.
-** SL-Creator: Searches the selection lists based on the creating user.
-** SL-Org Unit: Searches the selection lists based on the library of the creating user.
-* Search for a specific selection list:
-** SL-Name: Searches for the name of a particular selection list.
-* See xref:acquisitions-general-search-tips[] for general search tips
-
-Search for Purchase Orders
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The default purchase order search allows you to quickly generate a list of on-order purchase orders.
-
-.Search for On Order purchase orders
-. Click *Acquisitions* -> *Purchase Orders*.
+.Search for On-Order purchase orders
+. Purchase Order - Ordering Agency is [your library]
+. Purchase Order - Status is [On-Order]
 . Click *Search*.
 +
 image::images/acquisitions/searchonorder.png[]
 +
 . View your search results.
 
-You can modify the default purchase order search to generate a list of pending purchase orders.
+You can construct a new one-time search instead of using the default search or set a default purchase order search that will replace the default search described above. If a user sets a new default Purchase Orders search, that search will be populated automatically when Acquisitions → Purchase Orders is selected from the main menu.
 
 anchor:pending-order[pending purchase orders]
 
-.Search for *Pending* purchase orders
-. Click *Acquisitions* -> *Purchase Orders*.
-. Enter *PO-State* is "pending"
+You can modify the default purchase order search to generate a list of pending purchase orders.
+
+.Search for Pending purchase orders
+. *Acquisitions* -> *Purchase Orders*
+. Purchase Order - Ordering Agency is [your library]
+. Purchase Order - Status is [Pending]
 . Click *Search*.
 +
 image::images/acquisitions/searchpending.png[]
 +
 . View your search results.
 
-Modify the search fields to search for purchase orders using other search terms.
+Invoices Search
+~~~~~~~~~~~~~~~
 
-.Search for purchase orders using other search terms
-. Click *Acquisitions* -> *Purchase Orders*.
-. Select your search field(s) and enter your search term(s).
-. Click *Search*.
-. View your search results.
-
-.Search Tips
-* Search for new pending purchase orders, simply replace *PO - State* _on-order_ with *PO - State* is _pending_.
-* By default the *PO-Ordering Agency* is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
-* Use the Purchase Order search fields to modify your search as needed.
-* See xref:acquisitions-general-search-tips[] for general search tips
-
-Search for Invoices
-~~~~~~~~~~~~~~~~~~~
-
-The default invoice search allows you to quickly generate a list of open invoices created by your ordering agency.
+The Invoices Search tab allows you to conduct a search of Invoices. The default search that appears when the tab is viewed is a search for all open invoices at your library.
 
 .Search for open invoices
-. Click *Acquisitions* -> *Open Invoices*.
+. Invoice - Receiver is [your library]
+. Invoice - Close Date is [unset - no date].
 . Click *Search*.
 +
 image::images/acquisitions/invoicesearch.png[]
 +
 . View your search results.
 
-You can modify the default invoice search to search for a specific invoice by "Vendor Invoice ID"
+You can construct a new one-time search instead of using the default search or set a default invoice search that will replace the default search described above. If a user sets a new default Invoices search, that search will be populated automatically when Acquisitions → Invoices is selected from the main menu.
 
 anchor:vendor-invoice[search by invoice ID]
 
 .Search for a specific invoice by vendor invoice ID
-. Click *Acquisitions* -> *Open Invoices*.
-. Choose *I-Vendor Invoice ID* from the drop down menu.
+. Click *Acquisitions* -> *Invoices*.
+. Choose *Invoice-Vendor Invoice ID* from the drop down menu.
 . Enter the invoice ID found on the paper invoice.
 . Click *Search*.
 +
@@ -145,19 +78,46 @@ image::images/acquisitions/invoicesearch2.png[]
 +
 . View your search results.
 
-Modify the search fields to search for invoices using other search terms.
+Search for Selection Lists
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Search for invoices using other search terms
-. Click *Acquisitions* -> *Open Invoices*.
-. Select your search field(s) and enter your search term(s).
+The Selection Lists Search tab allows you to conduct a search of selections lists. The default search that appears when the tab is viewed is a search for all selection lists owned by the currently logged in user.
+
+.Search for your Selection Lists
+. Selection List - Owner is [currently logged in user]
 . Click *Search*.
-. View your search results.
+
+Creating a New Default Search
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In each of the Acquisitions Search tabs you can create a custom default search that will override the standard default search for the tab.
+
+.Create a new default search
+. Construct your custom search using the drop down menus in the selected search tab.
+.. Click the (+) to add a new field to your search and click the (-) to remove a field from your search.
+. Click the blue button that says Set As Default [Line Item/Purchase Order/Invoice/Selection List] Search.
+.. You will see a green message in the lower right hand corner confirming that your default search was saved.
+. This search will now load each time you view the selected tab and will override the default search listed above.
+
+There is also an option to automatically execute the search when the tab is opened, eliminating the need to click the Search button. This can be done by checking the box to Retrieve Results Immediately and then clicking the Set As Default …​ Search button.
+
+Both the custom default search and the selection to retrieve results immediately are saved to the workstation.
+
+If you wish to reset a search tab to its defaults, click the Reset Default Search button.
+
+Search Syntax and Filters
+^^^^^^^^^^^^^^^^^^^^^^^^^
+To create your search, choose if your search should match _all_ or _any_ of the search terms you use in your search. Selecting _all_ will conduct a stricter search that must match all of the search terms you indicate. Selecting _any_ will return search results that match any of the search terms you indicate.
+
+Next, select a search attribute from the drop down menu. This menu provides search options related to line items, purchase orders, selection lists, and invoices; the search results will return relevant line items.
+
+The search entry box will display a controlled list of values via a dropdown menu when available. You will see this when searching for an org unit, owner, state, status, and provider, among others. Search is case-insensitive.
 
 .Search Tips
-* Search for closed invoices by choosing a closed date in the *Close Date* field.
-* By default the I-Receiver is the workstation the user is logged in at. Multi-branch systems with centralized ordering will need to update this field to the system level org unit code.
-* Use the Invoice search fields to modify your search as needed.
-* See xref:acquisitions-general-search-tips[] for general search tips
+. Search operators that are not applicable to the search term selected will not appear in the operator drop down menu when creating a new search. Only relevant search operators will display as options.
+. Fields that are associated with controlled vocabularies will display the controlled values in both the search terms and filters for easy selection. These fields include:
+. Column headers for the search results can be clicked on to sort the results by the column. The columns will sort alphabetically or by other sort criteria as appropriate for the data type.
+. Using the column actions to filter or sort search results will execute a new search using the current search parameters. If any un-executed changes are made to the search parameters between the initial search submission and any changes to the filters, the new search parameters will be executed upon filtering.
 
 Originating Acquisition
 ~~~~~~~~~~~~~~~~~~~~~~~
