@@ -1,6 +1,8 @@
 Providers
 ---------
 
+(((provider, vendor)))
+
 anchor:provider[Provider]
 
 Providers must be created in the acquisitions module before users can create purchase orders for providers.
@@ -8,39 +10,39 @@ Providers must be created in the acquisitions module before users can create pur
 Create a Provider
 ~~~~~~~~~~~~~~~~~
 
-. Click *Administration* -> *Acquisitions Administration* -> *Providers*
+. Click *Acquisitions* -> *Provider Search*
 . Click *New Provider*.
-. Enter the provider name.
++
+image::images/administration/newprovider.png[]
++
+. Enter the Provider Name.
 . Create a unique code for the provider.
 .. This code is used throughout the acquisitions module to identify the provider.
 .. We recommend that libraries add their library short code *ex. ULS_MPL*
-. Choose an owner from the drop down menu.
-.. The owner indicates the organizational unit(s) whose staff can use this provider.
 . Choose a currency from the drop down menu.
-. Check the check box adjacent to Active to activate the provider.
-.. Unchecking this box deactivates the provider. A provider must be active in order for purchase orders to be made from that provider.
-. Enter the default number of copies for the provider.
-.. When line items are added to purchase orders for this provider the default number of copies will be automatically created.
-. Select a default *Claim policy* from the drop down menu.
+. Select a default *Claim policy* from the drop down menu. (Optional)
 .. The default claim policy associated with each provider is automatically assigned to line items and copies purchased from the provider.
 .. Choose the policy that best describes the policy you use with the provider. The default policy does not need to cover all possible situations as it is possible to override with a different policy at the time of the claim.
-.. This field may be left blank if no default policy should be applied to the provider.
+. Enter the default number of copies for the provider.
+.. When line items are added to purchase orders for this provider the default number of copies will be automatically created.
 . Do NOT select an EDI default from the drop down menu. Leave this field blank. EDI defaults must be created after the provider and then linked. Refer to xref:_create_an_edi_account[] for details.
-. *E-mail* field, enter the provider's e-mail address.
-. Fax Phone field, enter the provider's fax number.
-. If your provider enters holding data in MARC records, enter 970 into the Holdings Tag field.
-. In the Phone field, enter the provider's phone number.
-. If prepayment is required to purchase from this provider, check the box adjacent to Prepayment Required.
+. Choose an owner from the drop down menu.
+. In the URL field, enter the web address for the provider's website.(Optional)
 . In the SAN field, enter the seven digit Standard Address Number for your provider.
-. This field is required is EDI will be used with the provider.
-. In the URL field, enter the web address for the provider's website.
-. After you save the provider profile, the screen reloads so that you can save additional information about the provider. You can also access this Provider Details screen by clicking the hyperlinked name of the provider on the Providers screen. The tabs on the Provider Details screen allow you to add a provider address, provider contacts, attribute definitions, and holdings subfields. You can also view invoices associated with the provider on the Provider Details screen.
+.. This field is required if EDI will be used with the provider.
+. If prepayment is required to purchase from this provider, check the box adjacent to Prepayment Required.
+. Click *Save*
++
+image::images/administration/recordeditorprovider.png[]
++
+. After you save the provider profile, the screen reloads so that you can save additional information about the provider. You can also access this Provider Details screen by clicking the hyperlinked name of the provider on the Providers screen. The tabs on the Provider Details screen allow you to add a provider address, provider contacts, attribute definitions, and holdings subfields. You can also view invoices and POs associated with the provider on the Provider Details screen.
 
 A provider's address appears on printed purchase orders for that provider. Additional addresses can be added to the provider profile for providers with multiple offices.
 
 .Add an Additional Address
 . Open the provider you would like to add an address to.
-. Click New Provider Address. A pop-up will appear.
+. Go to the Addresses tab.
+. Click *New Provider Address*. A pop-up will appear.
 . Enter a name for the address in the Address Type field.
 . Fill in the address details. Required fields are:
 .. Street 1
@@ -55,8 +57,8 @@ The names of contacts and their specific contact details can be added to provide
 
 .Add a Contact
 . Open the provider you would like to add a contact to.
-. Click the Provider Contact tab.
-. Click New Contact. A pop-up will appear.
+. Click the Provider Contacts tab.
+. Click *New Provider Contact*. A pop-up will appear.
 . Enter the name of the contact, the contact's role, email, and phone number in the respective fields.
 . Click *Save*.
 
@@ -79,10 +81,10 @@ Edit Provider
 ~~~~~~~~~~~~~
 Provider information can be updated at any time.
 
-. Select Admin → Acquisitions Administration → Providers.
+. Click *Acquisitions* -> Provider Search.
 . If needed use the Filter to locate the desired provider.
-. Click the hyperlinked name of the provider you would like to edit.
-. Make your changes in the top half of the Provider Details screen.
+. Double Click the provider you would like to edit.
+. Make your changes.
 . Click *Save*.
 
 Delete Provider
@@ -97,9 +99,11 @@ Holding Subfields
 
 Holding subfields are used with a *970 Holdings Tag* to allow you to specify subfields within the holding tags to which your provider adds holdings information.
 
-. Open a provider.
-. Click the Holding Subfield tab.
-. Click New Holding Subfield. A pop-up will appear.
+. Retrieve a provider.
+. Open the Holding Definitions tab.
+. Specify the Holdings Tag
+. Click *Save*
+. Click *New Holdings Subfield*. A pop-up will appear.
 . In the Name field, select the name for your holding subfield.
 . In the Subfield field, enter your subfield.
 .. The holdings subfields in use by Sitka are:
@@ -113,15 +117,14 @@ Holding subfields are used with a *970 Holdings Tag* to allow you to specify sub
 ... o : Owning Library
 ... q : Quantity
 .. The subfields used will depend on your provider, but $o must always be used.
-. Click *Save*.
+. Repeat these steps to add all subfields included in your vendor records
 
-Now when MARC records for this provider are loaded through Load MARC Order Records the system will use the subfields in the 970 tag to do such things as generate copies on the line items, apply funds, and add in estimated prices.
 
 View a Provider's Invoices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. Open a provider.
-. Click on the Invoices tab.
+. Retrieve a provider.
+. Open the Invoices tab.
 . All invoices for the provider will display.
 .. Use the column headers to sort.
 .. Use the hyperlinked Back and Next to advance through the pages of invoices.

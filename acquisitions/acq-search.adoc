@@ -17,7 +17,6 @@ The Acquisitions Search interface defaults to the Line Items Search tab. Here yo
 
 . Select your search field(s) and enter your search term(s).
 . Click *Search*
-. View your search results.
 
 .Search Tips
 * To search for line items using non-library specific search fields, such as _LI - State_, you must also use a library specific search field such as _PO - Ordering Agency_ to restrict the search to your library.
@@ -33,8 +32,6 @@ The Purchase Orders Search tab allows you to conduct a search of Purchase Orders
 . Click *Search*.
 +
 image::images/acquisitions/searchonorder.png[]
-+
-. View your search results.
 
 You can construct a new one-time search instead of using the default search or set a default purchase order search that will replace the default search described above. If a user sets a new default Purchase Orders search, that search will be populated automatically when Acquisitions → Purchase Orders is selected from the main menu.
 
@@ -49,8 +46,6 @@ You can modify the default purchase order search to generate a list of pending p
 . Click *Search*.
 +
 image::images/acquisitions/searchpending.png[]
-+
-. View your search results.
 
 Invoices Search
 ~~~~~~~~~~~~~~~
@@ -63,8 +58,6 @@ The Invoices Search tab allows you to conduct a search of Invoices. The default 
 . Click *Search*.
 +
 image::images/acquisitions/invoicesearch.png[]
-+
-. View your search results.
 
 You can construct a new one-time search instead of using the default search or set a default invoice search that will replace the default search described above. If a user sets a new default Invoices search, that search will be populated automatically when Acquisitions → Invoices is selected from the main menu.
 
@@ -77,8 +70,6 @@ anchor:vendor-invoice[search by invoice ID]
 . Click *Search*.
 +
 image::images/acquisitions/invoicesearch2.png[]
-+
-. View your search results.
 
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
