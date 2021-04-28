@@ -33,13 +33,13 @@ image::images/administration/newprovider.png[]
 . If prepayment is required to purchase from this provider, check the box adjacent to Prepayment Required.
 . Click *Save*
 +
-image::images/administration/recordeditorprovider.png[]
+image::images/administration/providerrecord.png[]
 +
-. After you save the provider profile, the screen reloads so that you can save additional information about the provider. You can also access this Provider Details screen by clicking the hyperlinked name of the provider on the Providers screen. The tabs on the Provider Details screen allow you to add a provider address, provider contacts, attribute definitions, and holdings subfields. You can also view invoices and POs associated with the provider on the Provider Details screen.
+. After you save the provider profile, the screen reloads so that you can save additional information about the provider. You can also access this Provider Details screen by double clicking the provider name on the Providers screen. The tabs on the Provider Details screen allow you to add a provider address, provider contacts, attribute definitions, and holdings subfields. You can also view invoices and POs associated with the provider on the Provider Details screen.
 
 A provider's address appears on printed purchase orders for that provider. Additional addresses can be added to the provider profile for providers with multiple offices.
 
-.Add an Additional Address
+.Add an Address
 . Open the provider you would like to add an address to.
 . Go to the Addresses tab.
 . Click *New Provider Address*. A pop-up will appear.
@@ -94,10 +94,10 @@ NOTE: You can only delete providers if no purchase orders have been assigned to 
 
 Before a provider can be deleted any additional addresses, contacts, attribute definitions, and holdings subfields must be deleted first. You are then able to delete the provider on the Provider List page by checking the box adjacent to the provider's name and clicking Delete Selected.
 
-Holding Subfields
-~~~~~~~~~~~~~~~~~
+Holding Definitions
+~~~~~~~~~~~~~~~~~~~
 
-Holding subfields are used with a *970 Holdings Tag* to allow you to specify subfields within the holding tags to which your provider adds holdings information.
+Holding subfields are used with a *970 Holdings Tag* to allow you to upload holdings information with your MARC file uploads.
 
 . Retrieve a provider.
 . Open the Holding Definitions tab.
@@ -118,6 +118,8 @@ Holding subfields are used with a *970 Holdings Tag* to allow you to specify sub
 ... q : Quantity
 .. The subfields used will depend on your provider, but $o must always be used.
 . Repeat these steps to add all subfields included in your vendor records
++
+image::images/administration/holdingsdefinitions.png[]
 
 
 View a Provider's Invoices
@@ -126,6 +128,16 @@ View a Provider's Invoices
 . Retrieve a provider.
 . Open the Invoices tab.
 . All invoices for the provider will display.
-.. Use the column headers to sort.
-.. Use the hyperlinked Back and Next to advance through the pages of invoices.
 . You can click on the hyperlinked name of an invoice to view it.
++
+image::images/administration/providerinvoices.png[]
+
+View Purchase Orders
+~~~~~~~~
+
+. Retrieve a provider.
+. Open the POs tab.
+. All purchase orders for the provider will display.
+. Click on the hyperlinked name of a purchase order to view it.
++
+image::images/administration/providerpos.png[]
