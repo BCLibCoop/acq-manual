@@ -17,9 +17,12 @@ The Acquisitions Search interface defaults to the Line Items Search tab. Here yo
 
 . Select your search field(s) and enter your search term(s).
 . Click *Search*
++
+image::images/acquisitions/searchlineitem.png[scaledwidth="75%",alt="Search for Line Items"]
 
-.Search Tips
-* To search for line items using non-library specific search fields, such as _LI - State_, you must also use a library specific search field such as _PO - Ordering Agency_ to restrict the search to your library.
+The search results consist of line items and provide links to the provider account, bibliographic record in the catalog, associated purchase order, purchase requests, and any associated invoices. Clicking on the linked Lineitem ID will bring you to the highlighted line item on the associated purchase order. All links open in a new tab.
+
+NOTE: Currently no actions can be taken with Line Item search results. The full integration of action functionality will be added by pending development to the acquisitions module.
 
 Purchase Orders Search
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -47,6 +50,8 @@ You can modify the default purchase order search to generate a list of pending p
 +
 image::images/acquisitions/searchpending.png[scaledwidth="75%",alt="Search for Pending POs"]
 
+The search results will consist of purchase orders and provide links to the purchase order and the associated provider account. All links open in a new tab.
+
 Invoices Search
 ~~~~~~~~~~~~~~~
 
@@ -70,6 +75,8 @@ anchor:vendor-invoice[search by invoice ID]
 . Click *Search*.
 +
 image::images/acquisitions/invoicesearch2.png[scaledwidth="75%",alt="Search for Invoices by ID"]
+
+The search results consist of invoices and provide links to the invoice, the provider account, and the shipper account associated with the invoice. All links open in a new tab.
 
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -108,7 +115,7 @@ The search entry box will display a controlled list of values via a dropdown men
 
 .Search Tips
 . Search operators that are not applicable to the search term selected will not appear in the operator drop down menu when creating a new search. Only relevant search operators will display as options.
-. Fields that are associated with controlled vocabularies will display the controlled values in both the search terms and filters for easy selection. These fields include:
+. Fields that are associated with controlled vocabularies will display the controlled values in both the search terms and filters for easy selection.
 . Column headers for the search results can be clicked on to sort the results by the column. The columns will sort alphabetically or by other sort criteria as appropriate for the data type.
 . Using the column actions to filter or sort search results will execute a new search using the current search parameters. If any un-executed changes are made to the search parameters between the initial search submission and any changes to the filters, the new search parameters will be executed upon filtering.
 
@@ -120,13 +127,13 @@ Originating Acquisition
 . Enter the item barcode
 . Click *Actions* -> Show *Originating Acquisition*
 +
-image::images/acquisitions/originatingacq.png[Show Originating Acquisitions from Item Status]
+image::images/acquisitions/originatingacq.png[alt="Show Originating Acquisitions from Item Status"]
 
 .Show Originating Acquisitions from the Catalogue
 . Click *view*
 +
-image::images/acquisitions/originatingacq2.png[Show Originating Acquisitions from the Catalogue]
+image::images/acquisitions/originatingacq2.png[alt="Show Originating Acquisitions from the Catalogue"]
 +
 . Click *Actions* -> Show *Originating Acquisition*
 +
-image::images/acquisitions/originatingacq3.png[Show Originating Acquisitions from the Catalogue]
+image::images/acquisitions/originatingacq3.png[alt="Show Originating Acquisitions from the Catalogue"]
