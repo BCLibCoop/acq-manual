@@ -133,7 +133,7 @@ View a Provider's Invoices
 image::images/administration/providerinvoices.png[]
 
 View Purchase Orders
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 . Retrieve a provider.
 . Open the POs tab.
