@@ -21,7 +21,7 @@ Distribution Formulas
 . In the Item Count field, enter the number of copies that should be added to the branch.
 . You can enter the number or use the arrows on the right side of the field.
 +
-image::images/administration/distributionformula.png[]
+image::images/administration/distributionformula.png[scaledwidth="75%",alt="Distribution Formula"]
 +
 . Click *Apply Changes*. The screen will reload.
 . For multi-branch libraries, repeat steps 7 through 11 to add copies for as many branches as you require.
