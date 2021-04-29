@@ -273,6 +273,7 @@ Invoices can be printed individually or as a batch from the search grid.
 .. see xref: Invoice search for more details.
 . Check the box(es) adjacent to the invoices you would like to print.
 . Click *Actions* -> *Print Selected Invoices*.
-. Select your printer and click *OK*.
 +
 image::images/acquisitions/invoiceprint.png[scaledwidth="75%",alt="Print Selected Invoices"]
++
+. Select your printer and click *OK*.

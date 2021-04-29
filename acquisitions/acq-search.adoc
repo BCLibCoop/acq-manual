@@ -86,6 +86,8 @@ The Selection Lists Search tab allows you to conduct a search of selections list
 .Search for your Selection Lists
 . Selection List - Owner is [currently logged in user]
 . Click *Search*.
++
+image::images/acquisitions/selectionlist.png[scaledwidth="75%",alt="Search for your Selection Lists"]
 
 The search results will consist of selection lists and provide a link to the selection list via the Name column.
 
