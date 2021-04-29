@@ -13,7 +13,7 @@ Create a Provider
 . Click *Acquisitions* -> *Provider Search*
 . Click *New Provider*.
 +
-image::images/administration/newprovider.png[]
+image::images/administration/newprovider.png[scaledwidth="75%",alt="New Provider"]
 +
 . Enter the Provider Name.
 . Create a unique code for the provider.
@@ -33,7 +33,7 @@ image::images/administration/newprovider.png[]
 . If prepayment is required to purchase from this provider, check the box adjacent to Prepayment Required.
 . Click *Save*
 +
-image::images/administration/providerrecord.png[]
+image::images/administration/providerrecord.png[scaledwidth="75%",alt="Provider record"]
 +
 . After you save the provider profile, the screen reloads so that you can save additional information about the provider. You can also access this Provider Details screen by double clicking the provider name on the Providers screen. The tabs on the Provider Details screen allow you to add a provider address, provider contacts, attribute definitions, and holdings subfields. You can also view invoices and POs associated with the provider on the Provider Details screen.
 
@@ -119,7 +119,7 @@ Holding subfields are used with a *970 Holdings Tag* to allow you to upload hold
 .. The subfields used will depend on your provider, but $o must always be used.
 . Repeat these steps to add all subfields included in your vendor records
 +
-image::images/administration/holdingsdefinitions.png[]
+image::images/administration/holdingsdefinitions.png[scaledwidth="75%",alt="Holdings Definitions"]
 
 
 View a Provider's Invoices
@@ -130,7 +130,7 @@ View a Provider's Invoices
 . All invoices for the provider will display.
 . You can click on the hyperlinked name of an invoice to view it.
 +
-image::images/administration/providerinvoices.png[]
+image::images/administration/providerinvoices.png[scaledwidth="75%",alt="View Provider Invoices"]
 
 View Purchase Orders
 ~~~~~~~~~~~~~~~~~~~~
@@ -140,4 +140,4 @@ View Purchase Orders
 . All purchase orders for the provider will display.
 . Click on the hyperlinked name of a purchase order to view it.
 +
-image::images/administration/providerpos.png[]
+image::images/administration/providerpos.png[scaledwidth="75%",alt="View Provider POs"]

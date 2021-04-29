@@ -31,7 +31,7 @@ The Purchase Orders Search tab allows you to conduct a search of Purchase Orders
 . Purchase Order - Status is [On-Order]
 . Click *Search*.
 +
-image::images/acquisitions/searchonorder.png[]
+image::images/acquisitions/searchonorder.png[scaledwidth="75%",alt="Search for On-Order POs"]
 
 You can construct a new one-time search instead of using the default search or set a default purchase order search that will replace the default search described above. If a user sets a new default Purchase Orders search, that search will be populated automatically when Acquisitions → Purchase Orders is selected from the main menu.
 
@@ -45,7 +45,7 @@ You can modify the default purchase order search to generate a list of pending p
 . Purchase Order - Status is [Pending]
 . Click *Search*.
 +
-image::images/acquisitions/searchpending.png[]
+image::images/acquisitions/searchpending.png[scaledwidth="75%",alt="Search for Pending POs"]
 
 Invoices Search
 ~~~~~~~~~~~~~~~
@@ -57,7 +57,7 @@ The Invoices Search tab allows you to conduct a search of Invoices. The default 
 . Invoice - Close Date is [unset - no date].
 . Click *Search*.
 +
-image::images/acquisitions/invoicesearch.png[]
+image::images/acquisitions/invoicesearch.png[scaledwidth="75%",alt="Search for Open Invoices"]
 
 You can construct a new one-time search instead of using the default search or set a default invoice search that will replace the default search described above. If a user sets a new default Invoices search, that search will be populated automatically when Acquisitions → Invoices is selected from the main menu.
 
@@ -69,7 +69,7 @@ anchor:vendor-invoice[search by invoice ID]
 . Enter the invoice ID found on the paper invoice.
 . Click *Search*.
 +
-image::images/acquisitions/invoicesearch2.png[]
+image::images/acquisitions/invoicesearch2.png[scaledwidth="75%",alt="Search for Invoices by ID"]
 
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -120,13 +120,13 @@ Originating Acquisition
 . Enter the item barcode
 . Click *Actions* -> Show *Originating Acquisition*
 +
-image::images/acquisitions/originatingacq.png[]
+image::images/acquisitions/originatingacq.png[Show Originating Acquisitions from Item Status]
 
 .Show Originating Acquisitions from the Catalogue
 . Click *view*
 +
-image::images/acquisitions/originatingacq2.png[]
+image::images/acquisitions/originatingacq2.png[Show Originating Acquisitions from the Catalogue]
 +
 . Click *Actions* -> Show *Originating Acquisition*
 +
-image::images/acquisitions/originatingacq3.png[]
+image::images/acquisitions/originatingacq3.png[Show Originating Acquisitions from the Catalogue]

@@ -1,6 +1,8 @@
 Acquisitions Module Configuration
 ---------------------------------
 
+Before beginning to use Acquisitions, the following must be configured by an acquisitions administrator:
+
 .Acquisitions Initial Set-up
 * Funding Sources
 ** Refer to xref:_funding_sources[] for details.
