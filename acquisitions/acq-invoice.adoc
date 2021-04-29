@@ -212,7 +212,7 @@ You can view an invoice in one of three ways:
 * View Invoices Attached to a Line Item
 
 .View Invoices through a Search
-. Click *Acquisitions* -> *Open Invoices*.
+. Click *Acquisitions* -> *Invoices*.
 . By default the search interface is set to search for open invoices created by your ordering agency.
 . Click *Search*.
 
@@ -248,7 +248,7 @@ Invoices must be closed for items to show as "Paid". Fund debits linked to an in
 .. Close Date — This is set to the time when the user clicks the *Close* button in the invoice interface.
 .. Closed By — This is set to the logged in staff user who performs the *Close* action.
 +
-image::images/acquisitions/closedinvoices.png[]
+image::images/acquisitions/closedinvoices.png[scaledwidth="75%",alt="Closed Invoices"]
 
 A "Paid" label appears along the bottom of each line item in the PO display when every non-cancelled copy on the line item has been invoiced.
 
@@ -268,9 +268,11 @@ Print Invoices
 ~~~~~~~~~~~~~~
 Invoices can be printed individually or as a batch from the search grid.
 
-. Click *Acquisitions* -> *Open Invoices*.
+. Click *Acquisitions* -> *Invoices*.
 . This opens the Acquisitions Search screen. Use this search to retrieve the invoices you would like to print.
 .. see xref: Invoice search for more details.
 . Check the box(es) adjacent to the invoices you would like to print.
-. Click Print Selected Invoices.
+. Click *Actions* -> *Print Selected Invoices*.
 . Select your printer and click *OK*.
++
+image::images/acquisitions/invoiceprint.png[scaledwidth="75%",alt="Print Selected Invoices"]

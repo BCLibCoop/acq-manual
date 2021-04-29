@@ -36,6 +36,8 @@ The Purchase Orders Search tab allows you to conduct a search of Purchase Orders
 +
 image::images/acquisitions/searchonorder.png[scaledwidth="75%",alt="Search for On-Order POs"]
 
+The search results will consist of purchase orders and provide links to the purchase order and the associated provider account. All links open in a new tab.
+
 You can construct a new one-time search instead of using the default search or set a default purchase order search that will replace the default search described above. If a user sets a new default Purchase Orders search, that search will be populated automatically when Acquisitions → Purchase Orders is selected from the main menu.
 
 anchor:pending-order[pending purchase orders]
@@ -50,8 +52,6 @@ You can modify the default purchase order search to generate a list of pending p
 +
 image::images/acquisitions/searchpending.png[scaledwidth="75%",alt="Search for Pending POs"]
 
-The search results will consist of purchase orders and provide links to the purchase order and the associated provider account. All links open in a new tab.
-
 Invoices Search
 ~~~~~~~~~~~~~~~
 
@@ -63,6 +63,8 @@ The Invoices Search tab allows you to conduct a search of Invoices. The default 
 . Click *Search*.
 +
 image::images/acquisitions/invoicesearch.png[scaledwidth="75%",alt="Search for Open Invoices"]
+
+The search results consist of invoices and provide links to the invoice, the provider account, and the shipper account associated with the invoice. All links open in a new tab.
 
 You can construct a new one-time search instead of using the default search or set a default invoice search that will replace the default search described above. If a user sets a new default Invoices search, that search will be populated automatically when Acquisitions → Invoices is selected from the main menu.
 
@@ -76,8 +78,6 @@ anchor:vendor-invoice[search by invoice ID]
 +
 image::images/acquisitions/invoicesearch2.png[scaledwidth="75%",alt="Search for Invoices by ID"]
 
-The search results consist of invoices and provide links to the invoice, the provider account, and the shipper account associated with the invoice. All links open in a new tab.
-
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -86,6 +86,8 @@ The Selection Lists Search tab allows you to conduct a search of selections list
 .Search for your Selection Lists
 . Selection List - Owner is [currently logged in user]
 . Click *Search*.
+
+The search results will consist of selection lists and provide a link to the selection list via the Name column.
 
 Creating a New Default Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
