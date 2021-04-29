@@ -5,7 +5,7 @@ anchor:edi[EDI]
 
 Electronic Data Interchange (EDI) accounts are used to electronically send purchase orders and receive invoices from providers.
 
-NOTE: Currently EDI for Sitka Evergreen has been set up to be used with the following providers:
+.EDI is set up for the following providers:
 * CVS
 * United Library Services ULS
 * Whitehots
