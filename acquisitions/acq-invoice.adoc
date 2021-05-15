@@ -237,7 +237,6 @@ Invoices must be closed for items to show as "Paid". Fund debits linked to an in
 .Close Invoice
 . Open or create an invoice.
 . Enter information into all of the required fields.
-.. see xref:
 . The totals at the bottom of the invoice will calculate based on the information entered.
 . These totals must match or the invoice will not close.
 . In the Billed column, enter the amount paid for each line item. The Paid column will auto-fill to match.
@@ -269,8 +268,7 @@ Print Invoices
 Invoices can be printed individually or as a batch from the search grid.
 
 . Click *Acquisitions* -> *Invoices*.
-. This opens the Acquisitions Search screen. Use this search to retrieve the invoices you would like to print.
-.. see xref: Invoice search for more details.
+. This opens the Acquisitions Search screen. Use this search to retrieve the invoices you would like to print. See xref:_invoices_search[] for more details.
 . Check the box(es) adjacent to the invoices you would like to print.
 . Click *Actions* -> *Print Selected Invoices*.
 +
