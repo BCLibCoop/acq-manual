@@ -97,10 +97,8 @@ Creating a New Default Search
 In each of the Acquisitions Search tabs you can create a custom default search that will override the standard default search for the tab.
 
 .Create a new default search
-. Construct your custom search using the drop down menus in the selected search tab.
-.. Click the (+) to add a new field to your search and click the (-) to remove a field from your search.
-. Click the blue button that says Set As Default [Line Item/Purchase Order/Invoice/Selection List] Search.
-.. You will see a green message in the lower right hand corner confirming that your default search was saved.
+. Construct your custom search using the drop down menus in the selected search tab. Click the (+) to add a new field to your search and click the (-) to remove a field from your search.
+. Click the blue button that says Set As Default [Line Item/Purchase Order/Invoice/Selection List] Search. You will see a green message in the lower right hand corner confirming that your default search was saved.
 . This search will now load each time you view the selected tab and will override the default search listed above.
 
 There is also an option to automatically execute the search when the tab is opened, eliminating the need to click the Search button. This can be done by checking the box to Retrieve Results Immediately and then clicking the Set As Default …​ Search button.
