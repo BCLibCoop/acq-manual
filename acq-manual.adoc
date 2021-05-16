@@ -7,9 +7,9 @@ Sitka's Evergreen Acquisitions Documentation
 
 *Evergreen 3.5*
 
-Copyright (symbol) 2018 BC Libraries Cooperative
+Copyright (symbol) 2021 BC Libraries Cooperative
 
-Last Updated May 19, 2020
+Last Updated May 17, 2021
 
 Introduction
 ============
