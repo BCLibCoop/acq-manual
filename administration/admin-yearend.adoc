@@ -33,7 +33,7 @@ Libraries should review this checklist as they reach the end of their fiscal yea
 
 * Save and Close all open invoices.
 
-** See xref:_search_for_invoices[].
+** See xref:_invoices_search[].
 
 * Run report *Lines Items That Have Been Received but not Invoiced*.
 
