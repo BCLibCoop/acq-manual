@@ -13,7 +13,7 @@ Electronic Data Interchange (EDI) accounts are used to electronically send purch
 Standard Address Number (SAN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact 
+A Standard Address Number (SAN) is a unique 7 digit number that identifies a library or a provider. Please contact 
 Co-op Support if your library does not already have a SAN.
 
 For EDI to work your library must have a SAN and each of your providers must supply you with their SAN.
@@ -22,9 +22,6 @@ Library SAN
 +++++++++++
 
 Your Library SAN is stored in your Org Unit settings.
-
-A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact 
-Co-op Support if your library does not already have a SAN.
 
 .Enter a Library's SAN
 . In Evergreen select *Administration* -> *Server Administration* -> *Organizational Units*.
@@ -78,7 +75,7 @@ image::images/administration/edi-account-1.png[]
 +
 . A pop-up will appear.
 . In the Label field, enter a name for the EDI account.
-.. The name should be entered as PROVIDERCODE_LIBRARYCODE. This enables Sitka Support to easily identify the owning library of the EDI account when troubleshooting.
+.. The name should be entered as PROVIDERCODE_LIBRARYCODE. This enables Co-op Support to easily identify the owning library of the EDI account when troubleshooting.
 . In the Host field, enter the requisite FTP or SCP information supplied by your provider.
 . In the Username field, enter the username supplied by your provider.
 . In the Password field, enter the password supplied by your provider.
