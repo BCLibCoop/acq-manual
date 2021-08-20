@@ -13,7 +13,8 @@ Electronic Data Interchange (EDI) accounts are used to electronically send purch
 Standard Address Number (SAN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact Sitka Support if your library does not already have a SAN.
+A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact 
+Co-op Support if your library does not already have a SAN.
 
 For EDI to work your library must have a SAN and each of your providers must supply you with their SAN.
 
@@ -22,12 +23,14 @@ Library SAN
 
 Your Library SAN is stored in your Org Unit settings.
 
-A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact Sitka Support if your library does not already have a SAN.
+A Standard Address Number (SAN) is a unique 7 digit number that identifies your library. Please contact 
+Co-op Support if your library does not already have a SAN.
 
 .Enter a Library's SAN
 . In Evergreen select *Administration* -> *Server Administration* -> *Organizational Units*.
 . Find your library from the tree on the left side of the page and click on it to open the settings.
-. Multi-branch library systems will see an entry for each branch but should select their system's top organization unit.
+. Multi-branch library systems will see an entry for each branch but should select their 
+system rather than a specific branch.
 . Click on the Address tab.
 . Click on the Mailing Address tab.
 . Enter your library's SAN in the field labeled SAN.
