@@ -47,11 +47,13 @@ Provider SAN
 NOTE: These steps need to be repeated for every provider with which EDI is used.
 
 Create an EDI Account
-+++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^
 
 TIP: You must create your provider before you create an EDI account for the provider.
 
-Contact your provider requesting the following information:
+Contact your provider requesting information for EDI set up.
+
+Most providers will send you:
 
 * Host
 * Username
@@ -60,9 +62,18 @@ Contact your provider requesting the following information:
 * Incoming Directory
 * Provider's SAN
 
+Some providers will send additional account information that goes into the Account, Vendor Account Number,
+and/or Vendor Assigned Code fields.
+
+
 .Create an EDI Account
-.Click *Administration* -> *Acquisitions Administration* -> *EDI Accounts*.
-. Click New Account. A pop-up will appear.
+. Click *Administration* -> *Acquisitions Administration* -> *Providers*.
+. Select the provider you would like to create an EDI account for from the list.
+. Click on the *EDI* tab and click *New EDI Account*. 
++
+image::images/administration/edi-account-1.png[]
++
+. A pop-up will appear.
 . In the Label field, enter a name for the EDI account.
 .. The name should be entered as PROVIDERCODE_LIBRARYCODE. This enables Sitka Support to easily identify the owning library of the EDI account when troubleshooting.
 . In the Host field, enter the requisite FTP or SCP information supplied by your provider.
@@ -72,12 +83,17 @@ Contact your provider requesting the following information:
 . In the Provider field, enter the code used in Evergreen for your provider.
 . In the Path field, enter the path supplied by your provider.
 . In the Incoming Directory field, enter the incoming directory supplied by your provider.
+. If your provider supplies it, enter the relevant information in the Account, Vendor Account Number,
+and/or Vendor Assigned Code fields
+. Ensure the box for *Use EDI Attributes* is unchecked.
 . Click *Save*.
-. Click on the link in the Provider field.
-. Select the EDI account that has just been created from the EDI Default drop down menu.
++
+image::images/administration/edi-account-2.png[]
++
+
 
 View EDI Messages
-+++++++++++++++++
+^^^^^^^^^^^^^^^^^
 
 The EDI Messages screen displays all incoming and outgoing messages between the library and the provider.
 
