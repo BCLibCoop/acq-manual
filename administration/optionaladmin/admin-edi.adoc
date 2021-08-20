@@ -89,7 +89,7 @@ and/or Vendor Assigned Code fields
 . Click *Save*.
 +
 image::images/administration/edi-account-2.png[]
-+
+
 
 
 View EDI Messages
