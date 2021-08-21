@@ -40,7 +40,7 @@ Provider SAN
 
 .Enter a Provider's SAN
 . In Evergreen select *Administration* -> *Acquisitions Administration* -> *Providers*.
-. Click the hyper linked name of the provider you would like to edit.
+. Double click on the line for the provider you would like to edit.
 . Enter your provider's SAN in the field labeled SAN.
 . Click *Save*.
 
