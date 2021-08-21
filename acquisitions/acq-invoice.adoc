@@ -111,7 +111,9 @@ Add Line items to the Invoice
 You can use the Link Invoice button to link all the line items on a purchase order to an existing invoice.
 For example, an invoice is received for a shipment with items on purchase order #1 and purchase order #2. When the invoice arrives, purchase order #1 is retrieved, and the invoice is created. Rather than recreate the invoice for purchase order #2 you simply link the purchase order to the invoice.
 
-.Link an Entire Purchase Order to an Existing Invoice
+Link an Entire Purchase Order to an Existing Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open a purchase order.
 . Click Link Invoice.
 . In the drop down that appears, enter the invoice number of the invoice you would like to link the purchase order to.
@@ -122,7 +124,9 @@ For example, an invoice is received for a shipment with items on purchase order 
 Use the Link to Invoice for Selected Lineitems menu option to link multiple line items to an invoice that already exists in Evergreen.
 For example, an invoice may be made up of items from multiple purchase orders. In this circumstance, you can create an invoice for the selected line items from your first purchase order and then link the line items from other purchase orders onto your invoice.
 
-.Link Multiple Line Items to an Existing Invoice
+Link Multiple Line Items to an Existing Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open a purchase order.
 . Check the boxes beside the line items you would like to link to your invoice.
 . Using the main Actions menu, select Actions -> Link Selected Line Items to Invoice.
@@ -135,7 +139,9 @@ For example, an invoice may be made up of items from multiple purchase orders. I
 
 You can use the new Search tab to search for and add line items to an invoice from within the invoice.
 
-.Search for Line Items from an Invoice
+Search for Line Items from an Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open an invoice or create an invoice.
 . Click the Search tab.
 . Select your search criteria from the drop down menu.
@@ -155,7 +161,9 @@ You can use the new Search tab to search for and add line items to an invoice fr
 .. See Invoice Item Type for a list of the charge types available.
 .. Some charge types, such as taxes, are proratable. This means when Prorate is clicked the system divides the amount being charged proportionally among the funds in use on the invoice based on how much is being spent out of each fund.
 
-.Add Charges to an Invoice
+Add Charges to an Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open an invoice.
 . Click *Add Charge*.
 . Choose the charge you would like to apply from the Charge Type drop down menu.
@@ -167,7 +175,9 @@ You can use the new Search tab to search for and add line items to an invoice fr
 . Click Close to close the invoice. Once all the line items and invoice charges have been added the invoice must be closed.
 . Invoices can be re-opened at a later date if adjustments are required. See Re-Open an Invoice.
 
-.Delete Charges from an Invoice
+Delete Charges from an Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open an invoice.
 . Click the Delete link adjacent to the charge line.
 . Confirm that you wish to delete the charge by clicking OK on the pop up that appears.
@@ -179,7 +189,9 @@ NOTE: An invoice must be open in order to delete charges from it. It is possible
 
 In the event that you receive and are invoiced for more copies that originally ordered, the additional copies can be easily added to the invoice.
 
-.Add Additional Copies to an Invoice
+Add Additional Copies to an Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Additional copies must be added before the Billed and Paid columns are filled for the line item.
 . Open an invoice.
 . Update the number of copies in both # Invoiced and # Paid to reflect the number of copies you actually have.
@@ -190,7 +202,9 @@ In the event that you receive and are invoiced for more copies that originally o
 . The Title Details for the line item will update to reflect the additional copies. The additional copies are automatically received in the system. Proceed with paying the invoice.
 . The additional copies can be un-received if needed following the instruction in the Receiving and Un-Receiving Copies section.
 
-.Detach Line Items from an Invoice
+Detach Line Items from an Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open an invoice.
 . Click the Detach link adjacent to the line item you wish to remove.
 . Confirm that you wish to detach the line item by clicking OK on the pop up that appears.
