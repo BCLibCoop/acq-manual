@@ -6,6 +6,8 @@ Acquisitions Search
 General Search
 ~~~~~~~~~~~~~~
 
+https://youtu.be/3gAFuqQE08Y[*Sitka's Evergreen Acquisitions Video - General Search (1:22)*]
+
 The Acquisitions Search interface provides a centralized place for searching Line Items, Purchase Orders, Invoices, and Selection Lists.
 
 . Click *Acquisitions* -> *General Search*.
