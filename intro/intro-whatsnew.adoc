@@ -1,12 +1,20 @@
-New Features in Evergreen Acquisitions version 3.3
+New Features in Evergreen Acquisitions Version 3.9
 --------------------------------------------------
 
-* Auto-Cancel Line items When All Copies Are Canceled
-** When a copy is canceled through the Acquisitions interface, the parent line item is also canceled if all copies for that line item are also canceled.
+Administration
+~~~~~~~~~~~~~~
 
-* Invoice Closed Date and Closed By Fields
-** Close Date — This is set to the time when the user clicks the "Close" button in the invoice interface.
-*** This field replaces the existing complete field. An invoice is considered complete if a close date value is set.
-** Closed By — This is set to the logged in staff user who performs the "Close" action.
-* Show *Originating Acquisition* action has been added to the Item Status Action Menu.
-* Fund year added to the Distribution Formula fund drop down menu
+The acquisitions administration interfaces have been updated and in some cases consolidated.
+
+* The four claiming interfaces have been consolidated into one tabbed interface.
+* Currencies and exchange rates are now a single interface, making it easier for Co-op Support to manage
+exchange rates for different currencies for libraries.
+* The distribution forumula interface has been re-designed.
+* Funding sources, funds, and fund tags have been re-designed and consolidated into a tabbed Fund Administration 
+interface.
+* Funding sources now have an active flag so you can mark funding sources that are no longer in use as 
+in-active.
+
+
+
+
