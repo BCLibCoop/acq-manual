@@ -70,12 +70,11 @@ image::images/administration/fundingsource5.png[]
 A funding source can only be deleted if no credit has been applied to it.
 
 NEW SCREENSHOT
-
 ======
 
 
-Apply Credit
-^^^^^^^^^^^^
+Applying Credit
+^^^^^^^^^^^^^^^
 
 [CAUTION]
 =========
@@ -92,15 +91,17 @@ the name of the funding source and the incorrect amount that has been allocated.
 +
 image::images/administration/fundingsource4.png[]
 +
-. Click on the hyper linked name of the funding source you would like to apply credit to. This takes you to the Funding Source Details screen.
-. Click Apply Credit.
+. Click on the hyper linked name of the funding source you would like to apply credit to.
+. On the *Credits* tab click *Apply Credits*.
 . Enter the amount to apply to this funding source.
 . Enter a note. This field is optional.
-. Click *Apply*.
+. Enter an effective date if different from the current day.
+. Optionally, enter a deadline date by which the money must be spent.
+. Click *Save*.
 +
 image::images/administration/fundingsource6.png[]
 +
-. The Summary tab will update to reflect the credit applied. The Credits tab will display all credits that have been applied to the funding source. You may need to click Reload to view the Credits tab.
+. The *Credits* tab will update to reflect the credit applied. 
 
 Allocate Credit to Funds - Funding Source Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -137,7 +138,8 @@ You can track credits to and allocations from for each funding source through th
 +
 image::images/administration/fundingsourcecredit.png[]
 +
-.. *Debits* - The Allocations tab tracks all allocations from the funding source to funds. After allocating to a fund you will need to click Reload to view the Allocations tab.
+.. *Debits* - The Allocations tab tracks all allocations from the funding source to funds. After 
+allocating to a fund you will need to click Reload to view the Allocations tab.
 +
 image::images/administration/fundingsourcedebit.png[]
 
@@ -149,8 +151,8 @@ Funds should be created for every budget you wish to track. For some libraries t
 
 Multi-branch libraries may have a single set of funds for their entire system, a set of funds for each branch, or may use a combination of funds at the branch and system levels.
 
-Create a Fund
-^^^^^^^^^^^^^
+Creating Funds
+^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Acquisitions Administration* -> *Funds*
 . Click New Fund.
@@ -173,8 +175,8 @@ Create a Fund
 . Click Reload.
 
 
-Edit a Fund
-^^^^^^^^^^^
+Editing a Fund
+^^^^^^^^^^^^^^
 
 While you are able to edit your fund's name, owner, and code you are unable to edit the balance of your fund. A fund's balance can be adjusted by allocating monies to the fund or transferring monies to another fund.
 
@@ -189,8 +191,8 @@ fund codes that are used in their templates.  If the fund code doesn't match bet
 $f in the templates your MARC records will not load.
 
 
-Delete a Fund
-^^^^^^^^^^^^^
+Deleting a Fund
+^^^^^^^^^^^^^^^
 
 It is possible to delete a fund by checking the box of the fund you wish to delete and clicking Delete Selected.
 
@@ -246,8 +248,8 @@ The Fund Details screen allows you to track a fund's balance, encumbrances, and 
 Fund Tags
 ~~~~~~~~~
 
-Create a Fund Tag
-^^^^^^^^^^^^^^^^^
+Creating a Fund Tag
+^^^^^^^^^^^^^^^^^^^
 
 . Select *Administration* -> *Acquisitions Administration* -> *Fund Tags*.
 . Click *New Fund Tag*
