@@ -47,9 +47,7 @@ Acquisitions Administration
 ===========================
 include::administration/admin-initialsetup.adoc[]
 
-include::administration/admin-fundingsource.adoc[]
-
-include::administration/admin-fund.adoc[]
+include::administration/admin-fund-administration.adoc[]
 
 include::administration/admin-provider.adoc[]
 

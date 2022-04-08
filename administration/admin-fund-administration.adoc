@@ -1,0 +1,254 @@
+Fund Administration
+-------------------
+
+Funding Sources
+~~~~~~~~~~~~~~~
+
+In the funding sources interface you can create funding sources, allocate credit to funding sources, and apply credit to funds. Funding sources allow you to specify the sources that contribute monies to your fund(s), such as your municipal government, grants, and donations. You can create as few or as many funding sources as you need.
+
+Funding sources are not tied to fiscal or calendar years, but since any unspent money is returned to the funding source during the year end process Support recommends that you create new funding sources for each year. To distinguish the funding sources from year to year, best practice is to include the year in the funding source name and code. Example City of Fiction 2018, COF2018.
+
+Create a Funding Source
+^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
++
+image::images/administration/fundingsource.png[]
++
+. Click *New Funding Source*.
+. Enter a Funding Source Name.
+. Select an Owner from the drop down menu.
+.. The owner indicates the organizational unit(s) whose staff can use this funding source. If a multi-branch library system is made the owner of a funding source, then users with appropriate permissions at the branches can also use the funding source.
+. Create a unique Code for the source.
+. Select a Currency from the drop down menu.
+. Click *Save*.
++
+image::images/administration/fundingsource1.png[]
+
+
+Edit a Funding Source
+^^^^^^^^^^^^^^^^^^^^^
+
+While you are able to edit your funding source's name, owner, code, and currency, you are unable to edit the balance of your funding source. The balance of a funding source can only be altered by applying credit to the funding source or allocating credit from the funding source to a fund.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
++
+image::images/administration/fundingsource2.png[]
++
+. Double-click on the row you would like to edit. A pop-up box will appear in which you can edit fields.
+. Make your changes and click *Save*.
++
+image::images/administration/fundingsource3.png[]
+
+CAUTION: Editing the currency of an active in use funding source is not recommended as it can have serious consequences.
+
+Delete a Funding Source
+^^^^^^^^^^^^^^^^^^^^^^^
+
+A Funding Source can only be deleted if no credit has been applied to it.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Check the box of the funding source you wish to delete and click *Delete Selected*.
++
+image::images/administration/fundingsource5.png[]
+
+
+
+Apply Credit
+^^^^^^^^^^^^
+
+Once a funding source has credit applied to it it cannot be deleted. Ensure you apply the correct amount of credit to each funding source as there is no way in the staff client to edit the amount applied.
+
+Note In the event that an incorrect amount is allocated to a funding source, please submit a ticket to Sitka Support that includes the name of the funding source and the incorrect amount that has been allocated.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
++
+image::images/administration/fundingsource4.png[]
++
+. Click on the hyper linked name of the funding source you would like to apply credit to. This takes you to the Funding Source Details screen.
+. Click Apply Credit.
+. Enter the amount to apply to this funding source.
+. Enter a note. This field is optional.
+. Click *Apply*.
++
+image::images/administration/fundingsource6.png[]
++
+. The Summary tab will update to reflect the credit applied. The Credits tab will display all credits that have been applied to the funding source. You may need to click Reload to view the Credits tab.
+
+Allocate Credit to Funds - Funding Source Interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have set up your funds, credit can be allocated to them from your funding sources in two ways:
+
+. xref:allocate-fund-source[]
+. xref:allocate-funds[]
+
+To allocate credit to your funds using the Funding Source Interface:
+
+anchor:allocate-fund-source[Allocate to Fund - Funding Source Interface]
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Click on the hyper linked name of the funding source.
+. Click *Allocate to Fund*
+. Select the fund you would like to allocate credit to.
+. Enter the amount that you would like to allocate.
+. Enter a note. This field is optional.
+. Click Apply.
++
+image::images/administration/fundingsource7.png[]
++
+. The Allocations tab will display all allocations made to funds out of this funding source. See Track Debits and Credits for more information.
+
+Track Credits and Allocations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can track credits to and allocations from for each funding source through the Summary tab on the Funding Source Details screen.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Click on the hyper linked name of the funding source to open the Funding Source Details screen.
+.. *Credits* - The Credits tab tracks all credits applied to the funding source. After applying credit you will need to click Reload to view the Credits tab.
++
+image::images/administration/fundingsourcecredit.png[]
++
+.. *Debits* - The Allocations tab tracks all allocations from the funding source to funds. After allocating to a fund you will need to click Reload to view the Allocations tab.
++
+image::images/administration/fundingsourcedebit.png[]
+
+
+Funds
+~~~~~
+
+Funds should be created for every budget you wish to track. For some libraries this may be a fund per individual collection. Other libraries may only use one fund for all purchasing. Libraries may want to create funds specifically for non-bibliographic purchases, such as processing supplies, or for other charges such as charges for MARC records.
+
+Multi-branch libraries may have a single set of funds for their entire system, a set of funds for each branch, or may use a combination of funds at the branch and system levels.
+
+Create a Fund
+^^^^^^^^^^^^^
+
+. Click *Administration* -> *Acquisitions Administration* -> *Funds*
+. Click New Fund.
+. Enter a Name for the fund. There is no limit to the number of characters that can be entered in this field.
+. Create a unique Code for the fund. There is no limit to the number of characters that can be entered in this field.
+. Please add your library short code to the end of all fund codes. Example AF_ZSP
+. Enter a year for the fund. This can be a fiscal year or a calendar year. The format of the year is YYYY.
+. Select an org unit from the drop down menu. The org unit indicates the organizational unit(s) whose staff can use this fund.
+.. In a multi-branch system funds may be set to the top organizational unit, the organizational units for branches, or a combination.
+. Select a Currency Type from the drop down menu. When a fund is applied to a line item or copy the price of the item will be encumbered in the currency associated with the fund.
+. Check the Active box to activate this fund. You cannot make purchases from an inactive fund.
+. Enter a Balance Stop Percent. The balance stop percent prevents you from making purchases when only a specified amount of the fund remains. For example, if you want the fund to stop purchases after 95% of the fund has been spent, then you would enter 95 in the field. When the fund reaches its Balance Stop Percent, it will appear in red when you apply funds to copies.
+.. If this field is left blank it is possible to overspend the fund.
+. The Balance Stop Percent can be adjusted as needed throughout your fiscal year.
+. Enter a Balance Warning Percent. The balance warning percent gives you a warning that the fund is low. You can specify any percent. For example, if you want to be warned when 90% of the fund has been spent, then you would enter 90 in the field. When the fund reaches its Balance Warning Percent, it will appear in yellow when you apply funds to copies.
+. The Balance Warning Percent can be adjusted as needed throughout your fiscal year.
+. Check the Propagate box to propagate funds. When you propagate a fund, Evergreen will create a new fund for the following fiscal year with the same parameters as your current fund. All of the settings transfer except for the year and the amount of money in the fund. Propagation occurs during the fiscal year close-out operation.
+. Check the Rollover box if you would like to roll over remaining funds and/or encumbrances during the fiscal year close-out operation into the same fund for the next year.
+. Click Save.
+. Click Reload.
+
+
+Edit a Fund
+^^^^^^^^^^^
+
+While you are able to edit your fund's name, owner, and code you are unable to edit the balance of your fund. A fund's balance can be adjusted by allocating monies to the fund or transferring monies to another fund.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Double-click on the row you would like to edit. A pop-up box will appear in which you can edit the fields.
+. Make your changes and click *Save*.
+
+NOTE: Do Not edit the currency of an active in-use fund.
+
+CAUTION: If you load vendor records make sure you let your vendors know about any changes you make to 
+fund codes that are used in their templates.  If the fund code doesn't match between Evergreen and the 
+$f in the templates your MARC records will not load.
+
+
+Delete a Fund
+^^^^^^^^^^^^^
+
+It is possible to delete a fund by checking the box of the fund you wish to delete and clicking Delete Selected.
+
+A Fund can only be deleted if no credit has been applied to it.
+
+Allocate to Funds - Funds Interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+anchor:allocate-funds[Allocate to Fund - Funds Interface]
+
+To allocate credits using the Fund Interface:
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Click *Create Allocation*.
+. Choose the Funding Source from the drop down menu.
+. Enter the amount you would like to apply to the fund from the funding source.
+. Enter a note. (Optional).
+. Click *Apply*.
+
+Transfer Credit Between Funds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The credits that you allocate to funds can be transferred between funds if desired. The system tracks these transfers.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Click *Transfer Money*.
+. Enter the amount you would like to transfer.
+. From the drop down menu, select the code of the destination fund.
+. Enter a note. (Optional).
+. Click *Transfer*.
+. Click *OK* to the pop that appears to confirm that you are ready to commit the transfer.
+
+Track Balances and Expenditures
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Fund Details screen allows you to track a fund's balance, encumbrances, and amount spent.
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
+
+* *Summary* - The summary tab allows you to track the following:
+** _Balance_ - The balance is calculated by subtracting both spent and encumbered funds from the total allocated to the fund.
+**  _Total Allocated_ - This amount is the total monies allocated from the Funding Source(s).
+**  _Spent Balance_ - This balance is calculated by subtracting only the funds that been invoiced, and so spent, from the total allocated to the fund. It does not included encumbrances.
+**  _Total Debits_ - The total debits are calculated by adding together the total spent and total encumbered.
+** _Total Spent_ - The total spent is calculated by adding the cost of all items that have been invoiced. It does not include encumbrances.
+**  _Total Encumbered_ - The total encumbered is calculated by adding all the encumbrances. It does not include items that have been invoiced.
+* *Allocations* - The Allocations tab allows you to track credit allocated from funding sources, transfers to other funds, and transfers from other funds.
+* *Debits* - The Debits tab allows you to track all purchases made and monies encumbered against the fund.
+* *Tags* - The *Tags* tab allows you to add and delete fund tags. See Fund Tags for more information.
+
+Fund Tags
+~~~~~~~~~
+
+Create a Fund Tag
+^^^^^^^^^^^^^^^^^
+
+. Select *Administration* -> *Acquisitions Administration* -> *Fund Tags*.
+. Click *New Fund Tag*
+. Select a the library or branch the fund tag will be used by as the Fund Tag Owner from the drop down menu.
+. Enter a Fund Tag Name
++
+image::images/administration/fund-tag-1.png[]
++
+. Click Save
+
+Add a Fund Tag to a Fund
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Click the hyperlinked name of fund you would like to add a tag to. The Fund Details screen will appear.
+. Click on the *Tags* tab.
+. Click *Add Tag*.
++
+image::images/administration/fund-tag-2.png[]
++
+. Select the tag from the drop down menu and click *Add*.
+
+[NOTE] 
+=====
+Tags can be removed from funds by clicking the blue X beside the tag.
+
+image::images/administration/fund-tag-3.png[]
+
+=====
+
+
