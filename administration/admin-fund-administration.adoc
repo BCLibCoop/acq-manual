@@ -77,11 +77,18 @@ NEW SCREENSHOT
 Apply Credit
 ^^^^^^^^^^^^
 
-Once a funding source has credit applied to it it cannot be deleted. Ensure you apply the correct amount of credit to each funding source as there is no way in the staff client to edit the amount applied.
+[CAUTION]
+=========
+Once a funding source has credit applied to it it cannot be deleted. 
 
-Note In the event that an incorrect amount is allocated to a funding source, please submit a ticket to Sitka Support that includes the name of the funding source and the incorrect amount that has been allocated.
+Ensure you apply the correct amount of credit to each funding source as there is no way in the 
+staff client to edit the amount applied. In the event that an incorrect amount is allocated to 
+a funding source please submit a ticket to xref:https://bc.libraries.coop/support/[Co-op Support] and include
+the name of the funding source and the incorrect amount that has been allocated.
+=========
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funding Sources* tab.
 +
 image::images/administration/fundingsource4.png[]
 +
