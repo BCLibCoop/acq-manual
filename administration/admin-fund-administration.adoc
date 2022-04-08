@@ -8,30 +8,39 @@ In the funding sources interface you can create funding sources, allocate credit
 
 Funding sources are not tied to fiscal or calendar years, but since any unspent money is returned to the funding source during the year end process Support recommends that you create new funding sources for each year. To distinguish the funding sources from year to year, best practice is to include the year in the funding source name and code. Example City of Fiction 2018, COF2018.
 
-Create a Funding Source
-^^^^^^^^^^^^^^^^^^^^^^^
+Creating Funding Sources
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funding Sources* tab.
 +
 image::images/administration/fundingsource.png[]
 +
 . Click *New Funding Source*.
-. Enter a Funding Source Name.
-. Select an Owner from the drop down menu.
-.. The owner indicates the organizational unit(s) whose staff can use this funding source. If a multi-branch library system is made the owner of a funding source, then users with appropriate permissions at the branches can also use the funding source.
-. Create a unique Code for the source.
-. Select a Currency from the drop down menu.
+.. NEW SCREENSHOT
+. Enter a name for your funding source.
+. Enter a unique Code for the source.
+. The funding source will be _Active_ by default.
+. Select a currency from the drop down menu.
+. Owner will default to your workstation.
+.. Multi-branch libraries may wish to set the Owner as their system rather than a specific branch.
 . Click *Save*.
 +
 image::images/administration/fundingsource1.png[]
 
 
-Edit a Funding Source
-^^^^^^^^^^^^^^^^^^^^^
+Editing a Funding Source
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-While you are able to edit your funding source's name, owner, code, and currency, you are unable to edit the balance of your funding source. The balance of a funding source can only be altered by applying credit to the funding source or allocating credit from the funding source to a fund.
+[NOTE]
+======
+While you are able to edit your funding source's name, owner, code, currency, and active flag, you are unable 
+to edit the balance of your funding source. The balance of a funding source can only be altered 
+by applying credit to the funding source or allocating credit from the funding source to a fund.
+======
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funding Sources* tab.
 +
 image::images/administration/fundingsource2.png[]
 +
@@ -40,18 +49,29 @@ image::images/administration/fundingsource2.png[]
 +
 image::images/administration/fundingsource3.png[]
 
-CAUTION: Editing the currency of an active in use funding source is not recommended as it can have serious consequences.
+[CAUTION]
+=========
+Editing the currency of an active in use funding source is not recommended as it can have 
+serious consequences.
+=========
 
-Delete a Funding Source
-^^^^^^^^^^^^^^^^^^^^^^^
+Deleting a Funding Source
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A Funding Source can only be deleted if no credit has been applied to it.
-
-. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
-. Check the box of the funding source you wish to delete and click *Delete Selected*.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funding Sources* tab.
+. Check the box of the funding source you wish to delete.
+. From the *Actions* menu select *Delete Selected*.
 +
 image::images/administration/fundingsource5.png[]
 
+[NOTE]
+======
+A funding source can only be deleted if no credit has been applied to it.
+
+NEW SCREENSHOT
+
+======
 
 
 Apply Credit
