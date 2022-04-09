@@ -78,7 +78,7 @@ Applying Credit
 
 [CAUTION]
 =========
-Once a funding source has credit applied to it it cannot be deleted. 
+A funding source with credit applied cannot be deleted. 
 
 Ensure you apply the correct amount of credit to each funding source as there is no way in the 
 staff client to edit the amount applied. In the event that an incorrect amount is allocated to 
@@ -91,7 +91,7 @@ the name of the funding source and the incorrect amount that has been allocated.
 +
 image::images/administration/fundingsource4.png[]
 +
-. Click on the hyper linked name of the funding source you would like to apply credit to.
+. Click on the hyperlinked name of the funding source you would like to apply credit to.
 . On the *Credits* tab click *Apply Credits*.
 . Enter the amount to apply to this funding source.
 . Enter a note. This field is optional.
@@ -115,31 +115,38 @@ To allocate credit to your funds using the Funding Source Interface:
 
 anchor:allocate-fund-source[Allocate to Fund - Funding Source Interface]
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
-. Click on the hyper linked name of the funding source.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funding Sources* tab.
+. Click on the hyperlinked name of the funding source.
+. Select the *Allocations* Tab.
+. NEW SCREENSHOT
 . Click *Allocate to Fund*
 . Select the fund you would like to allocate credit to.
+.. Only active funds will display in the drop down menu.
 . Enter the amount that you would like to allocate.
 . Enter a note. This field is optional.
-. Click Apply.
+. Click *Save*.
 +
 image::images/administration/fundingsource7.png[]
 +
-. The Allocations tab will display all allocations made to funds out of this funding source. See Track Debits and Credits for more information.
+. The *Allocations* tab will display all allocations made to funds out of this funding source. 
+See xref:_track_credits_and_allocations[] for more information.
 
 Track Credits and Allocations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can track credits to and allocations from for each funding source through the Summary tab on the Funding Source Details screen.
+You can track credits to and allocations from for each funding source through the Funding Source Details
+pop up.
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funding Sources*.
-. Click on the hyper linked name of the funding source to open the Funding Source Details screen.
-.. *Credits* - The Credits tab tracks all credits applied to the funding source. After applying credit you will need to click Reload to view the Credits tab.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funding Sources* tab.
+. Click on the hyperlinked name of the funding source to open the Funding Source Details pop up.
+..The Credits tab tracks all credits applied to the funding source. 
 +
 image::images/administration/fundingsourcecredit.png[]
 +
-.. *Debits* - The Allocations tab tracks all allocations from the funding source to funds. After 
-allocating to a fund you will need to click Reload to view the Allocations tab.
+.. *Allocations* - The Allocations tab tracks all allocations from the funding source to funds. Clicking on
+the hyperlinked fund name will open the Fund Details pop up in a new tab.
 +
 image::images/administration/fundingsourcedebit.png[]
 
@@ -147,56 +154,90 @@ image::images/administration/fundingsourcedebit.png[]
 Funds
 ~~~~~
 
-Funds should be created for every budget you wish to track. For some libraries this may be a fund per individual collection. Other libraries may only use one fund for all purchasing. Libraries may want to create funds specifically for non-bibliographic purchases, such as processing supplies, or for other charges such as charges for MARC records.
+Funds should be created for every budget you wish to track. For some libraries this may be a fund per 
+individual collection. Other libraries may only use one fund for all purchasing. Libraries may want to 
+create funds specifically for non-bibliographic purchases, such as processing supplies, or for 
+other charges such as charges for MARC records.
 
-Multi-branch libraries may have a single set of funds for their entire system, a set of funds for each branch, or may use a combination of funds at the branch and system levels.
+Multi-branch libraries may have a single set of funds for their entire system, a set of 
+funds for each branch, or may use a combination of funds at the branch and system levels.
 
 Creating Funds
 ^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Acquisitions Administration* -> *Funds*
-. Click New Fund.
-. Enter a Name for the fund. There is no limit to the number of characters that can be entered in this field.
-. Create a unique Code for the fund. There is no limit to the number of characters that can be entered in this field.
-. Please add your library short code to the end of all fund codes. Example AF_ZSP
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funds* tab.
+. Click *New Fund*.
+. Enter a name for the fund. There is no limit to the number of characters that can be entered in this field.
+. Create a unique code for the fund. 
+.. Please add your library short code to the end of all fund codes. Example AF_ZSP
 . Enter a year for the fund. This can be a fiscal year or a calendar year. The format of the year is YYYY.
-. Select an org unit from the drop down menu. The org unit indicates the organizational unit(s) whose staff can use this fund.
-.. In a multi-branch system funds may be set to the top organizational unit, the organizational units for branches, or a combination.
-. Select a Currency Type from the drop down menu. When a fund is applied to a line item or copy the price of the item will be encumbered in the currency associated with the fund.
-. Check the Active box to activate this fund. You cannot make purchases from an inactive fund.
-. Enter a Balance Stop Percent. The balance stop percent prevents you from making purchases when only a specified amount of the fund remains. For example, if you want the fund to stop purchases after 95% of the fund has been spent, then you would enter 95 in the field. When the fund reaches its Balance Stop Percent, it will appear in red when you apply funds to copies.
+. The fund owner will default to your workstation. 
+.. In a multi-branch system funds may be set to the top organizational unit, the organizational 
+units for branches, or a combination.
+. The fund will be _Active_ by default. You cannot make purchases from an inactive fund.
+. Select a currency type from the drop down menu. When a fund is applied to a line item or copy the 
+price of the item will be encumbered in the currency associated with the fund.
+. Check the propagate box if you will want to propagate this fund. When you propagate a fund, Evergreen 
+creates a new fund for the following fiscal year with the same parameters as your current fund. All of the 
+settings transfer except for the year and the amount of money in the fund. Propagation occurs 
+during the fiscal year close-out operation.
+. Check the Rollover box if you would like to roll over remaining funds and/or encumbrances 
+during the fiscal year close-out operation into the same fund for the next year.
+. Optionally, enter a Balance Stop Percent. The balance stop percent prevents you from making purchases 
+when only a specified amount of the fund remains. For example, if you want the fund to stop purchases 
+after 95% of the fund has been spent, then you would enter 95 in the field. When the fund reaches 
+its balance stop percent, it will appear in red when you apply funds to line items.
 .. If this field is left blank it is possible to overspend the fund.
-. The Balance Stop Percent can be adjusted as needed throughout your fiscal year.
-. Enter a Balance Warning Percent. The balance warning percent gives you a warning that the fund is low. You can specify any percent. For example, if you want to be warned when 90% of the fund has been spent, then you would enter 90 in the field. When the fund reaches its Balance Warning Percent, it will appear in yellow when you apply funds to copies.
-. The Balance Warning Percent can be adjusted as needed throughout your fiscal year.
-. Check the Propagate box to propagate funds. When you propagate a fund, Evergreen will create a new fund for the following fiscal year with the same parameters as your current fund. All of the settings transfer except for the year and the amount of money in the fund. Propagation occurs during the fiscal year close-out operation.
-. Check the Rollover box if you would like to roll over remaining funds and/or encumbrances during the fiscal year close-out operation into the same fund for the next year.
+.. The balance stop percent can be adjusted as needed throughout your fiscal year.
+. Optionally, enter a balance warning percent. The balance warning percent gives you a warning that 
+the fund is low. You can specify any percent. For example, if you want to be warned when 50% of the 
+fund has been spent, then you would enter 50 in the field. When the fund reaches its balance warning percent, 
+it will appear in yellow when you apply funds to line items.
+.. The Balance Warning Percent can be adjusted as needed throughout your fiscal year.
 . Click Save.
-. Click Reload.
 
 
 Editing a Fund
 ^^^^^^^^^^^^^^
 
-While you are able to edit your fund's name, owner, and code you are unable to edit the balance of your fund. A fund's balance can be adjusted by allocating monies to the fund or transferring monies to another fund.
+[CAUTION]
+=========
+Never edit the currency of an active in-use fund.
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+You also cannot edit the the balance of your fund through the Edit function. A fund's balance must be adjusted 
+by allocating monies to the fund or transferring monies to another fund.
+=========
+
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funds* tab.
 . Double-click on the row you would like to edit. A pop-up box will appear in which you can edit the fields.
 . Make your changes and click *Save*.
 
-NOTE: Do Not edit the currency of an active in-use fund.
-
-CAUTION: If you load vendor records make sure you let your vendors know about any changes you make to 
+[CAUTION]
+=========
+If you load vendor records make sure you let your vendors know about any changes you make to 
 fund codes that are used in their templates.  If the fund code doesn't match between Evergreen and the 
 $f in the templates your MARC records will not load.
+=========
 
 
 Deleting a Fund
 ^^^^^^^^^^^^^^^
 
-It is possible to delete a fund by checking the box of the fund you wish to delete and clicking Delete Selected.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funds* tab.
+. Check the box of the fund you wish to delete.
+. From the *Actions* menu select *Delete Selected*.
+. NEW SCREENSHOT
 
-A Fund can only be deleted if no credit has been applied to it.
+[NOTE]
+======
+A fund can only be deleted if no credit has been allocated to it.
+
+NEW SCREENSHOT
+======
+
 
 Allocate to Funds - Funds Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -205,8 +246,9 @@ anchor:allocate-funds[Allocate to Fund - Funds Interface]
 
 To allocate credits using the Fund Interface:
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
-. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funds* tab.
+. Click the hyperlinked name of the fund. The Fund Details pop up will appear.
 . Click *Create Allocation*.
 . Choose the Funding Source from the drop down menu.
 . Enter the amount you would like to apply to the fund from the funding source.
