@@ -255,8 +255,8 @@ To allocate credits using the Fund Interface:
 . Enter a note. (Optional).
 . Click *Apply*.
 
-Transfer Credit Between Funds
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Transfer Money Between Funds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The credits that you allocate to funds can be transferred between funds if desired. The system tracks these transfers.
 
 . Select *Administration* -> *Acquisitions Administration* -> *Funds*.
