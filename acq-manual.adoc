@@ -65,6 +65,8 @@ include::administration/admin-acqreports.adoc[]
 
 Sitka's Acquisitions Defaults
 =============================
+[[sitkas-acquisitions-defaults]]
+
 include::sitka-defaults/default-currency.adoc[Currency Types]
 
 include::sitka-defaults/default-exchangerate.adoc[Exchange Rates]
