@@ -1,14 +1,20 @@
 New Sitka Defaults
 ------------------
 
-New Sitka-wide defaults are added to Evergreen on an as needed basis. If your library requires a new default please follow the guidelines below to submit your suggestion.
+New Sitka-wide defaults are added to Evergreen on an as needed basis. If your library requires a new default 
+please follow the guidelines below to submit your suggestion.
 
 .Guidelines for Submitting Suggestions for New Defaults
-. Login to RT and create a new ticket or compose a new email to support.
+. Submit a ticket to https://bc.libraries.coop/support/[Co-op Support]. 
 . Enter a subject including ACQ DEFAULT, the category your default falls under, and your suggested default.
 .. Example: ACQ DEFAULT: Cancel Reason - Duplicate Order
-. In the body of the ticket or email describe how your default will be used. Please include any information you feel is relevant.
+. In the body of the ticket describe how your default will be used. Please include any information you 
+feel is relevant.
 
-TIP: All Sitka Acquisitions libraries will be able to see and use this default so please avoid names that are specific to your library.
+[TIP]
+=====
+All Sitka Acquisitions libraries will be able to see and use this default so please avoid names 
+that are specific to your library.
+=====
 
 Sitka Support will review all suggestions and add new defaults to Evergreen as needed.

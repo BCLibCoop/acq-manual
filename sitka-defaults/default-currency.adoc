@@ -1,5 +1,8 @@
+Currencies and Exhange Rates
+----------------------------
+
 Currency Types
---------------
+~~~~~~~~~~~~~~
 
 Currency types are assigned to funds, funding sources, and providers in the administrative module. When a fund is applied to a copy or line item for purchase, the item will be purchased in the currency associated with that fund.
 
@@ -17,3 +20,35 @@ Currency types are assigned to funds, funding sources, and providers in the admi
 * New Zealand Dollars
 
 * Swiss Franc
+
+
+Exchange Rates
+~~~~~~~~~~~~~~
+
+Exchange rates define the rate of exchange between currencies. Evergreen uses these exchange rates only for certain situations.
+
+* When the currency of the fund that is used for the purchase is different from the currency of the provider, as listed in the provider's profile, Evergreen will use the exchange rate and the estimated price to calculate the amount to encumber for the item in the currency of the fund and debit the fund accordingly.
+
+* When money is transferred between funds that use different currency types Evergreen will automatically use the exchange rate to convert the money to the currency of the receiving fund.
+
+* When money is allocated from a funding source to a fund that uses a different currency types Evergreen will automatically use the exchange rate to convert the money to the currency of the receiving fund.
+
+[NOTE]
+======
+Exchange rates are maintained beween Canadian dollars and the other currencies set in Evergreen. 
+
+Co-op Support updates the exchange rates on the first business day of each month using the 
+Google Currency Converter.
+======
+
+To view the current exchange rates in Evergreen:
+
+. Go to *Administration -> Acquisitions Administration -> Currencies and Exchange Rates*.
+. Click on *Manage Exchange Rates* for Canadian Dollars.
++
+image::images/sitka-defaults/exchange-rates-1.png[]
++
+. The pop up will display the exchange rates currently being used. Exchange rates apply to the entire 
+consortium so only Co-op Support can update them.
++
+image::images/sitka-defaults/exchange-rates-2.png[]
