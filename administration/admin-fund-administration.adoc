@@ -4,20 +4,33 @@ Fund Administration
 Funding Sources
 ~~~~~~~~~~~~~~~
 
-In the funding sources interface you can create funding sources, allocate credit to funding sources, and apply credit to funds. Funding sources allow you to specify the sources that contribute monies to your fund(s), such as your municipal government, grants, and donations. You can create as few or as many funding sources as you need.
+In the funding sources interface you can create funding sources, allocate credit to funding sources, and 
+apply credit to funds. Funding sources allow you to specify the sources that contribute monies to 
+your fund(s), such as your municipal government, grants, and donations. You can create as few or as 
+many funding sources as you need.
 
-Funding sources are not tied to fiscal or calendar years, but since any unspent money is returned to the funding source during the year end process Support recommends that you create new funding sources for each year. To distinguish the funding sources from year to year, best practice is to include the year in the funding source name and code. Example City of Fiction 2018, COF2018.
+[TIP]
+=====
+Funding sources are not tied to fiscal or calendar years, but since any unspent money is returned to 
+the funding source during the year end process Co-op Support recommends that you create new funding sources 
+for each year and de-active funding sources when they are no longer in use. To distinguish the funding 
+sources from year to year, best practice is to include the year in the funding source name and code. 
+For example, City of Fiction 2022 and COF2022.
+=====
 
 Creating Funding Sources
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funding Sources* tab.
+.. By default Evergreen filters so that only active funding sources display.
 +
-image::images/administration/fundingsource.png[]
+image::images/administration/funding-source-1.png[]
 +
 . Click *New Funding Source*.
-.. NEW SCREENSHOT
++
+image::images/administration/funding-source-2.png[]
++
 . Enter a name for your funding source.
 . Enter a unique Code for the source.
 . The funding source will be _Active_ by default.
@@ -26,7 +39,10 @@ image::images/administration/fundingsource.png[]
 .. Multi-branch libraries may wish to set the Owner as their system rather than a specific branch.
 . Click *Save*.
 +
-image::images/administration/fundingsource1.png[]
+image::images/administration/funding-source-3.png[]
++
+. Your funding sources is created and displays in the list.
+. You can now apply credit. See xref:_applying_credit[].
 
 
 Editing a Funding Source
@@ -41,13 +57,16 @@ by applying credit to the funding source or allocating credit from the funding s
 
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funding Sources* tab.
+.. By default Evergreen filters so that only active funding sources display.
 +
-image::images/administration/fundingsource2.png[]
+image::images/administration/funding-source-4.png[]
 +
-. Double-click on the row you would like to edit. A pop-up box will appear in which you can edit fields.
+. Double-click on the row you would like to edit. A pop-up box will appear in which you can edit the fields.
 . Make your changes and click *Save*.
 +
-image::images/administration/fundingsource3.png[]
+image::images/administration/funding-source-5.png[]
++
+. Your funding sources is updated.
 
 [CAUTION]
 =========
@@ -58,19 +77,27 @@ serious consequences.
 Deleting a Funding Source
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+[CAUTION]
+======
+A funding source can only be deleted if no credit has been applied to it.
+======
+
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funding Sources* tab.
+.. By default Evergreen filters so that only active funding sources display.
++
+image::images/administration/funding-source-6.png[]
++
 . Check the box of the funding source you wish to delete.
 . From the *Actions* menu select *Delete Selected*.
 +
-image::images/administration/fundingsource5.png[]
+image::images/administration/funding-source-7.png[]
++
+. On the pop up that appears click *Confirm*.
+. The funding source is deleted.
 
-[NOTE]
-======
-A funding source can only be deleted if no credit has been applied to it.
 
-NEW SCREENSHOT
-======
+
 
 
 Applying Credit
