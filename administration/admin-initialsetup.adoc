@@ -11,7 +11,7 @@ Before beginning to use Acquisitions, the following must be configured by an acq
 * Providers
 ** Refer to xref:_providers[] for details.
 * Claiming
-** Refer to xref:_claim_policies[] for details.
+** Refer to xref:_claim_policies_2[] for details.
 * Distribution Formulas (optional)
 ** Refer to xref:_distribution_formulas[] for details.
 * EDI Accounts (optional)
