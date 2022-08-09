@@ -391,7 +391,7 @@ image::images/administration/fund-tags-1.png[]
 image::images/administration/fund-tags-2.png[]
 +
 . Enter a fund tag name.
-. Select a the library or branch the fund tag will be used by as the Fund Tag Owner from the drop down menu.
+. Select the library or branch the fund tag will be used by as the Fund Tag Owner from the drop down menu.
 +
 image::images/administration/fund-tag-3.png[]
 +
