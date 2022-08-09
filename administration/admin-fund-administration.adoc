@@ -66,7 +66,7 @@ image::images/administration/funding-source-4.png[]
 +
 image::images/administration/funding-source-5.png[]
 +
-. Your funding sources is updated.
+. Your funding source is updated.
 
 [CAUTION]
 =========
@@ -97,9 +97,6 @@ image::images/administration/funding-source-7.png[]
 . The funding source is deleted.
 
 
-
-
-
 Applying Credit
 ^^^^^^^^^^^^^^^
 
@@ -115,39 +112,53 @@ the name of the funding source and the incorrect amount that has been allocated.
 
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funding Sources* tab.
+.. By default Evergreen filters so that only active funding sources display.
 +
-image::images/administration/fundingsource4.png[]
+image::images/administration/funding-source-credit-1.png[]
 +
 . Click on the hyperlinked name of the funding source you would like to apply credit to.
 . On the *Credits* tab click *Apply Credits*.
++
+image::images/administration/funding-source-credit-2.png[]
++
 . Enter the amount to apply to this funding source.
 . Enter a note. This field is optional.
 . Enter an effective date if different from the current day.
 . Optionally, enter a deadline date by which the money must be spent.
 . Click *Save*.
 +
-image::images/administration/fundingsource6.png[]
+image::images/administration/funding-source-credit-3.png[]
 +
 . The *Credits* tab will update to reflect the credit applied. 
++
+image::images/administration/funding-source-credit-4.png[]
++
+. Click *Close* to close the pop-up.
 
-Allocate Credit to Funds - Funding Source Interface
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once you have set up your funds, credit can be allocated to them from your funding sources in two ways:
+Allocate Credit to Funds - Funding Source Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have set up your xref:_creating_funds[funds], credit can be allocated to them from your funding sources in two ways:
 
 . xref:allocate-fund-source[]
 . xref:allocate-funds[]
 
-To allocate credit to your funds using the Funding Source Interface:
+To allocate credit to your funds using the Funding Source Tab:
 
-anchor:allocate-fund-source[Allocate to Fund - Funding Source Interface]
+anchor:allocate-fund-source[Allocate to Fund - Funding Source Tab]
 
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funding Sources* tab.
-. Click on the hyperlinked name of the funding source.
-. Select the *Allocations* Tab.
-. NEW SCREENSHOT
-. Click *Allocate to Fund*
+.. By default Evergreen filters so that only active funding sources display.
++
+image::images/administration/fundingsource4.png[]
++
+. Click on the hyperlinked name of the funding source you'd like to allocate from.
+. Select the *Allocations* tab and click *Allocate to Fund*.
++
+image::images/administration/funding-source-credit-.png[]
++
 . Select the fund you would like to allocate credit to.
 .. Only active funds will display in the drop down menu.
 . Enter the amount that you would like to allocate.
@@ -182,7 +193,7 @@ Funds
 ~~~~~
 
 Funds should be created for every budget you wish to track. For some libraries this may be a fund per 
-individual collection. Other libraries may only use one fund for all purchasing. Libraries may want to 
+individual collection; other libraries may only use one fund for all purchasing. Libraries may want to 
 create funds specifically for non-bibliographic purchases, such as processing supplies, or for 
 other charges such as charges for MARC records.
 
@@ -192,12 +203,24 @@ funds for each branch, or may use a combination of funds at the branch and syste
 Creating Funds
 ^^^^^^^^^^^^^^
 
+[NOTE]
+======
+Funds should be created when your library first starts using acquisitions and when you want to track a new
+budget.  Funds for subsequent fiscal years are created automatically by Evergreen during the year end processes.
+======
+
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funds* tab.
++
+image::images/administration/funds-create-1.png[]
++
 . Click *New Fund*.
++
+image::images/administration/funds-create-2.png[]
++
 . Enter a name for the fund. There is no limit to the number of characters that can be entered in this field.
 . Create a unique code for the fund. 
-.. Please add your library short code to the end of all fund codes. Example AF_ZSP
+.. Please add your library short code to the end of all fund codes. For example, AF_MPL
 . Enter a year for the fund. This can be a fiscal year or a calendar year. The format of the year is YYYY.
 . The fund owner will default to your workstation. 
 .. In a multi-branch system funds may be set to the top organizational unit, the organizational 
@@ -223,6 +246,10 @@ fund has been spent, then you would enter 50 in the field. When the fund reaches
 it will appear in yellow when you apply funds to line items.
 .. The Balance Warning Percent can be adjusted as needed throughout your fiscal year.
 . Click Save.
++
+image::images/administration/funds-create-3.png[]
++
+. Your fund will be created. Repeat this process to create additional funds.
 
 
 Editing a Fund
