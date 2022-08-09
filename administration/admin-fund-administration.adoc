@@ -330,7 +330,7 @@ Transfer Money Between Funds
 The credits that you allocate to funds can be transferred between funds if desired. The 
 system tracks these transfers.
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Select *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-allocate-1.png[]
@@ -354,12 +354,12 @@ Track Balances and Expenditures
 
 The Fund Details screen allows you to track a fund's balance, encumbrances, and amount spent.
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
-. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Select *Administration* -> *Acquisitions Administration* -> **Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-allocate-1.png[]
 +
+. Click the hyper linked name of the fund. The Fund Details screen will appear.
 * *Summary* - The summary tab allows you to track the following:
 ** _Combined Balance_ - The balance is calculated by subtracting both spent and encumbered funds from the total allocated to the fund.
 **  _Spent Balance_ - This balance is calculated by subtracting only the funds that been invoiced, and so spent, from the total allocated to the fund. It does not included encumbrances.
@@ -381,32 +381,44 @@ Fund Tags
 Creating a Fund Tag
 ^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Fund Tags*.
-. Click *New Fund Tag*
+. Select *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Fund Tags* tab.
++
+image::images/administration/fund-tags-1.png[]
++
+. Click *New Fund Tag*.
++
+image::images/administration/fund-tags-2.png[]
++
+. Enter a fund tag name.
 . Select a the library or branch the fund tag will be used by as the Fund Tag Owner from the drop down menu.
-. Enter a Fund Tag Name
 +
-image::images/administration/fund-tag-1.png[]
+image::images/administration/fund-tag-3.png[]
 +
-. Click Save
+. Click *Save*
+. The fund tag is created.
 
-Add a Fund Tag to a Fund
-^^^^^^^^^^^^^^^^^^^^^^^^
+Adding a Fund Tag to a Fund
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Funds*.
+. Select *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select the *Funds* tab.
++
+image::images/administration/funds-allocate-1.png[]
++
 . Click the hyperlinked name of fund you would like to add a tag to. The Fund Details screen will appear.
 . Click on the *Tags* tab.
-. Click *Add Tag*.
+. Choose the tag from the drop down menu and click *Add Tag*.
 +
-image::images/administration/fund-tag-2.png[]
+image::images/administration/fund-tag-4.png[]
 +
-. Select the tag from the drop down menu and click *Add*.
+. The tag is added to the fund.
 
 [NOTE] 
 =====
-Tags can be removed from funds by clicking the blue X beside the tag.
+Tags can be removed from funds by clicking the trash can icon beside the tag.
 
-image::images/administration/fund-tag-3.png[]
+image::images/administration/fund-tag-5.png[]
 
 =====
 
