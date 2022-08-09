@@ -1,7 +1,7 @@
 Distribution Formulas
 ~~~~~~~~~~~~~~~~~~~~~
 
-*Distribution formulas are intented for use in multi-branch systems to specify the number of copies that should be 
+Distribution formulas are intented for use in multi-branch systems to specify the number of copies that should be 
 distributed to specific branches. 
 
 The formulas are also used for all libraries as line item templates with the batch updater on purchase orders. Formulas 
