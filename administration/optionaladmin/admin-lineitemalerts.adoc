@@ -1,9 +1,17 @@
 Line Item Alerts
 ~~~~~~~~~~~~~~~~
 
-Line item alerts are predefined text that can be added to line items on selection lists or purchase orders. Alerts can assist staff in the processing and cataloguing of items by alerting staff to the correct collection for the item or directing the item to a particular department. You can define the alerts from which the staff can choose. Line item alerts in appear in a pop up box when the line item, or any of its copies, are marked as received.
+Line item alerts are predefined text that can be added to line items on selection lists or purchase orders. 
+Alerts can assist staff in the processing and cataloguing of items by alerting staff to the correct 
+collection for the item or directing the item to a particular department. You can define the alerts 
+from which the staff can choose. 
 
-.Create a Line Item Alert
+Line item alerts in appear in a pop up box when the line item, or 
+any of its copies, are marked as received.
+
+Create a Line Item Alert
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Click *Administration* -> *Acquisitions Administration* -> *Line Item Alerts*
 . Click New Line Item Alert Text.
 +
@@ -12,11 +20,11 @@ image::images/administration/line-item-alert-1.png[scaledwidth="75%",alt="Creati
 . Create a code for your alert. There is no limit to the number of characters that can be entered in this field.
 . Create a description of your alert. There is no limit to the number of characters that can be entered in this field.
 . Select an owning library from the drop down menu. The owning library indicates the organizational unit(s) whose staff can use this alert.
-. Click Save.
+. Click *Save*.
 +
 image::images/administration/line-item-alert-2.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
 +
-. To view your alerts make sure the Owning Library filter is set to your library.  Multi-branch libraries
-may want to set the Owning Library to the system and check the box for Descendants. 
+. To view your alerts make sure the library selector is set to your library.  Multi-branch libraries
+may want to set this at the system level and check the box for Descendants. 
 +
 image::images/administration/line-item-alert-3.png[scaledwidth="75%",alt="Creating Line Item Alerts"]
