@@ -90,7 +90,7 @@ If you run into difficulties at any point in this process please contact Support
 
 . Create new funding source(s) and allocates credit to the funding source(s).
 
-.. See xref:_funding_sources[]
+.. See xref:_creating_funding_sources[] and xref:_applying_credit[].
 
 . Allocate money from the new funding source(s) into the new funds.
 
@@ -114,7 +114,7 @@ Dry Run
 +
 image::images/administration/dry-run-1.png[]
 +
-. Click *Fiscal Propagation and Rollover*.
+. Click the *Fiscal Propagation and Rollover* button.
 +
 image::images/administration/dry-run-2.png[]
 +
@@ -165,7 +165,7 @@ image::images/administration/dry-run-1.png[]
 +
 image::images/administration/year-end-1.png[]
 +
-. Click *Fiscal Propagation and Rollover*.
+. Click the *Fiscal Propagation and Rollover* button.
 +
 image::images/administration/dry-run-2.png[]
 +
@@ -200,7 +200,7 @@ image::images/administration/dry-run-1.png[]
 +
 image::images/administration/year-end-4.png[]
 +
-. Click *Fiscal Propagation and Rollover*.
+. Click the *Fiscal Propagation and Rollover* button.
 +
 image::images/administration/dry-run-2.png[]
 +
