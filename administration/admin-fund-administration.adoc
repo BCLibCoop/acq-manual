@@ -152,12 +152,12 @@ anchor:allocate-fund-source[Allocate to Fund - Funding Source Tab]
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
-image::images/administration/funding-source-credit-1.png[]
+image::images/administration/funding-source-allocate-1.png[]
 +
 . Click on the hyperlinked name of the funding source you'd like to allocate from.
 . Select the *Allocations* tab and click *Allocate to Fund*.
 +
-image::images/administration/funding-source-credit-.png[]
+image::images/administration/funding-source-allocate-2.png[]
 +
 . Select the fund you would like to allocate credit to.
 .. Only active funds will display in the drop down menu.
@@ -165,10 +165,12 @@ image::images/administration/funding-source-credit-.png[]
 . Enter a note. This field is optional.
 . Click *Save*.
 +
-image::images/administration/fundingsource7.png[]
+image::images/administration/funding-source-allocate-3.png[]
 +
 . The *Allocations* tab will display all allocations made to funds out of this funding source. 
 See xref:_track_credits_and_allocations[] for more information.
++
+image::images/administration/funding-source-allocate-4.png[]
 
 Track Credits and Allocations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -179,14 +181,14 @@ pop up.
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funding Sources* tab.
 . Click on the hyperlinked name of the funding source to open the Funding Source Details pop up.
-..The Credits tab tracks all credits applied to the funding source. 
+.. *Credits* The Credits tab tracks all credits applied to the funding source. 
 +
-image::images/administration/fundingsourcecredit.png[]
+image::images/administration/funding-source-track-1.png[]
 +
 .. *Allocations* - The Allocations tab tracks all allocations from the funding source to funds. Clicking on
 the hyperlinked fund name will open the Fund Details pop up in a new tab.
 +
-image::images/administration/fundingsourcedebit.png[]
+image::images/administration/funding-source-track-2.png[]
 
 
 Funds
@@ -307,25 +309,44 @@ To allocate credits using the Fund Interface:
 
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funds* tab.
++
+image::images/administration/funds-allocate-1.png[]
++
 . Click the hyperlinked name of the fund. The Fund Details pop up will appear.
 . Click *Create Allocation*.
++
+image::images/administration/funds-allocate-2.png[]
++
 . Choose the Funding Source from the drop down menu.
 . Enter the amount you would like to apply to the fund from the funding source.
 . Enter a note. (Optional).
-. Click *Apply*.
+. Click *Save*.
++
+image::images/administration/funds-allocate-3.png[]
+
 
 Transfer Money Between Funds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The credits that you allocate to funds can be transferred between funds if desired. The system tracks these transfers.
+The credits that you allocate to funds can be transferred between funds if desired. The 
+system tracks these transfers.
 
 . Select *Administration* -> *Acquisitions Administration* -> *Funds*.
-. Click the hyper linked name of the fund. The Fund Details screen will appear.
+. Select the *Funds* tab.
++
+image::images/administration/funds-allocate-1.png[]
++
+. Click the hyper linked name of the fund. The Fund Details pop up will appear.
 . Click *Transfer Money*.
++
+image::images/administration/funds-transfer-1.png[]
++
 . Enter the amount you would like to transfer.
 . From the drop down menu, select the code of the destination fund.
 . Enter a note. (Optional).
 . Click *Transfer*.
-. Click *OK* to the pop that appears to confirm that you are ready to commit the transfer.
++
+image::images/administration/funds-transfer-2.png[]
+
 
 Track Balances and Expenditures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -334,17 +355,21 @@ The Fund Details screen allows you to track a fund's balance, encumbrances, and 
 
 . Select *Administration* -> *Acquisitions Administration* -> *Funds*.
 . Click the hyper linked name of the fund. The Fund Details screen will appear.
-
+. Select the *Funds* tab.
++
+image::images/administration/funds-allocate-1.png[]
++
 * *Summary* - The summary tab allows you to track the following:
-** _Balance_ - The balance is calculated by subtracting both spent and encumbered funds from the total allocated to the fund.
-**  _Total Allocated_ - This amount is the total monies allocated from the Funding Source(s).
+** _Combined Balance_ - The balance is calculated by subtracting both spent and encumbered funds from the total allocated to the fund.
 **  _Spent Balance_ - This balance is calculated by subtracting only the funds that been invoiced, and so spent, from the total allocated to the fund. It does not included encumbrances.
-**  _Total Debits_ - The total debits are calculated by adding together the total spent and total encumbered.
-** _Total Spent_ - The total spent is calculated by adding the cost of all items that have been invoiced. It does not include encumbrances.
-**  _Total Encumbered_ - The total encumbered is calculated by adding all the encumbrances. It does not include items that have been invoiced.
+** _Spent Total_ - The total spent is calculated by adding the cost of all items that have been invoiced. It does not include encumbrances.
+**  _Allocated Total_ - This amount is the total monies allocated from the Funding Source(s).
+**  _Debit Total_ - The total debits are calculated by adding together the total spent and total encumbered.
+**  _Encumbrance Total_ - The total encumbered is calculated by adding all the encumbrances. It does not include items that have been invoiced.
 * *Allocations* - The Allocations tab allows you to track credit allocated from funding sources, transfers to other funds, and transfers from other funds.
+* *Transfers* - The Transfers tab allows you to track money that is transfered between funds.
 * *Debits* - The Debits tab allows you to track all purchases made and monies encumbered against the fund.
-* *Tags* - The *Tags* tab allows you to add and delete fund tags. See Fund Tags for more information.
+* *Tags* - The Tags tab allows you to add and delete fund tags. See Fund Tags for more information.
 
 Fund Tags
 ~~~~~~~~~
