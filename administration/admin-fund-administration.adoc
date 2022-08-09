@@ -152,7 +152,7 @@ anchor:allocate-fund-source[Allocate to Fund - Funding Source Tab]
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
-image::images/administration/fundingsource4.png[]
+image::images/administration/funding-source-credit-1.png[]
 +
 . Click on the hyperlinked name of the funding source you'd like to allocate from.
 . Select the *Allocations* tab and click *Allocate to Fund*.
@@ -290,7 +290,7 @@ Deleting a Fund
 +
 image::images/administration/funds-delete-1.png[]
 +
-. 
+. The fund is deleted.
 
 [NOTE]
 ======
