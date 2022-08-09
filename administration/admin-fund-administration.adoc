@@ -267,6 +267,10 @@ by allocating monies to the fund or transferring monies to another fund.
 . Select the *Funds* tab.
 . Double-click on the row you would like to edit. A pop-up box will appear in which you can edit the fields.
 . Make your changes and click *Save*.
++
+image::images/administration/funds-edit-1.png[]
++
+. Your fund will be updated.
 
 [CAUTION]
 =========
@@ -283,13 +287,14 @@ Deleting a Fund
 . Select the *Funds* tab.
 . Check the box of the fund you wish to delete.
 . From the *Actions* menu select *Delete Selected*.
-. NEW SCREENSHOT
++
+image::images/administration/funds-delete-1.png[]
++
+. 
 
 [NOTE]
 ======
 A fund can only be deleted if no credit has been allocated to it.
-
-NEW SCREENSHOT
 ======
 
 
