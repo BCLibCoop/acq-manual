@@ -4,6 +4,18 @@ Acquisitions Module Configuration
 Before beginning to use Acquisitions, the following must be configured by an acquisitions administrator:
 
 .Acquisitions Initial Set-up
+. Set up your xref:_creating_funding_sources[funding sources].
+. xref:_applying_credit[Apply credit] to your funding sources.
+. Set up your xref:_creating_funds[funds].
+. xref:_allocate_credit_to_funds_funding_source_tab[Allocate money] to your funds.
+. Set up your xref:_create_a_provider[providers].
+. (optional) Set up your xref:_create_an_edi_account[EDI accounts].
+. (optional) Set up your xref:_claim_policies_2[claim policies].
+. (optional) Set up your xref:_distribution_formulas[distribution formulas].
+. (optional) Set up your xref:_line_item_alerts_2[line item alerts].
+
+////
+.Acquisitions Initial Set-up
 * Funding Sources
 ** Refer to xref:_funding_sources[] for details.
 * Funds
@@ -16,6 +28,8 @@ Before beginning to use Acquisitions, the following must be configured by an acq
 ** Refer to xref:_distribution_formulas[] for details.
 * EDI Accounts (optional)
 ** Refer to xref:edi[] for details.
+////
+
 
 .Multi vs Single Branch Library
 * The context org unit is the org unit responsible for placing and managing the order. It defines what org unit settings (eg copy locations) are in scope, what fiscal year to use, who is allowed to view/modify the PO, where the items should be delivered and the EDI SAN.
