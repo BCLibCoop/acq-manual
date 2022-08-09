@@ -1,20 +1,59 @@
+Claiming
+~~~~~~~~
+
 Claim Policies
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
-Evergreen uses claim policies to compile a list of claim-ready items based on order date. The default claim policy associated with each provider is automatically assigned to line items and copies purchased from the provider.
+Evergreen uses claim policies to compile a list of claim-ready items based on order date so that library
+staff can follow up with providers about items that haven't arrived as expected.
 
-.Create a Claim policy
-. Click *Administration* -> *Acquisitions Administration* -> Claim Policies
-. Click *New Claim Policy*
-.. Claim Policy name
-.. Org Unit
-.. Description
+.Creating a Claim policy
+. Click *Administration -> Acquisitions Administration -> Claiming*
+. On the *Claim Policies* tab click *New Claim Policy*.
++
+image::images/administration/claim-policies-1.png[scaledwidth="75%",alt="Distribution Formula"]
++
+. Enter a name, description, and owner for the policy.
++
+image::images/administration/claim-policies-2.png[scaledwidth="75%",alt="Distribution Formula"]
++
+. On the *Claim Event Types* tab you can create additional event types if needed. Phone, Email,
+and Fax are currently set at the Sitka level.
+. On the *Claim Policy Actions* tab click *New Claim Policy Action*.
++
+image::images/administration/claim-policies-3.png[scaledwidth="75%",alt="Distribution Formula"]
++
+. Select the claim policy name from the drop down.
+. Select the action to attach to this policy.
+. Enter the action interval to apply to this policy.
 . Click *Save*
-. Click *Administration* -> *Acquisitions Administration* -> *Claim Policy Actions*
-. Click *New Claim Policy Action*
-.. Action (Event Type)
-.. Action (Interval)
-.. Claim Policy ID
-. Click *Save*
++
+image::images/administration/claim-policies-4.png[scaledwidth="75%",alt="Distribution Formula"]
 
-NOTE: See xref:_providers[] for the steps to add a default claim policy. 
+
+[NOTE]
+======
+A default claim policy can be associated with a provider and is then automatically assigned to line items 
+and copies purchased from that provider.
+
+See xref:_providers[] for the steps to add a default claim policy. 
+======
+
+Claim Types
+^^^^^^^^^^^
+
+Claim types are used in the claiming process to indicate why an item needs to be claimed.
+
+The following claim types have been set up for the consortium:
+
+* PAST DUE - Item has not yet arrived.
+* DAMAGED - Item received damaged.
+* SHORT SHIPPED - Invoice says shipped, but item not in box.
+* INCORRECT - Incorrect item has been received.
+* DUPLICATE - Item has already been received.
+
+Library staff can create additional claim types by clicking *New Claim Types* on the 
+*Claim Types* tab.
++
+image::images/administration/claim-types-1.png[scaledwidth="75%",alt="Distribution Formula"]
+
