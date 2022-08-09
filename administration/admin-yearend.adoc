@@ -216,7 +216,8 @@ image::images/administration/year-end-5.png[]
 +
 . Evergreen will create new funds, increasing the year by one, for all the funds in the year you selected 
 that have *Propagate* set to YES. Encumbrances will be moved to the new funds for every fund where 
-the *Rollover* box was checked. Evergreen will display a summary of the changes.
+the *Rollover* box was checked. The old funds will be de-activated. Evergreen will display a summary 
+of the changes.
 +
 image::images/administration/year-end-6.png[]
 +
