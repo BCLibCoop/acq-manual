@@ -6,7 +6,7 @@ Claiming
 
 Claim Policies
 ^^^^^^^^^^^^^^
-(((Claim Policies)))
+(((claim policies)))
 
 Evergreen uses claim policies to compile a list of claim-ready items based on order date so that library
 staff can follow up with providers about items that haven't arrived as expected.
