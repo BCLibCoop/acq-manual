@@ -1,10 +1,12 @@
 Acquisitions Search
 -------------------
 
-(((Search)))
+(((search)))
 
 General Search
 ~~~~~~~~~~~~~~
+(((general search)))
+(((search, general)))
 
 https://youtu.be/3gAFuqQE08Y[*Sitka's Evergreen Acquisitions Video - General Search (1:22)*]
 
@@ -14,6 +16,8 @@ The Acquisitions Search interface provides a centralized place for searching Lin
 
 Line Items Search
 ~~~~~~~~~~~~~~~~~
+(((line items, search)))
+(((search, line items)))
 
 The Acquisitions Search interface defaults to the Line Items Search tab. Here you can search across the entire acquisitions module (selection lists, purchase orders, and invoices) to find line items matching your search terms. There is not an initial default search for this tab. Users must create their search or set a default line item search.
 
@@ -28,6 +32,8 @@ NOTE: Currently no actions can be taken with Line Item search results. The full 
 
 Purchase Orders Search
 ~~~~~~~~~~~~~~~~~~~~~~
+(((purchase orders, search)))
+(((search, purchase orders)))
 
 The Purchase Orders Search tab allows you to conduct a search of Purchase Orders. The default search that appears when the tab is viewed is a search for all purchase orders that are in the status of on order at your library:
 
@@ -56,6 +62,8 @@ image::images/acquisitions/searchpending.png[scaledwidth="75%",alt="Search for P
 
 Invoices Search
 ~~~~~~~~~~~~~~~
+(((invoices, search)))
+(((search, invoices)))
 
 The Invoices Search tab allows you to conduct a search of Invoices. The default search that appears when the tab is viewed is a search for all open invoices at your library.
 
@@ -82,6 +90,8 @@ image::images/acquisitions/invoicesearch2.png[scaledwidth="75%",alt="Search for 
 
 Search for Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((selection lists, search)))
+(((search, selection lists)))
 
 The Selection Lists Search tab allows you to conduct a search of selections lists. The default search that appears when the tab is viewed is a search for all selection lists owned by the currently logged in user.
 
@@ -95,6 +105,8 @@ The search results will consist of selection lists and provide a link to the sel
 
 Creating a New Default Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((default search)))
+(((search, default)))
 
 In each of the Acquisitions Search tabs you can create a custom default search that will override the standard default search for the tab.
 
@@ -125,6 +137,8 @@ The search entry box will display a controlled list of values via a dropdown men
 
 Originating Acquisition
 ~~~~~~~~~~~~~~~~~~~~~~~
+(((originating acquisitions, item status)))
+(((item status, orgininating acquisitions)))
 
 .Show Originating Acquisitions from Item Status
 . Click *Circulation* -> *Item Status*

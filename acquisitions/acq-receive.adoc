@@ -1,10 +1,17 @@
 Receive
 -------
+(((receiving)))
+(((un-receiving)))
 
 You can receive or un-receive entire purchase orders, individual line items or specific copies. Items can be marked as received before or after they are invoiced.
 
 Receive Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~
+(((receiving, purchase orders)))
+(((purchase orders, receiving)))
+(((un-receiving, purchase orders)))
+(((purchase orders, un-receiving)))
+
 
 You can receive purchase orders that have a status of on-order. You can un-receive purchase orders that have a status of received.
 
@@ -27,6 +34,11 @@ In the event that all items on a purchase order arrive together you are able to 
 
 Receive Line items
 ~~~~~~~~~~~~~~~~~~
+(((receiving, line items)))
+(((line items, receiving)))
+(((un-receiving, line items)))
+(((line items, un-receiving)))
+
 
 You can receive line items that have a status of on-order. You can un-receive line items that have a status of received.
 
@@ -47,6 +59,10 @@ You can receive line items that have a status of on-order. You can un-receive li
 
 Receive Copies
 ~~~~~~~~~~~~~~
+(((receiving, copies)))
+(((copies, receiving)))
+(((un-receiving, copies)))
+(((copies, un-receiving)))
 
 You can receive copies that have a status of on-order. You can un-receive copies that have a status of received.
 
@@ -70,6 +86,8 @@ You can receive copies that have a status of on-order. You can un-receive copies
 
 Receive Items on the Invoice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((receiving, invoices)))
+(((invoices, receiving)))
 
 You can receive line items directly from the invoice rather than through a purchase order.
 

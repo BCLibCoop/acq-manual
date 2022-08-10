@@ -1,5 +1,6 @@
 Purchase Orders
 ---------------
+(((purchase orders)))
 
 This chapter describes how to create and activate purchase orders in the Acquisitions Module.
 
@@ -7,6 +8,7 @@ anchor:purchase[purchase order]
 
 Create Purchase Orders
 ~~~~~~~~~~~~~~~~~~~~~~
+(((purchase orders, create)))
 
 .Create a Blank Purchase Order
 . Click *Acquisitions* -> *Create Purchase Order*
@@ -53,6 +55,8 @@ include::acq-viewplaceorder.adoc[]
 
 Activate Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~
+(((activate, purchase order)))
+(((purchase order, activate)))
 
 Activation Criteria
 ^^^^^^^^^^^^^^^^^^^
@@ -103,8 +107,10 @@ After you click *Activate Order*, you will be presented with the record import i
 
 CAUTION: There is a known bug which stalls activation on Purchase Orders where the records are not already linked to the catalogue.  If your progress bar freezes at 100% click your browser refresh button and click *Activate Order* for a second time.
 
-Activate Purchase Order without loading items
+Activate Purchase Order Without Loading Items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((activate without loading items, purchase order)))
+(((purchase order, activate without loading items)))
 
 This function should only be used in situations where the copies have already been added to the catalogue.
 
@@ -119,6 +125,8 @@ NOTE: Once the purchase order has been activated without loading items, it is no
 
 Purchase Order Actions
 ~~~~~~~~~~~~~~~~~~~~~~
+(((purchase orders, actions)))
+(((actions, purchase orders)))
 
 The actions available will depend on the current state.
 
@@ -142,6 +150,9 @@ The actions available will depend on the current state.
 
 Delete Purchase Orders
 ~~~~~~~~~~~~~~~~~~~~~~
+(((purchase orders, delete)))
+(((delete, purchase orders)))
+
 
 Purchase orders cannot be deleted from within the staff client.
 

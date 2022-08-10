@@ -1,10 +1,12 @@
 Line Items
 ----------
+(((line items)))
 
 Line items represent bibliographic records on a selection list or purchase order.
 
 Line Item Attributes
 ~~~~~~~~~~~~~~~~~~~~
+(((line items, attributes)))
 
 Line item attributes are characteristics of the bibliographic record, such as ISBN or Title. Line items also contain copy information, price information, notes, and alerts.
 
@@ -119,6 +121,7 @@ anchor:lineitem-price[Price]
 
 Add Copies to a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+(((line items, add copies)))
 
 By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added. Use the *Batch Updater* or *Copies* link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
 
@@ -151,6 +154,8 @@ NOTE: Copies should not be added once a purchase order has been activated.
 
 Line Item Batch updater
 ~~~~~~~~~~~~~~~~~~~~~~~
+(((line item, batch updater)))
+(((batch updater, line item)))
 
 The Line Item Batch Updater allows line items on selection lists or purchase orders to have multiple fields batch updated simultaneously.
 
@@ -172,6 +177,8 @@ Rather than filling in the same fields every time users can set up xref:_distrib
 
 Line Item Actions
 ~~~~~~~~~~~~~~~~~
+(((line items, actions)))
+
 The line item actions menu provides you with a number of functions that can be applied to a particular line item.
 
 .Update Barcode
@@ -203,6 +210,7 @@ The line item actions menu provides you with a number of functions that can be a
 
 Line Item Notes
 ~~~~~~~~~~~~~~~
+(((line items, notes)))
 
 Notes on line items can include any additional information that you wish to add to the line item. Notes can be internal or can be made available to providers. Notes also display on the Line Item Worksheet for the item.
 
@@ -217,6 +225,8 @@ Notes on line items can include any additional information that you wish to add 
 
 Line Item Alerts
 ~~~~~~~~~~~~~~~~
+(((line items, alerts)))
+
 
 Alerts are pop up messages that appear when an item is received. Alerts also display on the Line Item Worksheet for the item.
 
@@ -244,6 +254,8 @@ image::images/acquisitions/add-line-item-alert-4.png[scaledwidth="75%",alt="Addi
 
 Line Item Status
 ~~~~~~~~~~~~~~~~
+(((line items, status)))
+
 The status of a line item displays to the right of the actions menu. The line item bar changes colour depending on the status of the line item.
 
 The colours that display may vary depending on your screen resolution.
@@ -270,6 +282,8 @@ image::images/acquisitions/lineitempaid.png[]
 
 Delete a Line Item
 ~~~~~~~~~~~~~~~~~~
+(((line items, delete)))
+
 
 Line items with the status of new, selector-ready, order-ready, or pending-order can be deleted. Be sure you want to delete the line item as there is no warning message and once deleted line items cannot be un-deleted.
 

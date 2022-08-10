@@ -1,5 +1,6 @@
 Load MARC Order Records
 -----------------------
+(((load MARC order records)))
 
 Use the Acquisitions *Load MARC Order Record* screen to add MARC records to selection lists or purchase orders and upload records into the catalog.  When *Load MARC Order Records* is used in conjunction with a holding tag and subfield information copies can be created during upload. See Holding Subfields for information on setting up holding tags and subfields.
 
@@ -48,6 +49,9 @@ image::images/acquisitions/uploadmarc.png[]
 
 Default Upload Settings
 ~~~~~~~~~~~~~~~~~~~~~~~
+(((load MARC order records, default upload settings)))
+(((default upload settings)))
+
 You can set default upload values by modifying the following settings in
 *Administration* -> *Local Administration* -> *Library Settings Editor*:
 
@@ -74,6 +78,8 @@ NOTE: If the above default settings are not implemented, the selections/values u
 
 Acq Import Error
 ~~~~~~~~~~~~~~~~
+(((load MARC order records, acq import error)))
+(((acq import error)))
 
 When loading records via the *Load MARC Order Records* screen you may occassionally encounter 
 the _ACQ IMPORT ERROR_.

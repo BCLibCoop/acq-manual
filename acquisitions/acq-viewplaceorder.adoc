@@ -1,6 +1,9 @@
 Place Order
 ^^^^^^^^^^^
 
+(((view/place order)))
+(((place order, staff catalogue)))
+
 anchor:view-place-order[View/Place Order]
 
 .View/Place Orders to order an additional copy of an item that is already in the catalogue.

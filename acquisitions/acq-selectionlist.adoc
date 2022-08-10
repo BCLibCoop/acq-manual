@@ -1,5 +1,10 @@
 Selection Lists
 ---------------
+(((selection lists)))
+(((selection lists, create)))
+(((selection lists, clone)))
+(((selection lists, convert to purchase order)))
+(((selection lists, delete)))
 
 anchor:selection[selection list]
 
