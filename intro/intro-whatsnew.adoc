@@ -6,13 +6,16 @@ Administration
 
 The acquisitions administration interfaces have been updated and in some cases consolidated.
 
-* The four claiming interfaces have been consolidated into one tabbed interface.
-* Currencies and exchange rates are now a single interface, making it easier for Co-op Support to manage
-exchange rates for different currencies for libraries.
-* The distribution forumula interface has been re-designed.
-* Funding sources, funds, and fund tags have been re-designed and consolidated into a tabbed Fund Administration 
-interface.
-* Funding sources now have an active flag so you can mark funding sources that are no longer in use as 
+* The four xref:claiming-admin[claiming interfaces 1] have been consolidated into one tabbed interface.
+* The four xref:claiming_admin[claiming interfaces 2] have been consolidated into one tabbed interface.
+* The four xref:_claiming_admin[claiming interfaces 3] have been consolidated into one tabbed interface.
+* xref:_currencies_and_exchange_rates[Currencies and exchange rates] are now a single interface, 
+making it easier for libraries to view current exchange rates and for Co-op Support to manage exchange 
+rates for different currencies for libraries.
+* The xref:_distribution_formulas[distribution forumulas] interface has been re-designed.
+* Funding sources, funds, and fund tags have been re-designed and consolidated into a tabbed 
+xref:_fund_administration[Fund Administration] interface.
+* xref:_creating_funding_sources[Funding source] now have an active flag so you can mark funding sources that are no longer in use as 
 in-active.
 
 
