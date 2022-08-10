@@ -1,6 +1,9 @@
 Cancel Reasons
 --------------
 
+(((administration, cancel reasons)))
+(((cancel reasons)))
+
 You must choose a Cancel Reason if a copy, line item or purchase order is cancelled. The most common cancel reasons have been set in the Acquisitions Module.
 
 .Suspend or delay a purchase and keep debits

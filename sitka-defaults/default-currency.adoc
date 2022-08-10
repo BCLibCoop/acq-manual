@@ -3,6 +3,8 @@ Currencies and Exhange Rates
 
 Currency Types
 ~~~~~~~~~~~~~~
+(((administration, currency)))
+(((currency)))
 
 Currency types are assigned to funds, funding sources, and providers in the administrative module. When a fund is applied to a copy or line item for purchase, the item will be purchased in the currency associated with that fund.
 
@@ -24,6 +26,8 @@ Currency types are assigned to funds, funding sources, and providers in the admi
 
 Exchange Rates
 ~~~~~~~~~~~~~~
+(((administration, exchange rates)))
+(((exchange rates)))
 
 Exchange rates define the rate of exchange between currencies. Evergreen uses these exchange rates only for certain situations.
 

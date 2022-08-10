@@ -1,5 +1,10 @@
 Invoice Item Types
 ------------------
+(((invoice item types)))
+(((administration, invoice item types)))
+(((prorate, invoice item types)))
+(((invoice item types, prorate)))
+
 
 Invoice Item Types allow you to enter additional charges on a purchase order or invoice.
 

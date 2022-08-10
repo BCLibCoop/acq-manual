@@ -1,5 +1,8 @@
-Line Item Marc Attributes
+Line Item MARC Attributes
 -------------------------
+(((administration, line item MARC attributes)))
+(((line item MARC attributes)))
+
 
 Line item attributes define the fields that Evergreen needs to extract from the bibliographic records that are in the acquisitions database to display in the catalogue.
 

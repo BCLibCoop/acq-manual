@@ -1,5 +1,7 @@
 Payment Methods
 ---------------
+(((administration, invoice payment methods)))
+(((invoice payment methods)))
 
 Invoice payment methods are the ways you pay your providers for your purchases. The Invoice Payment Methods appear as a drop down menu in the invoice payment method field on the invoice.
 
