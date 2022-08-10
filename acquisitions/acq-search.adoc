@@ -138,7 +138,7 @@ The search entry box will display a controlled list of values via a dropdown men
 Originating Acquisition
 ~~~~~~~~~~~~~~~~~~~~~~~
 (((originating acquisitions, item status)))
-(((item status, orgininating acquisitions)))
+(((item status, orginating acquisitions)))
 
 .Show Originating Acquisitions from Item Status
 . Click *Circulation* -> *Item Status*

@@ -3,6 +3,7 @@ Place Order
 
 (((view/place order)))
 (((place order, staff catalogue)))
+(((purchase orders, view/place order)))
 
 anchor:view-place-order[View/Place Order]
 
