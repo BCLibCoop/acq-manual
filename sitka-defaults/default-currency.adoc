@@ -1,5 +1,5 @@
-Currencies and Exhange Rates
-----------------------------
+Currencies and Exchange Rates
+-----------------------------
 
 Currency Types
 ~~~~~~~~~~~~~~
