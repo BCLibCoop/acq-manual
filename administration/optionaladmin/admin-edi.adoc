@@ -1,5 +1,8 @@
 Electronic Data Interchange (EDI)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((administration, EDI)))
+(((EDI)))
+(((electronic data interchange)))
 
 anchor:edi[EDI]
 
@@ -12,6 +15,8 @@ Electronic Data Interchange (EDI) accounts are used to electronically send purch
 
 Standard Address Number (SAN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((standard address number)))
+(((SAN)))
 
 A Standard Address Number (SAN) is a unique 7 digit number that identifies a library or a provider. Please contact 
 Co-op Support if your library does not already have a SAN.
@@ -48,6 +53,8 @@ NOTE: These steps need to be repeated for every provider with which EDI is used.
 
 Create an EDI Account
 ^^^^^^^^^^^^^^^^^^^^^
+
+(((EDI account, create)))
 
 TIP: You must create your provider before you create an EDI account for the provider.
 
@@ -94,6 +101,8 @@ image::images/administration/edi-account-2.png[]
 
 View EDI Messages
 ^^^^^^^^^^^^^^^^^
+
+(((EDI messages)))
 
 The EDI Messages screen displays all incoming and outgoing messages between the library and the provider.
 

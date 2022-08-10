@@ -1,8 +1,11 @@
 Fund Administration
 -------------------
+(((administration, funds)))
 
 Funding Sources
 ~~~~~~~~~~~~~~~
+(((administration, funding sources)))
+(((funding sources)))
 
 In the funding sources interface you can create funding sources, allocate credit to funding sources, and 
 apply credit to funds. Funding sources allow you to specify the sources that contribute monies to 
@@ -99,6 +102,9 @@ image::images/administration/funding-source-7.png[]
 
 Applying Credit
 ^^^^^^^^^^^^^^^
+(((administration, applying credit)))
+(((applying credit)))
+
 
 [CAUTION]
 =========
@@ -138,6 +144,10 @@ image::images/administration/funding-source-credit-4.png[]
 
 Allocate Credit to Funds - Funding Source Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((administration, allocate credit)))
+(((funding source, allocate credit)))
+(((allocate credit)))
 
 Once you have set up your xref:_creating_funds[funds], credit can be allocated to them from your funding sources in two ways:
 
@@ -193,6 +203,9 @@ image::images/administration/funding-source-track-2.png[]
 
 Funds
 ~~~~~
+
+(((administration, funds)))
+(((funds)))
 
 Funds should be created for every budget you wish to track. For some libraries this may be a fund per 
 individual collection; other libraries may only use one fund for all purchasing. Libraries may want to 
@@ -300,12 +313,16 @@ A fund can only be deleted if no credit has been allocated to it.
 ======
 
 
-Allocate to Funds - Funds Interface
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Allocate to Funds - Funds Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-anchor:allocate-funds[Allocate to Fund - Funds Interface]
+(((administration, allocate credit)))
+(((funds, allocate credit)))
+(((allocate credit)))
 
-To allocate credits using the Fund Interface:
+anchor:allocate-funds[Allocate to Fund - Funds Tab]
+
+To allocate credits using the Fund Tab:
 
 . Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
 . Select the *Funds* tab.
@@ -327,6 +344,9 @@ image::images/administration/funds-allocate-3.png[]
 
 Transfer Money Between Funds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((administration, transfer money)))
+(((funds, transfer money)))
+
 The credits that you allocate to funds can be transferred between funds if desired. The 
 system tracks these transfers.
 
@@ -377,6 +397,9 @@ image::images/administration/funds-track-1.png[]
 
 Fund Tags
 ~~~~~~~~~
+(((administration, fund tags)))
+(((fund tags)))
+
 
 Creating a Fund Tag
 ^^^^^^^^^^^^^^^^^^^

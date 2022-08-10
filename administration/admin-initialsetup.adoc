@@ -1,5 +1,6 @@
 Acquisitions Module Configuration
 ---------------------------------
+(((configuration)))
 
 Before beginning to use Acquisitions, the following must be configured by an acquisitions administrator:
 

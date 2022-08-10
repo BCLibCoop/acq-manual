@@ -1,5 +1,7 @@
 Line Item Alerts
 ~~~~~~~~~~~~~~~~
+(((administration, line item alerts)))
+(((line item alerts)))
 
 Line item alerts are predefined text that can be added to line items on selection lists or purchase orders. 
 Alerts can assist staff in the processing and cataloguing of items by alerting staff to the correct 

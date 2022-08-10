@@ -2,7 +2,8 @@ Claiming
 ~~~~~~~~
 [[claiming-admin]]
 
-(((Claiming)))
+(((claiming)))
+(((administration, claiming)))
 
 Claim Policies
 ^^^^^^^^^^^^^^

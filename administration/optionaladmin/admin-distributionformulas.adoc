@@ -1,5 +1,8 @@
 Distribution Formulas
 ~~~~~~~~~~~~~~~~~~~~~
+(((administration, distribution formulas)))
+(((distribution formulas)))
+
 
 Distribution formulas are intented for use in multi-branch systems to specify the number of copies that should be 
 distributed to specific branches. 
