@@ -6,9 +6,7 @@ Administration
 
 The acquisitions administration interfaces have been updated and in some cases consolidated.
 
-* The four xref:claiming-admin[claiming interfaces 1] have been consolidated into one tabbed interface.
-* The four xref:claiming_admin[claiming interfaces 2] have been consolidated into one tabbed interface.
-* The four xref:_claiming_admin[claiming interfaces 3] have been consolidated into one tabbed interface.
+* The four xref:claiming-admin[claiming interfaces] have been consolidated into one tabbed interface.
 * xref:_currencies_and_exchange_rates[Currencies and exchange rates] are now a single interface, 
 making it easier for libraries to view current exchange rates and for Co-op Support to manage exchange 
 rates for different currencies for libraries.
