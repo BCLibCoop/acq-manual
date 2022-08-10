@@ -1,5 +1,7 @@
 Permissions
 -----------
+(((administration, permissions)))
+(((permissions)))
 
 Acquisitions Permission Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,6 +61,8 @@ There are four Acquisitions Permission Groups: Basic Selector, Advanced Selector
 
 Granting Acquisitions Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((administration, granting acquisitions permissions)))
+(((granting acquisitions permissions)))
 
 Users with the Acquisitions Administrator permissions can grant the Basic Selector, Advanced Selector or Purchaser permission to other users. The Administrator permissions can only be granted by Sitka Staff.
 

@@ -1,9 +1,13 @@
 Acquisitions Settings in the Library Settings Editor
 ----------------------------------------------------
+((library settings)))
+(((administration, library settings)))
+
 
 Several settings in the Library Settings Editor pertain to functions in the Acquisitions Module.
 
-You can access these settings by clicking Admin → Local Administration → Library Settings Editor. To update these settings a user must have both LSA and Acquisitions Administration permissions.
+You can access these settings by clicking *Administration → Local Administration → Library Settings Editor*. To 
+update these settings a user must have both local system administrator and acquisitions administration permissions.
 
 .Acquisitions Settings
 [options="header"]

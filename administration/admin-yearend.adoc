@@ -1,5 +1,9 @@
 Acquisitions Year End
 ---------------------
+(((year end)))
+(((fiscal year close-out)))
+(((administration, year end)))
+(((administration, fiscal year close-out)))
 
 Adapted with permission from original material by the
 https://wiki.evergreen-ils.org/lib/exe/fetch.php?media=administration_functions_in_the_acquistions_module_ev.pdf[Evergreen Community]
@@ -12,6 +16,8 @@ At the end of each fiscal year libraries need to run year end processes to close
 
 Year End Checklist
 ~~~~~~~~~~~~~~~~~~
+(((administration, year end checklist)))
+(((year end checklist)))
 
 Libraries should review this checklist as they reach the end of their fiscal year in preparation for the year end processes.
 
@@ -103,12 +109,19 @@ If you run into difficulties at any point in this process please contact Support
 
 Fund Propagation and Rollover
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((year end, fund propagations)))
+(((year end, rollover)))
+(((fund propagations)))
+(((rollover)))
+
 
 Before running the Fiscal Year Close-out Operation, a Dry Run can be performed to ensure that
 Close-out runs as expected.
 
 Dry Run
 ^^^^^^^
+(((year end, dry run)))
+(((dry run)))
 
 . On the Funds tab, select the top level of your organization in the library selector.
 +

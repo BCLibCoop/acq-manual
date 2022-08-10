@@ -4,6 +4,7 @@ Enhanced On Order records
 
 Enhanced On Order Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+(((enhanced on order records)))
 
 anchor:enhanced-order[Enhanced On Order Records]
 
@@ -13,6 +14,7 @@ Enhanced On Order Records include holdings information (quantity, owning library
 
 Shelf Ready Items
 ^^^^^^^^^^^^^^^^^
+(((shelf ready items)))
 
 anchor:shelf-ready[Shelf Ready Items]
 

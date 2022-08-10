@@ -1,6 +1,7 @@
 Providers
 ---------
 
+(((administration, provider)))
 (((provider, vendor)))
 
 anchor:provider[Provider]
@@ -98,6 +99,11 @@ Before a provider can be deleted any additional addresses, contacts, attribute d
 
 Holding Definitions
 ~~~~~~~~~~~~~~~~~~~
+(((holding definitions)))
+(((holding subfields)))
+(((providers, holding definitions)))
+(((providers, holding subfields)))
+(((970 holdings tag)))
 
 Holding subfields are used with a *970 Holdings Tag* to allow you to upload holdings information with your MARC file uploads.
 
