@@ -1,8 +1,12 @@
 Claiming
 ~~~~~~~~
+[[claiming-admin]]
+
+(((Claiming)))
 
 Claim Policies
 ^^^^^^^^^^^^^^
+(((Claim Policies)))
 
 Evergreen uses claim policies to compile a list of claim-ready items based on order date so that library
 staff can follow up with providers about items that haven't arrived as expected.
@@ -11,24 +15,24 @@ staff can follow up with providers about items that haven't arrived as expected.
 . Click *Administration -> Acquisitions Administration -> Claiming*
 . On the *Claim Policies* tab click *New Claim Policy*.
 +
-image::images/administration/claim-policies-1.png[scaledwidth="75%",alt="Distribution Formula"]
+image::images/administration/claim-policies-1.png[scaledwidth="75%",alt="Claiming"]
 +
 . Enter a name, description, and owner for the policy.
 +
-image::images/administration/claim-policies-2.png[scaledwidth="75%",alt="Distribution Formula"]
+image::images/administration/claim-policies-2.png[scaledwidth="75%",alt="Claiming"]
 +
 . On the *Claim Event Types* tab you can create additional event types if needed. Phone, Email,
 and Fax are currently set at the Sitka level.
 . On the *Claim Policy Actions* tab click *New Claim Policy Action*.
 +
-image::images/administration/claim-policies-3.png[scaledwidth="75%",alt="Distribution Formula"]
+image::images/administration/claim-policies-3.png[scaledwidth="75%",alt="Claiming"]
 +
 . Select the claim policy name from the drop down.
 . Select the action to attach to this policy.
 . Enter the action interval to apply to this policy.
 . Click *Save*
 +
-image::images/administration/claim-policies-4.png[scaledwidth="75%",alt="Distribution Formula"]
+image::images/administration/claim-policies-4.png[scaledwidth="75%",alt="Claiming"]
 
 
 [NOTE]
@@ -41,6 +45,7 @@ See xref:_providers[] for the steps to add a default claim policy.
 
 Claim Types
 ^^^^^^^^^^^
+(((claim types)))
 
 Claim types are used in the claiming process to indicate why an item needs to be claimed.
 
@@ -54,6 +59,6 @@ The following claim types have been set up for the consortium:
 
 Library staff can create additional claim types by clicking *New Claim Types* on the 
 *Claim Types* tab.
-+
-image::images/administration/claim-types-1.png[scaledwidth="75%",alt="Distribution Formula"]
+
+image::images/administration/claim-types-1.png[scaledwidth="75%",alt="Claim Types"]
 
