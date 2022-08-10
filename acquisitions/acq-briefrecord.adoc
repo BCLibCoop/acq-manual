@@ -1,5 +1,7 @@
 Brief Records
 ^^^^^^^^^^^^^
+(((brief records)))
+(((purchase orders, brief records)))
 
 Brief records are short bibliographic records with minimal information that are often used as placeholder records until items are received. Brief records can be added to selection lists or purchase orders and can be imported into the catalog. You can add brief records to new or existing selection lists. You can add brief records to new, pending or on-order purchase orders.
 

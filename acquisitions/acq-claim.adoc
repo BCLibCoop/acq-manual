@@ -1,10 +1,13 @@
 Claiming
 --------
+(((claiming)))
 
 Evergreen uses claim policies to compile a list of claim-ready items based on order date. All claiming is currently manual; electronic claiming is not available
 
 Claim Policies
 ~~~~~~~~~~~~~~
+(((claim policies)))
+(((claiming, claim policies)))
 
 The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies ordered from the provider.
 
@@ -22,6 +25,11 @@ You can change the claim policy that has been applied to a line item until the i
 
 Claim-Ready Items
 ~~~~~~~~~~~~~~~~~
+(((claim-ready items)))
+(((purchase orders, claiming)))
+(((line items, claiming)))
+(((claiming, line items)))
+(((claiming, purchase orders)))
 
 Evergreen can produce a list of items, by ordering branch, which are ready to be claimed. You can use this list to manually claim items from your provider without having to open the purchase orders.
 
@@ -80,6 +88,8 @@ Manual claiming can be done for both line items and individual copies. You can m
 
 Claim Vouchers
 ~~~~~~~~~~~~~~
+(((claiming, claim vouchers)))
+(((claim vouchers)))
 
 Claim vouchers can be saved and emailed to providers to initiate claims. These vouchers can be printed at the time of the manual claim in the system or reprinted at a later time through the copies link.
 

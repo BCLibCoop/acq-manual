@@ -1,5 +1,15 @@
 Cancel / Delay Acquisitions
 ---------------------------
+(((cancelling)))
+(((delaying)))
+(((cancelling, purchase orders)))
+(((purchase orders, cancelling)))
+(((delaying, purchase orders)))
+(((purchase orders, delaying)))
+(((cancelling, line items)))
+(((line items, cancelling)))
+(((delaying, line items)))
+(((purchase orders, line items)))
 
 You can cancel or delay individual copies, line items, or entire purchase orders.
 

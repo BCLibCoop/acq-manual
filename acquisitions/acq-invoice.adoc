@@ -1,5 +1,7 @@
 Invoices
 --------
+(((invoices)))
+(((invoices, create)))
 
 You can create invoices for purchase orders, individual line items, as well as creating blank invoices that charges can be added to. If you are setup for EDI your vendor can send you electronic invoices. If desired, you can create an invoice for items before you receive them. You are able to re-open closed invoices to make adjustments as well as print out all invoices. You can create an invoice to use for direct purchases or to link line items to.
 
@@ -53,6 +55,7 @@ NOTE: You can link additional line items from the same or different purchase ord
 
 Invoice details
 ~~~~~~~~~~~~~~~
+(((invoices, details)))
 
 The Invoice Details section must be completed for every invoice created.
 
@@ -107,6 +110,8 @@ Enter the amount billed into the Billed field. The Paid field will auto-fill to 
 
 Add Line items to the Invoice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((invoices, add line items)))
+(((line items, add to invoice)))
 
 You can use the Link Invoice button to link all the line items on a purchase order to an existing invoice.
 For example, an invoice is received for a shipment with items on purchase order #1 and purchase order #2. When the invoice arrives, purchase order #1 is retrieved, and the invoice is created. Rather than recreate the invoice for purchase order #2 you simply link the purchase order to the invoice.
@@ -163,6 +168,8 @@ Search for Line Items from an Invoice
 
 Add Charges to an Invoice
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+(((invoices, add charges)))
+(((charges, add to invoice)))
 
 . Open an invoice.
 . Click *Add Charge*.
@@ -177,6 +184,8 @@ Add Charges to an Invoice
 
 Delete Charges from an Invoice
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((invoices, delete charges)))
+(((charges, delete from invoice)))
 
 . Open an invoice.
 . Click the Delete link adjacent to the charge line.
@@ -191,6 +200,8 @@ In the event that you receive and are invoiced for more copies that originally o
 
 Add Additional Copies to an Invoice
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((invoices, add copies)))
+
 
 . Additional copies must be added before the Billed and Paid columns are filled for the line item.
 . Open an invoice.
@@ -204,6 +215,8 @@ Add Additional Copies to an Invoice
 
 Detach Line Items from an Invoice
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((invoices, detach line items)))
+(((line items, detach from invoice)))
 
 . Open an invoice.
 . Click the Detach link adjacent to the line item you wish to remove.
@@ -218,6 +231,7 @@ Invoices can be re-opened at a later date if adjustments are required. See Re-Op
 
 View an Invoice
 ~~~~~~~~~~~~~~~
+(((invoices, view)))
 
 You can view an invoice in one of three ways:
 
@@ -245,6 +259,7 @@ NOTE: The default invoice search allows you to quickly generate a list of open i
 
 Close an Invoice
 ~~~~~~~~~~~~~~~~
+(((invoices, close)))
 
 Invoices must be closed for items to show as "Paid". Fund debits linked to an invoice are only marked as paid when the invoice is closed. Once all the line items and invoice charges have been added the invoice must be closed.
 
@@ -270,6 +285,9 @@ CAUTION: Invoices can be re-opened at a later date if adjustments are required. 
 
 Re-open an Invoice
 ~~~~~~~~~~~~~~~~~~
+(((invoices, re-open)))
+(((re-open, invoices)))
+
 Completed invoices can be re-opened at anytime by users with appropriate permissions.
 
 . Open the completed invoice you wish to re-open.
@@ -279,6 +297,8 @@ Completed invoices can be re-opened at anytime by users with appropriate permiss
 
 Print Invoices
 ~~~~~~~~~~~~~~
+(((invoices, print)))
+
 Invoices can be printed individually or as a batch from the search grid.
 
 . Click *Acquisitions* -> *Invoices*.
