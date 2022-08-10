@@ -1,6 +1,6 @@
 Claiming
 ~~~~~~~~
-[[claiming-admin]]
+anchor:claiming-admin[Claiming]
 
 (((claiming)))
 (((administration, claiming)))
