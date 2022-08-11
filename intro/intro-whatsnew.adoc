@@ -13,8 +13,8 @@ rates for different currencies for libraries.
 * The xref:_distribution_formulas[distribution forumulas] interface has been re-designed.
 * Funding sources, funds, and fund tags have been re-designed and consolidated into a tabbed 
 xref:_fund_administration[Fund Administration] interface.
-* xref:_creating_funding_sources[Funding source] now have an active flag so you can mark funding sources that are no longer in use as 
-in-active.
+* xref:_creating_funding_sources[Funding sources] now have an active flag so you can mark funding sources that are 
+no longer in use as inactive.
 
 
 
