@@ -13,13 +13,13 @@ can be created and reused as needed.
 Creating a Distribution Formula
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Acquisitions Administration*  -> *Distribution Formulas*
+. Click *Administration -> Acquisitions Administration -> Distribution Formulas*
 . Click *New Distribution Formula*.
 +
 image::images/administration/distribution-formula-1.png[scaledwidth="75%",alt="Distribution Formula"]
 +
-. Enter a Formula name. There is no limit to the number of characters that can be entered in this field.
-. Choose a Formula Owner. The formula owner indicates the organizational units whose staff can use this formula.
+. Enter a formula name. There is no limit to the number of characters that can be entered in this field.
+. Choose a formula owner. The formula owner indicates the organizational units whose staff can use this formula.
 . Create your distribution formula/line item template using a combination of the following fields:
 +
 ** *Owning Library*
@@ -42,12 +42,13 @@ image::images/administration/distribution-formula-3.png[scaledwidth="75%",alt="D
 Editing a Distribution Formula
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Distribution Formulas*.
+. Select *Administration -> Acquisitions Administration -> Distribution Formulas*.
 . Select the formula you want to edit and from the *Actions* menu choose *Edit Selected*.
 +
 image::images/administration/distribution-formula-4.png[scaledwidth="75%",alt="Distribution Formula"]
 +
-. On the pop up you can add a new entry, edit an existing entry, or delete an existing entry using the trashcan icon.
+. On the pop up you can add a new entry, edit an existing entry, or delete an existing entry using the 
+trash can icon.
 . Use the arrows to re-order the entries.
 .. When using a distribution formula the system will start at the top of the list and work down the list until it runs out of items. 
 For example, if you are ordering five copies of a title and you apply a distribution formula with entries for 
@@ -60,7 +61,7 @@ image::images/administration/distribution-formula-5.png[scaledwidth="75%",alt="D
 Cloning a Distribution Formula
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Distribution Formulas*.
+. Select *Administration -> Acquisitions Administration -> Distribution Formulas*.
 . Select the formula you want to edit and from the *Actions* menu choose *Edit Selected*.
 +
 image::images/administration/distribution-formula-6.png[scaledwidth="75%",alt="Distribution Formula"]
