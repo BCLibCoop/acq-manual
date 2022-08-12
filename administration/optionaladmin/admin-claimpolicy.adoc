@@ -18,7 +18,7 @@ staff can follow up with providers about items that haven't arrived as expected.
 +
 image::images/administration/claim-policies-1.png[scaledwidth="75%",alt="Claiming"]
 +
-. Enter a name, description, and owner for the policy.
+. Enter a name, description, and owner for the policy and click *Save*.
 +
 image::images/administration/claim-policies-2.png[scaledwidth="75%",alt="Claiming"]
 +
