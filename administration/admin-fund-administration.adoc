@@ -24,7 +24,7 @@ For example, City of Fiction 2022 and COF2022.
 Creating Funding Sources
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
@@ -58,7 +58,7 @@ to edit the balance of your funding source. The balance of a funding source can 
 by applying credit to the funding source or allocating credit from the funding source to a fund.
 ======
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
@@ -85,7 +85,7 @@ Deleting a Funding Source
 A funding source can only be deleted if no credit has been applied to it.
 ======
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
@@ -116,7 +116,7 @@ a funding source please submit a ticket to xref:https://bc.libraries.coop/suppor
 the name of the funding source and the incorrect amount that has been allocated.
 =========
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
@@ -158,7 +158,7 @@ To allocate credit to your funds using the Funding Source Tab:
 
 anchor:allocate-fund-source[Allocate to Fund - Funding Source Tab]
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
 +
@@ -188,7 +188,7 @@ Track Credits and Allocations
 You can track credits to and allocations from for each funding source through the Funding Source Details
 pop up.
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 . Click on the hyperlinked name of the funding source to open the Funding Source Details pop up.
 .. *Credits* The Credits tab tracks all credits applied to the funding source. 
@@ -224,7 +224,7 @@ Funds should be created when your library first starts using acquisitions and wh
 budget.  Funds for subsequent fiscal years are created automatically by Evergreen during the year end processes.
 ======
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-create-1.png[]
@@ -278,7 +278,7 @@ You also cannot edit the the balance of your fund through the Edit function. A f
 by allocating monies to the fund or transferring monies to another fund.
 =========
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 . Double-click on the row you would like to edit. A pop-up box will appear in which you can edit the fields.
 . Make your changes and click *Save*.
@@ -298,7 +298,7 @@ $f in the templates your MARC records will not load.
 Deleting a Fund
 ^^^^^^^^^^^^^^^
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 . Check the box of the fund you wish to delete.
 . From the *Actions* menu select *Delete Selected*.
@@ -324,7 +324,7 @@ anchor:allocate-funds[Allocate to Fund - Funds Tab]
 
 To allocate credits using the Fund Tab:
 
-. Go to *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-allocate-1.png[]
@@ -350,7 +350,7 @@ Transfer Money Between Funds
 The credits that you allocate to funds can be transferred between funds if desired. The 
 system tracks these transfers.
 
-. Select *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-allocate-1.png[]
@@ -374,7 +374,7 @@ Track Balances and Expenditures
 
 The Fund Details screen allows you to track a fund's balance, encumbrances, and amount spent.
 
-. Select *Administration* -> *Acquisitions Administration* -> **Fund Administration*.
+. Select *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-allocate-1.png[]
@@ -390,7 +390,7 @@ image::images/administration/funds-allocate-1.png[]
 * *Allocations* - The Allocations tab allows you to track credit allocated from funding sources, transfers to other funds, and transfers from other funds.
 * *Transfers* - The Transfers tab allows you to track money that is transfered between funds.
 * *Debits* - The Debits tab allows you to track all purchases made and monies encumbered against the fund.
-* *Tags* - The Tags tab allows you to add and delete fund tags. See Fund Tags for more information.
+* *Tags* - The Tags tab allows you to add and delete fund tags. See xref:_fund_tags[].
 +
 image::images/administration/funds-track-1.png[]
 
@@ -404,7 +404,7 @@ Fund Tags
 Creating a Fund Tag
 ^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Fund Tags* tab.
 +
 image::images/administration/fund-tags-1.png[]
@@ -424,7 +424,7 @@ image::images/administration/fund-tag-3.png[]
 Adding a Fund Tag to a Fund
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select *Administration* -> *Acquisitions Administration* -> *Fund Administration*.
+. Select *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funds* tab.
 +
 image::images/administration/funds-allocate-1.png[]
