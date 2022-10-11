@@ -156,7 +156,7 @@ Delete Purchase Orders
 
 Purchase orders cannot be deleted from within the staff client.
 
-Purchase orders that meet the following criteria are automatically deleted from the database daily.
+Purchase orders that meet all the following criteria are automatically deleted from the database daily.
 
 * The purchase order has the state of *Pending*
 * The purchase order is *empty*, has no line items or charges
