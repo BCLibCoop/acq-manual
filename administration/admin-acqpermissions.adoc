@@ -70,7 +70,10 @@ Users with the Acquisitions Administrator permissions can grant the Basic Select
 . Open the account of the user you wish to grant acquisitions permissions to.
 . Click *Edit*.
 . Click *Secondary Groups*
-. From the drop down menu select one of the Acq Supplementary Perm Groups.
+. From the drop down menu select one of the Acq Supplementary Perm Groups (Basic Selector, Advanced Selector or Purchaser).
++
+image::images/administration/acqsecondaryperms.png[Acq Supplementary Perm Groups]
++
 . Click *Add*.
 . Click *Save* in the pop-up.
 . Click *Save* in the patron account.
