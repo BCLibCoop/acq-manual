@@ -21,9 +21,11 @@ Year End Checklist
 
 Libraries should review this checklist as they reach the end of their fiscal year in preparation for the year end processes.
 
-* Activate all pending purchase orders.
+* Clear all pending purchase orders.
 
-** Search for xref:pending-order[].
+** Search for xref:pending-order[]. xref:_activate_purchase_order[Activate] purchase orders for item you still
+wish to order.  xref:_delete_purchase_orders[Delete] duplicate purchase order or purchase order you don't
+want to activate.
 
 * Run report *Lines Items That Have Been Invoiced but not Received*.
 
