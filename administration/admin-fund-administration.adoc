@@ -24,6 +24,9 @@ For example, City of Fiction 2022 and COF2022.
 Creating Funding Sources
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+https://youtu.be/bjSBNKpD9iM[*Sitka Training Video - Creating Funding Sources* (1:29)]
+
+
 . Go to *Administration -> Acquisitions Administration -> Fund Administration*.
 . Select the *Funding Sources* tab.
 .. By default Evergreen filters so that only active funding sources display.
@@ -105,15 +108,12 @@ Applying Credit
 (((administration, applying credit)))
 (((applying credit)))
 
+https://youtu.be/2dM1eyMDHsM[*Sitka Training Video - Apply Credit to Funding Sources* (1:40)]
+
 
 [CAUTION]
 =========
 A funding source with credit applied cannot be deleted. 
-
-Ensure you apply the correct amount of credit to each funding source as there is no way in the 
-staff client to edit the amount applied. In the event that an incorrect amount is allocated to 
-a funding source please submit a ticket to xref:https://bc.libraries.coop/support/[Co-op Support] and include
-the name of the funding source and the incorrect amount that has been allocated.
 =========
 
 . Go to *Administration -> Acquisitions Administration -> Fund Administration*.
@@ -141,6 +141,15 @@ image::images/administration/funding-source-credit-4.png[]
 +
 . Click *Close* to close the pop-up.
 
+[NOTE]
+======
+If an incorrect amount of credit is applied you can apply a negative credit to correct it.  Co-op Support 
+recommends including a note with explanation in these cases.
+
+image::images/administration/funding-source-credit-negative-1.png[]
+
+======
+
 
 Allocate Credit to Funds - Funding Source Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -148,6 +157,8 @@ Allocate Credit to Funds - Funding Source Tab
 (((administration, allocate credit)))
 (((funding source, allocate credit)))
 (((allocate credit)))
+
+https://youtu.be/ZTcUADr3ZP0[*Sitka Training Video - Allocate Money to Funds* (2:22)]
 
 Once you have set up your xref:_creating_funds[funds], credit can be allocated to them from your funding sources in two ways:
 
@@ -319,6 +330,8 @@ Allocate to Funds - Funds Tab
 (((administration, allocate credit)))
 (((funds, allocate credit)))
 (((allocate credit)))
+
+https://youtu.be/ZTcUADr3ZP0[*Sitka Training Video - Allocate Money to Funds* (2:22)]
 
 anchor:allocate-funds[Allocate to Fund - Funds Tab]
 
