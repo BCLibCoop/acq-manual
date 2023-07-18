@@ -15,6 +15,8 @@ Introduction
 ============
 include::intro/intro-acq.adoc[]
 
+include::administration/admin-initialsetup.adoc[]
+
 include::intro/intro-whatsnew.adoc[]
 
 include::intro/intro-workflow.adoc[]
@@ -52,53 +54,33 @@ include::acquisitions/acq-cancel.adoc[]
 
 include::acquisitions/acq-claim.adoc[]
 
-////
 
-Acquisitions
-============
-include::acquisitions/acq-search.adoc[]
-
-include::acquisitions/acq-selectionlist.adoc[]
-
-include::acquisitions/acq-loadrecords.adoc[L]
-
-include::acquisitions/acq-federated-search.adoc[]
-
-include::acquisitions/acq-load-cataloguerecordid.adoc[]
-
-include::acquisitions/acq-purchaseorder.adoc[]
-
-include::acquisitions/acq-lineitems.adoc[]
-
-include::acquisitions/acq-receive.adoc[]
-
-include::acquisitions/acq-invoice.adoc[]
-
-include::acquisitions/acq-claim.adoc[]
-
-include::acquisitions/acq-cancel.adoc[]
-
-////
-
-Acquisitions Administration
-===========================
-include::administration/admin-initialsetup.adoc[]
-
+Managing Funds
+==============
 include::administration/admin-fund-administration.adoc[]
 
-include::administration/admin-provider.adoc[]
+include::administration/admin-yearend.adoc[]
 
-include::administration/admin-acqsettings.adoc[]
+Reporting on Acquisitions
+=========================
+
+include::administration/admin-acqreports.adoc[]
+
+
+Administration
+==============
 
 include::administration/admin-acqpermissions.adoc[]
 
-include::administration/admin-yearend.adoc[]
+include::administration/admin-acqsettings.adoc[]
+
+include::administration/admin-provider.adoc[]
 
 include::administration/admin-optional.adoc[]
 
 include::administration/admin-eoor-sri.adoc[]
 
-include::administration/admin-acqreports.adoc[]
+
 
 Sitka's Acquisitions Defaults
 =============================
