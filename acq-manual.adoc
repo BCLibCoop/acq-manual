@@ -5,11 +5,11 @@ Sitka's Evergreen Acquisitions Documentation
 :toclevels: 3
 :numbered:
 
-*Evergreen 3.9*
+*Evergreen 3.11*
 
-Copyright (symbol) 2022 BC Libraries Cooperative
+Copyright (symbol) 2023 BC Libraries Cooperative
 
-Last Updated August  , 2022
+Last Updated October 2023
 
 Introduction
 ============
@@ -18,6 +18,41 @@ include::intro/intro-acq.adoc[]
 include::intro/intro-whatsnew.adoc[]
 
 include::intro/intro-workflow.adoc[]
+
+Searching
+=========
+include::acquisitions/acq-search.adoc[]
+
+Ordering
+========
+include::acquisitions/acq-selectionlist.adoc[]
+
+include::acquisitions/acq-loadrecords.adoc[L]
+
+include::acquisitions/acq-federated-search.adoc[]
+
+include::acquisitions/acq-load-cataloguerecordid.adoc[]
+
+include::acquisitions/acq-purchaseorder.adoc[]
+
+include::acquisitions/acq-lineitems.adoc[]
+
+Receiving and Invoicing
+=======================
+
+include::acquisitions/acq-receive.adoc[]
+
+include::acquisitions/acq-invoice.adoc[]
+
+
+Cancelling and Claiming
+=======================
+
+include::acquisitions/acq-cancel.adoc[]
+
+include::acquisitions/acq-claim.adoc[]
+
+////
 
 Acquisitions
 ============
@@ -42,6 +77,8 @@ include::acquisitions/acq-invoice.adoc[]
 include::acquisitions/acq-claim.adoc[]
 
 include::acquisitions/acq-cancel.adoc[]
+
+////
 
 Acquisitions Administration
 ===========================
