@@ -78,10 +78,6 @@ include::administration/admin-provider.adoc[]
 
 include::administration/admin-optional.adoc[]
 
-include::administration/admin-eoor-sri.adoc[]
-
-
-
 Sitka's Acquisitions Defaults
 =============================
 

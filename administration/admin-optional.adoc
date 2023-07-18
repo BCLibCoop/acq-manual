@@ -8,3 +8,5 @@ include::optionaladmin/admin-distributionformulas.adoc[]
 include::optionaladmin/admin-lineitemalerts.adoc[]
 
 include::optionaladmin/admin-edi.adoc[]
+
+include::optionaladmin/admin-eoor-sri.adoc[]
