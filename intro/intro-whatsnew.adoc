@@ -1,20 +1,33 @@
-New Features in Evergreen Acquisitions Version 3.9
---------------------------------------------------
+New Features in Evergreen Acquisitions Version 3.11
+---------------------------------------------------
+
+Searching
+~~~~~~~~~
+
+* Search grid now includes a column for purchase order ID
+
+Ordering
+~~~~~~~~
+
+* Purchase order and line items have been angularized
+* Load MARC Order Records interface has been angularized
+* Selection lists interface has been angularized.
+* Line item table has be sorted and filtered
+
+Receiving and Invoicing
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Cancelling and Claiming
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Administration
 ~~~~~~~~~~~~~~
 
-The acquisitions administration interfaces have been updated and in some cases consolidated.
+* Inactive funds can no longer make allocations or transfers
+* A new permissions controls year end
+* New library settings to control which owning library is applied to auto-created line item
+items.
 
-* The four xref:claiming-admin[claiming interfaces] have been consolidated into one tabbed interface.
-* xref:_currencies_and_exchange_rates[Currencies and exchange rates] are now a single interface, 
-making it easier for libraries to view current exchange rates and for Co-op Support to manage exchange 
-rates for different currencies for libraries.
-* The xref:_distribution_formulas[distribution forumulas] interface has been re-designed.
-* Funding sources, funds, and fund tags have been re-designed and consolidated into a tabbed 
-xref:_fund_administration[Fund Administration] interface.
-* xref:_creating_funding_sources[Funding sources] now have an active flag so you can mark funding sources that are 
-no longer in use as inactive.
 
 
 
