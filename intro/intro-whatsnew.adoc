@@ -23,6 +23,8 @@ Receiving and Invoicing
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+* Tabs have been re-ordered into a more logical order in Claiming Administration
+
 Administration
 ~~~~~~~~~~~~~~
 
