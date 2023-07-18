@@ -5,6 +5,7 @@ Searching
 ~~~~~~~~~
 
 * Search grid now includes a column for purchase order ID
+* Item count added to line item search results
 
 Ordering
 ~~~~~~~~
@@ -13,6 +14,8 @@ Ordering
 * Load MARC Order Records interface has been angularized
 * Selection lists interface has been angularized.
 * Line item table has be sorted and filtered
+* Line item loading progress bar has moved to the summary area
+
 
 Receiving and Invoicing
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,6 +30,9 @@ Administration
 * A new permissions controls year end
 * New library settings to control which owning library is applied to auto-created line item
 items.
+* Provider opens in new tab by default
+* Fund drop down in Funds Administration fixed
+
 
 
 
