@@ -13,14 +13,26 @@ update these settings a user must have both local system administrator and acqui
 [options="header"]
 |===
 | Setting | Description | Data type | Edited by | Notes
-| Allow funds to be rolloed over without bringing the money along | This setting controls whether money and encumbrances or just encumbrances are rolled over when performing the Fiscal Year Close-out Operation. | True/false | LSA and Acq Admin |
-| Allows patrons to create automatic holds from purchase requests | This function is not currently available as further development of this feature is required. | True/False | Sitka Support |
 | Default circulation modifier | Enter the circulation modifier that you would be like to be applied to items that are created in the Acquisitions Module if no circulation modifier is specified. | Selection List | LSA and Acq Admin |
 | Default copy location | Select the copy location that you would like to be applied to items that are created in the Acquisitions Module if no copy location is specified. | Selection List | LSA and Acq Admin |
+| Default owning library for auto-created line item items | The default owning library 
+to set when line item items are auto-created because the provider's default copy 
+count has been set. This applies if the "How to set default owning library 
+for auto-created line item items" setting is set to "use_setting". | Org Unit | 
+LSA and Acq Admin |
 | Fund Spending Limit for Block | When the amount remaining in the fund, including spent money and encumbrances, goes below this percentage, attempts to spend from the fund will be blocked. | Number | LSA and Acq Admin |
-| Fund Spending Limit for Warning | When the amount remaining in the fund, including spent money and encumbrances, goes below this percentage, attempts to spend from the fund will be blocked. | | LSA and Acq Admin |
+| Fund Spending Limit for Warning | When the amount remaining in the fund, including spent 
+money and encumbrances, goes below this percentage, attempts to spend from the fund will 
+be blocked. | Number | LSA and Acq Admin |
+| How to set default owning library for auto-created line item items | Strategy to use when 
+setting the default owning library for line item items that are auto-created due to the 
+the provider's default copy count being set. Valid values are "workstation" to use the 
+workstation library, "blank" to leave it blank, and "use_setting" to use the "Default 
+owning library for auto-created line item items" setting. If not set, the workstation 
+library will be used. | Text | LSA and Acq Admin |
 | Initial status for received items | Allows staff to designate a custom copy status on received lineitems. | Selection List | LSA and Acq Admin |
 | Rollover Distribution Formulae Funds | When year end processes run the funds specified in distribution formulae roll over to the new fiscal year. | True/False | LSA and Acq Admin |
+| Rollover encumbrances only | This setting controls whether money and encumbrances or just encumbrances are rolled over when performing the Fiscal Year Close-out Operation. | True/false | LSA and Acq Admin |
 | Set copy creator as receiver | When receiving a copy in acquisitions, set the copy "creator" to be the staff that received the copy | True/False | LSA and Acq Admin |
 | Temporary barcode prefix | The temporary barcode prefix must be entered as your library code preceded by the letter A. This prevents conflicts between the libraries using acquisitions. | Text | LSA and Acq Admin |
 | Temporary call number prefix | Enter a temporary call number prefix for items that are created in the Acquisitions Module. | Text | LSA and Acq Admin |
