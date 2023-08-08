@@ -32,7 +32,7 @@ Administration
 * A new permissions controls year end
 * Two new library settings to control which owning library is applied to auto-created line item
 items
-. Library setting controlling what is rolled over at year end renamed to 
+* Library setting controlling what is rolled over at year end renamed to 
 _Rollover encumbrances only_
 * Provider opens in new tab by default
 * Fund drop down in Funds Administration fixed
