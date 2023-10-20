@@ -27,16 +27,14 @@ Load MARC Order Record Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Load MARC Order Record interface is divided into 4 sections:
+
 * xref:_upload_templates[Templates]
 * xref:_load_marc_order_purchase_order[Purchase Order]
 * xref:_load_marc_order_upload_settings[Upload Settings]
 * xref:_load_marc_order_this_upload[This Upload]
 
- 
-Purchase Order
-++++++++++++++
-[[_load_marc_order_purchase_order]]
 
+[[_load_marc_order_purchase_order]]
 .Purchase Order
 [options="header"]
 |===
@@ -56,11 +54,7 @@ order as part of the upload process. | This should NEVER be checked.  Libraries 
 review their purchase orders first to ensure everything is correct before activating them.
 |===
 
-
-Upload Settings
-+++++++++++++++
 [[_load_marc_order_upload_settings]]
-
 .Upload Settings
 [options="header"]
 |===
@@ -82,9 +76,8 @@ one match in the system. | Generally left unchecked.
 |Merge On Best Match | When checked, Evergreen will merge records together using the best 
 match as defined by the match score. | This setting should always be checked.
 |Load Items for Imported Records | When checked, Evergreen will create items in the 
-catalogue if holdings information is included in the MARC records. | This setting 
-MUST be left unchecked. Libraries should wait and have items loaded as part of the 
-activation process.
+catalogue if holdings information is included in the MARC records. | This should NEVER be 
+checked.  Libraries should wait and have items loaded as part of the activation process.
 |===
 
 [NOTE]
@@ -94,8 +87,6 @@ functionality and are similar in look they are used for different purposes.  Lib
 should ensure they follow the recommendations for the specific interface they are using.
 ======
 
-This Upload
-+++++++++++
 [[_load_marc_order_this_upload]]
 
 .This Upload
@@ -105,7 +96,7 @@ This Upload
 |Select or Create a Queue | Here you can enter a new queue name or select an existing queue.
 We recommend creating new queues as needed to ensure they contain a manageable number
 of records in the event that troubleshooting is required.
-File to Upload | Here you select the file of MARC records that you would like to load from
+|File to Upload | Here you select the file of MARC records that you would like to load from
 where it is saved on your computer or shared drive. 
 |===
  
@@ -158,14 +149,20 @@ Import Errors
 (((load MARC order records, acq import error)))
 (((acq import error)))
 
-When loading records via the *Load MARC Order Records* screen you may occassionally encounter 
-the _ACQ IMPORT ERROR_.
+When loading records via the _Load MARC Order Records_ screen you may occassionally 
+encounter an upload error. Evergreen will indicate the cause of the problem in the 
+error message.
 
-This error is usually caused by discrepancies between the holdings information supplied by the vendor 
-in the 970 field of the MARC record and the information in Evergreen.  
+Import errors are usually caused by a mismatch between the holdings information in 
+the 970 field of the MARC file and the information in Evergreen. 
 
-If you update your shelving location names or fund codes in Evergreen make sure to let your vendors know
-about the changes so they can update their templates as well.
+To resolve these errors you must contact your provider with the information to be updated.
+Your provider may supply you with an updated MARC file or you can use a program such as 
+MARC Edit to update the holdings information in the file to match what Evergreen 
+is expecting.
+
+Anytime you update your shelving location names or fund codes in Evergreen you MUST 
+let your providers know about the changes so they can update their templates as well.
 
 Setting Up Load MARC Order Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
