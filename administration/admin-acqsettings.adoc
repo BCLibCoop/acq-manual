@@ -1,15 +1,27 @@
 Acquisitions Settings in the Library Settings Editor
 ----------------------------------------------------
-((library settings)))
+(((library settings)))
 (((administration, library settings)))
 
 
-Several settings in the Library Settings Editor pertain to functions in the Acquisitions Module.
+Several settings in the 
+http://docs.libraries.coop/sitka/_library_settings_editor.html[Library Settings 
+Editor] pertain to functions specific to the 
+Acquisitions Module. They have been grouped into three categories:
 
-You can access these settings by clicking *Administration → Local Administration → Library Settings Editor*. To 
-update these settings a user must have both local system administrator and acquisitions administration permissions.
+* xref:_acquisitions_settings_general[Acquisitions Settings - General]
+* xref:_acquisitions_settings_load_MARC_order_record_defaults[Acquisitions Settings - 
+Load MARC Order Records Defaults]
+* xref:_acquisitions_settings_load_MARC_order_record_defaults_not_in_use[Acquisitions 
+Settings - Load MARC Order Records Defaults Not in Use]
 
-.Acquisitions Settings
+To update these settings go to *Administration → Local Administration → 
+Library Settings Editor*. You must have both local system administrator and 
+acquisitions administration permissions.
+
+
+[[_acquisitions_settings_general]]
+.Acquisitions Settings - General
 [options="header"]
 |===
 | Setting | Description | Data type | Edited by | Notes
@@ -39,20 +51,53 @@ library will be used. | Text | LSA and Acq Admin |
 | Delete bib if all copies are deleted via Acquisitions lineitem cancellation. | This means when a line item is cancelled, if there are no longer copies at any library attached to the bibliographic record, the bibliographic record will be deleted | True/False | Sitka Support | Default TRUE
 |===
 
+[[_acquisitions_settings_load_MARC_order_record_defaults]]
 .Acquisitions Settings - Load MARC Order Records Defaults
 [options="header"]
 |===
+| Setting | Description | Data type | Edited by | Value to be Used
+| Upload Create PO | Create a purchase order by default during ACQ file upload 
+| True/False | LSA and Acq Admin | TRUE
+| Upload Default Match Set | Default match set to use during ACQ file upload 
+| Selection List | LSA and Acq Admin | SitkaMatch
+| Upload Default Merge Profile | Default merge profile to use during ACQ file 
+upload | Selection List | LSA and Acq Admin | Merge Using EXISTING Record
+| Upload Import Non Matching by Default | Import non-matching records by default 
+during ACQ file upload | True/False | LSA and Acq Admin | TRUE
+| Upload Merge on Best Match by Default | Merge records on best match by default 
+during ACQ file upload | True/False | LSA and Acq Admin | TRUE
+|===
+
+[NOTE]
+======
+The below settings are not used in Sitka's Evergreen either due to our requirements
+for loading brief on order records or because the setting causes significant 
+issues when used.
+======
+
+[[_acquisitions_settings_load_MARC_order_record_defaults_not_in_use]]
+.Acquisitions Settings - Load MARC Order Records Defaults Not in Use
+[options="header"]
+|===
 | Setting | Description | Data type | Edited by | Notes
-| Upload Activate PO | Activate the purchase order by default during ACQ file upload | True/False | LSA and Acq Admin |
-| Upload Create PO | Create a purchase order by default during ACQ file upload | True/False | LSA and Acq Admin |
-| Upload Default Insufficient Quality Fall-Thru Profile | Default low-quality fall through profile used during ACQ file upload | Selection List | LSA and Acq Admin | Quality Fall-Thru Profiles are not currently set up in the system.
-| Upload Default Match Set | Default match set to use during ACQ file upload | Selection List | LSA and Acq Admin |
-| Upload Default Merge Profile | Default merge profile to use during ACQ file upload | Selection List | LSA and Acq Admin |
-| Upload Default Min. Quality Ratio | Default minimum quality ratio used during ACQ file upload | Number | LSA and Acq Admin | Minimum quality ratios are not currently set up in the system.
-| Upload Default Provider | Default provider to use during ACQ file upload | Text | LSA and Acq Admin |
-| Upload Import Non Matching by Default | Import non-matching records by default during ACQ file upload | True/False | LSA and Acq Admin |
-| Upload Load Items for Imported Records by Default | Load items for imported records by default during ACQ file upload | True/False | LSA and Acq Admin |
-| Upload Merge on Best Match by Default | Merge records on best match by default during ACQ file upload | True/False | LSA and Acq Admin |
-| Upload Merge on Exact Match by Default | Merge records on exact match by default during ACQ file upload | True/False | LSA and Acq Admin |
-| Upload Merge on Single Match by Default | Merge records on single match by default during ACQ file upload | True/False | LSA and Acq Admin |
+| Upload Activate PO | Activate the purchase order by default during ACQ file 
+upload | True/False | Sitka | Not used as libraries should always double check their
+purchase orders before activating.
+| Upload Default Insufficient Quality Fall-Thru Profile | Default low-quality 
+fall through profile used during ACQ file upload | Selection List | Sitka  
+| This is not currently used by Sitka.
+| Upload Default Min. Quality Ratio | Default minimum quality ratio used during 
+ACQ file upload | Number | Sitka | This is not currently used by Sitka.
+| Upload Default Provider | Default provider to use during ACQ file upload | 
+Text | Sitka | Not used as libraries should be required to set the provider or
+select the approriate template to ensure the purchase order is created for the 
+correct provider.
+| Upload Load Items for Imported Records by Default | Load items for imported 
+records by default during ACQ file upload | True/False | Sitka | Not used as 
+it creates items in the catalogue for purchase orders that may never be activated and
+those items must be manually deleted by library staff.
+| Upload Merge on Exact Match by Default | Merge records on exact match by default 
+during ACQ file upload | True/False | Sitka | Not used for brief on order records.
+| Upload Merge on Single Match by Default | Merge records on single match by default 
+during ACQ file upload | True/False | Sitka | Not used for brief on order records.
 |===

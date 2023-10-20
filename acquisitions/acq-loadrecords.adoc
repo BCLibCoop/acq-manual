@@ -196,10 +196,14 @@ Default Upload Settings
 (((load MARC order records, default upload settings)))
 (((default upload settings)))
 
-Your local system administrator with acquisitions administrator permissions can set 
-default upload values by modifying the following settings in the Library Settings Editor.
+Evergreen can apply default values to certain fields in the Load MARC Order Records
+interface through library settings.
 
+Your local system administrator with acquisitions administrator permissions can edit
+the relevant settings.  See xref:_acquisitions_settings_load_MARC_order_record_defaults[]
+for a list of the settings and the required values to use.
 
+////
 Go to *Administration* -> *Local Administration* -> *Library Settings Editor*
 
 .Recommended Settings
@@ -227,4 +231,4 @@ If the above default settings are not implemented, the selections/values used
 during upload will be sticky and will automatically populate the fields the next 
 time the *Load MARC Order Records* screen is pulled up.
 ======
-
+////
