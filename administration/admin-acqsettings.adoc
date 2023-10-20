@@ -81,16 +81,16 @@ issues when used.
 |===
 | Setting | Description | Data type | Edited by | Notes
 | Upload Activate PO | Activate the purchase order by default during ACQ file 
-upload | True/False | Sitka | Not used as libraries should always double check their
-purchase orders before activating.
+upload | True/False | Sitka | Not used as staff should always double check 
+purchase orders before activating them.
 | Upload Default Insufficient Quality Fall-Thru Profile | Default low-quality 
 fall through profile used during ACQ file upload | Selection List | Sitka  
 | This is not currently used by Sitka.
 | Upload Default Min. Quality Ratio | Default minimum quality ratio used during 
 ACQ file upload | Number | Sitka | This is not currently used by Sitka.
 | Upload Default Provider | Default provider to use during ACQ file upload | 
-Text | Sitka | Not used as libraries should be required to set the provider or
-select the approriate template to ensure the purchase order is created for the 
+Text | Sitka | Not used as staff need to set the provider or
+select the appropriate template to ensure the purchase order is created for the 
 correct provider.
 | Upload Load Items for Imported Records by Default | Load items for imported 
 records by default during ACQ file upload | True/False | Sitka | Not used as 
