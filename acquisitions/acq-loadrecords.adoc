@@ -1,11 +1,23 @@
-Load MARC Order Records
------------------------
+Loading MARC Order Records
+--------------------------
 (((load MARC order records)))
 
-Use the Acquisitions *Load MARC Order Record* screen to add MARC records to selection lists or purchase orders and upload records into the catalog.  When *Load MARC Order Records* is used in conjunction with a holding tag and subfield information copies can be created during upload. See Holding Subfields for information on setting up holding tags and subfields.
+Use the Acquisitions _Load MARC Order Record_ screen to add MARC records to selection 
+lists or purchase orders and upload records into the catalog.  When 
+_Load MARC Order Records_ is used in conjunction with a holding tag and 
+subfield information copies can be created during upload. See 
+Holding Subfields for information on setting up holding tags and subfields.
 
-.Upload MARC Order Records
-. Click *Acquisitions* -> *Load MARC Order Records*.
+Uploading MARC Order Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Purchase Orders
+^^^^^^^^^^^^^^^
+[[_uploading_marc_order_records_purchase_order]]
+
+
+
+. Go to *Acquisitions* -> *Load MARC Order Records*.
 . Check *Create Purchase Order*.
 .. If you want to upload the records to a selection list instead, you can select a list
 from the drop down menu, or type in the name of the selection list that you
@@ -47,8 +59,30 @@ will load them as acquisitions copies.
 .Load MARC Order Records recommended settings for upload
 image::images/acquisitions/uploadmarc.png[]
 
+
+Selection Lists
+^^^^^^^^^^^^^^^
+[[_uploading_marc_order_records_selection_lists]]
+
+Acq Import Error
+~~~~~~~~~~~~~~~~
+(((load MARC order records, acq import error)))
+(((acq import error)))
+
+When loading records via the *Load MARC Order Records* screen you may occassionally encounter 
+the _ACQ IMPORT ERROR_.
+
+This error is usually caused by discrepancies between the holdings information supplied by the vendor 
+in the 970 field of the MARC record and the information in Evergreen.  
+
+If you update your shelving location names or fund codes in Evergreen make sure to let your vendors know
+about the changes so they can update their templates as well.
+
+Setting Up Load MARC Order Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Default Upload Settings
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
 (((load MARC order records, default upload settings)))
 (((default upload settings)))
 
@@ -76,16 +110,5 @@ You can set default upload values by modifying the following settings in
 
 NOTE: If the above default settings are not implemented, the selections/values used during upload will be sticky and will automatically populate the fields the next time the *Load MARC Order Records* screen is pulled up.
 
-Acq Import Error
-~~~~~~~~~~~~~~~~
-(((load MARC order records, acq import error)))
-(((acq import error)))
-
-When loading records via the *Load MARC Order Records* screen you may occassionally encounter 
-the _ACQ IMPORT ERROR_.
-
-This error is usually caused by discrepancies between the holdings information supplied by the vendor 
-in the 970 field of the MARC record and the information in Evergreen.  
-
-If you update your shelving location names or fund codes in Evergreen make sure to let your vendors know
-about the changes so they can update their templates as well.
+Upload Templates
+^^^^^^^^^^^^^^^^
