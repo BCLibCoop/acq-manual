@@ -18,7 +18,13 @@ Purchase Orders
 You can load a file of brief on order MARC records to create a purchase order.
 
 . Go to *Acquisitions* -> *Load MARC Order Records*.
-. If you have 
+. Apply the appropriate xref:_upload_templates[template] or fill in the fields.
+. Select or create a queue for the upload.
+. Select the file to be uploaded.
+. Click *Upload*
++
+image::images/acquisitions/load-marc-order/upload-marc-po-1.png[]
+ 
 . Check *Create Purchase Order*.
 .. If you want to upload the records to a selection list instead, you can select a list
 from the drop down menu, or type in the name of the selection list that you
@@ -69,8 +75,8 @@ You can load a file of brief on order MARC records to create or add to a selecti
 
 
 
-Acq Import Error
-~~~~~~~~~~~~~~~~
+Import Errors
+^^^^^^^^^^^^^
 (((load MARC order records, acq import error)))
 (((acq import error)))
 
@@ -85,8 +91,6 @@ about the changes so they can update their templates as well.
 
 Setting Up Load MARC Order Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 Default Upload Settings
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -123,5 +127,6 @@ If the above default settings are not implemented, the selections/values used
 during upload will be sticky and will automatically populate the fields the next 
 time the *Load MARC Order Records* screen is pulled up.
 
-Upload Templates
-^^^^^^^^^^^^^^^^
+Templates
+^^^^^^^^^
+[[_upload_templates]]
