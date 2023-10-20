@@ -167,13 +167,36 @@ let your providers know about the changes so they can update their templates as 
 Setting Up Load MARC Order Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Templates
+^^^^^^^^^
+[[_upload_templates]]
+
+Upload templates allow you to set up templates with pre-selected values for the Load
+MARC Order Records and save them for your workstation.  Templates help to ensure the 
+correct fields are entered for different providers while reducing the amount 
+of data entry required.
+
+. Go to *Acquisitions* -> *Load MARC Order Records*.
+. Select the enter the relevant values for the fields. See 
+xref:_load_marc_order_record_fields[] for information on specific fields.
+. In the _Apply/Create Form Template_ field enter a name for your template.
+. Click *Save Template*.
++
+image::images/acquisitions/load-marc-order/load-marc-order-templates-1.png[]
++
+. Repeat as needed to create additional templates.
+. If you have provider you primarily use you can set the template for them to 
+be your default by selecting the template and clicking *Mark Template as Default*.
+
+
+
 Default Upload Settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 (((load MARC order records, default upload settings)))
 (((default upload settings)))
 
-Your local system administrator can set default upload values by modifying the 
-following settings in the Library Settings Editor.
+Your local system administrator with acquisitions administrator permissions can set 
+default upload values by modifying the following settings in the Library Settings Editor.
 
 
 Go to *Administration* -> *Local Administration* -> *Library Settings Editor*
@@ -202,6 +225,4 @@ If the above default settings are not implemented, the selections/values used
 during upload will be sticky and will automatically populate the fields the next 
 time the *Load MARC Order Records* screen is pulled up.
 
-Templates
-^^^^^^^^^
-[[_upload_templates]]
+
