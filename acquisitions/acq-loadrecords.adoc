@@ -27,10 +27,10 @@ Load MARC Order Record Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Load MARC Order Record interface is divided into 4 sections:
-* Templates
-* Purchase Order
-* Upload Settings
-* This Upload
+* xref:_upload_templates[Templates]
+* xref:_load_marc_order_purchase_order[Purchase Order]
+* xref:_load_marc_order_upload_settings[Upload Settings]
+* xref:_load_marc_order_this_upload[This Upload]
 
  
 Purchase Order
