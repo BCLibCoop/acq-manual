@@ -187,7 +187,8 @@ image::images/acquisitions/load-marc-order/load-marc-order-templates-1.png[]
 . Repeat as needed to create additional templates.
 . If you have provider you primarily use you can set the template for them to 
 be your default by selecting the template and clicking *Mark Template as Default*.
-
++
+image::images/acquisitions/load-marc-order/load-marc-order-templates-2.png[]
 
 
 Default Upload Settings
