@@ -14,7 +14,7 @@ Workflow: Order Shelf Ready Items
 
 .Order
 . Upload the MARC record file downloaded from the provider's website.
-.. Refer to xref:_load_marc_order_records[] for details.
+.. Refer to xref:_loading_marc_order_records[] for details.
 . View Purchase Order
 .. When your Purchase Order has finished loading, click *View Purchase Order*.
 .. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading do NOT start the upload again.
