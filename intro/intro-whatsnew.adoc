@@ -11,7 +11,9 @@ Ordering
 ~~~~~~~~
 
 * Purchase order and line items have been angularized
-* Load MARC Order Records interface has been angularized
+* The xref:_loading_marc_order_records[Load MARC Order Records] interface has been angularized.
+* The ability to create and use xref:_upload_templates[templates]has been added in 
+the xref:_loading_marc_order_records[Load MARC Order Records] interface.
 * Selection lists interface has been angularized.
 * Line item table has be sorted and filtered
 * Line item loading progress bar has moved to the summary area
