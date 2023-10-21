@@ -8,7 +8,7 @@ Via a New Selection List
 +
 image::images/acquisitions/creating-selection-lists/create-new-selection-list-1.png[]
 +
-. Enter a name for your selection list and click *Create*.
+. In the pop-up that appears enter a name for your selection list and click *Create*.
 +
 image::images/acquisitions/creating-selection-lists/create-new-selection-list-2.png[]
 +
