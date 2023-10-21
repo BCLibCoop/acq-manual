@@ -11,7 +11,8 @@ You can load a file of brief on order MARC records to create a purchase order.
 . Click *Upload*
 +
 image::images/acquisitions/load-marc-order/upload-marc-po-1.png[]
- 
++
+. See xref:_activating_purchase_orders[]. 
 
 Load MARC Order Record Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
