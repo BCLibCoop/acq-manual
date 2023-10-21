@@ -1,6 +1,6 @@
 Via Load MARC Order Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[[_po_via_load_marc_order_records]]
+[[_sl_via_load_marc_order_records]]
 
 You can load a file of brief on order MARC records to create a purchase order.
 
@@ -10,9 +10,9 @@ You can load a file of brief on order MARC records to create a purchase order.
 . Select the file to be uploaded.
 . Click *Upload*
 +
-image::images/acquisitions/load-marc-order/upload-marc-po-1.png[]
- 
+image::images/acquisitions/creating-selection-lists/upload-marc-sl-1.png[]
 
+////
 Load MARC Order Record Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -91,50 +91,6 @@ of records in the event that troubleshooting is required.
 where it is saved on your computer or shared drive. 
 |===
  
-//// 
-. Check *Create Purchase Order*.
-.. If you want to upload the records to a selection list instead, you can select a list
-from the drop down menu, or type in the name of the selection list that you
-want to create.
-. Do not check Activate Purchase Order.
-. Enter the name of the *Provider*. The text will auto-complete.
-. Select a *Context Org Unit* from the drop down menu.
-. Select a *Fiscal Year* from the drop down menu that matches the fiscal year
-of the funds that will be used for the order.
-.. If no fiscal year is selected, the system will use the organizational unit's default fiscal year stored in the
-database. If no fiscal year is set, the system will default to the current calendar year.
-. Create a queue to which you can upload your records, or add you records to an existing queue
-. Select a *Record Match Set* from the drop-down menu.
-.. Choose *Sitka Match*
-. Select a *Merge Profile.* Merge profiles enable you to specify which tags
-should be removed or preserved in incoming records.
-.. Choose *Merge Using EXISTING Record*
-. Select a *Record Source* from the drop-down menu.
-. If you want to automatically import records on upload, select one or more of
-the following options.
-  .. Import Non-Matching Records - import any records that don't have a match
-  in the system.
-  .. Merge on Exact Match (901c) - use only for records that will match on
-  the 901c field.
-  .. Merge on Single Match - import records that only have one match in the
-  system.
-  .. Merge on Best Match - If more than one match is found in the catalog for
-  a given record, Evergreen will attempt to perform the best match as defined
-  by the match score.
-. Best/Single Match Minimum Quality Ratio. (Optional)
-. Insufficient Quality Fall-Through Profile. (Optional)
-. *Do not check* Load Items for Imported Records.
-.. If your order records contain holdings information, by default, Evergreen
-will load them as acquisitions copies.
-... If Load Items for Imported Records is *checked* copies will be created in the catalogue during upload.
-... If Load Items for Imported Records is *not checked* copies will be created in the catalogue when the order is activated.
-. Click *Upload*
-
-.Load MARC Order Records recommended settings for upload
-image::images/acquisitions/uploadmarc.png[]
-////
-
-
 Import Errors
 ^^^^^^^^^^^^^
 (((load MARC order records, acq import error)))
@@ -194,32 +150,4 @@ Your local system administrator with acquisitions administrator permissions can 
 the relevant settings.  See xref:_acquisitions_settings_load_MARC_order_record_defaults[]
 for a list of the settings and the required values to use.
 
-////
-Go to *Administration* -> *Local Administration* -> *Library Settings Editor*
-
-.Recommended Settings
-* Upload Create PO
-** True
-* Upload Default Match Set
-** SitkaMatch
-* Upload Default Merge Profile
-** Merge Using EXISTING Record
-* Upload Merge on Best Match by Default
-** True
-
-.Do not Set values for these settings
-* Upload Activate PO
-* Upload Default Provider
-* Upload Load Items for Imported Records by Default
-* Upload Upload Default Min. Quality Ratio
-* Upload Default Insufficient Quality Fall-Thru Profile
-* Upload Merge on Exact Match by Default
-* Upload Merge on Single Match by Default
-
-[NOTE]
-====== 
-If the above default settings are not implemented, the selections/values used 
-during upload will be sticky and will automatically populate the fields the next 
-time the *Load MARC Order Records* screen is pulled up.
-======
 ////
