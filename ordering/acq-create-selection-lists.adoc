@@ -26,7 +26,7 @@ include::create-selection-lists/sl-marc-federated.adoc[]
 include::create-selection-lists/sl-load-catalog-id.adoc[]
 
 
-
+////
 
 
 Selection lists allow you to create, manage, and save lists of items that you may want to purchase.
@@ -92,3 +92,4 @@ NOTE: Cloning selection lists enables you to copy one selection list into a new 
 . Click *Delete Selected*.
 
 NOTE: You must delete all line items from a selection list before you can delete the list.
+////
