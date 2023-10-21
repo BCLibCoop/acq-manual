@@ -1,0 +1,14 @@
+Via View/Place Order
+~~~~~~~~~~~~~~~~~~~~
+[[_po_via_view_place_order]]
+
+(((view/place order)))
+(((place order, staff catalogue)))
+(((purchase orders, view/place order)))
+
+anchor:view-place-order[View/Place Order]
+
+.View/Place Orders to order an additional copy of an item that is already in the catalogue.
+. Open the bibliographic record of the title you wish to purchase.
+. Click *Other Actions* -> *View/Place Orders*
+. Click *Add to Selection List*, *Add to Purchase Order* or *Create a Purchase Order*

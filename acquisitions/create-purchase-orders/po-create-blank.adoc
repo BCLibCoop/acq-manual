@@ -1,5 +1,5 @@
-Creating a Blank Purchase Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Via a Blank Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((purchase orders, create)))
 
 .Create a Blank Purchase Order

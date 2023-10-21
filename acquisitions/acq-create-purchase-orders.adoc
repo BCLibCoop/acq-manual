@@ -2,6 +2,14 @@ Creating Purchase Orders
 ------------------------
 (((purchase orders)))
 
-include::create-purchase-orders/acq-create-blank-po.adoc[]
+include::create-purchase-orders/po-create-blank.adoc[]
 
-include::create-purchase-orders/acq-upload-records.adoc[]
+include::create-purchase-orders/po-upload-records.adoc[]
+
+include::create-purchase-orders/po-view-place-order.adoc[]
+
+include::create-purchase-orders/po-selection-list.adoc[]
+
+include::create-purchase-orders/po-marc-federated.adoc[]
+
+include::create-purchase-orders/po-load-catalog-id.adoc[]
