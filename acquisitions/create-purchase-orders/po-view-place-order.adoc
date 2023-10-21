@@ -6,7 +6,8 @@ Via View/Place Orders
 (((place order, staff catalogue)))
 (((purchase orders, view/place order)))
 
-View/Place Orders to order an additional copy of an item that is already in the catalogue.
+The View/Place Order function is useful for ordering additional copies of a title
+that is already in the catalogue.
 
 . Search the Sitka catalogue to find the title you wish to purchase.  See 
 http://docs.libraries.coop/sitka/_searching_the_database_for_cataloguing_purposes.html[Searching
@@ -37,5 +38,8 @@ as part of activiatig the purchase order.
 image::images/acquisitions/view-place-order/view-place-order-po-3.png[]
 +
 . The purchase order is created. 
++
+image::images/acquisitions/view-place-order/view-place-order-po-4.png[]
++
 . See SECTION to add additional line items or see SECTION for working with the purchase order.
 
