@@ -27,7 +27,10 @@ include::acquisitions/acq-search.adoc[]
 
 Ordering
 ========
+
+////
 include::acquisitions/acq-selectionlist.adoc[]
+////
 
 include::ordering/acq-create-selection-lists.adoc[]
 
@@ -41,17 +44,19 @@ include::ordering/acq-adding-line-items-purchase-orders.adoc[]
 
 include::ordering/acq-working-purchase-order.adoc[]
 
+include::ordering/acq-working-line-items.adoc[]
+
 ////
 include::acquisitions/acq-loadrecords.adoc[L]
 
 include::acquisitions/acq-federated-search.adoc[]
 
 include::acquisitions/acq-load-cataloguerecordid.adoc[]
-////
 
 include::acquisitions/acq-purchaseorder.adoc[]
 
 include::acquisitions/acq-lineitems.adoc[]
+////
 
 Receiving and Invoicing
 =======================
