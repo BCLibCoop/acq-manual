@@ -1,0 +1,225 @@
+Via Loading MARC Order Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can load a file of brief on order MARC records to create a purchase order or
+create or add to a selection.
+
+. Go to *Acquisitions* -> *Load MARC Order Records*.
+. Apply the appropriate xref:_upload_templates[template] or fill in the fields.
+. Select or create a queue for the upload.
+. Select the file to be uploaded.
+. Click *Upload*
++
+image::images/acquisitions/load-marc-order/upload-marc-po-1.png[]
+ 
+
+Load MARC Order Record Fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+The Load MARC Order Record interface is divided into 4 sections:
+
+* xref:_upload_templates[Templates]
+* xref:_load_marc_order_purchase_order[Purchase Order]
+* xref:_load_marc_order_upload_settings[Upload Settings]
+* xref:_load_marc_order_this_upload[This Upload]
+
+
+[[_load_marc_order_purchase_order]]
+.Purchase Order
+[options="header"]
+|===
+|Field | Description | Recommended Value
+|Provider | The provider the records are coming from | Depends on who the order comes from.
+|Ordering Agency | The organizational unit from which you do ordering. | This is your 
+library. Multi-branch libraries may select their system or a specific branch.
+|Fiscal Year | The year from which the funds should be used to populate the purchase order. 
+| This is the current calendar year for libraries with a January to December fiscal year. 
+Libraries with other fiscal years may use previous or future calendar years.
+|Add to Selection Lists | Allows you to create a new selection list or pick an existing one. 
+|Use this field if you want to load your line items to a selection list.
+|Create Purchase Order | When checked, Evergreen will create a purchase order as part of the
+upload process. | This should always be checked unless your library uses selection lists.
+|Activate Purchase Order | When checked, Evergreen will attempt to activate the purchase 
+order as part of the upload process. | This should NEVER be checked.  Libraries should 
+review their purchase orders first to ensure everything is correct before activating them.
+|===
+
+[[_load_marc_order_upload_settings]]
+.Upload Settings
+[options="header"]
+|===
+|Field | Description | Recommended Value
+|Record Source | This is recorded in the catalogue record to indicate who the
+records came from. | Depends on who the provider is.
+|Record Match Set | Evergreen will use this to determine whether records in your file 
+match existing records in the Sitka catalogue. | Always use _SitkaMatch_.
+|Merge Profile | Evergreen will use this to determine how to merge matches together. 
+| For brief on order records you MUST always use _Merge Using EXISTING Record_.
+|Insufficient Quality Fall-Through Profile | This is not currently used by Sitka. |
+|Best/Single Match Minimum Quality Ratio | This is not currently used by Sitka. |
+|Import Non-Matching Records | When checked, Evergreen will automatically import records
+that do not match existing records. | This setting should always be checked.
+|Merge On Exact Match (901c) | When checked, Evergreen will only merge records if the values
+in the 901 $c field match. | Generally left unchecked.
+|Merge On Single Match | When checked, Evergreen will import records that only have 
+one match in the system. | Generally left unchecked.
+|Merge On Best Match | When checked, Evergreen will merge records together using the best 
+match as defined by the match score. | This setting should always be checked.
+|Load Items for Imported Records | When checked, Evergreen will create items in the 
+catalogue if holdings information is included in the MARC records. | This should NEVER be 
+checked.  Libraries should wait and have items loaded as part of the activation process.
+|===
+
+[NOTE]
+======
+While the Load MARC Order Records and MARC Batch Import/Export interfaces share significant
+functionality and are similar in look they are used for different purposes.  Libraries
+should ensure they follow the recommendations for the specific interface they are using.
+======
+
+[[_load_marc_order_this_upload]]
+
+.This Upload
+[options="header"]
+|===
+|Field | Description 
+|Select or Create a Queue | Here you can enter a new queue name or select an existing queue.
+We recommend creating new queues as needed to ensure they contain a manageable number
+of records in the event that troubleshooting is required.
+|File to Upload | Here you select the file of MARC records that you would like to load from
+where it is saved on your computer or shared drive. 
+|===
+ 
+//// 
+. Check *Create Purchase Order*.
+.. If you want to upload the records to a selection list instead, you can select a list
+from the drop down menu, or type in the name of the selection list that you
+want to create.
+. Do not check Activate Purchase Order.
+. Enter the name of the *Provider*. The text will auto-complete.
+. Select a *Context Org Unit* from the drop down menu.
+. Select a *Fiscal Year* from the drop down menu that matches the fiscal year
+of the funds that will be used for the order.
+.. If no fiscal year is selected, the system will use the organizational unit's default fiscal year stored in the
+database. If no fiscal year is set, the system will default to the current calendar year.
+. Create a queue to which you can upload your records, or add you records to an existing queue
+. Select a *Record Match Set* from the drop-down menu.
+.. Choose *Sitka Match*
+. Select a *Merge Profile.* Merge profiles enable you to specify which tags
+should be removed or preserved in incoming records.
+.. Choose *Merge Using EXISTING Record*
+. Select a *Record Source* from the drop-down menu.
+. If you want to automatically import records on upload, select one or more of
+the following options.
+  .. Import Non-Matching Records - import any records that don't have a match
+  in the system.
+  .. Merge on Exact Match (901c) - use only for records that will match on
+  the 901c field.
+  .. Merge on Single Match - import records that only have one match in the
+  system.
+  .. Merge on Best Match - If more than one match is found in the catalog for
+  a given record, Evergreen will attempt to perform the best match as defined
+  by the match score.
+. Best/Single Match Minimum Quality Ratio. (Optional)
+. Insufficient Quality Fall-Through Profile. (Optional)
+. *Do not check* Load Items for Imported Records.
+.. If your order records contain holdings information, by default, Evergreen
+will load them as acquisitions copies.
+... If Load Items for Imported Records is *checked* copies will be created in the catalogue during upload.
+... If Load Items for Imported Records is *not checked* copies will be created in the catalogue when the order is activated.
+. Click *Upload*
+
+.Load MARC Order Records recommended settings for upload
+image::images/acquisitions/uploadmarc.png[]
+////
+
+
+Import Errors
+^^^^^^^^^^^^^
+(((load MARC order records, acq import error)))
+(((acq import error)))
+
+When loading records via the _Load MARC Order Records_ screen you may occassionally 
+encounter an upload error. Evergreen will indicate the cause of the problem in the 
+error message.
+
+Import errors are usually caused by a mismatch between the holdings information in 
+the 970 field of the MARC file and the information in Evergreen. 
+
+To resolve these errors you must contact your provider with the information to be updated.
+Your provider may supply you with an updated MARC file or you can use a program such as 
+MARC Edit to update the holdings information in the file to match what Evergreen 
+is expecting.
+
+Anytime you update your shelving location names or fund codes in Evergreen you MUST 
+let your providers know about the changes so they can update their templates as well.
+
+Setting Up Load MARC Order Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Templates
+^^^^^^^^^
+[[_upload_templates]]
+
+Upload templates allow you to set up templates with pre-selected values for the Load
+MARC Order Records and save them for your workstation.  Templates help to ensure the 
+correct fields are entered for different providers while reducing the amount 
+of data entry required.
+
+. Go to *Acquisitions* -> *Load MARC Order Records*.
+. Select the enter the relevant values for the fields. See 
+xref:_load_marc_order_record_fields[] for information on specific fields.
+. In the _Apply/Create Form Template_ field enter a name for your template.
+. Click *Save Template*.
++
+image::images/acquisitions/load-marc-order/load-marc-order-templates-1.png[]
++
+. Repeat as needed to create additional templates.
+. If you have provider you primarily use you can set the template for them to 
+be your default by selecting the template and clicking *Mark Template as Default*.
++
+image::images/acquisitions/load-marc-order/load-marc-order-templates-2.png[]
+
+
+Default Upload Settings
+^^^^^^^^^^^^^^^^^^^^^^^
+(((load MARC order records, default upload settings)))
+(((default upload settings)))
+
+Evergreen can apply default values to certain fields in the Load MARC Order Records
+interface through library settings.
+
+Your local system administrator with acquisitions administrator permissions can edit
+the relevant settings.  See xref:_acquisitions_settings_load_MARC_order_record_defaults[]
+for a list of the settings and the required values to use.
+
+////
+Go to *Administration* -> *Local Administration* -> *Library Settings Editor*
+
+.Recommended Settings
+* Upload Create PO
+** True
+* Upload Default Match Set
+** SitkaMatch
+* Upload Default Merge Profile
+** Merge Using EXISTING Record
+* Upload Merge on Best Match by Default
+** True
+
+.Do not Set values for these settings
+* Upload Activate PO
+* Upload Default Provider
+* Upload Load Items for Imported Records by Default
+* Upload Upload Default Min. Quality Ratio
+* Upload Default Insufficient Quality Fall-Thru Profile
+* Upload Merge on Exact Match by Default
+* Upload Merge on Single Match by Default
+
+[NOTE]
+====== 
+If the above default settings are not implemented, the selections/values used 
+during upload will be sticky and will automatically populate the fields the next 
+time the *Load MARC Order Records* screen is pulled up.
+======
+////

@@ -1,0 +1,7 @@
+Creating Purchase Orders
+------------------------
+(((purchase orders)))
+
+include::create-purchase-orders/acq-create-blank-po.adoc[]
+
+include::create-purchase-orders/acq-upload-records.adoc[]
