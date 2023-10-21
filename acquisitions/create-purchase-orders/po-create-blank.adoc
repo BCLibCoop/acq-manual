@@ -12,12 +12,12 @@ the naming of purchase orders.
 .. If you do not enter a name the purchase order ID will be used.
 .. You can change the name to any grouping of letters or numbers as determined by your library's policies.
 .. You can reuse purchase order names as long as a name is never used twice in the same year.
-. Choose your provider from the drop dow menu.
-. If prepayement is required, check the box for *Prepayment Required*.
+. Choose your provider from the drop down menu.
+. If prepayment is required, check the box for *Prepayment Required*.
+. Click *Create*
 +
 image::images/acquisitions/blank-purchase-order/create-blank-po-1.png[]
 +
-. Click *Create*
 . The purchase order is created.
 +
 image::images/acquisitions/blank-purchase-order/create-blank-po-2.png[]
