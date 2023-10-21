@@ -2,8 +2,19 @@ Via a New Selection List
 ~~~~~~~~~~~~~~~~~~~~~~~~
 [[_sl_via_a_blank_selection_list]]
 
-.Create a Selection List
-. Click *Acquisitions* -> *My Selection Lists*.
-. Click the New Selection List drop down arrow.
-. Enter the name of the selection list in the box that appears.
-. Click *Create*.
+. Go to *Acquisitions* -> *Selection Lists*.
+. The _Acquisitions Search_ will open to the _Selection Lists Search_ tab.
+. Click *New Selection List*.
++
+image::images/acquisitions/creating-selection-lists/create-new-selection-list-1.png[]
++
+. Enter a name for your selection list and click *Create*.
++
+image::images/acquisitions/creating-selection-lists/create-new-selection-list-2.png[]
++
+. The new selection list will display in the list.
++
+image::images/acquisitions/creating-selection-lists/create-new-selection-list-3.png[]
++
+. Click the selection list name to open it
+. See xref:_adding_line_items_to_selection_lists[].

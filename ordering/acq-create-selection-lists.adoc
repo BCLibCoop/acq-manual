@@ -8,6 +8,12 @@ Creating Selection Lists
 
 anchor:selection[selection list]
 
+Selection lists allow multiple staff to select titles which can then be reviewed before
+they are submitted for purchase.
+
+Some libraries may choose not to use selection lists and instead start their ordering
+process with xref:_creating_purchase_orders[purchase orders].
+
 
 include::create-selection-lists/sl-create-blank.adoc[]
 
