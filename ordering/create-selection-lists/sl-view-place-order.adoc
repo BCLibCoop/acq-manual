@@ -1,6 +1,6 @@
 Via View/Place Orders
 ~~~~~~~~~~~~~~~~~~~~~
-[[_po_via_view_place_order]]
+[[_sl_via_view_place_order]]
 
 (((view/place order)))
 (((place order, staff catalogue)))
@@ -20,26 +20,16 @@ image::images/acquisitions/view-place-order/view-place-order-po-1.png[]
 . Any line items already associated with the bibliographic record will be listed.
 . Click *Create Purchase Order*
 +
-image::images/acquisitions/view-place-order/view-place-order-po-2.png[]
+image::images/acquisitions/creating-selection-lists/view-place-order-sl-2.png[]
 +
-. Choose your library from the *Ordering Agency* drop down menu. The Ordering Agency
-for multi-branch libraries is often the system rather than specific branches.
-. If desired, enter a purchase order name. Your providers may have requirements for 
-the naming of purchase orders.
-.. If you do not enter a name the purchase order ID will be used.
-.. You can change the name to any grouping of letters or numbers as determined by your library's policies.
-.. You can reuse purchase order names as long as a name is never used twice in the same year.
-. Choose your provider from the drop down menu.
-. If prepayment is required, check the box for *Prepayment Required*.
-. Do NOT check the box for _Import Bibs and Create Copied_.  This should be done
-as part of activiatig the purchase order.
-. Click *Create*
+. In the pop-up that appears enter a name for your selection list and click *Confirm*.
 +
-image::images/acquisitions/view-place-order/view-place-order-po-3.png[]
+image::images/acquisitions/creating-selection-lists/view-place-order-sl-3.png[]
 +
-. The purchase order is created. 
+. The selection list is created. 
 +
-image::images/acquisitions/view-place-order/view-place-order-po-4.png[]
+image::images/acquisitions/view-place-order/view-place-order-sl-4.png[]
 +
-. See SECTION to add additional line items or see SECTION for working with the purchase order.
+. See xref:_adding_line_items_to_selection_lists[] to add additional line items 
+or see xref:_via_a_selection_list[] for working with the purchase order.
 
