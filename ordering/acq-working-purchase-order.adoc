@@ -3,7 +3,7 @@ Working with Purchase Orders
 
 For creating purchase orders see xref:_creating_purchase_orders[].
 
-For adding line items to purchase orders see SECTION.
+For adding line items to purchase orders see xref:_adding_line_items_to_purchase_orders[].
 
 
 Activating Purchase Orders
