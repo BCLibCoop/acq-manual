@@ -21,6 +21,8 @@ include::create-selection-lists/sl-upload-records.adoc[]
 
 include::create-selection-lists/sl-view-place-order.adoc[]
 
+include::create-selection-lists/sl-brief-record.adoc[]
+
 include::create-selection-lists/sl-marc-federated.adoc[]
 
 include::create-selection-lists/sl-load-catalog-id.adoc[]

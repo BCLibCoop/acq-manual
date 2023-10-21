@@ -1,2 +1,10 @@
 Adding Line Items to Purchase Orders
 ------------------------------------
+
+include::add-line-items-purchase-orders/po-li-add-brief-record.adoc[]
+
+include::add-line-items-purchase-orders/po-li-view-place-order.adoc[]
+
+include::add-line-items-purchase-orders/po-li-load-catalog-id.adoc[]
+
+include::add-line-items-purchase-orders/po-li-marc-federated.adoc[]
