@@ -29,13 +29,17 @@ Ordering
 ========
 include::acquisitions/acq-selectionlist.adoc[]
 
+include::acquisitions/acq-create-selection-lists.adoc[]
+
 include::acquisitions/acq-create-purchase-orders.adoc[]
 
+////
 include::acquisitions/acq-loadrecords.adoc[L]
 
 include::acquisitions/acq-federated-search.adoc[]
 
 include::acquisitions/acq-load-cataloguerecordid.adoc[]
+////
 
 include::acquisitions/acq-purchaseorder.adoc[]
 

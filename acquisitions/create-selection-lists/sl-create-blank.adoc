@@ -1,0 +1,9 @@
+Via a Blank Selection List
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[_sl_via_a_blank_selection_list]]
+
+.Create a Selection List
+. Click *Acquisitions* -> *My Selection Lists*.
+. Click the New Selection List drop down arrow.
+. Enter the name of the selection list in the box that appears.
+. Click *Create*.
