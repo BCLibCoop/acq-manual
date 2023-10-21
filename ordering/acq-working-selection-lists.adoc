@@ -10,7 +10,7 @@ Selection lists allow you to create, manage, and save lists of items that you ma
 
 For creating selection lists see xref:_creating_selection_lists[].
 
-For adding line items to selection lists see SECTION.
+For adding line items to selection lists see xref:_adding_line_items_to_selection_lists[].
 
 Viewing Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~
