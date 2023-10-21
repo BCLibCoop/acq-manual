@@ -18,7 +18,7 @@ the Database for Cataloguing Purposes] for more information.
 image::images/acquisitions/view-place-order/view-place-order-po-1.png[]
 +
 . Any line items already associated with the bibliographic record will be listed.
-. Click *Create Purchase Order*
+. Click *Create Selection List*
 +
 image::images/acquisitions/creating-selection-lists/view-place-order-sl-2.png[]
 +
@@ -28,7 +28,7 @@ image::images/acquisitions/creating-selection-lists/view-place-order-sl-3.png[]
 +
 . The selection list is created. 
 +
-image::images/acquisitions/view-place-order/view-place-order-sl-4.png[]
+image::images/acquisitions/creating-selection-lists/view-place-order-sl-4.png[]
 +
 . See xref:_adding_line_items_to_selection_lists[] to add additional line items 
 or see xref:_via_a_selection_list[] for working with the purchase order.

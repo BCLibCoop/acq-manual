@@ -2,7 +2,7 @@ Via Load MARC Order Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [[_sl_via_load_marc_order_records]]
 
-You can load a file of brief on order MARC records to create a purchase order.
+You can load a file of brief on order MARC records to create a selection list.
 
 . Go to *Acquisitions* -> *Load MARC Order Records*.
 . Apply the appropriate xref:_upload_templates[template] or fill in the fields.
