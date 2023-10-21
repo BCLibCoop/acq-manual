@@ -3,9 +3,15 @@ Via a Brief Record
 [[_po_li_via_brief_record]]
 
 . Go to *Acquisitions -> Purchase Orders*.
-. Search for and find your purchase order.
-. Open your Purchase Order.
+. xref:_purchase_orders_search[Search for] and find your purchase order.
+. Open your purchase order.
 . From the *Actions* menu select *Add Brief Record*.
++
+image::images/acquisitions/adding-line-items-po/add-brief-po-1.png[]
++
 . Enter the appropriate information for your brief record.
 . Click *Add Record*.
++
+image::images/acquisitions/adding-line-items-po/add-brief-po-2.png[]
++
 . A line item is created from your brief record and appears on your purchase order.
