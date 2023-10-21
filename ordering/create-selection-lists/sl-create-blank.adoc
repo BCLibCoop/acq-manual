@@ -1,5 +1,5 @@
-Via a Blank Selection List
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Via a New Selection List
+~~~~~~~~~~~~~~~~~~~~~~~~
 [[_sl_via_a_blank_selection_list]]
 
 .Create a Selection List

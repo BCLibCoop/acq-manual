@@ -1,5 +1,5 @@
-Via a Blank Purchase Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Via Create Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~~~~
 [[_po_via_a_blank_purchase_order]]
 
 (((purchase orders, create)))

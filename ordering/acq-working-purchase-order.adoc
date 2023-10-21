@@ -1,0 +1,119 @@
+Working with Purchase Orders
+----------------------------
+
+For creating purchase orders see xref:_creating_purchase_orders[].
+
+For adding line items to purchase orders see SECTION.
+
+
+Activating Purchase Orders
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((activate, purchase order)))
+(((purchase order, activate)))
+
+Activation Criteria
+^^^^^^^^^^^^^^^^^^^
+
+.Copy
+* Each line must have at least one copy attached to it.
+* If there is no copy the Activate Order? field will read, _Activatable? No: The lineitem has no attached copies (ACQ_LINEITEM_NO_COPIES) (lineitemID)_.
+. Attach a copy to the line item to resolve the issue.
+** Refer to xref:_add_copies_to_a_line_item[] for details.
+** Copies should not be added to line items after a purchase order is activated.
+
+.Owning Branch
+* Each line item must have an Owning Branch.
+* If there is no assigned Owning Branch Activate Order? field will read, _Activatable_. However attempting to Activate the order will result in an error message.
+* Use the Line Item Batch Updater to assign an Owning Branch.
+** Refer to xref:_line_item_batch_updater[] for details.
+
+.Fund
+* Each line item must have funds applied to it.
+* If no funds are applied the Activate Order? field will read, _No: The requested acq. fund was not found (ACQ_FUND_NOT_FOUND)._
+* Apply funds individually or as a batch.
+** The fund(s) used for the purchase order must not have reached its stop level. If the fund is above its stop level the Activate Order? field will read, No; fund [fund name here] would be encumbered beyond its stop level. In this case, more credit must be allocated to the fund or a different fund must be applied to the purchase order.
+** If the fund(s) used for the purchase order have reached its warning level staff will be alerted but are able to continue with activating the purchase order.
+
+.Price
+* Each line item must contain an estimated price.
+* If there is no estimated price the Activate Order? field will read, _No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE)._
+* Enter prices in the estimated price fields.
+
+When the above criteria have been met the *Activate Order* button will appear and you can proceed with the following:
+
+Activate a Purchase Order
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.Activate a Purchase Order
+. Click *Activate Order*.
+. When you activate the order the bibliographic records and copies will be imported into the catalogue using the Vandelay interface, if not previously imported. See xref:_load_marc_order_records[] for instructions on using the Vandelay interface.
+. The funds associated with the purchases will be encumbered.
+
+After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalogue. Once you complete entering in the parameters for the record import interface, the progress screen will appear. This progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
+
+* Lineitems processed
+* Vandelay Records processed
+* Bib Records Merged/Imported
+* ACQ Copies Processed
+* Debits Encumbered
+* Real Copies Processed
+
+CAUTION: There is a known bug which stalls activation on Purchase Orders where the records are not already linked to the catalogue.  If your progress bar freezes at 100% click your browser refresh button and click *Activate Order* for a second time.
+
+Activate Purchase Order Without Loading Items
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((activate without loading items, purchase order)))
+(((purchase order, activate without loading items)))
+
+This function should only be used in situations where the copies have already been added to the catalogue.
+
+* Cleaning up pre-acquisitions backlog
+* Direct purchases that have already been catalogued
+
+.Activate Purchase Order without loading items
+. Click *Activate Without Loading Items*.
+. The funds associated with the purchases will be encumbered.
+
+NOTE: Once the purchase order has been activated without loading items, it is not possible to load the items in Acquisitions.
+
+Purchase Order Actions
+~~~~~~~~~~~~~~~~~~~~~~
+(((purchase orders, actions)))
+(((actions, purchase orders)))
+
+The actions available will depend on the current state.
+
+.Purchase Order in any State
+* Export Single Attribute List
+* Print Purchase Order
+* View PO History
+* Apply Claim Policy to Selected Line Items
+
+.If Purchase Order State is pending
+* Delete Selected Items
+* Add Brief Record
+* Load Bibs and Items
+
+.If Purchase Order State is on-order
+* Cancel Selected Line items
+* Mark Selected Line Items as Received
+* Un-Receive Selected Line Items
+* Create Invoice From Selected Line Items
+* Link Selected Line Items to Invoice
+
+Deleting Purchase Orders
+~~~~~~~~~~~~~~~~~~~~~~~~
+(((purchase orders, delete)))
+(((delete, purchase orders)))
+
+
+Purchase orders cannot be deleted from within the staff client.
+
+Purchase orders that meet all the following criteria are automatically deleted from the database daily.
+
+* The purchase order has the state of *Pending*
+* The purchase order is *empty*, has no line items or charges
+* The purchase order has the word *delete* at the beginning of its name
+
+image::images/working-purchase-order/delete-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+

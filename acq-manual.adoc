@@ -29,9 +29,17 @@ Ordering
 ========
 include::acquisitions/acq-selectionlist.adoc[]
 
-include::acquisitions/acq-create-selection-lists.adoc[]
+include::ordering/acq-create-selection-lists.adoc[]
 
-include::acquisitions/acq-create-purchase-orders.adoc[]
+include::ordering/acq-adding-line-items-selection-lists.adoc[]
+
+include::ordering/acq-working-selection-lists.adoc[]
+
+include::ordering/acq-create-purchase-orders.adoc[]
+
+include::ordering/acq-adding-line-items-purchase-orders.adoc[]
+
+include::ordering/acq-working-purchase-order.adoc[]
 
 ////
 include::acquisitions/acq-loadrecords.adoc[L]
