@@ -76,6 +76,27 @@ This function should only be used in situations where the copies have already be
 
 NOTE: Once the purchase order has been activated without loading items, it is not possible to load the items in Acquisitions.
 
+Updating Purchase Order Names
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When creating a purchase order or editing an existing purchase order, the purchase order name must be unique for the ordering agency.  Evergreen will display a warning dialog to users, if they attempt to create or edit purchase order names that match the names of already existing purchase orders at the same ordering agency. The *Duplicate Purchase Order Name Warning Dialog* includes a link that will open the matching purchase order in a new tab.
+
+.When a duplicate purchase order name is detected, the user may:
+* Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
+* Click *Cancel* to cancel the creation of the new purchase order.
+* Within the _Name (optional)_ field, enter a different, unique name for the new purchase order.
+** If the purchase order name is unique for the ordering agency, the user will continue filling in the remaining fields and click *Save*.
+** If the purchase order name is not unique for the ordering agency, the Save button will remain grayed out to the user until the purchase order is given a unique name.
+
+.To change the name of an existing purchase order:
+. Within the purchase order, the _Name_ of the purchase order is a link (located at the top left-hand side of the purchase order). Click the PO Name.
+. A new window will open, where users can rename the purchase order.
+. Enter the new purchase order name.
+. Click *OK*.
+
+NOTE: Purchase Order Names are case sensitive.
+
+
 Purchase Order Actions
 ~~~~~~~~~~~~~~~~~~~~~~
 (((purchase orders, actions)))
