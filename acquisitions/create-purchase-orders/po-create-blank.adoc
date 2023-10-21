@@ -18,7 +18,10 @@ the naming of purchase orders.
 image::images/acquisitions/blank-purchase-order/create-blank-po-1.png[]
 +
 . Click *Create*
-. The purchase order is created. 
+. The purchase order is created.
++
+image::images/acquisitions/blank-purchase-order/create-blank-po-2.png[]
++
 . See SECTION .
 
 
