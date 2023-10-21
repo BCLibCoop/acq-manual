@@ -1,3 +1,19 @@
 Via a Brief Record
 ~~~~~~~~~~~~~~~~~~
 [[_sl_li_via_brief_record]]
+
+
+. Go to *Acquisitions -> New Brief Record*.
+. Select your selection list from the _Add To Selection List_ drop down menu.
+. Enter the appropriate information for your brief record.
+. Click *Save Record*.
+. A line item is created from your brief record and appears on your selection list.
+
+OR
+
+. Go to *Acquisitions -> Selection Lists*.
+. Open your selection list.
+. From the *Actions* menu select *Add Brief Record*.
+. Enter the appropriate information for your brief record.
+. Click *Add Record*.
+. A line item is created from your brief record and appears on your selection list.

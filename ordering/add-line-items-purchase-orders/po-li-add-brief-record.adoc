@@ -2,3 +2,10 @@ Via a Brief Record
 ~~~~~~~~~~~~~~~~~~
 [[_po_li_via_brief_record]]
 
+. Go to *Acquisitions -> Purchase Orders*.
+. Search for and find your purchase order.
+. Open your Purchase Order.
+. From the *Actions* menu select *Add Brief Record*.
+. Enter the appropriate information for your brief record.
+. Click *Add Record*.
+. A line item is created from your brief record and appears on your purchase order.
