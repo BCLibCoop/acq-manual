@@ -204,11 +204,12 @@ The line item actions menu provides you with a number of functions that can be a
 .. The line item must be marked as received before you can update the barcode.
 . The http://docs.libraries.coop/sitka/add_holdings.html#_adding_holdings_to_bibliographic_records[Volume/Copy Editor] will open in a new tab.
 
-.Holdings Maintenance
-. Once an item is received it is possible to use the Actions menu to go directly to Holding Maintenance to view and edit the holdings for a line item.
+.Holdings View
+. Once an item is received it is possible to use the Actions menu to go directly to 
+Holdings View in the staff catalogue.
 . Open a purchase order.
-. Using the Actions menu on the line item, click *Actions* -> *Holdings Maint.*.
-. The Holdings Maintenance screen will open in a new tab.
+. Using the Actions menu on the line item, click *Actions* -> *Open Holdings View*.
+. The Holdings View screen will open in a new tab.
 . See http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings] for further instructions.
 
 .Claim

@@ -14,24 +14,32 @@ image::images/acquisitions/lineitem.png[]
 
 .Line Item
 . xref:line-title[]
+. xref:lineitem-status[]
 . xref:order-identifier[]
+. xref:lineitem-price[]
+. xref:lineitem-actions[]
+. xref:lineitem-tracking[]
 . xref:lineitem-id[]
 . xref:existing-copies[]
+. xref:lineitem-copies[]
+. xref:lineitem-detail[]
+. xref:lineitem-notes[]
 . xref:link-catalogue[]
 . xref:worksheet[]
 . xref:lineitem-requests[]
 . xref:lineitem-invoice[]
+. xref:lineitem-provider[]
 . xref:lineitem-queue[]
-. xref:lineitem-detail[]
-. xref:lineitem-copies[]
-. xref:lineitem-notes[]
-. xref:lineitem-actions[]
-. xref:lineitem-status[]
-. xref:lineitem-price[]
+
+
 
 anchor:line-title[Title & Publishing information]
 
 *Title & Publishing information* - Title & Publishing information from the bibliographic record. If there is a jacket cover it will be displayed.
+
+anchor:lineitem-status[Status]
+
+*Line Item Status* - Refer to xref:_line_item_status[] for details.
 
 anchor:order-identifier[Order Identifier]
 
@@ -39,6 +47,24 @@ anchor:order-identifier[Order Identifier]
 Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
 
 * From the drop down menu chose the appropriate ISBN, ISSN, or UPC; or you can highlight the existing identifier and type in or paste your new identifier.
+
+anchor:lineitem-price[Estimated Price]
+
+*Estimated Price* - A purchase order will not activate without the Estimated Price 
+field filled in for each line item. The price entered into Estimated Price is the 
+amount that will be encumbered for the item. It is also the amount that will appear 
+in the price field of the copy editor for all copies created from this line item.
+
+anchor:lineitem-actions[Actions]
+
+*Actions* - Use the Actions link to perform specific actions on a line item.
+
+Refer to xref:_line_item_actions[] for details.
+
+
+anchor:lineitem-tracking[Line Item Tracking]
+
+*Line Item Tracking* - 
 
 anchor:lineitem-id[Line Item ID]
 
@@ -53,6 +79,22 @@ When displaying Acquisitions line items within the Selection List and Purchase O
 ** If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
 ** If no existing copies are found, a "0" (zero) will display in plain text.
 * The count of existing copies does not include copies that are in either a Lost or a Missing status.
+
+anchor:lineitem-copies[Copies]
+
+*Copies* - Use the Copies link to add copy information to a line item.
+
+anchor:lineitem-detail[Line Item Detailed view]
+
+.Line Item Detailed view
+* Click *Expand* on a line item to display the detailed view for that line item.
+* Click *Expand All* to display the detailed view for all line items.
+** Clicking Expand or Expand All a second time will close the detailed view.
+
+anchor:lineitem-notes[Notes and Alerts]
+
+*Notes and Alerts* - Use the Notes link to add notes or alerts to a line item.
+
 
 anchor:link-catalogue[Link to Catalog]
 
@@ -86,38 +128,14 @@ anchor:lineitem-invoice[Invoice]
 
 *Invoice* - a link to the invoice
 
+anchor:lineitem-provider[Provider]
+
+*Provider* - 
+
 anchor:lineitem-queue[Queue]
 
 *Queue* - a link to the Acquisitions queue
 
-anchor:lineitem-detail[Line Item Detailed view]
-
-.Line Item Detailed view
-* Click *Expand* on a line item to display the detailed view for that line item.
-* Click *Expand All* to display the detailed view for all line items.
-** Clicking Expand or Expand All a second time will close the detailed view.
-
-anchor:lineitem-copies[Copies]
-
-*Copies* - Use the Copies link to add copy information to a line item.
-
-anchor:lineitem-notes[Notes]
-
-*Notes* - Use the Notes link to add notes or alerts to a line item.
-
-anchor:lineitem-actions[Actions]
-
-*Actions* - Use the Actions link to perform specific actions on a line item.
-
-Refer to xref:_line_item_actions[] for details.
-
-anchor:lineitem-status[Status]
-
-*Line Item Status* - Refer to xref:_line_item_status[] for details.
-
-anchor:lineitem-price[Price]
-
-*Estimated Price* - A purchase order will not activate without the Estimated Price field filled in for each line item. The price entered into Estimated Price is the amount that will be encumbered for the item. It is also the amount that will appear in the price field of the copy editor for all copies created from this line item.
 
 Add Copies to a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -174,6 +192,56 @@ Rather than filling in the same fields every time users can set up xref:_distrib
 . Select the line items to apply the updates to.
 . Fill in the individual fields on the Batch Updater you wish to update or select a Distribution Formula to use.
 . Click *Apply to Selected*.
+
+Line Item Actions
+~~~~~~~~~~~~~~~~~
+(((line items, actions)))
+
+The line item actions menu provides you with a number of functions that can be applied to a particular line item.
+
+.Update Barcode
+. Using the Actions menu on the line item, click *Actions* -> *Update Barcodes*.
+.. The line item must be marked as received before you can update the barcode.
+. The http://docs.libraries.coop/sitka/add_holdings.html#_adding_holdings_to_bibliographic_records[Volume/Copy Editor] will open in a new tab.
+
+.Holdings View
+. Once an item is received it is possible to use the Actions menu to go directly to 
+Holdings View in the staff catalogue.
+. Open a purchase order.
+. Using the Actions menu on the line item, click *Actions* -> *Open Holdings View*.
+. The Holdings View screen will open in a new tab.
+. See http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings] for further instructions.
+
+.Claim
+. Using the Actions menu on the line item, click *Actions* -> *Claims (0 existing)*.
+. Check the boxes adjacent to the copies you wish to claim and click *Claim Selected*.
+. From the Claim Type drop down menu select the Claim reason.
+. Enter a note(optional) and click *Claim*.
+. Claim vouchers for the claimed items will appear.
+. Click *Print* to save or print out your vouchers.
+.. The voucher can be mailed or emailed to the provider to initiate the claim.
+. The number of existing claims on the line item updates.
+
+.View History
+. Using the Actions menu on the line item, select *Actions* -> *View History*.
+. By default the newest changes appear first. Use the column headers to sort.
+
+
+Line Item Notes
+~~~~~~~~~~~~~~~
+(((line items, notes)))
+
+Notes on line items can include any additional information that you wish to add to the line item. Notes can be internal or can be made available to providers. Notes also display on the Line Item Worksheet for the item.
+
+.Add a Note
+. Click *Notes (0)*.
+. Click *New Note*.
+. Enter your note.
+. If you wish to make this note available to your provider, check the box adjacent to Note is vendor-public.
+. Click *Create*. The note will display on the screen.
+. Click *Return* to return to the selection list or purchase order.
+. The zero of the Notes link will update to display the total number of alerts and notes for the line item.
+
 
 Line Item Actions
 ~~~~~~~~~~~~~~~~~
