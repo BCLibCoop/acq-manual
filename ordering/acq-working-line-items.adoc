@@ -137,61 +137,80 @@ anchor:lineitem-queue[Queue]
 *Queue* - a link to the Acquisitions queue
 
 
-Add Copies to a Line Item
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Add Items to a Line Item
+~~~~~~~~~~~~~~~~~~~~~~~~
 (((line items, add copies)))
 
-By default, line items have no copies attached to them. If a default number of copies as been specified for the provider, when line items are added to a purchase order copies are automatically added. Use the *Batch Updater* or *Copies* link to add copy information to a line item. You can add copies to line items on a selection list or a pending purchase order.
+By default, line items have no items attached to them. If a default number of copies 
+as been specified for the provider, when line items are added to a purchase order 
+items are automatically added. Use the *Batch Updater* or *Items* link to add 
+item information to a line item. You can add items to line items on a selection list 
+or a pending purchase order.
 
-.Add a Copy via the Line Item Batch Updater on a selection list or purchase order.
+.Add an Item via the Line Item Batch Updater on a selection list or purchase order.
 . Open a selection list or purchase order.
-. Enter the total number of copies for the line item in the Copies field on the Line Item Batch Updater.
-. The number entered in the Copies field is always the total number of copies for the line item, not the number of copies to add to the selected line item(s).
-. Check the box(es) beside the line item(s) you wish to apply the copies to.
-. Click Apply to Selected.
-. The zero of the Copies link will update to reflect the number of copies created for the line item.
+. Select the line items you would like to add items to.
+. From the main actions menu choose *Batch Update Items on Selected Line Items*.
++
+image::images/acquisitions/working-line-items/line-item-add-item-1.png[]
++
+. In the Item Count field enter the total number of items for the selected line items.
+. Click *Batch Update*.
++
+image::images/acquisitions/working-line-items/line-item-add-item-2.png[]
++
+. The line item will update to reflect the current number of items.
++
+image::images/acquisitions/working-line-items/line-item-add-item-3.png[]
 
-.Add a Copy via the Copies Screen on a selection list or purchase order.
+
+.Add an Item via the Items Screen on a selection list or purchase order.
 . Open a selection list or purchase order.
-. Click the Copies (0) link on the line item you would like to add copies to. This will take you to the Copies screen.
-. Enter the number of copies you would like to order into Item Count and click Go. A line will be created for each copy.
-. The gray box is a batch update function. Each field in this box corresponds to the columns below.
-.. You can use the batch update for:
-... Owning Branch
-... Copy Location
-... Collection Code
-... Fund
-... Circ Modifier
-... Call Number
-.. Enter your terms and click Batch Update. The copies will update to reflect your choices.
-. Once you have entered all the desired information, click Save Changes.
-. Click Return to return to your selection list or purchase order.
-. The zero of the Copies link will update to reflect the number of copies you have created for the line item.
+. Click the *Items(0)* link on the line item you would like to add items to. The Items
+screen will open.
++
+image::images/acquisitions/working-line-items/line-item-add-item-4.png[]
++
+. Enter the number of items you would like to order into the Item Count field and click 
+*Apply* and then *Save Changes*. A line will be created for each item.
++
+image::images/acquisitions/working-line-items/line-item-add-item-5.png[]
++
+. Click *Return* to go back to the purchase order.
 
-NOTE: Copies should not be added once a purchase order has been activated.
 
 Line Item Batch updater
 ~~~~~~~~~~~~~~~~~~~~~~~
 (((line item, batch updater)))
 (((batch updater, line item)))
 
-The Line Item Batch Updater allows line items on selection lists or purchase orders to have multiple fields batch updated simultaneously.
+The Line Item Batch Updater allows line items on selection lists or purchase orders 
+to have multiple fields batch updated simultaneously.
 
 The following fields can be batch updated:
 
-* Copies - this is the total number of copies for the line item, rather than additional copies
+* Item Count - this is the total number of items for the line item, rather than 
+additional items
 * Owning Branch
-* Copy Location
+* Shelving Location
 * Collection Code
 * Fund
 * Circ Modifier
 
-Rather than filling in the same fields every time users can set up xref:_distribution_formulas[] to use as Line Item Templates.
+Rather than filling in the same fields every time users can set up 
+xref:_distribution_formulas[] to use as Line Item Templates.
 
-.Batch Update Line Items
-. Select the line items to apply the updates to.
-. Fill in the individual fields on the Batch Updater you wish to update or select a Distribution Formula to use.
-. Click *Apply to Selected*.
+. Open a selection list or purchase order.
+. Select the line items you would like to bacth update.
+. From the main actions menu choose *Batch Update Items on Selected Line Items*.
++
+image::images/acquisitions/working-line-items/line-item-add-item-1.png[]
++
+. Fill in the individual fields \you wish to update or select a Distribution Formula to use.
+. Click *Batch Update*.
++
+image::images/acquisitions/working-line-items/line-item-batch-update-1.png[]
++
 
 Line Item Actions
 ~~~~~~~~~~~~~~~~~
