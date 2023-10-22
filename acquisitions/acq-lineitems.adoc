@@ -28,11 +28,8 @@ image::images/acquisitions/lineitem.png[]
 . xref:worksheet[]
 . xref:lineitem-requests[]
 . xref:lineitem-invoice[]
-. Provider
+. xref:lineitem-provider[]
 . xref:lineitem-queue[]
-
-
-
 
 
 
@@ -40,12 +37,34 @@ anchor:line-title[Title & Publishing information]
 
 *Title & Publishing information* - Title & Publishing information from the bibliographic record. If there is a jacket cover it will be displayed.
 
+anchor:lineitem-status[Status]
+
+*Line Item Status* - Refer to xref:_line_item_status[] for details.
+
 anchor:order-identifier[Order Identifier]
 
 *Order Identifier* - Line items that are created from existing MARC records may have multiple ISBNs, ISSNs, or UPCs attached to the record (depending on the type of item).
 Users are able to specify which ISBN, ISSN, or UPC to display in the purchase order sent to providers. User can also add new identifiers as needed. This function helps to ensure that the correct edition of an item is ordered.
 
 * From the drop down menu chose the appropriate ISBN, ISSN, or UPC; or you can highlight the existing identifier and type in or paste your new identifier.
+
+anchor:lineitem-price[Estimated Price]
+
+*Estimated Price* - A purchase order will not activate without the Estimated Price 
+field filled in for each line item. The price entered into Estimated Price is the 
+amount that will be encumbered for the item. It is also the amount that will appear 
+in the price field of the copy editor for all copies created from this line item.
+
+anchor:lineitem-actions[Actions]
+
+*Actions* - Use the Actions link to perform specific actions on a line item.
+
+Refer to xref:_line_item_actions[] for details.
+
+
+anchor:lineitem-tracking[Line Item Tracking]
+
+*Line Item Tracking* - 
 
 anchor:lineitem-id[Line Item ID]
 
@@ -60,6 +79,22 @@ When displaying Acquisitions line items within the Selection List and Purchase O
 ** If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
 ** If no existing copies are found, a "0" (zero) will display in plain text.
 * The count of existing copies does not include copies that are in either a Lost or a Missing status.
+
+anchor:lineitem-copies[Copies]
+
+*Copies* - Use the Copies link to add copy information to a line item.
+
+anchor:lineitem-detail[Line Item Detailed view]
+
+.Line Item Detailed view
+* Click *Expand* on a line item to display the detailed view for that line item.
+* Click *Expand All* to display the detailed view for all line items.
+** Clicking Expand or Expand All a second time will close the detailed view.
+
+anchor:lineitem-notes[Notes and Alerts]
+
+*Notes and Alerts* - Use the Notes link to add notes or alerts to a line item.
+
 
 anchor:link-catalogue[Link to Catalog]
 
@@ -93,38 +128,14 @@ anchor:lineitem-invoice[Invoice]
 
 *Invoice* - a link to the invoice
 
+anchor:lineitem-provider[Provider]
+
+*Provider* - 
+
 anchor:lineitem-queue[Queue]
 
 *Queue* - a link to the Acquisitions queue
 
-anchor:lineitem-detail[Line Item Detailed view]
-
-.Line Item Detailed view
-* Click *Expand* on a line item to display the detailed view for that line item.
-* Click *Expand All* to display the detailed view for all line items.
-** Clicking Expand or Expand All a second time will close the detailed view.
-
-anchor:lineitem-copies[Copies]
-
-*Copies* - Use the Copies link to add copy information to a line item.
-
-anchor:lineitem-notes[Notes]
-
-*Notes* - Use the Notes link to add notes or alerts to a line item.
-
-anchor:lineitem-actions[Actions]
-
-*Actions* - Use the Actions link to perform specific actions on a line item.
-
-Refer to xref:_line_item_actions[] for details.
-
-anchor:lineitem-status[Status]
-
-*Line Item Status* - Refer to xref:_line_item_status[] for details.
-
-anchor:lineitem-price[Price]
-
-*Estimated Price* - A purchase order will not activate without the Estimated Price field filled in for each line item. The price entered into Estimated Price is the amount that will be encumbered for the item. It is also the amount that will appear in the price field of the copy editor for all copies created from this line item.
 
 Add Copies to a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
