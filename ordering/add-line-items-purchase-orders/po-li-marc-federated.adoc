@@ -10,6 +10,4 @@ The MARC Federated Search enables you to import bibliographic records into a sel
 . Click *Submit*.
 . A list of results will appear.
 . Check the box(es) on the line item -> Click *Actions*
-.. *Save Items to Selection List* - save the line item(s) to a xref:selection[].
-.. *Create Purchase Order* - create a xref:purchase[] from the line item(s).
 .. *Add to Purchase Order* - add the line item(s) to an existing purchase order.
