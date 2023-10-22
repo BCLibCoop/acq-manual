@@ -246,97 +246,49 @@ Holdings View in the staff catalogue.
 . By default the newest changes appear first. Use the column headers to sort.
 
 
-Line Item Notes
-~~~~~~~~~~~~~~~
+Line Item Notes and Alerts
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((line items, notes)))
-
-Notes on line items can include any additional information that you wish to add to the line item. Notes can be internal or can be made available to providers. Notes also display on the Line Item Worksheet for the item.
-
-.Add a Note
-. Click *Notes (0)*.
-. Click *New Note*.
-. Enter your note.
-. If you wish to make this note available to your provider, check the box adjacent to Note is vendor-public.
-. Click *Create*. The note will display on the screen.
-. Click *Return* to return to the selection list or purchase order.
-. The zero of the Notes link will update to display the total number of alerts and notes for the line item.
-
-
-Line Item Actions
-~~~~~~~~~~~~~~~~~
-(((line items, actions)))
-
-The line item actions menu provides you with a number of functions that can be applied to a particular line item.
-
-.Update Barcode
-. Using the Actions menu on the line item, click *Actions* -> *Update Barcodes*.
-.. The line item must be marked as received before you can update the barcode.
-. The http://docs.libraries.coop/sitka/add_holdings.html#_adding_holdings_to_bibliographic_records[Volume/Copy Editor] will open in a new tab.
-
-.Holdings Maintenance
-. Once an item is received it is possible to use the Actions menu to go directly to Holding Maintenance to view and edit the holdings for a line item.
-. Open a purchase order.
-. Using the Actions menu on the line item, click *Actions* -> *Holdings Maint.*.
-. The Holdings Maintenance screen will open in a new tab.
-. See http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings] for further instructions.
-
-.Claim
-. Using the Actions menu on the line item, click *Actions* -> *Claims (0 existing)*.
-. Check the boxes adjacent to the copies you wish to claim and click *Claim Selected*.
-. From the Claim Type drop down menu select the Claim reason.
-. Enter a note(optional) and click *Claim*.
-. Claim vouchers for the claimed items will appear.
-. Click *Print* to save or print out your vouchers.
-.. The voucher can be mailed or emailed to the provider to initiate the claim.
-. The number of existing claims on the line item updates.
-
-.View History
-. Using the Actions menu on the line item, select *Actions* -> *View History*.
-. By default the newest changes appear first. Use the column headers to sort.
-
-
-Line Item Notes
-~~~~~~~~~~~~~~~
-(((line items, notes)))
-
-Notes on line items can include any additional information that you wish to add to the line item. Notes can be internal or can be made available to providers. Notes also display on the Line Item Worksheet for the item.
-
-.Add a Note
-. Click *Notes (0)*.
-. Click *New Note*.
-. Enter your note.
-. If you wish to make this note available to your provider, check the box adjacent to Note is vendor-public.
-. Click *Create*. The note will display on the screen.
-. Click *Return* to return to the selection list or purchase order.
-. The zero of the Notes link will update to display the total number of alerts and notes for the line item.
-
-Line Item Alerts
-~~~~~~~~~~~~~~~~
 (((line items, alerts)))
 
+Notes and alerts on line items can include any additional information that you wish 
+to add to the line item. Notes can be internal or can be made available to 
+providers. Notes also display on the Line Item Worksheet for the item. Alerts will 
+display on the Line Item Worksheet as well as pop up when the line item is received.
 
-Alerts are pop up messages that appear when an item is received. Alerts also display on the Line Item Worksheet for the item.
+Adding a Note
+^^^^^^^^^^^^^
+. Click *Notes and Alerts (0)*.
++
+image::images/acquisitions/working-line-items/line-item-notes-1.png[]
++
+. Enter the note text.
+. If you wish to make this note available to your provider, check the box
+ for Vendor Public.
+. Click *Create Note*.
++
+image::images/acquisitions/working-line-items/line-item-notes-2.png[]
++
+. The note is created. Click the X to close the Notes and Alerts screen.
++
+image::images/acquisitions/working-line-items/line-item-notes-3.png[]
 
-.Add an Alert
-. Click *Notes (0)*.
-+
-image::images/acquisitions/add-line-item-alert-1.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
-+
-. Click *New Alert*.
-. Choose an alert code from the drop down menu. These Line Item Alert codes are created by your Acquisitions Administrator.
-. Add additional comments (optional).
-. Click *Create*. The alert will display on the screen.
-+
-image::images/acquisitions/add-line-item-alert-2.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
-+
-. Click *Return* to return to the selection list or purchase order.
-+
-image::images/acquisitions/add-line-item-alert-3.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
-+
-. A red flag will now appear to the right of the Notes link and the zero of the Notes link will update to display the total number of alerts and notes for the line item.
-+
-image::images/acquisitions/add-line-item-alert-4.png[scaledwidth="75%",alt="Adding Line Item Alerts"]
+Adding an Alert
+^^^^^^^^^^^^^^^
 
+. Click *Notes and Alerts (0)*.
++
+image::images/acquisitions/working-line-items/line-item-notes-1.png[]
++
+. Choose an Alert Type from the drop down menu. 
+. If desired, add an alert comments.
+. Click *Create Alert*. 
++
+image::images/acquisitions/working-line-items/line-item-alerts-1.png[]
++
+. The alert is created. Click the X to close the Notes and Alerts screen.
++
+image::images/acquisitions/working-line-items/line-item-alerts-1.png[]
 
 
 Line Item Status
@@ -358,27 +310,42 @@ The colours that display may vary depending on your screen resolution.
 * cancelled (white): Item has been cancelled.
 * delayed (blue): Item has been cancelled but debits remain as the item is really delayed.
 
-NOTE: While there is some overlap in naming, line item statuses and item statuses are not the same thing.
+NOTE: While there is some overlap in naming, line item statuses and item statuses 
+are not the same thing.
 
+////
 Paid for Line Items
 ^^^^^^^^^^^^^^^^^^^
 Purchase Order line items are marked as "Paid" in red text when all non-cancelled copies on the line item have been invoiced.
 
 image::images/acquisitions/lineitempaid.png[]
-
+////
 
 Delete a Line Item
 ~~~~~~~~~~~~~~~~~~
 (((line items, delete)))
 
 
-Line items with the status of new, selector-ready, order-ready, or pending-order can be deleted. Be sure you want to delete the line item as there is no warning message and once deleted line items cannot be un-deleted.
+Line items with the status of new, selector-ready, order-ready, or pending-order 
+can be deleted. 
 
-NOTE: If you created copies for your line items before activating the purchase order you will need to delete the items from the catalogue before deleting the Acquisitions line item. See http://docs.libraries.coop/sitka/_deleting_holdings.html[Deleting Holdings]
+NOTE: If you created items for your line items before activating 
+the purchase order you will need to delete the items from the catalogue 
+before deleting the Acquisitions line item. 
+See http://docs.libraries.coop/sitka/_deleting_holdings.html[Deleting Holdings]
 
 .Delete line item
 . Check the box(es) of the line item(s) you would like to delete.
-. Using the main Actions menu, select *Actions* -> *Delete Selected Items*.
-. Your line item and the history associated with it will disappear.
+. From the main actions menu choose *Delete Selected Line Items*.
++
+image::images/acquisitions/working-line-items/line-item-delete-1.png[]
++
+. A pop-up will appear asking you to confirm that you wish to delete the line
+item(s). Click *Apply*.
++
+image::images/acquisitions/working-line-items/line-item-delete-2.png[]
++
+. Your line item and the history associated with it will be deleted
 
-Line items with the status of On-order cannot be deleted - these must be cancelled. See Cancel Acq for details
+Line items with the status of On-order cannot be deleted - these must be cancelled. See 
+Cancel Acq for details.
