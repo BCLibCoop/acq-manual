@@ -14,20 +14,27 @@ image::images/acquisitions/lineitem.png[]
 
 .Line Item
 . xref:line-title[]
+. xref:lineitem-status[]
 . xref:order-identifier[]
+. xref:lineitem-price[]
+. xref:lineitem-actions[]
+. xref:lineitem-tracking[]
 . xref:lineitem-id[]
 . xref:existing-copies[]
+. xref:lineitem-copies[]
+. xref:lineitem-detail[]
+. xref:lineitem-notes[]
 . xref:link-catalogue[]
 . xref:worksheet[]
 . xref:lineitem-requests[]
 . xref:lineitem-invoice[]
+. Provider
 . xref:lineitem-queue[]
-. xref:lineitem-detail[]
-. xref:lineitem-copies[]
-. xref:lineitem-notes[]
-. xref:lineitem-actions[]
-. xref:lineitem-status[]
-. xref:lineitem-price[]
+
+
+
+
+
 
 anchor:line-title[Title & Publishing information]
 
