@@ -13,10 +13,10 @@ The Load Catalog Record IDs function enables you to create line items from a lis
 .. The screen will display the number of terms (record IDs) that have been loaded. Clicking Load more terms again will allow you to load an additional file of record IDs.
 . Click *Retrieve Records*.
 .. The records will appear as line items.
-. Save the line item(s) to a selection list by checking the box(es) adjacent to the desired line item(s) and selecting *Actions* -> *Save Items to Selection List*.
-.. Either Save as Selection List and type in the name of a new selection list, or Add to Selection List and type in the name of any existing selection list created by any user at your library.
-. Create a purchase order from the line item(s) by checking the box adjacent to the desired line item(s) and selecting *Actions* → *Create Purchase Order*.
-. Add the line item to an existing Purchase Order by checking the box adjacent to the desired line item(s) and selecting *Actions* → *Add to Purchase Order*.
-.. In the pop up box that appears enter the name of the purchase order you wish to add the line item to.
+. Save the line item(s) to a selection list by checking the box(es) adjacent to the 
+desired line item(s) and selecting *Actions* -> *Save Items to Selection List*.
+.. Click *Add to Selection List* and type in the name of any existing selection 
+list created by any user at your library.
 
-NOTE: Record IDs are auto-generated digits associated with each record. They are found in the Record Summary that appears at the top of each record in the catalogue.
+NOTE: Record IDs are auto-generated digits associated with each record. They are 
+found in the Record Summary that appears at the top of each record in the catalogue.
