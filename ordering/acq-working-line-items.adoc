@@ -12,41 +12,23 @@ Line item attributes are characteristics of the bibliographic record, such as IS
 
 image::images/acquisitions/lineitem.png[]
 
-xref:line-title[]
-
-xref:lineitem-status[]
-
-xref:order-identifier[]
-
-xref:lineitem-price[]
-
-xref:lineitem-actions[]
-
-xref:lineitem-tracking[]
-
-xref:lineitem-id[]
-
-xref:existing-copies[]
-
-xref:lineitem-copies[]
-
-xref:lineitem-detail[]
-
-xref:lineitem-notes[]
-
-xref:link-catalogue[]
-
-xref:worksheet[]
-
-xref:lineitem-requests[]
-
-xref:lineitem-invoice[]
-
-xref:lineitem-provider[]
-
-xref:lineitem-queue[]
-
-
+. xref:line-title[]
+. xref:lineitem-status[]
+. xref:order-identifier[]
+. xref:lineitem-price[]
+. xref:lineitem-actions[]
+. xref:lineitem-tracking[]
+. xref:lineitem-id[]
+. xref:existing-copies[]
+. xref:lineitem-copies[]
+. xref:lineitem-detail[]
+. xref:lineitem-notes[]
+. xref:link-catalogue[]
+. xref:worksheet[]
+. xref:lineitem-requests[]
+. xref:lineitem-invoice[]
+. xref:lineitem-provider[]
+. xref:lineitem-queue[]
 
 anchor:line-title[Title & Publishing information]
 
@@ -225,7 +207,7 @@ image::images/acquisitions/working-line-items/line-item-add-item-1.png[]
 . Click *Batch Update*.
 +
 image::images/acquisitions/working-line-items/line-item-batch-update-1.png[]
-+
+
 
 Line Item Actions
 ~~~~~~~~~~~~~~~~~
