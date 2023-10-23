@@ -61,25 +61,38 @@ Refer to xref:_line_item_actions[] for details.
 
 anchor:lineitem-tracking[Line Item Tracking]
 
-*Line Item Tracking* - 
+*Line Item Tracking* - Throughout the acquisitions process the 
+line item tracking field will show where the items attached to the
+line item are in the process as well as the money estimated, encumbered,
+and paid.
 
 anchor:lineitem-id[Line Item ID]
 
 *Line Item ID* = A unique system generated ID# which can be used to search for & retrieve line items.
 
-anchor:existing-copies[Count of Existing Copies]
+anchor:existing-copies[Count of Existing Items]
 
-.Count of Existing Copies on Line items
-When displaying Acquisitions line items within the Selection List and Purchase Order interfaces, Evergreen displays a count of existing catalog copies on the line item. The count of existing catalog copies refers to the number of copies owned at the ordering agency and / or the ordering agency's child organization units.
+.Count of Existing Items on Line items
+When displaying Acquisitions line items within the Selection 
+List and Purchase Order interfaces, Evergreen displays a 
+count of existing catalogue items on the line item. The count of 
+existing catalogue items refers to the number of items owned 
+at the ordering agency and / or the ordering agency's 
+child organization units.
 
-* The counts display for line items that have a direct link to a catalog record. Generally, this includes line items created as "on order" based on an existing catalog record.
-** If the existing copy count is greater than zero, then the count will display in bold and red on the line item.
-** If no existing copies are found, a "0" (zero) will display in plain text.
-* The count of existing copies does not include copies that are in either a Lost or a Missing status.
+* The counts display for line items that have a direct link 
+to a catalog record. Generally, this includes line items 
+created as "on order" based on an existing catalog record.
+** If the existing item count is greater than zero, then 
+the count will display in bold and red on the line item.
+** If no existing items are found, a "0" (zero) will 
+display in plain text.
+* The count of existing items does not include 
+items that are in either a Lost or a Missing status.
 
-anchor:lineitem-copies[Copies]
+anchor:lineitem-copies[Items]
 
-*Copies* - Use the Copies link to add copy information to a line item.
+*Items* - Use the Items link to add item information to a line item.
 
 anchor:lineitem-detail[Line Item Detailed view]
 
@@ -114,8 +127,8 @@ anchor:worksheet[Worksheet]
 .Line Item Worksheet
 . Click the worksheet link on the line item for which you would like to view the worksheet.
 . The line item worksheet will appear.
-. The worksheet can be printed by CTRL+P.
-. When you are finished, click Return to return to your selection list or purchase order.
+. Click *Print Worksheet* if you would like a printed copy.
+. When you are finished, click *Return* to return to your selection list or purchase order.
 
 anchor:lineitem-requests[Requests]
 
