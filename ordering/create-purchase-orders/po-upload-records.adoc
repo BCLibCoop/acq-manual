@@ -25,7 +25,7 @@ OR
 See xref:_activating_purchase_orders[] for information on activating your 
 purchase order.
 
-
+////
 
 Load MARC Order Record Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -105,7 +105,7 @@ of records in the event that troubleshooting is required.
 where it is saved on your computer or shared drive. 
 |===
  
-//// 
+
 . Check *Create Purchase Order*.
 .. If you want to upload the records to a selection list instead, you can select a list
 from the drop down menu, or type in the name of the selection list that you
@@ -146,7 +146,6 @@ will load them as acquisitions copies.
 
 .Load MARC Order Records recommended settings for upload
 image::images/acquisitions/uploadmarc.png[]
-////
 
 
 Import Errors
@@ -208,7 +207,7 @@ Your local system administrator with acquisitions administrator permissions can 
 the relevant settings.  See xref:_acquisitions_settings_load_MARC_order_record_defaults[]
 for a list of the settings and the required values to use.
 
-////
+
 Go to *Administration* -> *Local Administration* -> *Library Settings Editor*
 
 .Recommended Settings
