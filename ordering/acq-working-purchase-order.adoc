@@ -52,7 +52,7 @@ acq.fund was not found_.
 image::images/acquisitions/working-purchase-order/activating-po-4.png[]
 + 
 * Apply funds individually or as a batch.
-** The fund(s) used for the purchase order must not have reached its stop level. 
+* The fund(s) used for the purchase order must not have reached its stop level. 
 If the fund is above its stop level the status field will display as _Fund exceeds stop 
 percentage: FUND CODE (YYYY)_.
 +
