@@ -108,7 +108,13 @@ anchor:lineitem-notes[Notes and Alerts]
 
 anchor:link-catalogue[Link to Catalog]
 
-.Catalog link / Link to Catalog
+*Catalog link / Link to Catalog* - If the line item is linked to a bibliographic record
+in the catalogue *Catalog* will display.  When *Link to Catalog* displays it indicates 
+that the bibliographic record for the line item has not yet been loaded into the catalogue.
+It can be loaded manually by clicking the link or automatically when the purchase order
+is activated.
+
+////
 You can link a line item on a selection list to a corresponding MARC record in the catalogue.
 The link to catalog option enables you to search for a matching record and link the line item to it. The catalogue record replaces the record originally used to create the line item. When bibliographic records and copies are loaded into the catalogue the copies are attached to the linked record in the catalogue.
 Open a selection list or purchase order.
@@ -121,6 +127,8 @@ Click View MARC to view the MARC record of your selection. Click Hide to hide th
 If you are satisfied that the record is for the same item, click Select to link it to the record on the selection list or purchase order.
 The screen will reload and the line item will display with a catalog link.
 The line item is now linked to the MARC record in the catalogue. This is the record the holdings will attach to when you Load Bib Records and Items into the catalogue.
+////
+
 
 anchor:worksheet[Worksheet]
 
@@ -140,7 +148,7 @@ anchor:lineitem-invoice[Invoice]
 
 anchor:lineitem-provider[Provider]
 
-*Provider* - 
+*Provider* - the name of the provider for the line item.
 
 anchor:lineitem-queue[Queue]
 
@@ -216,7 +224,7 @@ xref:_distribution_formulas[] to use as Line Item Templates.
 +
 image::images/acquisitions/working-line-items/line-item-add-item-1.png[]
 +
-. Fill in the individual fields \you wish to update or select a Distribution Formula to use.
+. Fill in the individual fields you wish to update or select a Distribution Formula to use.
 . Click *Batch Update*.
 +
 image::images/acquisitions/working-line-items/line-item-batch-update-1.png[]
@@ -358,4 +366,4 @@ image::images/acquisitions/working-line-items/line-item-delete-2.png[]
 . Your line item and the history associated with it will be deleted
 
 Line items with the status of On-order cannot be deleted - these must be cancelled. See 
-Cancel Acq for details.
+xref:_cancel_delay_acquisitions[] for details.
