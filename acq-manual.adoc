@@ -46,6 +46,8 @@ include::ordering/acq-working-purchase-order.adoc[]
 
 include::ordering/acq-working-line-items.adoc[]
 
+include::ordering/acq-load-marc-order.adoc[]
+
 ////
 include::acquisitions/acq-loadrecords.adoc[L]
 
