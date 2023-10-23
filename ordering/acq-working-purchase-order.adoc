@@ -53,69 +53,97 @@ image::images/acquisitions/working-purchase-order/activating-po-4.png[]
 + 
 * Apply funds individually or as a batch.
 ** The fund(s) used for the purchase order must not have reached its stop level. 
-If the fund is above its stop level the status field 
-Activate Order? field will read, No; fund [fund name here] would be encumbered beyond its stop level. In this case, more credit must be allocated to the fund or a different fund must be applied to the purchase order.
+If the fund is above its stop level the status field will display as _Fund exceeds stop 
+percentage: FUND CODE (YYYY)_.
++
+image::images/acquisitions/working-purchase-order/activating-po-5.png[]
++ 
+To resolve this more credit must be allocated to the fund or a different fund must 
+be applied to the line items.
 ** If the fund(s) used for the purchase order have reached its warning level staff will 
 be alerted but are able to continue with activating the purchase order.
++
+image::images/acquisitions/working-purchase-order/activating-po-6.png[]
 
 
-
-When the above criteria have been met the *Activate Order* button will appear and you can proceed with the following:
+When the above criteria have been met the *Activate Order* button will appear and 
+you can proceed with the following:
 
 Activate a Purchase Order
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Activate a Purchase Order
 . Click *Activate Order*.
-. When you activate the order the bibliographic records and copies will be imported into the catalogue using the Vandelay interface, if not previously imported. See xref:_load_marc_order_records[] for instructions on using the Vandelay interface.
-. The funds associated with the purchases will be encumbered.
++
+image::images/acquisitions/working-purchase-order/activating-po-7.png[]
++ 
+. When you activate the order the bibliographic records and items will be imported 
+into the catalogue, if not previously imported.
+. Apply the appropriate xref:_upload_templates[template] or fill in the fields.
+. Select or create a queue for the load.
+. Click *Submit*.
++
+image::images/acquisitions/working-purchase-order/activating-po-8.png[]
++ 
+. The purchase order is activated.
++
+[NOTE]
+======
+You may need to refresh your browser twice to see the on-order purchase order.  
 
-After you click *Activate Order*, you will be presented with the record import interface for records that are not already in the catalogue. Once you complete entering in the parameters for the record import interface, the progress screen will appear. This progress screen consists of a progress bar in the foreground, and a tally of the following in the background of the bottom-left corner:
-
-* Lineitems processed
-* Vandelay Records processed
-* Bib Records Merged/Imported
-* ACQ Copies Processed
-* Debits Encumbered
-* Real Copies Processed
-
-CAUTION: There is a known bug which stalls activation on Purchase Orders where the records are not already linked to the catalogue.  If your progress bar freezes at 100% click your browser refresh button and click *Activate Order* for a second time.
-
+There is currently a bug where the purchase order doesn't automatically refresh depending
+on how the line items were added to it.
+======
++
+. The purchase order and line items will show as on order and your funds associated with 
+the purchases will be encumbered.
++
+image::images/acquisitions/working-purchase-order/activating-po-9.png[]
+ 
 Activate Purchase Order Without Loading Items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 (((activate without loading items, purchase order)))
 (((purchase order, activate without loading items)))
 
-This function should only be used in situations where the copies have already been added to the catalogue.
+This function should only be used in situations where the items have already been added 
+to the catalogue.
 
 * Cleaning up pre-acquisitions backlog
 * Direct purchases that have already been catalogued
 
 .Activate Purchase Order without loading items
 . Click *Activate Without Loading Items*.
++
+image::images/acquisitions/working-purchase-order/activating-po-no-line-item-1.png[]
++
 . The funds associated with the purchases will be encumbered.
 
-NOTE: Once the purchase order has been activated without loading items, it is not possible to load the items in Acquisitions.
+NOTE: Once the purchase order has been activated without loading items, it is not 
+possible to load the items in Acquisitions.
 
 Updating Purchase Order Names
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When creating a purchase order or editing an existing purchase order, the purchase order name must be unique for the ordering agency.  Evergreen will display a warning dialog to users, if they attempt to create or edit purchase order names that match the names of already existing purchase orders at the same ordering agency. The *Duplicate Purchase Order Name Warning Dialog* includes a link that will open the matching purchase order in a new tab.
-
-.When a duplicate purchase order name is detected, the user may:
-* Click *View PO* to view the purchase order with the matching name. The purchase order will open in a new tab.
-* Click *Cancel* to cancel the creation of the new purchase order.
-* Within the _Name (optional)_ field, enter a different, unique name for the new purchase order.
-** If the purchase order name is unique for the ordering agency, the user will continue filling in the remaining fields and click *Save*.
-** If the purchase order name is not unique for the ordering agency, the Save button will remain grayed out to the user until the purchase order is given a unique name.
-
 .To change the name of an existing purchase order:
-. Within the purchase order, the _Name_ of the purchase order is a link (located at the top left-hand side of the purchase order). Click the PO Name.
-. A new window will open, where users can rename the purchase order.
-. Enter the new purchase order name.
-. Click *OK*.
+. Within the purchase order, the _Name_ of the purchase order is a link.  Click that link
+to edit the name.
++
+image::images/acquisitions/working-purchase-order/purchase-order-rename-1.png[]
++
+. You will now have a field where you can enter the new purchase order name.
++
+image::images/acquisitions/working-purchase-order/purchase-order-rename-2.png[]
++
+. Click anywhere on the screen to save the purchase order name.
 
-NOTE: Purchase Order Names are case sensitive.
+When creating a purchase order or editing an existing purchase order, the purchase order name 
+must be unique for the ordering agency.  Evergreen will display a warning dialog 
+to users if the purchase order name entered already exists for the ordering agency.
+
+image::images/acquisitions/working-purchase-order/purchase-order-names-1.png[]
+
+
+NOTE: Purchase order names are case sensitive.
 
 
 Purchase Order Actions
@@ -127,13 +155,13 @@ The actions available will depend on the current state.
 
 .Purchase Order in any State
 * Export Single Attribute List
-* Print Purchase Order
-* View PO History
 * Apply Claim Policy to Selected Line Items
 
 .If Purchase Order State is pending
-* Delete Selected Items
 * Add Brief Record
+* Delete Selected Items
+* Add Items to Selected Line Items
+* Batch Update Items on Selected Line Items
 * Load Bibs and Items
 
 .If Purchase Order State is on-order
@@ -142,6 +170,11 @@ The actions available will depend on the current state.
 * Un-Receive Selected Line Items
 * Create Invoice From Selected Line Items
 * Link Selected Line Items to Invoice
+
+////
+NEED TO ADD PO notes, history, print, and links to invoices, edit and cancelling
+NEED TO ADD filter and sort, expand, select line item options
+////
 
 Deleting Purchase Orders
 ~~~~~~~~~~~~~~~~~~~~~~~~
