@@ -30,7 +30,7 @@ attached_.
 +
 image::images/acquisitions/working-purchase-order/activating-po-2.png[]
 + 
-. Attach a copy to the line item to resolve the issue.
+* Attach a copy to the line item to resolve the issue.
 ** Refer to xref:_add_items_to_a_line_item[] for details.
 ** Items should not be added to line items after a purchase order is activated.
 
