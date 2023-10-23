@@ -30,3 +30,10 @@ of activating the purchase order.
 . Click *Create*
 +
 image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po-2.png[]
++
+. The purchase order is created.
++
+image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po-3.png[]
++
+. See xref:_adding_line_items_to_selection_lists[] for ways to add additional line items
+or see xref:_via_a_selection_list[] to convert your selection list into a purchase order. 
