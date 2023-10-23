@@ -16,7 +16,7 @@ Viewing Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .View your Selection Lists
-. Click *Acquisitions* -> *My Selection Lists*.
+. Click *Acquisitions* -> *Selection Lists*.
 .. Use the general search to view selection lists created by other users.
 .. Refer to xref:_search_for_selection_lists[] for details.
 
@@ -24,7 +24,7 @@ Cloning Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .Clone Selection List
-. Click *Acquisitions* -> *My Selection Lists*.
+. Click *Acquisitions* -> *Selection Lists*.
 . Check the box adjacent to the list that you want to clone.
 . Click *Clone Selected*.
 . Enter a name into the box that appears.
@@ -37,7 +37,7 @@ Merging Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .Merge two or more selection lists into one selection list.
-. Click *Acquisitions* -> *My Selection Lists*.
+. Click *Acquisitions* -> *Selection Lists*.
 . Check the boxes adjacent to the selection lists that you want to merge, and click *Merge Selected*.
 . Choose the Lead Selection List from the drop down menu.
 .. This is the list to which the items on the other list(s) will be transferred.
@@ -47,7 +47,7 @@ Deleting Selection Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Delete Selection List
-. Click *Acquisitions* -> *My Selection Lists*.
+. Click *Acquisitions* -> *Selection Lists*.
 . Check the box adjacent to the selection list(s) that you want to delete.
 . Click *Delete Selected*.
 

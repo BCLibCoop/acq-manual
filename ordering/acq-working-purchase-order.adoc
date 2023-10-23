@@ -14,30 +14,51 @@ Activating Purchase Orders
 Activation Criteria
 ^^^^^^^^^^^^^^^^^^^
 
-.Copy
-* Each line must have at least one copy attached to it.
-* If there is no copy the Activate Order? field will read, _Activatable? No: The lineitem has no attached copies (ACQ_LINEITEM_NO_COPIES) (lineitemID)_.
+.Price
+* Each line item must contain an estimated price.
+* If there is no estimated price the Status will display as _One or more line items have
+no price_.
++
+image::images/acquisitions/working-purchase-order/activating-po-1.png[]
++ 
+* Enter prices in the estimated price fields to resolve this.
+
+.Item
+* Each line must have at least one item attached to it.
+* If there is no item the Status will display as _One or more line items have no items 
+attached_.
++
+image::images/acquisitions/working-purchase-order/activating-po-2.png[]
++ 
 . Attach a copy to the line item to resolve the issue.
-** Refer to xref:_add_copies_to_a_line_item[] for details.
-** Copies should not be added to line items after a purchase order is activated.
+** Refer to xref:_add_items_to_a_line_item[] for details.
+** Items should not be added to line items after a purchase order is activated.
 
 .Owning Branch
 * Each line item must have an Owning Branch.
-* If there is no assigned Owning Branch Activate Order? field will read, _Activatable_. However attempting to Activate the order will result in an error message.
+* If there is no assigned Owning Branch the status will display as _One or more items have 
+no owning lib_.
++
+image::images/acquisitions/working-purchase-order/activating-po-3.png[]
++ 
 * Use the Line Item Batch Updater to assign an Owning Branch.
 ** Refer to xref:_line_item_batch_updater[] for details.
 
 .Fund
 * Each line item must have funds applied to it.
-* If no funds are applied the Activate Order? field will read, _No: The requested acq. fund was not found (ACQ_FUND_NOT_FOUND)._
+* If no funds are applied the status will display as _ACQ_FUND_NOT_FOUND: The requested
+acq.fund was not found_.
++
+image::images/acquisitions/working-purchase-order/activating-po-4.png[]
++ 
 * Apply funds individually or as a batch.
-** The fund(s) used for the purchase order must not have reached its stop level. If the fund is above its stop level the Activate Order? field will read, No; fund [fund name here] would be encumbered beyond its stop level. In this case, more credit must be allocated to the fund or a different fund must be applied to the purchase order.
-** If the fund(s) used for the purchase order have reached its warning level staff will be alerted but are able to continue with activating the purchase order.
+** The fund(s) used for the purchase order must not have reached its stop level. 
+If the fund is above its stop level the status field 
+Activate Order? field will read, No; fund [fund name here] would be encumbered beyond its stop level. In this case, more credit must be allocated to the fund or a different fund must be applied to the purchase order.
+** If the fund(s) used for the purchase order have reached its warning level staff will 
+be alerted but are able to continue with activating the purchase order.
 
-.Price
-* Each line item must contain an estimated price.
-* If there is no estimated price the Activate Order? field will read, _No: The lineitem has no price (ACQ_LINEITEM_NO_PRICE)._
-* Enter prices in the estimated price fields.
+
 
 When the above criteria have been met the *Activate Order* button will appear and you can proceed with the following:
 

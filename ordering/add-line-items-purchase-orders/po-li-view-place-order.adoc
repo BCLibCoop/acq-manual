@@ -32,6 +32,14 @@ image::images/acquisitions/adding-line-items-po/view-place-order-po-li-2.png[]
 image::images/acquisitions/adding-line-items-po/view-place-order-po-li-3.png[]
 +
 . The purchase order will open and your line item will display in the list.
-. See xref:_adding_line_items_to_purchase_orders[] to add additional line items or see 
-xref:_working_with_purchase_orders[] for working with the purchase order.
+. See xref:_adding_line_items_to_purchase_orders[] for ways to add additional line items.
++
+OR
++
+See xref:_working_with_line_items[] for information on updating your line items. 
++
+OR
++
+See xref:_activating_purchase_orders[] for information on activating your 
+purchase order.
 

@@ -41,6 +41,14 @@ image::images/acquisitions/view-place-order/view-place-order-po-3.png[]
 +
 image::images/acquisitions/view-place-order/view-place-order-po-4.png[]
 +
-. See xref:_adding_line_items_to_purchase_orders[] to add additional line items or see 
-xref:_working_with_purchase_orders[] for working with the purchase order.
+. See xref:_adding_line_items_to_purchase_orders[] for ways to add additional line items.
++
+OR
++
+See xref:_working_with_line_items[] for information on updating your line items. 
++
+OR
++
+See xref:_activating_purchase_orders[] for information on activating your 
+purchase order.
 

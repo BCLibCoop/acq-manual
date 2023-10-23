@@ -8,7 +8,8 @@ Individual line items can be added to an existing pending purchase order in four
 * via the Load Catalog Record IDs interface
 * via the MARC Federated Search interface
 
-These options are used with providers that do not supply MARC record files.
+These options are used with providers that do not supply MARC record files to be loaded
+via the xref:_via_load_marc_order_records_3[Load MARC Order Records interface].
 
 
 include::add-line-items-purchase-orders/po-li-add-brief-record.adoc[]
