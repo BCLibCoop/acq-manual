@@ -30,6 +30,13 @@ image::images/acquisitions/creating-selection-lists/view-place-order-sl-3.png[]
 +
 image::images/acquisitions/creating-selection-lists/view-place-order-sl-4.png[]
 +
-. See xref:_adding_line_items_to_selection_lists[] to add additional line items 
-or see xref:_via_a_selection_list[] for working with the purchase order.
+. See xref:_adding_line_items_to_selection_lists[] for ways to add additional line items.
++
+OR
++
+See xref:_working_with_line_items[] for information on updating your line items. 
++
+OR
++
+See the section on xref:_via_a_selection_list[[creating purchase orders via a selection list].
 

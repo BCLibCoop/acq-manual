@@ -6,7 +6,7 @@ You can load a file of brief on order MARC records to create a selection list.
 
 . Go to *Acquisitions* -> *Load MARC Order Records*.
 . Apply the appropriate xref:_upload_templates[template] or fill in the fields.
-. In the _Add to Selection List* field enter the name of your new selection list.
+. In the _Add to Selection List_ field enter the name of your new selection list.
 . Select or create a queue for the upload.
 . Select the file to be uploaded.
 . Click *Upload*
@@ -18,8 +18,15 @@ image::images/acquisitions/creating-selection-lists/upload-marc-sl-1.png[]
 image::images/acquisitions/creating-selection-lists/upload-marc-sl-2.png[]
 +
 . Your selection list will display.
-. See xref:_adding_line_items_to_selection_lists[] for ways to add additional line items
-or see xref:_via_a_selection_list[] to convert your selection list into a purchase order. 
+. See xref:_adding_line_items_to_selection_lists[] for ways to add additional line items.
++
+OR
++
+See xref:_working_with_line_items[] for information on updating your line items. 
++
+OR
++
+See the section on xref:_via_a_selection_list[[creating purchase orders via a selection list].
 
 ////
 Load MARC Order Record Fields
