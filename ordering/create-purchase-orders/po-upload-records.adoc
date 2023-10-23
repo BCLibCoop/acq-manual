@@ -22,7 +22,7 @@ image::images/acquisitions/creating-purchase-orders/upload-marc-po-2.png[]
 +
 OR
 +
-See xref:_activiating_purchase_orders[] for information on activating your 
+See xref:_activating_purchase_orders[] for information on activating your 
 purchase order.
 
 

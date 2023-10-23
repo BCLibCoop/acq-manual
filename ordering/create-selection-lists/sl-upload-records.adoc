@@ -26,7 +26,7 @@ See xref:_working_with_line_items[] for information on updating your line items.
 +
 OR
 +
-See the section on xref:_via_a_selection_list[[creating purchase orders via a selection list].
+See the section on xref:_via_a_selection_list[creating purchase orders via a selection list].
 
 ////
 Load MARC Order Record Fields
