@@ -11,14 +11,16 @@ Claim Policies
 
 The default claim policy associated with each xref:provider[] is automatically assigned to line items and copies ordered from the provider.
 
+////
 image::images/acquisitions/claimpolicies1.png[]
+////
 
 .Apply or Change a Line Item Claim Policy
 . Open your purchase order.
 . Check the check boxes adjacent to each line item you would like to apply the claim policy to.
 . Click *Actions* -> *Apply Claim Policy to Selected Line Items*.
 . Choose a *Claim policy* from the drop down menu.
-. Click *Save*.
+. Click *Apply*.
 . The new claim policy will be applied to the line item(s).
 
 You can change the claim policy that has been applied to a line item until the item is marked as received.
@@ -74,6 +76,8 @@ Individual copies on a line item can be manually claimed through the claim-ready
 . Click *Print* to save or print out your vouchers.
 .. The voucher can be mailed or emailed to the provider to initiate the claim.
 
+////
+
 .Claim a Copy from the Purchase Order
 . Open your purchase order.
 . Click the *Copies* link on the line item containing the copy or copies you wish to claim.
@@ -85,6 +89,7 @@ Individual copies on a line item can be manually claimed through the claim-ready
 .. The voucher can be printed and mailed to the provider to initiate the claim.
 
 Manual claiming can be done for both line items and individual copies. You can manually claim a line item or copy any time after it has been ordered until it is received. Line items or copies that have been suspended can be claimed.
+////
 
 Claim Vouchers
 ~~~~~~~~~~~~~~
