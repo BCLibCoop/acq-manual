@@ -2,12 +2,32 @@ Via a Selection List
 ~~~~~~~~~~~~~~~~~~~~
 [[_po_via_selection_list]]
 
-. From a selection list, click *Actions* -> *Create Purchase Order*.
-. A pop up box will appear.
-. Select the ordering agency from the drop down menu.
-. Enter the provider.
-. Check the box adjacent to prepayment required if prepayment is required.
-. Choose if you will add All Line items or Selected Line items to your purchase order.
-. Check the box if you want to Import Bibs and Create Copies in the catalog.
-. Click Submit.
-
+. Go to *Acquisitions* -> *Selection Lists*.
+. The _Acquisitions Search_ will open to the _Selection Lists Search_ tab.
+. Search for your desired selection list and open it by clicking on its name.
+. If you wish to add specific line items select them.
+. From the main Actions menu choose *Create Purchase Order from Selected Line Items*
+or *Create Purchase Order from All Line Items*.
++
+image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po-1.png[]
++
+. Choose your library from the *Ordering Agency* drop down menu. The Ordering Agency
+for multi-branch libraries is often the system rather than specific branches.
+. If desired, enter a purchase order name. Your providers may have requirements for 
+the naming of purchase orders.
+.. If you do not enter a name the purchase order ID will be used.
+.. You can change the name to any grouping of letters or numbers as determined by your library's policies.
+.. You can reuse purchase order names as long as a name is never used twice in the same year.
+. Choose your provider from the drop down menu.
+. If prepayment is required, check the box for *Prepayment Required*.
++
+[CAUTION]
+=========
+Do NOT check the box for _Import Bibs and Create Copies_. This should be done as part 
+of activating the purchase order.  
+=========
++
+. Click *Create*
++
+image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po-2.png[]
++
