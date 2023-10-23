@@ -30,4 +30,3 @@ of activating the purchase order.
 . Click *Create*
 +
 image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po-2.png[]
-+
