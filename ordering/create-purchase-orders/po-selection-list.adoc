@@ -35,5 +35,13 @@ image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po
 +
 image::images/acquisitions/creating-purchase-orders/convert-selection-list-to-po-3.png[]
 +
-. See xref:_adding_line_items_to_selection_lists[] for ways to add additional line items
-or see xref:_via_a_selection_list[] to convert your selection list into a purchase order. 
+. See xref:_adding_line_items_to_purchase_orders[] for ways to add additional line items.
++
+OR
++
+See xref:_working_with_line_items[] for information on updating your line items. 
++
+OR
++
+See xref:_activiating_purchase_orders[] for information on activating your 
+purchase order.
