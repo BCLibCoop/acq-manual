@@ -25,6 +25,15 @@ Searching
 =========
 include::acquisitions/acq-search.adoc[]
 
+Selection Lists
+===============
+
+include::ordering/acq-create-selection-lists.adoc[]
+
+include::ordering/acq-adding-line-items-selection-lists.adoc[]
+
+include::ordering/acq-working-selection-lists.adoc[]
+
 Ordering
 ========
 
@@ -32,11 +41,6 @@ Ordering
 include::acquisitions/acq-selectionlist.adoc[]
 ////
 
-include::ordering/acq-create-selection-lists.adoc[]
-
-include::ordering/acq-adding-line-items-selection-lists.adoc[]
-
-include::ordering/acq-working-selection-lists.adoc[]
 
 include::ordering/acq-create-purchase-orders.adoc[]
 
