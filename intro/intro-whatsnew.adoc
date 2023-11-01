@@ -19,9 +19,6 @@ the xref:_loading_marc_order_records[Load MARC Order Records] interface.
 * Line item loading progress bar has moved to the summary area
 
 
-Receiving and Invoicing
-~~~~~~~~~~~~~~~~~~~~~~~
-
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -37,7 +34,7 @@ items
 * Library setting controlling what is rolled over at year end renamed to 
 _Rollover encumbrances only_
 * Provider opens in new tab by default
-* Fund drop down in Funds Administration fixed
+
 
 
 
