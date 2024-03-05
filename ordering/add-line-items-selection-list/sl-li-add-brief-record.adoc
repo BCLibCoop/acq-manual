@@ -1,7 +1,6 @@
+[[_sl_li_via_brief_record]]
 Via a Brief Record
 ~~~~~~~~~~~~~~~~~~
-[[_sl_li_via_brief_record]]
-
 
 . Go to *Acquisitions -> New Brief Record*.
 . Select your selection list from the _Add To Selection List_ drop down menu.

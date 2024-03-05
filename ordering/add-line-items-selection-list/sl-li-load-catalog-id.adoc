@@ -1,6 +1,6 @@
+[[_sl_li_via_load_catalog_record_ids]]
 Via Load Catalog Record IDs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[[_sl_li_via_load_catalog_record_ids]]
 
 The Load Catalog Record IDs function enables you to create line items from a list of catalogue records whose record IDs are saved in a CSV file. This is useful if you want to batch order copies of items that your organization already owns. For example, you run a copy/hold ratio report to identify how many copies you have available compared to the number of holds that are on your Hot Fiction display. You decided that you want to order an extra copy of six titles. Your copy/hold ration report includes the record ID of each title. You can save the record IDs into a CSV file, upload the file into Evergreen, and create a purchase order for the items. If you only want to order additional copies of one title then using View/Place Orders is faster.
 

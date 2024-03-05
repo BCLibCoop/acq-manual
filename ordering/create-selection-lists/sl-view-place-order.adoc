@@ -1,6 +1,6 @@
+[[_sl_via_view_place_order]]
 Via View/Place Orders
 ~~~~~~~~~~~~~~~~~~~~~
-[[_sl_via_view_place_order]]
 
 (((view/place order)))
 (((place order, staff catalogue)))

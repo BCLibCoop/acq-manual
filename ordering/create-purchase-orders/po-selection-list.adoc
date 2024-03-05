@@ -1,6 +1,6 @@
+[[_po_via_selection_list]]
 Via a Selection List
 ~~~~~~~~~~~~~~~~~~~~
-[[_po_via_selection_list]]
 
 . Go to *Acquisitions* -> *Selection Lists*.
 . The _Acquisitions Search_ will open to the _Selection Lists Search_ tab.

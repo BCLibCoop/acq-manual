@@ -1,6 +1,6 @@
+[[_po_li_via_brief_record]]
 Via a Brief Record
 ~~~~~~~~~~~~~~~~~~
-[[_po_li_via_brief_record]]
 
 . Go to *Acquisitions -> Purchase Orders*.
 . xref:_purchase_orders_search[Search for] and find your purchase order.

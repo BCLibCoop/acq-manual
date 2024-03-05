@@ -1,6 +1,6 @@
+[[_po_via_load_marc_order_records]]
 Via Load MARC Order Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[[_po_via_load_marc_order_records]]
 
 You can load a file of brief on order MARC records to create a purchase order.
 

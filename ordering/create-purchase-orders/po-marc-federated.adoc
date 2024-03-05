@@ -1,6 +1,6 @@
+[[_po_via_marc_federated_search]]
 Via MARC Federated Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-[[_po_via_marc_federated_search]]
 
 The MARC Federated Search enables you to import bibliographic records into a selection list or purchase order from a Z39.50 source.
 
