@@ -2,9 +2,17 @@ Workflow: Upload MARC Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
-*Sitka's Enhanced On Order Record workflow* - This workflow should be followed by libraries that download brief Marc records from their provider's website. This workflow assumes you have been setup for xref:edi[].
+======
+*Sitka's Enhanced On Order Record workflow* - This workflow should 
+be followed by libraries that download brief Marc records from their 
+provider's website. This workflow assumes you have been setup for xref:edi[].
+======
 
-.Select
+
+[[_load_marc_selecting_your_items]]
+Selecting Your Items
+^^^^^^^^^^^^^^^^^^^^
+
 . Create a cart on your provider's website and add the desired items to the cart.
 .. Assign line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
@@ -12,7 +20,11 @@ Workflow: Upload MARC Records
 . Do NOT submit the cart as an order to your provider via their website.
 .. *After* you have successfully created your purchase order in Evergreen you can go back to the vendor website and clear your cart.
 
-.Order
+
+[[_load_marc_placing_your_order]]
+Placing Your Order
+^^^^^^^^^^^^^^^^^^
+
 . Upload the MARC record file downloaded from the provider's website.
 .. Refer to xref:_po_via_load_marc_order_records[Creating Purchase Orders Via
 Load MARC Order Records] for details.
@@ -37,7 +49,10 @@ Load MARC Order Records] for details.
 .. Evergreen will automatically send the order to your vendor via EDI
 .. Refer to xref:edi[] for details.
 
-.Invoice & Receive
+[[_load_marc_receiving_invoicing]]
+Receiving Your Items and Invoicing For Them
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open the box
 . Find the Invoice
 .. Verify that all the items on the invoice are in the box
@@ -56,16 +71,20 @@ Load MARC Order Records] for details.
 .. Refer to xref:_close_an_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
-.Catalogue
+
+[[_load_marc_cataloguing_your_items]]
+Cataloguing Your Items
+^^^^^^^^^^^^^^^^^^^^^^
+
 . Update existing On Order copies
 .. Use ISBN to search the catalogue to find your item
-.. Refer to https://docs.libraries.coop/sitka/_searching_the_database_for_cataloguing_purposes.html#_advanced_numeric_search[Numeric Search] for details.
+.. Refer to https://docs.libraries.coop/sitka/_numeric_search.html[Numeric Search] for details.
 . Click *Edit* beside the item's temporary barcode.
-.. Update Volume/Copy information for each item.
-.. Refer to https://docs.libraries.coop/sitka/_editing_holdings.html[Editing a Copy from OPAC View]
+.. Use the Holdings Editor to update the holdings information, including Item Attributes, as needed for each item.
+.. Refer to http://docs.libraries.coop/sitka/_the_holdings_editor.html[The Holdings Editor]
 . Use Z39.50 to overlay the brief record with a full record or do original cataloguing to replace brief bibliographic records.
-.. Refer to https://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlay records via Z39.50] for details.
+.. Refer to http://docs.libraries.coop/sitka/_adding_individual_records.html#_overlaying_records_via_z39_50_interface[Overlay records via Z39.50] for details.
 . Process items.
 .. As per your libraries processing specifications.
-. Check in items.
+. http://docs.libraries.coop/sitka/_check_in.html[Check in items].
 .. Items are now ready to circulate.
