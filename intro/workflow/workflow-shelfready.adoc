@@ -14,7 +14,8 @@ Workflow: Order Shelf Ready Items
 
 .Order
 . Upload the MARC record file downloaded from the provider's website.
-.. Refer to xref:_loading_marc_order_records[] for details.
+.. Refer to xref:_po_via_load_marc_order_records[Creating Purchase Orders Via
+Load MARC Order Records] for details.
 . View Purchase Order
 .. When your Purchase Order has finished loading, click *View Purchase Order*.
 .. It may take a while for the *View Purchase Order* link to appear. Unless you get an error message the order is loading do NOT start the upload again.
@@ -28,9 +29,9 @@ Workflow: Order Shelf Ready Items
 ... Example for ULS orders use *LIBRARYMMDD*.  _MPL0518_
 .. Check the line item attributes and make any changes
 ... Click *Expand All* to view line item details
-... Refer to xref:_line_items[] for details.
+... Refer to xref:_line_item_attributes[] for details.
 . Activate Purchase Order
-.. Refer to xref:_activate_purchase_order[] for details.
+.. Refer to xref:_activate_a_purchase_order[] for details.
 . View EDI Message
 .. Evergreen will automatically send the order to your vendor via EDI
 .. Refer to xref:edi[] for details.
@@ -43,7 +44,8 @@ Workflow: Order Shelf Ready Items
 . Check the Status of the items
 .. Scan an item barcode into https://docs.libraries.coop/sitka/_item_status.html[Item Status] -> verify the item is "In process"
 .. If the item status is On order wait 48 hours and try again
-.. If the item status is still shows On order after 48 hours email sitka@bc.libraries.coop
+.. If the item status is still shows On order after 48 hours 
+https://bc.libraries.coop/support/[contact Co-op Support]
 . Search in Evergreen using *Vendor Invoice ID*
 .. Refer to xref:vendor-invoice[] for details.
 . Receive items
