@@ -97,4 +97,6 @@ Individual Records]
 . Add holdings to the bibliographic records.
 .. Refer to http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings]
 . Process items.
+.. As per your libraries processing specifications.
 . http://docs.libraries.coop/sitka/_check_in.html[Check in items].
+.. Items are now ready to circulate.
