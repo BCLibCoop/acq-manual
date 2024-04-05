@@ -6,6 +6,7 @@ Workflow: Order from the Catalogue
 *Sitka's Create Purchase Order from Scratch workflow* - This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
 ======
 
+[[_order_catalogue_selecting_your_items]]
 Selecting Your Items
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -13,23 +14,31 @@ Using existing bibliographic records from the Sitka catalogue
 you can create a purchase order in three ways:
 
 . Click *View/Place Order* in Record Summary.
-.. Refer to xref:_po_via_view_place_order[] for details.
+.. Refer to xref:_po_via_view_place_order[Creating Purchase Orders Via View/Place
+Orders] for details.
 . Load Catalog Record IDs.
-.. Refer to xref:_po_via_load_catalog_record_ids[] for details.
+.. Refer to xref:_po_via_load_catalog_record_ids[Creating Purchase Orders Via
+Load Catalog Record IDs] for details.
 . MARC Federated Search.
-.. Refer to xref:_po_via_marc_federated_search[] for details.
+.. Refer to xref:_po_via_marc_federated_search[Creating Purchase Orders Via
+MARC Federated Search] for details.
 
 Once the purchase order is created you can add line items to it in four ways
 
 . Click *View/Place Order* in Record Summary.
-.. Refer to xref:_po_li_via_view_place_order[] for details.
+.. Refer to xref:_po_li_via_view_place_order[Adding Line Items to Purchase Orders
+Via View/Place Orders] for details.
 . Load Catalog Record IDs.
-.. Refer to xref:_po_li_via_load_catalog_record_ids[] for details.
+.. Refer to xref:_po_li_via_load_catalog_record_ids[Adding Line Items to 
+Purchase Orders Via Load Catalog Record IDs] for details.
 . MARC Federated Search.
-.. Refer to xref:_po_li_via_marc_federated_search[] for details.
+.. Refer to xref:_po_li_via_marc_federated_search[Adding Line Items to 
+Purchase Orders Via MARC Federated Search] for details.
 . Add Brief Records.
-.. Refer to xref:_po_li_via_brief_record[] for details.
+.. Refer to xref:_po_li_via_brief_record[Adding Line Items to Purchase Orders
+Via a Brief Record] for details.
 
+[[_order_catalogue_placing_your_order]]
 Placing Your Order
 ^^^^^^^^^^^^^^^^^^
 
@@ -38,11 +47,11 @@ Placing Your Order
 . Add Copies
 .. Refer to xref:_add_items_to_a_line_item[] for details.
 . Activate Purchase Order
-.. Refer to xref:_activate_a_purchase_orderr[] for details.
+.. Refer to xref:_activate_a_purchase_order[] for details.
 
+[[_order_catalogue_receiving_invoicing]]
 Receiving Your Items and Invoicing For Them
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 . Create an invoice from a purchase order or from a line item.
 . Link Selected Line Items to Invoice.
@@ -55,6 +64,7 @@ Receiving Your Items and Invoicing For Them
 .. Refer to xref:_close_an_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
+[[_order_catalogue_cataloguing_your_items]]
 Cataloguing Your Items
 ^^^^^^^^^^^^^^^^^^^^^^
 
