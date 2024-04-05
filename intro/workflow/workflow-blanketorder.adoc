@@ -1,16 +1,28 @@
 Workflow: Blanket Orders
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Sitka's Blanket Order workflow
-NOTE: This workflow should be followed by libraries that want to track money spent on Blanket Orders. This workflow The work flow supported by this development assumes staff does not need to track the individual contents of the order, only the amounts encumbered and invoiced in bulk.
+[NOTE]
+======
+This workflow should be followed by libraries that want to track money 
+spent on Blanket Orders. This workflow The work flow supported by this 
+development assumes staff does not need to track the individual contents 
+of the order, only the amounts encumbered and invoiced in bulk.
+======
 
 Blanket orders allow staff to invoice an encumbered amount multiple times, paying off the charge over a period of time.
 
-.Select
+[[_blanket_selecting_your_items]]
+Selecting Your Items
+^^^^^^^^^^^^^^^^^^^^
+
 . Items selected based on Blanket/Standing Order criteria
 .. Selection is not completed in Sitka's Evergreen
 
-.Order
+
+[[_blanket_placing_your_order]]
+Placing Your Order
+^^^^^^^^^^^^^^^^^^
+
 . Click *Acquisitions* -> *Create Purchase Order*
 . Choose the Ordering Agency.
 . Enter a Purchase Order Name.
@@ -23,6 +35,10 @@ Blanket orders allow staff to invoice an encumbered amount multiple times, payin
 . Click Save New Charges
 . Click Activate Order
 .. Refer to xref:_activate_a_purchase_order[] for details.
+
+[[_blanket_invoicing]]
+Creating Invoices
+^^^^^^^^^^^^^^^^^
 
 .Invoice
 . Click *Acquisitions* -> *Purchase Orders*
@@ -71,8 +87,14 @@ image::images/administration/blanketorder3.png[]
 +
 image::images/administration/blanketorder4.png[]
 
-.Catalogue
-. Retrieve bibliographic record from the catalogue, Import a record from Z39.50 or do original cataloguing.
-. Add Volume/Copy.
+[[_blanket_cataloguing_your_items]]
+Cataloguing Your Items
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Add bibliographic records to the catalogue for your items.
+.. Refer to http://docs.libraries.coop/sitka/_adding_individual_records.html[Adding
+Individual Records]
+. Add holdings to the bibliographic records.
+.. Refer to http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings]
 . Process items.
-. Check in items.
+. http://docs.libraries.coop/sitka/_check_in.html[Check in items].
