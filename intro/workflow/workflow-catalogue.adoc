@@ -72,7 +72,7 @@ Cataloguing Your Items
 .. Use ISBN to search the catalogue to find your item
 .. Refer to https://docs.libraries.coop/sitka/_numeric_search.html[Numeric Search] for details.
 . Click *Edit* beside the item's temporary barcode.
-.. Use the Holdings Editor to the holdings information, including Item Attributes, as needed for each item.
+.. Use the Holdings Editor to update the holdings information, including Item Attributes, as needed for each item.
 .. Refer to http://docs.libraries.coop/sitka/_the_holdings_editor.html[The Holdings Editor]
 . Use Z39.50 to overlay the brief record with a full record or do original cataloguing to replace brief bibliographic records.
 .. Refer to http://docs.libraries.coop/sitka/_adding_individual_records.html#_overlaying_records_via_z39_50_interface[Overlay records via Z39.50] for details.
