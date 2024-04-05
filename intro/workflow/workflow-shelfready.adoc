@@ -2,9 +2,16 @@ Workflow: Order Shelf Ready Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
-*Sitka's Shelf Ready Items workflow* - This workflow should be followed by libraries that order xref:shelf-ready[]. This workflow assumes you have been setup for xref:edi[].
+======
+*Sitka's Shelf Ready Items workflow* - This workflow should be followed by 
+libraries that order xref:shelf-ready[]. This workflow assumes you have 
+been setup for xref:edi[].
+======
 
-.Select
+[[_shelf_ready_selecting_your_items]]
+Selecting Your Items
+^^^^^^^^^^^^^^^^^^^^
+
 . Create a cart on your provider's website and add the desired items to the cart.
 .. Assign line item templates while adding items to the cart.
 . Download the MARC records for the items in the cart.
@@ -12,7 +19,10 @@ Workflow: Order Shelf Ready Items
 . Do NOT submit the cart as an order to your provider via their website.
 .. *After* you have successfully created your purchase order in Evergreen you can go back to the vendor website and clear your cart.
 
-.Order
+[[_shelf_ready_placing_your_order]]
+Placing Your Order
+^^^^^^^^^^^^^^^^^^
+
 . Upload the MARC record file downloaded from the provider's website.
 .. Refer to xref:_po_via_load_marc_order_records[Creating Purchase Orders Via
 Load MARC Order Records] for details.
@@ -36,7 +46,10 @@ Load MARC Order Records] for details.
 .. Evergreen will automatically send the order to your vendor via EDI
 .. Refer to xref:edi[] for details.
 
-.Invoice and Receive
+[[_shelf_ready_receiving_invoicing]]
+Receiving Your Items and Invoicing For Them
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open the box
 . Find the Invoice
 .. Verify that all the items on the invoice are in the box
@@ -61,7 +74,10 @@ https://bc.libraries.coop/support/[contact Co-op Support]
 .. Refer to xref:_close_an_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
-.Catalogue
+[[_shelf_ready_cataloguing_your_items]]
+Cataloguing Your Items
+^^^^^^^^^^^^^^^^^^^^^^
+
 . Use https://docs.libraries.coop/sitka/_item_status.html[Item Status] to verify the completeness of the item attributes.
 .. Barcode
 .. Call Number
