@@ -2,30 +2,48 @@ Workflow: Order from the Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
+======
 *Sitka's Create Purchase Order from Scratch workflow* - This workflow should be followed by libraries when brief On Order records are not available from the provider. This workflow assumes you are placing the order on the providers website (Amazon, etc.).
+======
 
-.Select
+Selecting Your Items
+^^^^^^^^^^^^^^^^^^^^
 
-Using existing bibliographic records from the Sitka catalogue you can add line items to a Purchase Order in four ways
+Using existing bibliographic records from the Sitka catalogue 
+you can create a purchase order in three ways:
 
 . Click *View/Place Order* in Record Summary.
-.. Refer to xref:view-place-order[] for details.
+.. Refer to xref:_po_via_view_place_order[] for details.
 . Load Catalog Record IDs.
-.. Refer to xref:_load_catalog_record_ids[] for details.
+.. Refer to xref:_po_via_load_catalog_record_ids[] for details.
 . MARC Federated Search.
-.. Refer to xref:_marc_federated_search[] for details.
-. Add Brief Records.
-.. Refer to xref:add-brief-records[] for details.
+.. Refer to xref:_po_via_marc_federated_search[] for details.
 
-.Order
+Once the purchase order is created you can add line items to it in four ways
+
+. Click *View/Place Order* in Record Summary.
+.. Refer to xref:_po_li_via_view_place_order[] for details.
+. Load Catalog Record IDs.
+.. Refer to xref:_po_li_via_load_catalog_record_ids[] for details.
+. MARC Federated Search.
+.. Refer to xref:_po_li_via_marc_federated_search[] for details.
+. Add Brief Records.
+.. Refer to xref:_po_li_via_brief_record[] for details.
+
+Placing Your Order
+^^^^^^^^^^^^^^^^^^
+
 . Open Purchase Order
 .. Search for your xref:pending-order[].
 . Add Copies
-.. Refer to xref:_add_copies_to_a_line_item[] for details.
+.. Refer to xref:_add_items_to_a_line_item[] for details.
 . Activate Purchase Order
-.. Refer to xref:_activate_purchase_order[] for details.
+.. Refer to xref:_activate_a_purchase_orderr[] for details.
 
-.Invoice and Receive
+Receiving Your Items and Invoicing For Them
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 . Create an invoice from a purchase order or from a line item.
 . Link Selected Line Items to Invoice.
 . Receives Line Items.
@@ -37,7 +55,9 @@ Using existing bibliographic records from the Sitka catalogue you can add line i
 .. Refer to xref:_close_an_invoice[] for details.
 . Information is forwarded to finance department/bookkeeper.
 
-.Catalogue
+Cataloguing Your Items
+^^^^^^^^^^^^^^^^^^^^^^
+
 . Update existing On Order copies
 .. Use ISBN to search the catalogue to find your item
 .. Refer to https://docs.libraries.coop/sitka/_searching_the_database_for_cataloguing_purposes.html#_advanced_numeric_search[Numeric Search] for details.
