@@ -64,7 +64,9 @@ Granting Acquisitions Permissions
 (((administration, granting acquisitions permissions)))
 (((granting acquisitions permissions)))
 
-Users with the Acquisitions Administrator permissions can grant the Basic Selector, Advanced Selector or Purchaser permission to other users. The Administrator permissions can only be granted by Sitka Staff.
+Users with the Acquisitions Administrator permissions can grant the Basic Selector, Advanced Selector 
+or Purchaser permission to other staff accounts. The Acquisitions Administrator permissions 
+can only be granted by Co-op Support.
 
 .Grant Acquisitions Permissions
 . Open the account of the user you wish to grant acquisitions permissions to.
@@ -75,15 +77,17 @@ Users with the Acquisitions Administrator permissions can grant the Basic Select
 image::images/administration/acqsecondaryperms.png[Acq Supplementary Perm Groups]
 +
 . Click *Add*.
-. Click *Save* in the pop-up.
-. Click *Save* in the patron account.
+. Click *Apply Changes* in the pop-up.
+. You do not need click *Save* in the patron account.
 
 .Remove Acquisitions Permissions
 . Open the account of the user you wish to remove acquisitions permissions from.
 . Click *Edit*.
 . Click *Secondary Groups*
 . Click *Delete* beside the permission group you would like to remove.
-. Click *Save* in the pop-up.
-. Click *Save* in the patron account.
+. Click *Apply Changes* in the pop-up.
+. You do not need click *Save* in the patron account.
 
-NOTE: Acquisitions permissions groups only function as secondary groups. If an acquisitions permission group is set as a user's Main (Profile) Permission Group, that user will be unable to login to Evergreen.
+NOTE: Acquisitions permissions groups only function as secondary groups. If an acquisitions 
+permission group is set as a user's Main (Profile) Permission Group, that user will 
+be unable to login to Evergreen.
