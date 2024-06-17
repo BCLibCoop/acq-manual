@@ -92,7 +92,8 @@ Receive Items on the Invoice
 You can receive line items directly from the invoice rather than through a purchase order.
 
 . Create or open an invoice.
-. link all applicable line items to the invoice. See Populating Invoices for instructions.
+. Link all applicable line items to the invoice. See 
+xref:_link_multiple_line_items_to_an_existing_invoice[].
 . Click *Save*
 . Click Receive Items.
 . The Acquisitions Invoice Receiving screen opens.
