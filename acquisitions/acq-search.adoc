@@ -12,7 +12,11 @@ https://youtu.be/3gAFuqQE08Y[*Sitka's Evergreen Acquisitions Video - General Sea
 
 The Acquisitions Search interface provides a centralized place for searching Line Items, Purchase Orders, Invoices, and Selection Lists.
 
-. Click *Acquisitions* -> *General Search*.
+. Click *Acquisitions -> General Search*.
+. The search screen will appear.  Line Items Search is selected by default.
++
+image::images/acquisitions/searchlineitem.png[scaledwidth="75%",alt="Search for Line Items"]
+
 
 Line Items Search
 ~~~~~~~~~~~~~~~~~
