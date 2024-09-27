@@ -207,7 +207,7 @@ holds as a staff forced hold.
 +
 image::images/acquisitions/working-purchase-order/cancel-po-1.png[alt="1 of 3 screenshots in a series showing the steps described"]
 +
-. Select a reason from the drop down menu.
+. In the pop-up that appears choose a reason from the drop down menu.
 .. Choose a reason that begins with *Canceled*
 . Click *Apply*.
 +
@@ -250,7 +250,7 @@ patron's account under cancelled holds as a staff forced hold.
 +
 image::images/acquisitions/working-purchase-order/delay-po-1.png[alt="screenshot 1 of 3 in a series showing the steps described"]
 +
-. Select a reason from the drop down menu.
+. In the pop-up that appears choose a reason from the drop down menu.
 .. Choose a reason that begins with *Delayed*
 . Click *Apply*.
 +

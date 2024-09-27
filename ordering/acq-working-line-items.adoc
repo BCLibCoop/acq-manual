@@ -339,8 +339,8 @@ Purchase Order line items are marked as "Paid" in red text when all non-cancelle
 image::images/acquisitions/lineitempaid.png[]
 ////
 
-Delete a Line Item
-~~~~~~~~~~~~~~~~~~
+Deleting a Line Item
+~~~~~~~~~~~~~~~~~~~~
 (((line items, delete)))
 
 
@@ -352,7 +352,6 @@ the purchase order you will need to delete the items from the catalogue
 before deleting the Acquisitions line item. 
 See http://docs.libraries.coop/sitka/_deleting_holdings.html[Deleting Holdings]
 
-.Delete line item
 . Check the box(es) of the line item(s) you would like to delete.
 . From the main actions menu choose *Delete Selected Line Items*.
 +
@@ -371,11 +370,10 @@ xref:_cancel_delay_acquisitions[] for details.
 Delaying a Line Item
 ~~~~~~~~~~~~~~~~~~~~
 
-.Delay a Line Item
-. Open a purchase order.
+. Open the purchase order containing the line item(s) you would like to delay.
 . Check the check box(es) of the line item(s) you wish to delay.
-. Click *Actions* -> Select *Cancel Selected Line Items*.
-. Select a Reason from the drop down menu.
+. Click *Actions* -> *Cancel Selected Line Items*.
+. In the pop-up that appears choose a reason from the drop down menu.
 .. Choose a reason that begins with *Delayed*
 .. If line items are being delayed for different reasons they will need to be delayed separately so different cancel reasons can be used.
 . Click *Apply*.
@@ -390,12 +388,11 @@ When delayed line items are canceled, the encumbrances are deleted.
 You can only cancel or delay line items that are in a state of on-order.
 ======
 
-.Delaying an Item
 . Open a purchase order.
 . Click the *Items* link on the line item containing the item or items you wish to cancel.
 . Click the *Cancel* link adjacent to the item you wish to delay.
 .. Items must be delayed individually.
-. Select a Reason from the drop down menu.
+. In the pop-up that appears choose a reason from the drop down menu.
 .. Choose a reason that begins with *Delayed*
 . Click *Apply*.
 . The status of the item becomes Delayed.
