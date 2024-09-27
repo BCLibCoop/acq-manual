@@ -164,7 +164,6 @@ Purchase orders that meet all the following criteria are automatically deleted f
 
 image::images/acquisitions/delete-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
 
-
 Cancel a Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -184,8 +183,10 @@ colour changes to white.
 .. Holds placed for associated catalogue items are cancelled and appear in the patron's account under cancelled 
 holds as a staff forced hold.
 
-NOTE: You can only cancel purchase orders where all line items are in a state of on-order.
-
+[NOTE]
+======
+You can only cancel purchase orders where all line items are in a state of on-order.
+======
 
 Delay a Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -198,11 +199,12 @@ is cancelled. For example, a cancel
 reason such as *Delayed:Postponed*, for which debits are kept, indicates that the item will still be purchased when published. The funds remain encumbered 
 for the purchases while the copy, line item, or purchase order has the status of cancelled. See xref:_cancel_reasons[] for a full list.
 
-NOTE: If a hold has been placed for an item that is cancelled through acquisitions, the system will cancel the hold. The cancelled hold will appear in the 
+[NOTE]
+======
+If a hold has been placed for an item that is cancelled through acquisitions, the system will cancel the hold. The cancelled hold will appear in the 
 patron's account under cancelled holds as a staff forced hold.
+======
 
-
-.Delay a Purchase Order
 . Open a purchase order.
 . Click *Cancel order*.
 . Select a Reason from the drop down menu.
@@ -213,6 +215,9 @@ patron's account under cancelled holds as a staff forced hold.
 .. A delayed purchase order is resolved when all the items are marked as received.
 .. A delayed purchase order can be canceled.  You can mark a purchase order as delayed, and if later, the order cannot be filled, you can change the cancel reason to canceled.  When delayed purchase orders are canceled, the encumbrances are deleted.
 
-NOTE: You can only delay purchase orders where all line items are in a state of on-order.
+[NOTE]
+======
+You can only delay purchase orders where all line items are in a state of on-order.
+======
 
 
