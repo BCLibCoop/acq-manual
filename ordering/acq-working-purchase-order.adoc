@@ -205,18 +205,18 @@ holds as a staff forced hold.
 . Open the purchase order you wish to cancel.
 . Click *Cancel Order*.
 +
-image::images/acquisitions/working-purchase-order/cancel-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+image::images/acquisitions/working-purchase-order/cancel-po-1.png[alt="1 of 3 screenshots in a series showing the steps described"]
 +
 . Select a reason from the drop down menu.
 .. Choose a reason that begins with *Canceled*
 . Click *Apply*.
 +
-image::images/acquisitions/working-purchase-order/cancel-po-2.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+image::images/acquisitions/working-purchase-order/cancel-po-2.png[alt="2 of 3 screenshots in a series showing the steps described"]
 +
 . The status of the purchase order becomes Canceled and all the line items 
 colour changes to white.
 +
-image::images/acquisitions/working-purchase-order/cancel-po-3.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+image::images/acquisitions/working-purchase-order/cancel-po-3.png[alt="3 of 3 screenshots in a series showing the steps described"]
 +
 .. The funds no longer show as encumbered for the purchase order.
 .. Catalogue items associated with the line items are deleted.
@@ -248,17 +248,17 @@ patron's account under cancelled holds as a staff forced hold.
 . Open the purchase order you wish to delay.
 . Click *Cancel Order*.
 +
-image::images/acquisitions/working-purchase-order/delay-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+image::images/acquisitions/working-purchase-order/delay-po-1.png[alt="screenshot 1 of 3 in a series showing the steps described"]
 +
-. Select a Reason from the drop down menu.
+. Select a reason from the drop down menu.
 .. Choose a reason that begins with *Delayed*
 . Click *Apply*.
 +
-image::images/acquisitions/working-purchase-order/delay-po-2.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+image::images/acquisitions/working-purchase-order/delay-po-2.png[alt="screenshot 2 of 3 in a series showing the steps described"]
 +
 . The status of the purchase order becomes Delayed and all the line items colour changes to blue.
 +
-image::images/acquisitions/working-purchase-order/delay-po-3.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+image::images/acquisitions/working-purchase-order/delay-po-3.png[alt="screenshot 3 of 3 in a series showing the steps described"]
 +
 .. The funds are still encumbered.
 .. A delayed purchase order is resolved when all the items are marked as received.
