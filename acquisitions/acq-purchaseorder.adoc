@@ -163,3 +163,56 @@ Purchase orders that meet all the following criteria are automatically deleted f
 * The purchase order has the word *delete* at the beginning of its name
 
 image::images/acquisitions/delete-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
+
+
+Cancel a Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~~
+
+If an order has been cancelled by the library or your provider the entire purchase can be cancelled.  Any catalogue items that are associated with the line items 
+on the purchase order will be deleted from the catalogue.  Any holds placed for those items will be cancelled and appear in the patron's account under cancelled 
+holds as a staff forced hold.
+
+. Open the purchase order you wish to cancel.
+. Click *Cancel order*.
+. Select a reason from the drop down menu.
+.. Choose a reason that begins with *Canceled*
+. Click *Apply*.
+. The status of the purchase order becomes Canceled and all the line items 
+colour changes to white.
+.. The funds no longer show as encumbered for the purchase order.
+.. Catalogue items associated with the line items are deleted.
+.. Holds placed for associated catalogue items are cancelled and appear in the patron's account under cancelled 
+holds as a staff forced hold.
+
+NOTE: You can only cancel purchase orders where all line items are in a state of on-order.
+
+
+Delay a Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~
+
+If an order has been delayed, the purchase order can be updated in the system to reflect this.  A common reason for delaying a purchase order is when 
+items are backordered.
+
+Delaying a purchase order uses the same functionality as cancelling it; however, To delay a purchase order you must use the cancel reasons that are prefaced with Delayed. These cancel reasons are set to keep the debits when the purchase order 
+is cancelled. For example, a cancel 
+reason such as *Delayed:Postponed*, for which debits are kept, indicates that the item will still be purchased when published. The funds remain encumbered 
+for the purchases while the copy, line item, or purchase order has the status of cancelled. See xref:_cancel_reasons[] for a full list.
+
+NOTE: If a hold has been placed for an item that is cancelled through acquisitions, the system will cancel the hold. The cancelled hold will appear in the 
+patron's account under cancelled holds as a staff forced hold.
+
+
+.Delay a Purchase Order
+. Open a purchase order.
+. Click *Cancel order*.
+. Select a Reason from the drop down menu.
+.. Choose a reason that begins with *Delayed*
+. Click *Apply*.
+. The status of the purchase order becomes Delayed and all the line items colour changes to blue.
+.. The funds are still encumbered.
+.. A delayed purchase order is resolved when all the items are marked as received.
+.. A delayed purchase order can be canceled.  You can mark a purchase order as delayed, and if later, the order cannot be filled, you can change the cancel reason to canceled.  When delayed purchase orders are canceled, the encumbrances are deleted.
+
+NOTE: You can only delay purchase orders where all line items are in a state of on-order.
+
+

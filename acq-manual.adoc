@@ -7,9 +7,9 @@ Sitka's Evergreen Acquisitions Documentation
 
 *Evergreen 3.11*
 
-Copyright (symbol) 2023 BC Libraries Cooperative
+Copyright (symbol) 2024 BC Libraries Cooperative
 
-Last Updated October 2023
+Last Updated September 2024
 
 Introduction
 ============
@@ -72,10 +72,12 @@ include::acquisitions/acq-receive.adoc[]
 include::acquisitions/acq-invoice.adoc[]
 
 
-Cancelling and Claiming
-=======================
+Claiming
+========
 
+////
 include::acquisitions/acq-cancel.adoc[]
+////
 
 include::acquisitions/acq-claim.adoc[]
 
