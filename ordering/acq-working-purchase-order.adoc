@@ -195,17 +195,28 @@ image::images/acquisitions/working-purchase-order/delete-po-1.png[alt="purchase 
 Cancelling a Purchase Order
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If an order has been cancelled by the library or your provider the entire purchase can be cancelled.  Any catalogue items that are associated with the line items 
+If an order has been cancelled by the library or your provider the entire purchase 
+can be cancelled.
+
+Any catalogue items that are associated with the line items 
 on the purchase order will be deleted from the catalogue.  Any holds placed for those items will be cancelled and appear in the patron's account under cancelled 
 holds as a staff forced hold.
 
 . Open the purchase order you wish to cancel.
 . Click *Cancel order*.
++
+image::images/acquisitions/working-purchase-order/cancel-po-1.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
 . Select a reason from the drop down menu.
 .. Choose a reason that begins with *Canceled*
 . Click *Apply*.
++
+image::images/acquisitions/working-purchase-order/cancel-po-2.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
++
 . The status of the purchase order becomes Canceled and all the line items 
 colour changes to white.
++
+image::images/acquisitions/working-purchase-order/cancel-po-3.png[alt="purchase order screen highlighting state is Pending, name is delete1, and total line items is 0"]
++
 .. The funds no longer show as encumbered for the purchase order.
 .. Catalogue items associated with the line items are deleted.
 .. Holds placed for associated catalogue items are cancelled and appear in the patron's account under cancelled 
