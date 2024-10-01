@@ -396,14 +396,14 @@ Line items can be delayed in batch as long as they are all using the same cancel
 . Check the check box(es) of the line item(s) you wish to delay.
 . Click *Actions* -> *Cancel Selected Line Items*.
 . In the pop-up that appears choose a reason from the drop down menu.
-.. You must choose a reason that begins with *Delayed*.
+.. You must choose a reason that begins with _Delayed_.
 . Click *Apply*.
 +
 image::images/acquisitions/working-line-items/delay-li-1.png[alt="1 of 2 screenshots in a series showing the steps described"]
 +
-. The status of the line item becomes _Delayed_.  The colour changes to blue and the 
-delayed count on the line item increases.
-.. The funds for the line item are still encumbered.
+. The status of the line item(s) becomes _Delayed_.  The colour of the line item(s) 
+changes to blue and the delayed count on the line item(s) increases.
+.. The funds for the line item(s) are still encumbered.
 .. A delayed line item is resolved when the line item is cancelled or received.
 +
 image::images/acquisitions/working-line-items/delay-li-2.png[alt="2 of 2 screenshots in a series showing the steps described"]
@@ -425,7 +425,7 @@ image::images/acquisitions/working-line-items/delay-item-1.png[alt="1 of 5 scree
 image::images/acquisitions/working-line-items/delay-item-2.png[alt="2 of 5 screenshots in a series showing the steps described"]
 +
 . In the pop-up that appears choose a reason from the drop down menu.
-.. You must choose a reason that begins with *Delayed*.
+.. You must choose a reason that begins with _Delayed_.
 . Click *Apply*.
 +
 image::images/acquisitions/working-line-items/delay-item-3.png[alt="3 of 5 screenshots in a series showing the steps described"]
@@ -462,15 +462,15 @@ Line items can be canceled in batch as long as they are all using the same cance
 . Check the check box(es) of the line item(s) you wish to cancel.
 . Click *Actions* -> Select *Cancel Selected Line Items*.
 . Select a Reason from the drop down menu.
-.. Choose a reason that begins with *Canceled*
+.. You must choose a reason that begins with _Canceled_.
 .. If line items are being cancelled for different reasons they will need to be cancelled separately so different cancel reasons can be used.
 . Click *Apply*.
 +
 image::images/acquisitions/working-line-items/cancel-li-1.png[alt="1 of 2 screenshots in a series showing the steps described"]
 +
-. The status of the line item becomes Canceled and the colour changes to white. The 
-canceled count on the line item increases.
-.. The funds for the particular line item will no longer be encumbered.
+. The status of the line item(s) becomes Canceled. The colour of the line item(s) changes to 
+white and the canceled count on the line item(s) increases.
+.. The funds for the particular line item(s) will no longer be encumbered.
 +
 image::images/acquisitions/working-line-items/cancel-li-2.png[alt="2 of 2 screenshots in a series showing the steps described"]
 
@@ -491,7 +491,7 @@ image::images/acquisitions/working-line-items/cancel-item-2.png[alt="2 of 5 scre
 +
 .. Items must be cancelled individually.
 . Select a Reason from the drop down menu.
-.. Choose a reason that begins with *Canceled*
+.. You must choose a reason that begins with _Canceled_.
 . Click *Apply*.
 +
 image::images/acquisitions/working-line-items/cancel-item-3.png[alt="3 of 5 screenshots in a series showing the steps described"]
