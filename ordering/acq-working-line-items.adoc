@@ -373,13 +373,16 @@ Delaying Line Items
 Line items with the status of on-order can be delayed.
 
 Delaying is used when something happens to an item, such as it being damaged in transit
-or backordered, but the library is still expecting to a copy. This enables you to track 
+or backordered, but the library is still expecting to get a copy. This enables you to track 
 what is going on with the line item while still indicating that it is expected to arrive 
 eventually.
 
+[NOTE]
+======
 Delaying a line item uses the same functionality as cancelling it. The crucial 
 difference is the cancel reason used.  When delaying line items you must select a 
 cancel reason prefaced with Delayed. See xref:_cancel_reasons[] for a full list.
+======
 
 Delaying a Line Item
 ^^^^^^^^^^^^^^^^^^^^
@@ -398,12 +401,13 @@ Line items can be delayed in batch as long as they are all using the same cancel
 +
 image::images/acquisitions/working-line-items/delay-li-1.png[alt="1 of 2 screenshots in a series showing the steps described"]
 +
-. The status of the line item becomes _Delayed_ and the colour changes to blue.
-+
-image::images/acquisitions/working-line-items/delay-li-2.png[alt="2 of 2 screenshots in a series showing the steps described"]
-+
+. The status of the line item becomes _Delayed_.  The colour changes to blue and the 
+delayed count on the line item increases.
 .. The funds for the line item are still encumbered.
 .. A delayed line item is resolved when the line item is cancelled or received.
++
+image::images/acquisitions/working-line-items/delay-li-2.png[alt="2 of 2 screenshots in a series showing the steps described"]
+
 
 Delaying a Specific Item
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -433,28 +437,25 @@ image::images/acquisitions/working-line-items/delay-item-4.png[alt="4 of 5 scree
 . The number of delayed items in the count on the line item will increase. The line item 
 will only change to blue and have a status of _Delayed_ if all items for the line item 
 have been delayed.
-+
-image::images/acquisitions/working-line-items/delay-item-5.png[alt="5 of 5 screenshots in a series showing the steps described"]
-+
 .. The funds for the item are still encumbered.
 .. A delayed item is resolved when the item is cancelled or received.
-
++
+image::images/acquisitions/working-line-items/delay-item-5.png[alt="5 of 5 screenshots in a series showing the steps described"]
 
 Canceling Line Items
 ~~~~~~~~~~~~~~~~~~~~
 
 Line items with the status of on-order or delayed can be canceled.
 
-If an order has been canceled by the library or your provider and you no longer
-expect to receive the order the entire purchase 
-can be canceled in Evergreen.
+If an item has been canceled by the library or your provider and you no longer
+expect to receive it the line item can be canceled in Evergreen.
 
 Canceling a Line Item
 ^^^^^^^^^^^^^^^^^^^^^
 
 [NOTE]
 ======
-Line items can be delayed in batch as long as they are all using the same cancel reason.
+Line items can be canceled in batch as long as they are all using the same cancel reason.
 ======
 
 . Open the purchase order containing the line item(s) you would like to cancel.
@@ -467,18 +468,17 @@ Line items can be delayed in batch as long as they are all using the same cancel
 +
 image::images/acquisitions/working-line-items/cancel-li-1.png[alt="1 of 2 screenshots in a series showing the steps described"]
 +
-. The status of the line item becomes Canceled and the colour changes to white.
+. The status of the line item becomes Canceled and the colour changes to white. The 
+canceled count on the line item increases.
+.. The funds for the particular line item will no longer be encumbered.
 +
 image::images/acquisitions/working-line-items/cancel-li-2.png[alt="2 of 2 screenshots in a series showing the steps described"]
-+
-.. The funds for the particular line item will no longer be encumbered.
 
+Canceling a Specific Item
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-[NOTE]
-======
-You can only cancel or delay line items that are in a state of on-order.
-======
+If you are ordering multiple copies of an item on the same line item you can cnacel
+specific items as long as they have the status of on-order.
 
 . Open the purchase order containing the specific item you would like to cancel.
 . Click the *Items* link on the line item containing the item or items you wish to cancel.
@@ -501,12 +501,6 @@ image::images/acquisitions/working-line-items/cancel-item-3.png[alt="3 of 5 scre
 image::images/acquisitions/working-line-items/cancel-item-4.png[alt="4 of 5 screenshots in a series showing the steps described"]
 +
 .. The line item bar will only change to white and have a status of cancelled if all copies for the line item have been cancelled.
+.. The funds for the item will no longer be encumbered.
 +
 image::images/acquisitions/working-line-items/cancel-item-5.png[alt="5 of 5 screenshots in a series showing the steps described"]
-+
-.. The funds for the item will no longer be encumbered.
-
-[NOTE]
-======
-You can only cancel or delay items that are in a state of on-order.
-======
