@@ -458,7 +458,7 @@ You can only cancel or delay line items that are in a state of on-order.
 . Open the purchase order containing the specific item you would like to cancel.
 . Click the *Items* link on the line item containing the item or items you wish to cancel.
 +
-image::images/acquisitions/working-line-itemsr/cancel-item-1.png[alt="1 of 5 screenshots in a series showing the steps described"]
+image::images/acquisitions/working-line-items/cancel-item-1.png[alt="1 of 5 screenshots in a series showing the steps described"]
 +
 . Click the *Cancel* link adjacent to the item you wish to cancel.
 +
