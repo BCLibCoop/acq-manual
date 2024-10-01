@@ -205,7 +205,7 @@ see xref:_delaying_a_line_item[].
 
 [NOTE]
 ======
-Delaying a purchase order uses the same functionality as cancelling it. The crucial 
+Delaying a purchase order uses the same functionality as canceling it. The crucial 
 difference is the cancel reason used.  When delaying purchase orders you must select a 
 cancel reason prefaced with Delayed. See xref:_cancel_reasons[] for a full list.
 ======
@@ -230,12 +230,12 @@ increases.
 image::images/acquisitions/working-purchase-order/delay-po-3.png[alt="3 of 3 screenshots in a series showing the steps described"]
 
 
-Cancelling a Purchase Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Canceling a Purchase Order
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If an order has been cancelled by the library or your provider and you no longer
+If an order has been canceled by the library or your provider and you no longer
 expect to receive the order the entire purchase 
-can be cancelled in Evergreen.  To cancel an entire purchase orders all line items must have the 
+can be canceled in Evergreen.  To cancel an entire purchase orders all line items must have the 
 status of on-order. If you
 need to cancel just particular line items see xref:_cancelling_a_line_item[].
 
