@@ -370,29 +370,43 @@ xref:_cancel_delay_acquisitions[] for details.
 Delaying a Line Item
 ~~~~~~~~~~~~~~~~~~~~
 
+Line items with the status of on-order can be delayed.
+
+Delaying is used when something happens to an item, such as it being damaged in transit
+or backordered, but the library is still expecting to a copy. This enables you to track 
+what is going on with the line item while still indicating that it is expected to arrive 
+eventually.
+
+Delaying a line item uses the same functionality as cancelling it. The crucial 
+difference is the cancel reason used.  When delaying line items you must select a 
+cancel reason prefaced with Delayed. See xref:_cancel_reasons[] for a full list.
+
 . Open the purchase order containing the line item(s) you would like to delay.
 . Check the check box(es) of the line item(s) you wish to delay.
 . Click *Actions* -> *Cancel Selected Line Items*.
 . In the pop-up that appears choose a reason from the drop down menu.
-.. Choose a reason that begins with *Delayed*
-.. If line items are being delayed for different reasons they will need to be delayed separately so different cancel reasons can be used.
+.. You must choose a reason that begins with *Delayed*.
++
+[NOTE]
+======
+If line items are being delayed for different reasons they will need to be delayed 
+separately so different cancel reasons can be used.
+======
++
 . Click *Apply*.
 +
 image::images/acquisitions/working-line-items/delay-li-1.png[alt="1 of 2 screenshots in a series showing the steps described"]
 +
-. The status of the line item becomes Delayed and the colour changes to blue.
+. The status of the line item becomes _Delayed_ and the colour changes to blue.
 +
 image::images/acquisitions/working-line-items/delay-li-2.png[alt="2 of 2 screenshots in a series showing the steps described"]
 +
 .. The funds for the line item are still encumbered.
-.. A delayed line item is resolved when the line item is marked as received.
-.. A delayed line item can be canceled.  You can mark a line item as delayed, and if later, the order cannot be filled, you can change the cancel reason to canceled.
-When delayed line items are canceled, the encumbrances are deleted.
+.. A delayed line item is resolved when the line item is cancelled or received.
 
-[NOTE]
-======
-You can only cancel or delay line items that are in a state of on-order.
-======
+
+If you are ordering multiple copies of an item on the same line item you can delay
+specific items as long as they have the status of on-order.
 
 . Open the purchase order containing the specific item you would like to delay.
 . Click the *Items* link on the line item containing the item or items you wish to cancel.
@@ -405,7 +419,7 @@ image::images/acquisitions/working-line-items/delay-item-2.png[alt="2 of 5 scree
 +
 .. Items must be delayed individually.
 . In the pop-up that appears choose a reason from the drop down menu.
-.. Choose a reason that begins with *Delayed*
+.. You must choose a reason that begins with *Delayed*.
 . Click *Apply*.
 +
 image::images/acquisitions/working-line-items/delay-item-3.png[alt="3 of 5 screenshots in a series showing the steps described"]
@@ -414,20 +428,15 @@ image::images/acquisitions/working-line-items/delay-item-3.png[alt="3 of 5 scree
 +
 image::images/acquisitions/working-line-items/delay-item-4.png[alt="4 of 5 screenshots in a series showing the steps described"]
 +
-.. The line item bar will only change to blue and have a status of Delayed if all copies for the line item have been delayed.
-.. The funds for the item are still encumbered.
-.. A delayed item is resolved when the item is marked as received.
+. The number of delayed items in the count on the line item will increase. The line item 
+will only change to blue and have a status of _Delayed_ if all items for the line item 
+have been delayed.
 +
 image::images/acquisitions/working-line-items/delay-item-5.png[alt="5 of 5 screenshots in a series showing the steps described"]
 +
-.. A delayed item can be canceled.  You can mark an item as delayed, and if later, 
-the order cannot be filled, you can change the cancel reason 
-to canceled.  When delayed items are canceled, the encumbrances are deleted.
+.. The funds for the item are still encumbered.
+.. A delayed item is resolved when the item is cancelled or received.
 
-[NOTE]
-======
-You can only cancel or delay items that are in a state of on-order.
-======
 
 Cancelling a Line Item
 ~~~~~~~~~~~~~~~~~~~~~~
