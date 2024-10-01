@@ -221,11 +221,10 @@ image::images/acquisitions/working-purchase-order/delay-po-2.png[alt="2 of 3 scr
 . The status of the purchase order and all line items becomes _Delayed_.
 The colour of the line items changes to blue and the delayed count on each line item 
 increases.
+.. The funds are still encumbered.
+.. A delayed purchase order is resolved when all the line items are marked as received or cancelled.
 +
 image::images/acquisitions/working-purchase-order/delay-po-3.png[alt="3 of 3 screenshots in a series showing the steps described"]
-+
-.. The funds are still encumbered.
-.. A delayed purchase order is resolved when all the items are marked as received or cancelled.
 
 
 Cancelling a Purchase Order
@@ -250,10 +249,10 @@ image::images/acquisitions/working-purchase-order/cancel-po-2.png[alt="2 of 3 sc
 +
 . The status of the purchase order and all line items becomes _Canceled_. The colour of 
 the line items changes to white and the canceled count on each line item increases.
-+
-image::images/acquisitions/working-purchase-order/cancel-po-3.png[alt="3 of 3 screenshots in a series showing the steps described"]
-+
 .. The funds no longer show as encumbered for the purchase order.
 .. Catalogue items associated with the line items are deleted.
 .. Holds placed for associated catalogue items are cancelled and appear in the patron's account under cancelled 
 holds as a staff forced hold.
++
+image::images/acquisitions/working-purchase-order/cancel-po-3.png[alt="3 of 3 screenshots in a series showing the steps described"]
+
