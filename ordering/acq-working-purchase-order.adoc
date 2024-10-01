@@ -218,7 +218,7 @@ image::images/acquisitions/working-purchase-order/delay-po-1.png[alt="1 of 3 scr
 +
 image::images/acquisitions/working-purchase-order/delay-po-2.png[alt="2 of 3 screenshots in a series showing the steps described"]
 +
-.The status of the purchase order and all line items becomes _Delayed_.
+. The status of the purchase order and all line items becomes _Delayed_.
 The colour of the line items changes to blue and the delayed count on each line item 
 increases.
 +
