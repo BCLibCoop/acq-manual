@@ -1,12 +1,14 @@
 New Features in Evergreen Acquisitions Version 3.11
 ---------------------------------------------------
 
+[[new-features-searching]]
 Searching
 ~~~~~~~~~
 
 * Search grid now includes a column for purchase order ID
 * Item count added to line item search results
 
+[[new-features-ordering]]
 Ordering
 ~~~~~~~~
 
@@ -18,12 +20,13 @@ the xref:_loading_marc_order_records[Load MARC Order Records] interface.
 * Line item table has be sorted and filtered
 * Line item loading progress bar has moved to the summary area
 
-
+[[new-features-cancel-claim]]
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * Tabs have been re-ordered into a more logical order in Claiming Administration
 
+[[new-features-admin]]
 Administration
 ~~~~~~~~~~~~~~
 
