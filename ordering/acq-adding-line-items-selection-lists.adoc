@@ -7,6 +7,8 @@ include::add-line-items-selection-list/sl-li-view-place-order.adoc[]
 
 include::add-line-items-selection-list/sl-li-upload-records.adoc[]
 
+////
 include::add-line-items-selection-list/sl-li-load-catalog-id.adoc[]
+////
 
 include::add-line-items-selection-list/sl-li-marc-federated.adoc[]
