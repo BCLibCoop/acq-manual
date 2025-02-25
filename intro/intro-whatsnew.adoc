@@ -1,42 +1,48 @@
-New Features in Evergreen Acquisitions Version 3.11
+New Features in Evergreen Acquisitions Version 3.14
 ---------------------------------------------------
 
+Many acquisitions interfaces have been angularized.  What does this mean?  This means they have been re-written
+in the angular code which most of the Evergreen staff client now uses.
+
+////
 [[new-features-searching]]
 Searching
 ~~~~~~~~~
+////
 
-* Search grid now includes a column for purchase order ID
-* Item count added to line item search results
 
 [[new-features-ordering]]
 Ordering
 ~~~~~~~~
 
-* Purchase order and line items have been angularized
-* The xref:_loading_marc_order_records[Load MARC Order Records] interface has been angularized.
-* The ability to create and use xref:_upload_templates[templates]has been added in 
-the xref:_loading_marc_order_records[Load MARC Order Records] interface.
-* Selection lists interface has been angularized.
-* Line item table has be sorted and filtered
-* Line item loading progress bar has moved to the summary area
+* MARC files can now be loaded as bakcground imports and email staff when the file has been loaded
+* MARC files with blank 970 subfields will now loaded
+* The bibliographic templates are now available when adding brief records to selection lists and purchase orders
+* MARC Federated Search interface has been angularized
+* Load Catalog Record IDs interface has been angurized
+
 
 [[new-features-cancel-claim]]
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Tabs have been re-ordered into a more logical order in Claiming Administration
+* Claim-Ready Items interface has been angularized
+
+[[new-features-receive-invoice]]
+Receiving and Invoicing
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Invoice interface has been angularized
+* Batch receiving on an invoice has been moved to a tab and redesigned
+* A print preview is now available within the invoice
+* The invoice summary now displays the amount spent per fund when an invoice is closed
 
 [[new-features-admin]]
 Administration
 ~~~~~~~~~~~~~~
 
-* Inactive funds can no longer make allocations or transfers
-* A new permissions controls year end
-* Two new library settings to control which owning library is applied to auto-created line item
-items
-* Library setting controlling what is rolled over at year end renamed to 
-_Rollover encumbrances only_
-* Provider opens in new tab by default
+* A new interface, Fiscal Years and Calendars, has been added which exposes information previously only available 
+in the database
 
 
 
