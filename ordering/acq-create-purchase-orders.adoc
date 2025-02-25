@@ -12,4 +12,6 @@ include::create-purchase-orders/po-selection-list.adoc[]
 
 include::create-purchase-orders/po-marc-federated.adoc[]
 
+////
 include::create-purchase-orders/po-load-catalog-id.adoc[]
+////

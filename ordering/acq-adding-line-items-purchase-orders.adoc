@@ -1,11 +1,10 @@
 Adding Line Items to Purchase Orders
 ------------------------------------
 
-Individual line items can be added to an existing pending purchase order in four ways:
+Individual line items can be added to an existing pending purchase order in three ways:
 
 * via a Brief Record
 * via the View/Place Orders interface
-* via the Load Catalog Record IDs interface
 * via the MARC Federated Search interface
 
 These options are used with providers that do not supply MARC record files to be loaded
@@ -16,6 +15,8 @@ include::add-line-items-purchase-orders/po-li-add-brief-record.adoc[]
 
 include::add-line-items-purchase-orders/po-li-view-place-order.adoc[]
 
+////
 include::add-line-items-purchase-orders/po-li-load-catalog-id.adoc[]
+////
 
 include::add-line-items-purchase-orders/po-li-marc-federated.adoc[]
