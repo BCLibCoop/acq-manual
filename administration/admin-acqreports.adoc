@@ -6,6 +6,19 @@ Acquisitions report templates can be found in the Acquisitions sub folder in the
 
 . Click *Administration* -> *Reports* -> *Shared Folders* -> *Sitka Templates* -> *Acquisitions*
 
+*Acq Admin*
+
+* All line items by fund year include Shelving location & Price
+** This template will give you a list of all line items purchased in a particular fiscal year.
+
+* Identifying Line Items Linked to Deleted Bib Records
+** This report allows you to enter the name of a purchase order into a list and display the title and line item ID of all line items on that purchase order where the bibliographic record has been deleted. This report is used for resolving the issue where activating of a purchase order hangs at 0%
+
+* Line Items with the Status of On-order
+** This template will produce a report of all line items with the status of on-order.
+
+*Acq Year End*
+
 * Line items received but not invoiced.
 ** Shows you line items which have been marked as received, but have not yet been invoiced.
 
@@ -13,11 +26,6 @@ Acquisitions report templates can be found in the Acquisitions sub folder in the
 ** Shows you line items which have been marked as invoiced, but have not yet been received.
 ** This one is particularly important for sites which receive EDI invoices
 
-* Line Items with the Status of On-order
-** This template will produce a report of all line items with the status of on-order.
-
-* Fund Report by Year
+* Fund Report by Year with Fund ID
 ** This report will display your budget (total allocated), amount of money encumbered, amount of money spent, and current money available (after spent and encumbered) for all of the funds for your library for the specified year.
 
-* Claim Ready Items
-** This report will show you claim ready items
