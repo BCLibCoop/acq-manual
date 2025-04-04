@@ -1,0 +1,19 @@
+Fiscal Years and Calendars
+--------------------------
+
+Library Staff can view *Fiscal Years and Calendars*, but cannot make any changes. If you require an additional Fiscal Year or Calendar setup, please contact Co-op Support.
+
+The default fiscal calendar is set for January -> December.
+
+Go to *Administration -> Acquisitions Administration* -> *Fiscal Year and Calendars*
+
+image::images/administration/fiscal-years-calendars-1.png[]
+
+Local System Administrators can change the default fiscal calendar used by their library in the *Organizational Unit settings*.
+
+. Navigate to *Administration* → *Server Administration* → *Organizational Units*.
+. Find your library in the tree on the left side of the screen. You may need to expand the arrows.
+. Select your library name to open the settings for your library. Multi-branch library systems will see an entry for each branch.
+. Select the *Main Settings* tab
+. Select the desired fiscal calendar from in the *Fiscal Calendar* drop down menu.
+. Select *Save*
