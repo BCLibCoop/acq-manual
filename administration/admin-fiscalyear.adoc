@@ -16,4 +16,7 @@ Local System Administrators can change the default fiscal calendar used by their
 . Select your library name to open the settings for your library. Multi-branch library systems will see an entry for each branch.
 . Select the *Main Settings* tab
 . Select the desired fiscal calendar from in the *Fiscal Calendar* drop down menu.
++
+image::images/administration/fiscal-years-calendars-1.png[]
++
 . Select *Save*
