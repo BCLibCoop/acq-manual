@@ -3,14 +3,21 @@ Invoices
 (((invoices)))
 (((invoices, create)))
 
+Creating Invoices
+~~~~~~~~~~~~~~~~~
+
 You can create invoices for purchase orders, individual line items, as well as creating blank invoices that charges can be added to. If you are setup for EDI your vendor can send you electronic invoices. If desired, you can create an invoice for items before you receive them. You are able to re-open closed invoices to make adjustments as well as print out all invoices. You can create an invoice to use for direct purchases or to link line items to.
 
-.Create a Blank Invoice
+Creating a Blank Invoice
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Click *Acquisitions* -> *Create Invoice*.
 . Fill in the top section of the invoice. See xref:_invoice_details[] for details.
 . Click *Save*.
 
-.Create an Invoice From a Purchase Order
+Creating an Invoice From a Purchase Order
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open a purchase order.
 . Click Create Invoice.
 . A new invoice will open in the same tab.
@@ -18,7 +25,9 @@ You can create invoices for purchase orders, individual line items, as well as c
 . The Bibliographic Items section of the invoice will list all of the line items from the purchase order along with information pertaining to each line item.
 . Click *Save*.
 
-.Create an Invoice From Multiple Line Items
+Creating an Invoice From Multiple Line Items
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Open a purchase order.
 . Check the boxes beside the line items you would like to use to create your invoice.
 . Click *Actions* -> *Create Invoice From Selected Lineitems*.
@@ -27,7 +36,9 @@ You can create invoices for purchase orders, individual line items, as well as c
 
 NOTE: You can link additional line items from the same or different purchase orders to this invoice.
 
-.Vendor created invoice from EDI
+Vendor created invoice from EDI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Select Acquisitions -> General Search.
 . Search for the invoice using the *Vendor Invoice Id* found on the paper invoice received with the items.
 . Click on the Vendor Invoice ID to retrieve the invoice.
