@@ -11,33 +11,33 @@ Searching
 ////
 
 
-[[new-features-ordering]]
+[[_new_features_ordering]]
 Ordering
 ~~~~~~~~
 
-* MARC files can now be loaded as bakcground imports and email staff when the file has been loaded
+* MARC files can now be loaded as background imports and email staff when the file has been loaded
 * MARC files with blank 970 subfields will now loaded
 * The bibliographic templates are now available when adding brief records to selection lists and purchase orders
-* MARC Federated Search interface has been angularized
-* Load Catalog Record IDs interface has been angurized
+* The MARC Federated Search interface has been angularized
+* The Load Catalog Record IDs interface has been angurized
 
 
-[[new-features-cancel-claim]]
+[[_new_features_cancel_claim]]
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * Claim-Ready Items interface has been angularized
 
-[[new-features-receive-invoice]]
+[[_new_features_receive_invoice]]
 Receiving and Invoicing
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Invoice interface has been angularized
+* The Invoice interface has been angularized
 * Batch receiving on an invoice has been moved to a tab and redesigned
 * A print preview is now available within the invoice
 * The invoice summary now displays the amount spent per fund when an invoice is closed
 
-[[new-features-admin]]
+[[_new_features_admin]]
 Administration
 ~~~~~~~~~~~~~~
 
