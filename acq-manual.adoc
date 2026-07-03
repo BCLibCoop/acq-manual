@@ -5,11 +5,11 @@ Sitka's Evergreen Acquisitions Documentation
 :toclevels: 3
 :numbered:
 
-*Evergreen 3.14*
+*Evergreen 3.17*
 
-Copyright (symbol) 2025 BC Libraries Cooperative
+Copyright (symbol) 2026 BC Libraries Cooperative
 
-Last Updated April 7, 2025
+Last Updated October 4, 2026
 
 Introduction
 ============

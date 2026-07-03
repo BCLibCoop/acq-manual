@@ -1,48 +1,34 @@
-New Features in Evergreen Acquisitions Version 3.14
+New Features in Evergreen Acquisitions Version 3.17
 ---------------------------------------------------
 
-Many acquisitions interfaces have been angularized.  What does this mean?  This means they have been re-written
-in the angular code which most of the Evergreen staff client now uses.
 
-////
 [[new-features-searching]]
 Searching
 ~~~~~~~~~
-////
+
 
 
 [[_new_features_ordering]]
 Ordering
 ~~~~~~~~
 
-* MARC files can now be loaded as background imports and email staff when the file has been loaded
-* MARC files with blank 970 subfields will now loaded
-* The bibliographic templates are now available when adding brief records to selection lists and purchase orders
-* The MARC Federated Search interface has been angularized
-* The Load Catalog Record IDs interface has been angurized
 
 
 [[_new_features_cancel_claim]]
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Claim-Ready Items interface has been angularized
+
 
 [[_new_features_receive_invoice]]
 Receiving and Invoicing
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* The Invoice interface has been angularized
-* Batch receiving on an invoice has been moved to a tab and redesigned
-* A print preview is now available within the invoice
-* The invoice summary now displays the amount spent per fund when an invoice is closed
+
 
 [[_new_features_admin]]
 Administration
 ~~~~~~~~~~~~~~
-
-* A new interface, Fiscal Years and Calendars, has been added which exposes information previously only available 
-in the database
 
 
 
