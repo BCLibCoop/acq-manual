@@ -6,30 +6,50 @@ New Features in Evergreen Acquisitions Version 3.17
 Searching
 ~~~~~~~~~
 
+* The legacy search link has moved back to the upper right hand corner.
 
 
 [[_new_features_ordering]]
 Ordering
 ~~~~~~~~
 
+* The ability to edit funds after a purchase order has been activiate is restored.
+* Line item copy notes once again display in the expanded view of the line item.
+* The issue that caused shelving locations to sometimes not display in the expanded 
+view of the line item has been fixed.
+* The column headers for the worksheet are now readable in dark mode.
+* Fast Item Add is no longer available through the _MARC Federated Search_ as it is irrelevant for
+acquisitions.
+* Records with a dollar sign in the 020 $c can now be imported via the _MARC Federated Search_.
+* 
 
 
+////
 [[_new_features_cancel_claim]]
 Cancelling and Claiming
 ~~~~~~~~~~~~~~~~~~~~~~~
-
+////
 
 
 [[_new_features_receive_invoice]]
 Receiving and Invoicing
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-
+* Unreceiving a line item no longer updates the item status of the item in the catalogue if the
+item status no longer matches the value set in the library setting _Initial status for received items_.
+* There is now a timestamp in the line item details, next to the name of the receiver, to show 
+when the copy was received. 
+* An issue with encumbrances and stop percentages that was causing invoices not to save has been fixed.
+* When creating invoices for non-EDI orders the receivier will default to the organizational unit that
+owns the provider rather than the workstation library. This matches the behaviour seen prior to 3.14.
+* The _Batch Receive_ tab will now default to the number of remaining copies available to receive.
 
 [[_new_features_admin]]
 Administration
 ~~~~~~~~~~~~~~
 
+* It is now possible to download a .csv file of allocations from a funding source.
+* Display issues with fund details pop up have been resolved.
 
 
 
