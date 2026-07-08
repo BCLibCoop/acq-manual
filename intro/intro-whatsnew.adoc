@@ -2,7 +2,7 @@ New Features in Evergreen Acquisitions Version 3.17
 ---------------------------------------------------
 
 
-[[new-features-searching]]
+[[_new_features_searching]]
 Searching
 ~~~~~~~~~
 
